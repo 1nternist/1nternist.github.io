@@ -1,0 +1,9 @@
+Origin: 1nternist's Repo
+Label: 1nternist's Repo
+Suite: stable
+Version: 1.0
+Codename: 1nternist
+Architectures: iphoneos-arm
+Components: main
+Description: 1nternist's Repo
+MD5Sum:
