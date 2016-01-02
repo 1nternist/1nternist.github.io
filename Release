@@ -1,15 +1,20 @@
-Origin: 1nternist.github.io
+Origin: 1nternist's Repo
+Label: 1nternist's Repo
+Suite: stable
+Version: 1.2
+Codename: apt.1nternist.github.io
 Architectures: iphoneos-arm
-Label: 1nternist.github.io
-Codename: stable
 Components: main
-Description: 1nternists Cydia repository.
-MD5Sum:  
- e34d16b4fe348911f8c2eb008051ca58  Packages
- 2e94edace93caf369050e30eafa0e703  Packages.bz2
-SHA1: 
- fac80e58b306457ea161996f42d9310796fd691f  Packages
- 93bee129391c9f87f32fa68d3a5b46ea6801ce91  Packages.bz2
-SHA256: 
- 8818b2049dd67860cb0d8272a4d868516c2c25c86b39a5d579debdf55abd43bf  Packages
- 2a202f99434cfa777699dcb39695b768cbae68708dc25f1bf3fb919fd72fe5b0  Packages.bz2
+Description: 1nternist's Cydia repository on GitHub!
+MD5Sum:
+ 1b352ebe74230fc5f10edb1299a0c782 86293 Packages
+ 6c1c61455f3427a683b1ff05d000cff1 19440 Packages.bz2
+ b5e2ddd5dd783f940a4391aa1920156f 22140 Packages.gz
+SHA1:
+ 2e26d04b3cdd3b9b4177340a9e16e27e4abf5dff 86293 Packages
+ c19c93e3ba51c54428ae91517f925f3607a8e44c 19440 Packages.bz2
+ 3301fc7b5a5b723ca3a017546db7be97f138e04c 22140 Packages.gz
+SHA256:
+ 4f429ec9d1bdae382e57bf7c3747bae43de63f9e7d178d3eab4883abafad1dd6 86293 Packages
+ 24cccfa2fa129cf7706608e3b3f504e5c4b9c40c969960196eda6ba9119494bd 19440 Packages.bz2
+ d46ff1a0d3a46138816fdd24a30c23da846dada829c77b997a77918ae505816f 22140 Packages.gz
