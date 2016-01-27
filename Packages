@@ -531,11 +531,12 @@ Author: BYA Repository
 
 Package: apt.1nternist.emwwalls
 Version: 1.0
-Maintainer: 1nternist
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Architecture: iphoneos-arm
 Filename: debs/Themes/apt.1nternist.emwwalls_1.0_iphoneos-arm.deb
-Size: 11715292
-SHA256: bfeda49d9b899df18aa1a7f19ef6c8ab24b2deb4f047828540b708e462351f9f
+Size: 11715332
+SHA256: 1410903e277f09c51c18b1dafee18639308047d3a55e09e08ed7adf30d904b8d
+Description: Wallpapers for East meets West theme.
 Name: EMW Walls
 
 Package: apt.1nternist.ffmpeg
