@@ -1,0 +1,229 @@
+#! /bin/sh
+DRY_RUN="NO"
+RESET="NO"
+CHECK="YES"
+
+pwd 
+
+CURDIR=$(pwd)
+
+ORIGIN="user.github.io"
+CODENAME="testing"
+REPOARCH="i386"
+POLICY="main"
+KEY="Example"
+OVERRIDE="override.testing"
+
+SRCDIR="$CURDIR/packages"
+
+. "./aptgit.conf"
+
+while [ "$#" -gt 0 ]; do
+	arg="$1"
+	case $arg in
+		-d|--directory)
+			CURDIR="$2"
+			shift
+		;;
+		-o|--origin)
+			ORIGIN="$2"
+			shift
+		;;
+		-c|--codename)
+			CODENAME="$2"
+			shift
+		;;
+		-a|--arch)
+			REPOARCH="$2"
+			shift
+		;;
+		-p|--policy)
+			POLICY="$2"
+			shift
+		;;
+		-k|--key)
+			KEY="$2"
+			shift
+		;;
+		-s|--sources)
+			SRCDIR="$2"
+			shift
+		;;
+		-q|--override)
+			OVERRIDE="$2"
+			shift
+		;;
+		-m,|--message)
+			MESSAGE="$2"
+			shift
+		;;
+		-c|--check)
+			CHECK="YES"
+		;;
+		-r|--reset)
+			RESET="YES"
+		;;
+		-u|--user|--org|--organization)
+			ORG="YES"
+		;;
+		-h|--help)
+			H="YES"
+			DRY_RUN="YES"
+		;;
+	esac
+	shift
+done
+
+HELP="
+apt-git personal repository tool\n
+================================\n
+This tool helps developers host their own applications by posting them to \n
+github pages for download. \n
+\t	-d \ --directory\n
+\t\t		Work in this directory, uses current directory by default\n
+\t	-o \ --origin\n
+\t\t		URL of the repository\n
+\t	-c \ --codename\n
+\t\t		Codename you want to use, defaults is \"testing\"\n
+\t	-a \ --arch\n
+\t\t		Architecture you want to host, defaults to \"all\"\n
+\t	-p \ --policy\n
+\t\t		Policy of packages you want to host, defaults to \"main\"\n
+\t	-k \ --key\n
+\t\t		ID of the package signing key\n
+\t	-s \ --sources\n
+\t\t		Folder with the packages to include in the repo\n
+\t	-q \ --override\n
+\t\t		Name of the override file\n
+\t	-m \ --message\n
+\t\t		Message to include in the commit\n
+\t	-c \ --check\n
+\t\t		Make sure the dependencies are installed\n
+\t	-r \ --reset\n
+\t\t		Re-generate all components of the repository\n
+\t	-u \ --user \ --org \ --organization\n
+\t\t		Us as user/organization page, post page to master branch\n
+\t	-h \ --help\n
+\t\t		Display this help message\n
+
+to add this repository to your Debian-based system:\n
+\t\t	echo \"deb https://$ORIGIN/apt-git/debian unstable main\" | sudo tee /etc/apt/source.list.d/$ORIGIN.list\n
+\t	wget -q0 - https://$ORIGIN/apt-git/$ORIGIN.gpg.key | sudo apt-key add -\n
+"
+
+BASEDIR="$CURDIR/debian"
+CONFDIR="$CURDIR/debian/conf"
+
+confirm(){
+	read -r -p "${1: -Are you sure? [y/N]} " response
+	case $response in
+		[yY][eE][sS])
+			local s="YES"
+			;;
+		*)
+			local s="NO"
+			;;
+	esac
+	echo "$s"
+}
+
+checkdepends(){
+	sudo apt-get install gnupg git rng-tools dpkg-sig reprepro
+	sudo service rng-tools start
+}
+
+generatekey(){
+	gpg --gen-key
+}
+
+enterkey(){
+	KEYED="NO"
+	while [ "$KEYED"="NO" ]; do
+		read -r -p "Enter the key that you want to use to sign your repository" KEY
+		KEYED=confirm
+	done
+}
+
+createdirs(){
+	if [ -d "$CONFDIR" ]; then
+		echo "directory exists"
+	else
+		mkdir -p "$CONFDIR"
+	fi
+}
+
+gendistrofile(){
+	echo "Origin: $ORIGIN"		> "$CONFDIR/distributions"
+	echo "Label: $ORIGIN"		>> "$CONFDIR/distributions"
+	echo "Codename: $CODENAME"	>> "$CONFDIR/distributions"
+	echo "Architectures: $REPOARCH"	>> "$CONFDIR/distributions"
+	echo "Components: $POLICY"	>> "$CONFDIR/distributions"
+	echo "Description: $ORIGIN"	>> "$CONFDIR/distributions"
+	echo "SignWith: $KEY"		>> "$CONFDIR/distributions"
+	echo "DebOverride: $OVERRIDE"	>> "$CONFDIR/distributions"
+	echo "DscOverride: $OVERRIDE"	>> "$CONFDIR/distributions"
+	touch "$CONFDIR/$OVERRIDE"
+}
+
+genconfoptions(){
+	echo "verbose"		> "$CONFDIR/options"
+	echo "ask-passphrase"	>> "$CONFDIR/options"
+	echo "basedir $BASEDIR"	>> "$CONFDIR/options"
+}
+
+generaterkey(){
+	gpg --armor --output "$CURDIR/$ORIGIN.gpg.key" --export $KEY
+}
+
+includepackages(){
+	cd $SRCDIR
+	find . "*.deb" -print0 | xargs -r0 reprepro --basedir $BASEDIR includedeb unstable
+	find . "*.dsc" -print0 | xargs -r0 reprepro --basedir $BASEDIR includedsc unstable
+	find . "*.changes" -print0 | xargs -r0 reprepro --basedir $BASEDIR include 
+	cd ..
+#	reprepro include "$SRCDIR/*"
+}
+
+if [ "$H" = "YES" ]; then
+	echo -e $HELP
+fi
+if [ "$DRY_RUN" = "NO" ]; then
+	if [ -d "$SRCDIR" ]; then
+		if [ -d "$CURDIR/.git" ]; then
+			if [ "$RESET" = "YES" ]; then
+				CHECK="YES"
+				echo "cleaning existing repo"
+				rm -rf "$BASEDIR"
+			fi
+			if [ "$CHECK" = "YES" ]; then
+				echo "checking dependencies"
+				checkdepends
+				createdirs
+			fi
+			if [ "$RESET" = "YES" ]; then
+				echo "generating keys"
+				generatekey
+				enterkey
+				echo "creating directories"
+			fi
+			echo "generating distro file"
+			gendistrofile
+			echo "generating conf options"
+			genconfoptions
+			echo "outputting key"
+			generaterkey
+			echo "setting up packages"
+			includepackages
+			DATE=date
+			if [ "$ORG" = "YES" ]; then
+				git add . && git commit -am "Repository update: $MESSAGE $DATE" && git push origin master
+			else
+				git add . && git commit -am "Repository update: $MESSAGE $DATE" && git push origin gh-pages
+			fi
+		else
+			echo "Fatal Error, this is not a git repository. Please create a git repository and enable github pages to use this script."
+		fi
+	else
+		echo "Fatal Error, packages not found in package source directory"
+	fi
+fi
