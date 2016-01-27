@@ -1762,22 +1762,6 @@ Name: RepoCydia.com Repository
 Author: chir0student
 Depiction: http://www.myrepospace.com/
 
-Package: apt.1nternist.repoicons
-Version: 1.004
-Section: RepoIcons_-_chir0student
-Essential: yes
-Maintainer: Chir0student <chir0student@me.com>
-Replaces: com.myrepospace-chir0student.icon
-Architecture: iphoneos-arm
-Filename: debs/Repo_Utils/apt.1nternist.repoicons_1.004_iphoneos-arm.deb
-Size: 266538
-SHA256: 52defe9048b65bb220cfbbc905cc3ea5c6ec8cafdb08efdb367e31ec4b873d38
-Description: Chir0student's Personalized Repo Icons
-Name: Chir0student's Repo Setup
-Author: Chir0student <chir0student@me.com>
-Homepage: http://www.myrepospace.com/profile/chir0student/
-Icon: http://www.myrepospace.com/images/repo_icon/690981.png
-
 Package: apt.1nternist.revealinstaller
 Version: 1.1
 Section: Development
