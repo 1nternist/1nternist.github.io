@@ -503,17 +503,17 @@ Origin: debian
 Name: dpkg-dev
 
 Package: apt.1nternist.dpkg-scanpackages
-Version: 2.5-5
+Version: 2.6
 Section: Scripting
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dacdcdabci@gmail.com>
 Depends: apt.1nternist.libdpkg-perl | libdpkg-perl, dpkg, apt.1nternist.libtimedate-perl | libtimedate-perl, apt.1nternist.perl | apt.1nternist.perl510 | apt.1nternist.perl514 | apt.1nternist.perl520 | perl | org.coolstar.perl | apt.1nternist.perlfullinstall
 Conflicts: apt.1nternist.dpkgscanpackages
 Replaces: apt.1nternist.dpkgscanpackages
 Architecture: iphoneos-arm
-Filename: debs/Repo_Utils/apt.1nternist.dpkg-scanpackages_2.5-5_iphoneos-arm.deb
-Size: 6978
-SHA256: 47fdb51374c6c3f5dce6b317893091f05b71e95ca273a4bb18cea3c300bd3af5
-Description: Installs dpkg-scanpackages, dpkg-scansource, dpkg-gettext.pl.
+Filename: debs/Repo_Utils/apt.1nternist.dpkg-scanpackages_2.6_iphoneos-arm.deb
+Size: 7766
+SHA256: 15e15ceedc8e7d9d0895feb8ec371024154f1bf41d6fa596c2fc5cd6d79c71bc
+Description: Installs dpkg-scanpackages, dpkg-scanpackages256, dpkg-scansource, dpkg-gettext.pl.
 Name: dpkg-scanpackages
 
 Package: apt.1nternist.emoji83
@@ -1113,19 +1113,19 @@ Depiction: http://www.myrepospace.com/
 
 Package: apt.1nternist.libdpkg-perl
 Source: dpkg
-Version: 1.16.15-5
+Version: 1.16.15-7
 Priority: optional
-Section: Scripting
-Maintainer: Chir0student <chir0student@me.com>
+Section: Development
+Maintainer: 1nternist <dacdcdabci@gmail.com>
 Depends: dpkg (>= 1.13.8), apt.1nternist.libtimedate-perl, apt.1nternist.perl | apt.1nternist.perl510 | apt.1nternist.perl514 | apt.1nternist.perl520 | perl | org.coolstar.perl | apt.1nternist.perlfullinstall
 Conflicts: com.sull.libdpkgperl, libdpkg-perl
 Provides: libdpkg-perl
 Replaces: dpkg (<< 1.13.8), dpkg-dev (<< 1.15.6), libdpkg-perl
-Architecture: all
-Filename: debs/Libraries/apt.1nternist.libdpkg-perl_1.16.15-5_all.deb
-Size: 844542
+Architecture: iphoneos-arm
+Filename: debs/Libraries/apt.1nternist.libdpkg-perl_1.16.15-7_iphoneos-arm.deb
+Size: 1712610
 Installed-Size: 1658
-SHA256: d749cf0804ba85e17a37beb51aeb46c484293815ed8a830ace17e40c1e59643e
+SHA256: 6cb64b3a41eaa7ee10f09702f0a7f29f71baeaad6ce9a29cf8cd8366e3f8fbc5
 Description: dpkg perl modules
 Origin: debian
 Name: libdpkg-perl
@@ -1243,19 +1243,18 @@ Author: J. Anrugas <j.anrugas@gmail.com>
 Homepage: http://www.remotesensing.org/libtiff/
 
 Package: apt.1nternist.libtimedate-perl
-Version: 1.2000-5
+Version: 1.2000-6
 Priority: optional
 Section: Development
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dacdcdabci@gmail.com>
 Depends: apt.1nternist.perl | apt.1nternist.perl510 | apt.1nternist.perl514 | apt.1nternist.perl520 | perl | org.coolstar.perl | apt.1nternist.perlfullinstall
 Conflicts: timedate, apt.1nternist.libtimedateperl
 Provides: timedate
 Replaces: timedate, apt.1nternist.libtimedateperl
 Architecture: iphoneos-arm
-Filename: debs/Libraries/apt.1nternist.libtimedate-perl_1.2000-5_iphoneos-arm.deb
-Size: 37304
-Installed-Size: 248
-SHA256: 4a5222b77df8184e06fa29e54fedc056eb083e7ab574a3082ffe9a78b05db57f
+Filename: debs/Libraries/apt.1nternist.libtimedate-perl_1.2000-6_iphoneos-arm.deb
+Size: 112018
+SHA256: 67dac8a430aed7c8e2481790736a941a2f1926bea14b33d028e409e1b3c94ed7
 Description: collection of modules to manipulate date/time information TimeDate is a collection of Perl modules useful for manipulating date and Time information. Date::Parse can parse absolute date specifications in a Wide variety of input formats and many languages (via Date::Language). This package also includes Date::Format, which can format dates into strings, As well as Time::Zone, which contains miscellaneous time zone functions.
 Name: libtimedate-perl
 Author: brc0703
@@ -1385,18 +1384,18 @@ Author: idotce <idotce@gmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mandbDp
 
 Package: apt.1nternist.mirepo
-Version: 6.0.2
-Section: Scripting
-Maintainer: Chir0student <chir0student@me.com>
+Version: 6.1.0
+Section: Repo_Utils
+Maintainer: 1nternist <dacdcdabci@gmail.com>
 Depends: apt, apt7-key, apt7-ssl, apt7, apt7-lib, lighttpd | lighttpd-atv | touch-lighttpd-php-mysql | apt.1nternist.lighttpd-ios, com.innoying.sbutils, apt.1nternist.libtimedate-perl | libtimedate-perl | apt.1nternist.libtimedateperl, apt.1nternist.libdpkg-perl | libdpkg-perl | apt.1nternist.libdpkgperl, apt.1nternist.dpkg-scanpackages, apt.1nternist.perl | apt.1nternist.perl510 | apt.1nternist.perl514 | apt.1nternist.perl520 | perl | org.coolstar.perl | apt.1nternist.perlfullinstall, apt.1nternist.sudonopasswd, coreutils, coreutils-bin, file, gawk, gnupg, ncurses, sudo, system-cmds
 Conflicts: apt.1nternist.makedeb
 Architecture: iphoneos-arm
-Filename: debs/Repo_Utils/apt.1nternist.mirepo_6.0.2_iphoneos-arm.deb
-Size: 302412
-SHA256: b007a8c203a5c5360feb04ce33b2027ee0b52d3ef9dd76ca77623366eb1f59c4
+Filename: debs/Repo_Utils/apt.1nternist.mirepo_6.1.0_iphoneos-arm.deb
+Size: 304940
+SHA256: af0c3e397e04b97c5c70d39b73027b110d1aaa12fa58b96e0756d5b0b8658503
 Description: MiRepo is a functional Cydia repo on iDevice. Just type "MiRepo" in mobileterminal to bring up the menu. MiRepo directory is located at /var/root/Library/MiRepo.
 Name: MiRepo
-Author: Chir0student <chir0student@me.com>
+Author: 1nternist <dacdcdabci@gmail.com>
 
 Package: apt.1nternist.mobileterminal-applesdk7
 Version: 520-4
@@ -1763,6 +1762,23 @@ Description: RepoCydia.com Repository
 Name: RepoCydia.com Repository
 Author: chir0student
 Depiction: http://www.myrepospace.com/
+
+Package: apt.1nternist.reposetup
+Version: 1.006
+Section: Repo_Utils_1nternist
+Essential: yes
+Maintainer: 1nternist <dacdcdabci@gmail.com>
+Conflicts: apt.1nternist.repoicons, com.myrepospace-chir0student.icon, com.myrepospace.chir0student.repoicons
+Replaces: apt.1nternist.repoicons, com.myrepospace-chir0student.icon, com.myrepospace.chir0student.repoicons
+Architecture: iphoneos-arm
+Filename: debs/Repo_Utils/apt.1nternist.reposetup_1.006_iphoneos-arm.deb
+Size: 353094
+SHA256: 4793004eac7381ed9d492cf507d1144bb46ee43d15db5fb13d5d60e695a96dfc
+Description: 1nternist repo setup files
+Name: 1nternist's Repo Setup
+Author: 1nternist <dacdcdabci@gmail.com>
+Homepage: https://1nternist.github.io
+Icon: file:///Applications/Cydia.app/Sections/1nternist_RepoIcons.png
 
 Package: apt.1nternist.revealinstaller
 Version: 1.1

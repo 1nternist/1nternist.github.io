@@ -1,13 +1,13 @@
 #!/bin/bash
 
-./scanpkgs.sh || exit 1
+sudo ./scanpkgs.sh || exit 1
 wait
 
-echo "Origin: 1nternist's Repo" > Release
-echo "Label: 1nternist's Repo" >> Release
+echo "Origin: 1nternist.github.io" > Release
+echo "Label: 1nternist.github.io" >> Release
 echo "Suite: stable" >> Release
 echo "Version: 1.2" >> Release
-echo "Codename: apt.1nternist.github.io" >> Release
+echo "Codename: dc1nternist" >> Release
 echo "Architectures: iphoneos-arm" >> Release
 echo "Components: main" >> Release
 echo "Description: 1nternist's Cydia repository on GitHub!" >> Release
