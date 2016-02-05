@@ -604,12 +604,13 @@ Homepage: http://www.gnu.org/software/gdb/
 Depiction: http://cydia.saurik.com/info/gdb/
 
 Package: apt.1nternist.git-doc
-Version: 1.1-1
+Version: 1.1-2
+Section: Development
 Maintainer: 1nternist <dc1nternist@icloud.com>
 Architecture: iphoneos-arm
-Filename: debs/docs/apt.1nternist.git-doc_1.1-1_iphoneos-arm.deb
-Size: 4354438
-SHA256: b5605b368373c0f79279ae1701d88904495070bfd34830741faeb31d5a552c47
+Filename: debs/docs/apt.1nternist.git-doc_1.1-2_iphoneos-arm.deb
+Size: 4354474
+SHA256: 1088ef07a44f21102e2313da6dd65800d62a55d57684863f17eebc44105092af
 Description: This package adds the git documentation that is missing from Saurik's git package.
 Name: git-doc
 
