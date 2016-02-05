@@ -1123,24 +1123,21 @@ Author: chir0student
 Depiction: http://www.myrepospace.com/
 
 Package: apt.1nternist.libdpkg-perl
-Source: dpkg
-Version: 1.16.15-7
-Priority: optional
+Version: 1.16.15-8
 Section: Development
-Maintainer: 1nternist <dacdcdabci@gmail.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: dpkg (>= 1.13.8), apt.1nternist.libtimedate-perl, apt.1nternist.perl | apt.1nternist.perl510 | apt.1nternist.perl514 | apt.1nternist.perl520 | perl | org.coolstar.perl | apt.1nternist.perlfullinstall
-Conflicts: com.sull.libdpkgperl, libdpkg-perl
-Provides: libdpkg-perl
-Replaces: dpkg (<< 1.13.8), dpkg-dev (<< 1.15.6), libdpkg-perl
+Conflicts: libdpkg-perl, libdpkgperl, com.sull.libdpkgperl
+Provides: libdpkg-perl, libdpkgperl, com.sull.libdpkgperl
+Replaces: libdpkg-perl, libdpkgperl, com.sull.libdpkgperl
 Architecture: iphoneos-arm
-Filename: debs/Libraries/apt.1nternist.libdpkg-perl_1.16.15-7_iphoneos-arm.deb
-Size: 1712610
-Installed-Size: 1658
-SHA256: 6cb64b3a41eaa7ee10f09702f0a7f29f71baeaad6ce9a29cf8cd8366e3f8fbc5
-Description: dpkg perl modules
-Origin: debian
+Filename: debs/Libraries/apt.1nternist.libdpkg-perl_1.16.15-8_iphoneos-arm.deb
+Size: 1704866
+Installed-Size: 4872
+SHA256: 0ac87309434ce52465d81b8d162275b39b0f9441c10e3201543226bfbebf1c68
+Description: Perl modules for dpkg (required for MiRepo functionality).
 Name: libdpkg-perl
-Author: brc0703 (Ported for iOS)
+Author: brc0703
 
 Package: apt.1nternist.libfreetype
 Version: 2.4.11-5
