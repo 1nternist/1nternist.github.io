@@ -4,7 +4,7 @@
   <title>Changelog</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
  
   <script type="text/javascript" src="js/jquery.querystring.js"></script>
@@ -20,31 +20,31 @@
 	bundleid = $.QueryString['p'];	
 
     var contentBlocks = 	{
-        "#changeLogList" : 
+	"#changeLogList" : 
 			{"type":"articles"  
 				,"source"			:"changelog"
-				,"titleSource" 		:"version"
+				,"titleSource"		:"version"
 				,"paragraphSource"	:"change"
-				,"titleElement"	    : "<h5>"
+				,"titleElement"     : "<h5>"
 				,"paragraphContainer": "<ul class='list-group'>"
 				,"paragraphElement"	: "<li class='list-group-item'>"
 
 			}
 	}
     $( document ).ready(function() {
-        $.ajax({
-            type    : "GET",
-            dataType: "xml",
-            url     : (bundleid+"/changelog.xml"),
-            success : function(xml){
-            	data_loader_engine(contentBlocks,xml)
-            },
-			cache   : false,
-            error: function() {
-                $("#packageError").show();
+	$.ajax({
+	    type    : "GET",
+	    dataType: "xml",
+	    url     : (bundleid+"/changelog.xml"),
+	    success : function(xml){
+		data_loader_engine(contentBlocks,xml)
+	    },
+			cache	: false,
+	    error: function() {
+		$("#packageError").show();
 				$("#packageInformation").hide();
-            }
-        }); //ajax
+	    }
+	}); //ajax
 		
     }); // ready
   </script>
@@ -65,7 +65,7 @@
 </div>
 <!-- REPO FOOTER ----------------------------------------------------------- -->
 <script type="text/javascript">
-    var repoContents = 	{
+    var repoContents =	{
 		"#repoFooterLinks" : 
 			{"type":"custom"
 				,"source":"repo>footerlinks>link"
@@ -88,8 +88,8 @@
 			}
 	}
     $( document ).ready(function() {
-        $.ajax({type: "GET", dataType: "xml",url : ("../repo.xml"),cache: false,
-            success : function(xml){
+	$.ajax({type: "GET", dataType: "xml",url : ("../repo.xml"),cache: false,
+	    success : function(xml){
 				data_loader_engine(repoContents,xml);
 				if (navigator.userAgent.search(/Cydia/) != -1) {
 					$("a").each(function() {
@@ -99,8 +99,8 @@
 				}
 			},
 
-            error: function() {$("#contactInfo").hide()}
-        }); //ajax
+	    error: function() {$("#contactInfo").hide()}
+	}); //ajax
 		
 		
     }); // ready

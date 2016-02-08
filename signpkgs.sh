@@ -1,8 +1,5 @@
 #!/bin/bash
 
-sudo ./scanpkgs.sh || exit 1
-wait
-
 echo "Origin: 1nternist.github.io" > Release
 echo "Label: 1nternist.github.io" >> Release
 echo "Suite: stable" >> Release
@@ -24,3 +21,4 @@ echo "SHA256:" >> Release
 echo " `sha256sum Packages | cut -d ' ' -f1` `stat --format=%s Packages` Packages" >> Release
 echo " `sha256sum Packages.bz2 | cut -d ' ' -f1` `stat --format=%s Packages.bz2` Packages.bz2" >> Release
 echo " `sha256sum Packages.gz | cut -d ' ' -f1` `stat --format=%s Packages.gz` Packages.gz" >> Release
+gpg -abs -u dc1nternist -o Release.gpg Release
