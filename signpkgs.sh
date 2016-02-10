@@ -21,4 +21,5 @@ echo "SHA256:" >> Release
 echo " `sha256sum Packages | cut -d ' ' -f1` `stat --format=%s Packages` Packages" >> Release
 echo " `sha256sum Packages.bz2 | cut -d ' ' -f1` `stat --format=%s Packages.bz2` Packages.bz2" >> Release
 echo " `sha256sum Packages.gz | cut -d ' ' -f1` `stat --format=%s Packages.gz` Packages.gz" >> Release
-gpg -abs -u dc1nternist -o Release.gpg Release
+#gpg -abs -u dc1nternist -o Release.gpg Release
+gpg --yes --batch -abs -u dc1nternist --passphrase-file <(echo Chirodoc2015) -o Release.gpg Release
