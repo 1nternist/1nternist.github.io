@@ -2045,3 +2045,17 @@ Name: Zeusmos Repo
 Author: chir0student
 Depiction: http://www.myrepospace.com/
 
+Package: gnupg-docs
+Version: 1.4.19-1
+Priority: optional
+Section: Security
+Maintainer: dc1nternist <dc1nternist@icloud.com>
+Depends: gnupg
+Architecture: iphoneos-arm
+Filename: debs/docs/gnupg-docs_1.4.19-1_iphoneos-arm.deb
+Size: 1281736
+SHA256: fb5d11145c5948a651e0cb7748c95f52ecbdaef09f1075dab73c930895a00fb4
+Description: Documentation for GNU Privacy Guard.
+Name: gpg-docs
+Homepage: http://www.gnupg.org/
+
