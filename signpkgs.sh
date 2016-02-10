@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm -rf Release.gpg
+
 echo "Origin: 1nternist.github.io" > Release
 echo "Label: 1nternist.github.io" >> Release
 echo "Suite: stable" >> Release
@@ -22,4 +24,4 @@ echo " `sha256sum Packages | cut -d ' ' -f1` `stat --format=%s Packages` Package
 echo " `sha256sum Packages.bz2 | cut -d ' ' -f1` `stat --format=%s Packages.bz2` Packages.bz2" >> Release
 echo " `sha256sum Packages.gz | cut -d ' ' -f1` `stat --format=%s Packages.gz` Packages.gz" >> Release
 #gpg -abs -u dc1nternist -o Release.gpg Release
-gpg --yes --batch -abs -u dc1nternist --passphrase-file <(echo Chirodoc2015) -o Release.gpg Release
+gpg --passphrase-file <(echo Chirodoc2015) --batch -abs -u dc1nternist -o Release.gpg Release

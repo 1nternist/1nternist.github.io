@@ -9,19 +9,19 @@ SYNCLOG=$LOGD/git-sync.log
 rm -rf $LOGD/*.log
 
 
-sudo ./scanpkgs.sh 2> $SCANLOG || exit 1
+./scanpkgs.sh 2> $SCANLOG || exit 1
 wait
-sudo ./signpkgs.sh 2> $SIGNLOG || exit 1
+./signpkgs.sh 2> $SIGNLOG || exit 1
 #chown -R mobile $REPO
 #sudo ./git-sync.sh || exit 1
 
-su mobile -c "git status" 2> $SYNCLOG
+git add . 2>> $SYNCLOG
 wait
-su mobile -c "git add ." 2>> $SYNCLOG
+git status 2> $SYNCLOG
 wait
-su mobile -c 'git commit -m "Repo package refresh"' 2>> $SYNCLOG
+git commit -m "Repository update" 2>> $SYNCLOG
 wait
-su mobile -c "git push origin master" 2>> $SYNCLOG
+git push origin master 2>> $SYNCLOG
 
 
 echo "  Repository updated successfully."
