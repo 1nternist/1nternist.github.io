@@ -1,20 +1,21 @@
-Origin: 1nternist.github.io
+Origin: 1nternist Repo
 Label: 1nternist.github.io
 Suite: stable
-Version: 1.2
+Version: 1.0
 Codename: dc1nternist
 Architectures: iphoneos-arm
 Components: main
 Description: 1nternist's Cydia repository on GitHub!
+Support: 1nternist <dc1nternist@icloud.com>
 MD5Sum:
  e1b49c77a95d9322000553d72c7c8e28 84336 Packages
  5a0210847930701f5661e7bbd7ceb2b8 19236 Packages.bz2
- 3c55d586d2e040fc9c1d12a4c778e4c1 21965 Packages.gz
+ 017721b34b49d6ee7a02b7410d6979b0 21965 Packages.gz
 SHA1:
  37fb0397a41ee544bf0d777aff79bcc3f4b2050a 84336 Packages
  bdd9fd79f98bf36c2205de9c568f5b42ef782c42 19236 Packages.bz2
- e81acabb292c344d38c2093ea62e11d8cd84cc30 21965 Packages.gz
+ f65886bc2d65b33e5413c9855096a519cc74ac35 21965 Packages.gz
 SHA256:
  09596d72338e47fa2db533721ec984e76bbfb7d7c4d87f344bc22bb77b163048 84336 Packages
  ee8ab9560d3dfc9598f9ed54cf31f620f042f6a978fd5ab537ab0ad0331419a0 19236 Packages.bz2
- 5f706bfd319e999337503ea0080f6da7bb33981ee4b35122cda97287c6012d6d 21965 Packages.gz
+ 9942d208f8d3d1e7ef350ffb4435da5aab2751f1ef5e8d58d8315680db3468f4 21965 Packages.gz

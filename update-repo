@@ -1,0 +1,6 @@
+#!/bin/bash
+
+REPO="/var/mobile/Developer/Github/1nternist.github.io"
+
+
+sh $REPO/.repoutils/bin/updaterepo
