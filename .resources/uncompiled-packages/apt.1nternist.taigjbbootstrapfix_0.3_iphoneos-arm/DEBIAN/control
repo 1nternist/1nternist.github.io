@@ -1,0 +1,9 @@
+Architecture: iphoneos-arm
+Author: Chir0student <chir0student@me.com>
+Description: Fixes the unofficial bootstrap from the TaiG jailbreak. Please manually reboot your device.
+Pre-Depends: com.innoying.sbutils
+Maintainer: Chir0student <chir0student@me.com>
+Name: TaiG JB Bootstrap Fix
+Package: apt.1nternist.taigjbbootstrapfix
+Section: System
+Version: 0.3

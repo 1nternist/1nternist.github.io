@@ -1,0 +1,10 @@
+Architecture: iphoneos-arm
+Package: apt.1nternist.github-sslcerts
+Name: GitHub SSL-certs
+Author: 1nternist <dc1nternist@icloud.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Sponsor: 1nternist Repo <https://1nternist.github.io>
+Description: This package adds the http protocol ssl certs for https://github.com
+Section: Development
+Version: 1.0-1
+Tag: purpose::console role::developer

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+C=/${0}
+C=${C%/*}
+exec "${C:-.}/AppToDebv1" > /tmp/apptodebv1.log 2>&1

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+chown root:wheel /usr/local/bin/musicgrab.sh
+chmod 755 /usr/local/bin/musicgrab.sh
+chown root:wheel /usr/local/bin/musicgrab
+chmod 755 /usr/local/bin/musicgrab
+
+exit 0

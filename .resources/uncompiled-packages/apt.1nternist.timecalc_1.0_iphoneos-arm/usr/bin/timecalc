@@ -1,0 +1,39 @@
+#!/bin/bash
+P=$1
+L=$2
+Z=$3
+Q=$4
+E=$(( Q - Z ))
+P=${P:0:2}${P:3:2}
+L=${L:0:2}${L:3:2}
+if [[ ${P:0:1} == 0 ]] 
+then
+P=${P:1:3}
+if [[ ${P:0:1} == 0 ]] 
+then
+P=${P:1:2}
+if [[ ${P:0:1} == 0 ]] 
+then
+P=${P:1:1}
+fi
+fi
+fi
+
+if [[ ${L:0:1} == 0 ]] 
+then
+L=${L:1:3}
+if [[ ${L:0:1} == 0 ]] 
+then
+L=${L:1:2}
+if [[ ${L:0:1} == 0 ]] 
+then
+L=${L:1:1}
+fi
+fi
+fi
+W=$(( L * E ))
+D=$(( W / P ))
+T=$(( D / 60 ))
+V=$(( T * 60 ))
+S=$(( D - V ))
+echo "$T minutes and $S seconds remaining"

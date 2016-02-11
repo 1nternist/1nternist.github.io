@@ -1,0 +1,9 @@
+Architecture: iphoneos-arm
+Author: Chir0student <chir0student@me.com>
+Description: Force Cydia Respring.
+Maintainer: Chir0student <chir0student@me.com>
+Name: CyRespring
+Package: apt.1nternist.cyrespring
+Section: Scripting
+Sponsor: Chir0student <chir0student@me.com>
+Version: 1.0

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+chmod 755 /usr/bin/dpkg-scanpackages
+chmod 755 /usr/bin/dpkg-scanpackages256
+chmod 755 /usr/bin/dpkg-scanpackages_
+chmod 755 /usr/bin/dpkg-scansources_
+chmod 777 /usr/local/lib/perl5/site_perl/5.22.0/armv7-apple-darwin/dpkg-gettext.pl
+
+exit 0
+

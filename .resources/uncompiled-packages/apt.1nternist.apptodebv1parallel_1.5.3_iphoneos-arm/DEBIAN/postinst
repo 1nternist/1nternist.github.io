@@ -1,0 +1,70 @@
+#!/bin/bash
+
+ROOT_LIB=/var/root/Library
+HOME_LIB=/var/mobile/Library
+ATDV2=$ROOT_LIB/AppToDeb
+ATDV1=$HOME_LIB/AppToDeb
+MOBILE_DIR=/var/mobile
+MOBILE_APPS=$MOBILE_DIR/Philippe97
+ATDV1_LINK=$MOBILE_APPS/AppToDeb\(V1\)
+ATDV2_LINK=$MOBILE_APPS/AppToDeb\(V2\)
+ATDV1_ROOTDIR=$ROOT_LIB/AppToDebv1
+
+unlink $ATDV1_LINK
+unlink $ATDV2_LINK
+unlink $ATDV1/Philippe97
+unlink $ATDV2/Philippe97
+
+mkdir -p $MOBILE_APPS
+chown mobile:mobile $MOBILE_APPS
+chmod 755 $MOBILE_APPS
+
+if [ -L $ATDV1 ]; then
+	unlink $ATDV1
+	mkdir -p $ATDV1
+	chown mobile:admin $ATDV1
+	chmod 755 $ATDV1
+fi
+
+if [ ! -d $ATDV1 ]; then
+	mkdir -p $ATDV1
+	chown mobile:admin $ATDV1
+	chmod 755 $ATDV1
+else
+	chown mobile:admin $ATDV1
+	chmod 755 $ATDV1
+fi
+
+if [ ! -d $ATDV2 ]; then
+	mkdir -p $ATDV2
+	chown root:wheel $ATDV2
+	chmod 777 $ATDV2
+else
+	chown root:wheel $ATDV2
+	chmod 777 $ATDV2
+fi
+
+if [ -d $ATDV1_ROOTDIR ]; then
+	cp -a $ATDV1_ROOTDIR/* $ATDV1
+	rm -rf $ATDV1_ROOTDIR
+fi
+
+CLEAN_LIST=$(ls -A1 $ATDV2 | grep -v downloaded | grep -v repacked | sed 's/\///g')
+echo "$CLEAN_LIST" >/tmp/atdv2.atd
+if [ -n "`cat /tmp/atdv2.atd`" ]; then
+	cat /tmp/atdv2.atd | while read line
+	do
+		cd $ATDV2
+		rm -rf $ATDV1/"${line%%/}"
+		cp -a "${line%%/}" $ATDV1
+		rm -rf "${line%%/}"
+		chown -R mobile:admin $ATDV1
+	done
+fi
+ln -sf $ATDV1 $ATDV1_LINK
+ln -sf $ATDV2 $ATDV2_LINK
+ln -sf $MOBILE_APPS $ATDV1
+ln -sf $MOBILE_APPS $ATDV2
+rm -rf /tmp/atdv2.atd
+
+exit 0

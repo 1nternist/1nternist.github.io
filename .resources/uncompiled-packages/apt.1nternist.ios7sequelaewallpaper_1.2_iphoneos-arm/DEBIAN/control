@@ -1,0 +1,9 @@
+Architecture: iphoneos-arm
+Author: Chir0student <chir0student@me.com>
+Description: Wallpaper pack for iOS 7 Sequelae.
+Maintainer: Chir0student <chir0student@me.com>
+Name: iOS 7 Sequelae Wallpaper
+Depends: apt.1nternist.ios7sequelae
+Package: apt.1nternist.ios7sequelaewallpaper
+Section: Themes - chir0student
+Version: 1.2

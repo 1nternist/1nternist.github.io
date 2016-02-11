@@ -1,0 +1,9 @@
+Architecture: iphoneos-arm
+Author: Chir0student <chir0student@me.com>
+Depends: apt.1nternist.perl5
+Description: My makedeb.sh script for refreshing a repository. Builds debs, puts them in repo, then updates the repofiles.
+Maintainer: Chir0student <chir0student@me.com>
+Name: makedeb
+Package: apt.1nternist.makedeb
+Section: Scripting
+Version: 2.7-1

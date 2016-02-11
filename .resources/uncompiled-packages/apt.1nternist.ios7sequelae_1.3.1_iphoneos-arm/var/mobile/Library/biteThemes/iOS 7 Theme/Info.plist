@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>description</key>
+	<string>By pw5a29, please donate if you like all of these.
+If you use BiteSMS Full, DON'T enable Messages UI in winterboard</string>
+	<key>name</key>
+	<string>iOS 7 Theme</string>
+	<key>navbar-shadow-color</key>
+	<string>#ffffff</string>
+	<key>navbar-style</key>
+	<integer>2</integer>
+	<key>navbar-text-color</key>
+	<string>#000000</string>
+	<key>retina</key>
+	<true/>
+	<key>statusbar-style</key>
+	<integer>1</integer>
+</dict>
+</plist>

@@ -1,5 +1,5 @@
 #!/usr/local/bin/perl
-push(@INC, '/usr/local/lib/perl5/site_perl/5.22.0/armv7-apple-darwin/dpkg-gettext.pl');
+push(@INC, '/var/mobile/Developer/Github/1nternist.github.io/.repoutils/lib/perl5/site_perl/dpkg-gettext.pl');
 
 use warnings;
 use strict;

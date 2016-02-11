@@ -1,0 +1,10 @@
+Origin: 1nternist Repo
+Label: 1nternist.github.io
+Suite: stable
+Version: 1.0
+Codename: dc1nternist
+Architectures: iphoneos-arm
+Components: main
+Description: 1nternist's Cydia repository on GitHub!
+Support: 1nternist <dc1nternist@icloud.com>
+MD5Sum:

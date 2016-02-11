@@ -1,0 +1,10 @@
+Package: apt.1nternist.woowizrepo-list
+Version: 1.0
+Section: MyRepoSpace.com
+Maintainer: chir0student <chir0student@me.com>
+Architecture: iphoneos-arm
+Description: WooWiz Repo
+Sponsor: myRepoSpace.com <http://www.myrepospace.com/>
+Name: WooWiz Repo
+Depiction: http://www.myrepospace.com/
+Author: chir0student

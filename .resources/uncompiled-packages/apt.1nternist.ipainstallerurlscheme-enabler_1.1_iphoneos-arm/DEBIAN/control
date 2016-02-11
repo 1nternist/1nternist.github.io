@@ -1,0 +1,11 @@
+Architecture: iphoneos-arm
+Author: Crzmst
+Depends: firmware (>= 4.0), mobilesubstrate, com.ericasadun.utilities
+Maintainer: Chir0student <chir0student@me.com>
+Name: IPA Installer URL Scheme Enabler
+Package: apt.1nternist.ipainstallerurlscheme-enabler
+Sponsor: Chir0student <chir0student@me.com>
+Priority: optional
+Section: Tweaks
+Version: 1.1
+Description: Installs a template for adding URL schemes to apps.

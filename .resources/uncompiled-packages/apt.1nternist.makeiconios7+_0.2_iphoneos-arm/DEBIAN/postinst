@@ -1,0 +1,3 @@
+#!/bin/bash
+chmod -R 777 "/var/mobile/Library/MakeIcon.sh" "/usr/bin/makeicon.sh" "/usr/bin/makeicon"
+chown -R mobile:mobile "/var/mobile/Library/MakeIcon.sh" "/usr/bin/makeicon.sh" "/usr/bin/makeicon"

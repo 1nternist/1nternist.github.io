@@ -1,0 +1,14 @@
+Package: apt.1nternist.sox
+Name: Sox
+Version: 14.4.0-2
+Architecture: iphoneos-arm
+Depends: apt.1nternist.libtool
+Conflicts: sox
+Replaces: sox
+Provides: sox
+Description: CLI Swiss army knife for sound
+Maintainer: Chir0student <chir0student@me.com>
+Author: Chris Bagwell <cbagwell@users.sourceforge.net>
+Sponsor: Chir0student <chir0student@me.com>
+Section: Multimedia
+Tag: role::enduser

@@ -1,0 +1,9 @@
+Architecture: iphoneos-arm
+Author: Chir0student <chir0student@icloud.com>
+Depends: bash
+Description: Adds .bashrc and .bash_aliases to your iDevice for customized alias'ing. 
+Maintainer: Chir0student <chir0student@icloud.com>
+Name: bashrc
+Package: apt.1nternist.bashrc
+Section: Scripts
+Version: 1.0

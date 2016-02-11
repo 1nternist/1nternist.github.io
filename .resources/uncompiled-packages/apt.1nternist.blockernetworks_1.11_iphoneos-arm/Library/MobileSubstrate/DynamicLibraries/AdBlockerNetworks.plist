@@ -1,0 +1,8 @@
+{
+	Filter = {
+		Classes = (
+			TabDocument,
+			UIWebView,
+		);
+	};
+}

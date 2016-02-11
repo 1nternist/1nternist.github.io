@@ -1,0 +1,8 @@
+Architecture: iphoneos-arm
+Package: apt.1nternist.emwwalls
+Name: EMW Walls
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Sponsor: 1nternist <dc1nternist@icloud.com>
+Description: Wallpapers for East meets West theme.
+Section: Themes
+Version: 1.0

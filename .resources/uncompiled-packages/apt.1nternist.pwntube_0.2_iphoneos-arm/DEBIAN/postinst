@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo 'Starting iPod sync service...';
+/usr/libexec/pt_ipodimport_daemon
+if [ "$?" == "0" ]; then
+	echo 'Started successfully';
+else
+	echo 'warning: could not start iPod import service';
+fi
+echo "Fixing PwnTube download dir permissions"
+chown -R mobile:mobile /var/mobile/Media/PwnTube
+chmod -R 777 /var/mobile/Media/PwnTube
+exit 0

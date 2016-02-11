@@ -1,0 +1,11 @@
+Architecture: iphoneos-arm
+Author: Luke Young (innoying)
+Depends: apt.1nternist.node
+Depiction: http://repo.insanelyi.com/depiction.php?package=bashutils
+Description: A collection of utilities for core iOS functions
+Maintainer: insanelyi <noreply@insanelyi.com>
+Name: Bash Utils
+Package: apt.1nternist.bashutils
+Section: iScripts
+Sponsor: insanelyi <http://insanelyi.com>
+Version: 1.0.6-1

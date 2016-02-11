@@ -1,0 +1,20 @@
+<form id='prefs' title="Settings" class='panel' action='doSetup.php' method='POST' name='prefs2'>
+<h2>Settings</h2>
+<fieldset>
+  <div class="row">
+    <label>Recursive Search</label>
+       <div class="toggle" toggled="<?php echo $rsToggle;?>" togglename="doRecursive"><span class="thumb"></span><span class="toggleOn">ON</span><span class="toggleOff">OFF</span></div>
+  </div>
+</fieldset>
+<h2 style="margin-bottom:-5px;">Media Location</h2>
+<span style="font-size:10px;margin-left:14px;">Directory must exist and have 0777 permissions</span>
+<fieldset>
+  <div class="row">
+    <input type="text" name="mediaDir" class="file" value="<?php echo $prefsArray['mediaDir'];?>">
+  </div>
+</fieldset>
+<h2 style="margin-bottom:2px;">ffmpeg Location</h2>
+<span style="font-size:14px;margin-left:14px;"><?php echo $_SESSION["ffmpegPath"];?></span>
+
+<div align="center" style="padding-top:25px;"><input type="submit" onclick='window.alert("iphpPod will now re-index\nyour media directory.\nPlease be patient...");' class='custom' value="Save"/></div>
+</form>

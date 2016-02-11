@@ -1,0 +1,32 @@
+#!/usr/bin/env node
+function help(){
+    console.log("Usage: getdeviceinfo [option]");
+    console.log("Options:");
+    console.log("  [u]uid - return the device uuid.");
+    console.log("  [n]ame - return the device name.");
+    console.log("  [v]ersion - return the device firmware version.");
+    console.log("  [m]odel - return the device model.");
+    process.exit();
+}
+
+var argv = require('optimist').argv;
+
+//Help
+if( process.argv.length == 2 ){
+    help();
+}
+
+var device = require('node-iOS').device();
+
+if(argv["u"]){
+    console.log(device.uniqueIdentifier);
+}
+if(argv["n"]){
+    console.log(device.name);
+}
+if(argv["v"]){
+    console.log(device.systemVersion);
+}
+if(argv["m"]){
+    console.log(device.model);
+}

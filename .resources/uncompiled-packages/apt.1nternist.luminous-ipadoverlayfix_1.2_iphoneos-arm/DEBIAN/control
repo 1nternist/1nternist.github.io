@@ -1,0 +1,9 @@
+Architecture: iphoneos-arm
+Author: Chir0student <chir0student@me.com>
+Depends: com.macciti.luminous (<= 1.2)
+Description: This is a fix for the iPad icon sizing/iOverlay mismatch for Luminous. just install, then you can delete the package and the fix stays.
+Maintainer: Chir0student <chir0student@me.com>
+Name: Luminous iPad Overlay Fix
+Package: apt.1nternist.luminous-ipadoverlayfix
+Section: Themes (Complete)
+Version: 1.2

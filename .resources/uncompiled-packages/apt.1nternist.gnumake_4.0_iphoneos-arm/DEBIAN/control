@@ -1,0 +1,11 @@
+Package: apt.1nternist.gnumake
+Name: GNU Make
+Author: CoolStar
+Conflicts: make
+Replaces: make
+Provides: make
+Version: 4.0
+Architecture: iphoneos-arm
+Maintainer: CoolStar
+Section: Development
+Description: GNU Make

@@ -1,0 +1,3 @@
+#!/bin/sh
+
+unlink /usr/bin/dpkg-scanpackages

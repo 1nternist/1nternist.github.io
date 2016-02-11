@@ -1,0 +1,8 @@
+Architecture: iphoneos-arm
+Author: Chir0student <chir0student@me.com>
+Description: Savannah icon label spacing fix
+Maintainer: Chir0student <chir0student@me.com>
+Name: Savannah Icon Lable Spacing Fix
+Package: apt.1nternist.savannahlabelfix
+Section: Themes
+Version: 1.0.2

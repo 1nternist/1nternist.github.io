@@ -1,0 +1,10 @@
+Architecture: iphoneos-arm
+Author: CoolStar <coolstarorganization@gmail.com>
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Sponsor: dc1nternist <dc1nternist@icloud.com>
+Description: Perl ported for iOS, compatible with iOS 9 and arm64.
+Name: Perl
+Package: perl
+Section: Development
+Tag: purpose::console, role::developer
+Version: 5.22.0-2

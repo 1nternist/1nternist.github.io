@@ -1,0 +1,14 @@
+Architecture: iphoneos-arm
+Author: Karen Tsai (angelXwind) <angelXwind@angelxwind.net>
+Conflicts: bigbosshackertools
+Replaces: bigbosshackertools
+Depends: syslogcmdline, adv-cmds, apt, basic-cmds, bootstrap-cmds, bzip2, com.innoying.sbutils, class-dump, coreutils, developer-cmds, diskdev-cmds, file-cmds, gawk, gdb, git, gzip, iokittools, less, make, nano, network-cmds, ldid, openssh, rsync, shell-cmds, system-cmds, com.ericasadun.utilities, top, uikittools, findutils, inetutils, diffutils, lsof, subversion, vim, xar, tar, patch, unrar, unzip, wget, whois, xml2, zip, p7zip
+Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.clitools
+Description: This is a metapackage I use to install some CLI tools I use often. Perhaps some of you might find it useful.
+Homepage: http://cydia.angelxwind.net/
+Maintainer: Chir0student <chir0student@me.com>
+Name: CLI Tools
+Package: apt.1nternist.clitools
+Sponsor: Chir0student <chir0student@me.com>
+Section: System
+Version: 1.0-2

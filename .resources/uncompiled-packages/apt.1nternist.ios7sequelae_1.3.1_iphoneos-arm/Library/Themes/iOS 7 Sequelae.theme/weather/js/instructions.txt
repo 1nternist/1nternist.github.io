@@ -1,0 +1,6 @@
+To change the weather edit the weather.js in Library/Themes/1ntox SB and 1ntox LS/
+
+
+on line 4 enter your weather code 
+
+var sCityCodes = "USFL0113"; //weather code. Find from weather.com look in url.

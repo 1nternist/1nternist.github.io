@@ -1,0 +1,8 @@
+Architecture: iphoneos-arm
+Author: Pangu
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Description: Pwns in-app purchases on iOS 7, 8, and 9. Compatible with arm64. Enable in settings. PRESS "reject" in popup!
+Name: LocalIAPStore iOS9
+Package: apt.1nternist.localiapstoreios9
+Section: Tweaks
+Version: 1.4-5

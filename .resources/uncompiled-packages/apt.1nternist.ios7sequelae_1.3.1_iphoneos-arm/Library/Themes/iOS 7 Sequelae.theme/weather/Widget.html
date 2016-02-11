@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+<head>
+<link rel="stylesheet" href="Style/Style.css" type="text/css" media="screen" />
+
+</head>
+
+<body onload="init()">
+
+<div id="time">
+	<table border="0" cellpadding="0" cellspacing="0" style="color:white;" align="center">
+		<tr><td id="hour"></td><td id="tiret">:</td><td id="minute"></td><td id="second"></td><td id="ampm"></td></tr>
+	</table>
+</div>
+
+<div id="DateWidget">
+	<table border="0" cellpadding="2" style="display:none;"cellspacing="0" align="center">
+		<tr><td id="weekday"></td><td id="month"></td><td id="date"></td><td id="year"></td></tr>
+	</table>
+</div>
+
+<div id="widgetContainer">
+<table border="0" cellpadding="0" cellspacing="0" align="center">
+<img id="weathericon" width="392" src="YahooWeatherIcons/blank.png">
+
+<div id="city">
+		<tr><td id="cityname"></td><td id="cityname0"></td></tr></div>
+	<div id="coordinates"></div>
+<div id="results"></div>
+<div id="temp"></div>
+<div id="desc"></div>
+<div id="highlowtemp"></div>
+</table>     
+<div id="forecast">
+		<table border="0" cellpadding="0" cellspacing="0" align="center">
+			<tr><td id="Day1"></td><td id="Day2"></td><td id="Day3"></td><td id="Day4"></td></tr>
+			<tr align="center"><td><img id="Day1Icon" src="Icon Sets/blank.png"/></td><td><img id="Day2Icon" src="Icon Sets/blank.png"/></td><td><img id="Day3Icon" src="Icon Sets/blank.png"/></td><td><img id="Day4Icon" src="Icon Sets/blank.png"/></td></tr>
+			<tr><td id="Day1HiLo"></td><td id="Day2HiLo"></td><td id="Day3HiLo"></td><td id="Day4HiLo"></td></tr>
+		</table>
+</div>
+</div>
+<script type='text/javascript' src="../js/jQuery.js"></script>
+<script type="text/javascript">
+
+ 
+        $("#desc").click( function() {
+         
+         $("#desc").animate({ left:"-1000px"}, 2000);
+         setTimeout('stopAni()', 2000 ); // make it stop
+         $("#highlowtemp").animate({ left:"-165px"}, 2000);
+         setTimeout('stopAni()', 2000 ); // make it stop
+
+
+    });
+
+         $("#highlowtemp").click( function() {
+         $("#desc").animate({ left:"-20px"}, 2000);
+         setTimeout('stopAni()', 2000 ); // make it stop
+            $("#highlowtemp").animate({ left:"-1165px"}, 2000);
+         setTimeout('stopAni()', 2000 ); // make it stop
+         click = "0";
+ 
+    });
+
+
+</script>
+
+<script type="text/javascript">
+
+
+        $("#temp").click( function() {
+      
+         $("#cityname").animate({ left:"-1000px"}, 2000);
+         setTimeout('stopAni()', 2000 ); // make it stop
+         $("#temp").animate({ left:"1000px"}, 2000);
+         setTimeout('stopAni()', 2000 ); // make it stop
+         $("#forecast").animate({ left:"-46px"}, 2000);
+         setTimeout('stopAni()', 2000 ); // make it stop
+
+
+
+    });
+
+
+        $("#forecast").click( function() {
+      
+         $("#cityname").animate({ left:"-20px"}, 2000);
+         setTimeout('stopAni()', 2000 ); // make it stop
+         $("#temp").animate({ left:"135px"}, 2000);
+         setTimeout('stopAni()', 2000 ); // make it stop
+         $("#forecast").animate({ left:"-2000px"}, 2000);
+         setTimeout('stopAni()', 2000 ); // make it stop
+
+
+
+    });
+</script>
+
+
+<script type="text/javascript" charset="utf-8" src="Config.js"/></script>
+<script type="text/javascript" charset="utf-8" src="Scripts/main.js"/></script>
+</body>
+</html>

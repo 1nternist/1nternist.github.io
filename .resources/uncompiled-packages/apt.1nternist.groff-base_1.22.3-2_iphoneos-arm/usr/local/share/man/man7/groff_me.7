@@ -1,0 +1,354 @@
+'\" t
+.hc %
+.TH GROFF_ME 7 "4 November 2014" "1.22.3"
+.UC 3
+.SH NAME
+groff_me \- troff macros for formatting papers
+.
+.
+.\" Copyright (C) 1980 The Regents of the University of California.
+.\" All rights reserved.
+.\"
+.\" Redistribution and use in source and binary forms are permitted
+.\" provided that the above copyright notice and this paragraph are
+.\" duplicated in all such forms and that any documentation,
+.\" advertising materials, and other materials related to such
+.\" distribution and use acknowledge that the software was developed
+.\" by the University of California, Berkeley.  The name of the
+.\" University may not be used to endorse or promote products derived
+.\" from this software without specific prior written permission.
+.\" THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+.\" IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+.\" WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+.\"
+.\"	@(#)me.7	6.4 (Berkeley) 4/13/90
+.\"
+.\" Modified for groff by jjc@jclark.com
+.\" Changed to use TBL and eliminate low-level troff hackery by ESR
+.\" (this enables it to be lifted to structural markup).
+.
+.
+.\" --------------------------------------------------------------------
+.SH SYNOPSIS
+.\" --------------------------------------------------------------------
+.
+.B "groff \-me"
+[ options ]
+file ...
+.br
+.B "groff \-m\ me"
+[ options ]
+file ...
+.
+.
+.\" --------------------------------------------------------------------
+.SH DESCRIPTION
+.\" --------------------------------------------------------------------
+.
+This manual page describes the GNU version of the \-me macros,
+which is part of the groff document formatting system.
+.
+This version can be used with both GNU troff and Unix troff.
+.
+This package of
+.I troff
+macro definitions provides a canned formatting
+facility for technical papers in various formats.
+.
+.
+.PP
+The macro requests are defined below.
+.
+Many
+.I troff
+requests are unsafe in conjunction with this package, however, these
+requests may be used with impunity after the first \&.pp:
+.TS
+l l.
+\&.bp	begin new page
+\&.br	break output line here
+\&.sp n	insert n spacing lines
+\&.ls n	(line spacing) n=1 single, n=2 double space
+\&.na	no alignment of right margin
+\&.ce n	center next n lines
+\&.ul n	underline next n lines
+.TE
+.PP
+Output of the
+.I pic,
+.I eqn,
+.I refer,
+and
+.I tbl
+preprocessors
+is acceptable as input.
+.
+.
+.\" --------------------------------------------------------------------
+.SH FILES
+.\" --------------------------------------------------------------------
+.
+/usr/share/groff/1.21/tmac/me.tmac (a wrapper file for e.tmac)
+.br
+/usr/share/groff/1.21/tmac/e.tmac
+.
+.
+.\" --------------------------------------------------------------------
+.SH "SEE ALSO"
+.\" --------------------------------------------------------------------
+.
+.BR groff (1),
+.BR troff (1)
+.br
+\-me Reference Manual, Eric P.\& Allman
+.br
+Writing Papers with Groff Using \-me
+.
+.
+.\" --------------------------------------------------------------------
+.SH REQUESTS
+.\" --------------------------------------------------------------------
+.
+This list is incomplete;
+see
+.I "The \-me Reference Manual"
+for interesting details.
+.
+.
+.PP
+.na
+.TS
+l l l lx.
+Request	Initial	Causes	Explanation
+	Value	Break
+_
+\&.(c	\-	yes	T{
+Begin centered block
+T}
+\&.(d	\-	no	T{
+Begin delayed text
+T}
+\&.(f	\-	no	Begin footnote
+\&.(l	\-	yes	Begin list
+\&.(q	\-	yes	T{
+Begin major quote
+T}
+\&.(x \fIx\fR	\-	no	T{
+Begin indexed item in index
+T}
+\&.(z	\-	no	T{
+Begin floating keep
+T}
+\&.)c	\-	yes	T{
+End centered block
+T}
+\&.)d	\-	yes	T{
+End delayed text
+T}
+\&.)f	\-	yes	End footnote
+\&.)l	\-	yes	End list
+\&.)q	\-	yes	T{
+End major quote
+T}
+\&.)x	\-	yes	T{
+End index item
+T}
+\&.)z	\-	yes	T{
+End floating keep
+T}
+\&.++ \fIm H\fR	\-	no	T{
+Define paper section.
+.I m
+defines the part of the paper, and can be
+.B C
+(chapter),
+.B A
+(appendix),
+.B P
+(preliminary, e.g., abstract, table of contents, etc.),
+.B B
+(bibliography),
+.B RC
+(chapters renumbered from page one each chapter),
+or
+.B RA
+(appendix renumbered from page one).
+T}
+\&.+c \fIT\fR	\-	yes	T{
+Begin chapter (or appendix, etc., as
+set by \&.++).
+.I T
+is the chapter title.
+T}
+\&.1c	1	yes	T{
+One column format on a new page.
+T}
+\&.2c	1	yes	T{
+Two column format.
+T}
+\&.EN	\-	yes	T{
+Space after equation
+produced by
+.I eqn
+or
+.IR neqn .
+T}
+\&.EQ \fIx y\fR	\-	yes	T{
+Precede equation; break out and
+add space.
+Equation number is
+.IR y .
+The optional argument \fIx\fR
+may be
+.I I
+to indent equation (default),
+.I L
+to left-adjust the equation, or
+.I C
+to center the equation.
+T}
+\&.GE	\-	yes	T{
+End \fIgremlin\fP picture.
+T}
+\&.GS	\-	yes	T{
+Begin \fIgremlin\fP picture.
+T}
+\&.PE	\-	yes	T{
+End \fIpic\fP picture.
+T}
+\&.PS	\-	yes	T{
+Begin \fIpic\fP picture.
+T}
+\&.TE	\-	yes	End table.
+\&.TH	\-	yes	T{
+End heading section of table.
+T}
+\&.TS \fIx\fR	\-	yes	T{
+Begin table; if \fIx\fR is
+.I H
+table has repeated heading.
+T}
+\&.b \fIx\fR	no	no	T{
+Print
+.I x
+in boldface; if no argument switch to boldface.
+T}
+\&.ba \fI+n\fR	0	yes	T{
+Augments the base indent by
+.I n.
+This indent is used to set the indent on regular text
+(like paragraphs).
+T}
+\&.bc	no	yes	T{
+Begin new column
+T}
+\&.bi \fIx\fR	no	no	T{
+Print
+.I x
+in bold italics (nofill only)
+T}
+\&.bu	\-	yes	T{
+Begin bulleted paragraph
+T}
+\&.bx \fIx\fR	no	no	T{
+Print \fIx\fR in a box (nofill only).
+T}
+\&.ef \fI\'x\'y\'z\'\fR	\'\'\'\'	no	T{
+Set even footer to x  y  z
+T}
+\&.eh \fI\'x\'y\'z\'\fR	\'\'\'\'	no	T{
+Set even header to x  y  z
+T}
+\&.fo \fI\'x\'y\'z\'\fR	\'\'\'\'	no	T{
+Set footer to x  y  z
+T}
+\&.hx	\-	no	T{
+Suppress headers and footers on next page.
+T}
+\&.he \fI\'x\'y\'z\'\fR	\'\'\'\'	no	T{
+Set header to x  y  z
+T}
+\&.hl	\-	yes	T{
+Draw a horizontal line
+T}
+\&.i \fIx\fR	no	no	T{
+Italicize
+.I x;
+if
+.I x
+missing, italic text follows.
+T}
+\&.ip \fIx y\fR	no	yes	T{
+Start indented paragraph,
+with hanging tag
+.IR x .
+Indentation is
+.I y
+ens (default 5).
+T}
+\&.lp	yes	yes	T{
+Start left-blocked paragraph.
+T}
+\&.np	1	yes	T{
+Start numbered paragraph.
+T}
+\&.of \fI\'x\'y\'z\'\fR	\'\'\'\'	no	T{
+Set odd footer to x  y  z
+T}
+\&.oh \fI\'x\'y\'z\'\fR	\'\'\'\'	no	T{
+Set odd header to x  y  z
+T}
+\&.pd	\-	yes	T{
+Print delayed text.
+T}
+\&.pp	no	yes	T{
+Begin paragraph.
+First line indented.
+T}
+\&.r	yes	no	T{
+Roman text follows.
+T}
+\&.re	\-	no	T{
+Reset tabs to default values.
+T}
+\&.sh \fIn x\fR	\-	yes	T{
+Section head follows,
+font automatically bold.
+.I n
+is level of section,
+.I x
+is title of section.
+T}
+\&.sk	no	no	T{
+Leave the next page blank.
+Only one page is remembered ahead.
+T}
+\&.sm \fIx\fR	\-	no	T{
+Set
+.I x
+in a smaller pointsize.
+T}
+\&.sz \fI+n\fR	10p	no	T{
+Augment the point size by
+.I n
+points.
+T}
+\&.tp	no	yes	T{
+Begin title page.
+T}
+\&.u \fIx\fR	\-	no	T{
+Underline argument (even in \fItroff\fR).
+(Nofill only).
+T}
+\&.uh	\-	yes	T{
+Like .sh but unnumbered.
+T}
+\&.xp \fIx\fR	\-	no	Print index.
+.TE
+.ad
+
+.
+.\" Local Variables:
+.\" mode: nroff
+.\" tab-with: 20
+.\" End:

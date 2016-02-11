@@ -1,0 +1,11 @@
+Package: apt.1nternist.mobileterminal-applesdk7
+Name: MobileTerminal (iOS7)
+Version: 520-4
+Architecture: iphoneos-arm
+Conflicts: mobileterminal-applesdk, apt.1nternist.mobileterminal, apt.1nternist.mobileterminalplus, apt.1nternist.mobileterminalios7
+Replaces: mobileterminal-applesdk, apt.1nternist.mobileterminal, apt.1nternist.mobileterminalplus, apt.1nternist.mobileterminalios7
+Description: MobileTerminal with iOS 7 and 4” screen support
+Maintainer: Chir0student <chir0student@me.com>
+Author: Fr0st
+Sponsor: Chir0student <chir0student@me.com>
+Section: Terminal Support

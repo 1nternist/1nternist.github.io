@@ -1,0 +1,17 @@
+Architecture: iphoneos-arm
+Author: idotce <idotce@gmail.com>
+Conflicts: groff-base, groff, org.thebigboss.groff-base
+Replaces: groff-base, groff, org.thebigboss.groff-base
+Provides: groff-base, groff, org.thebigboss.groff-base
+Depends: firmware (>= 4.0)
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=groffbaseDp
+Description: typesetting system for formatted output.
+dev: idotce
+Installed-Size: 20116
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: groff
+Package: apt.1nternist.groff-base
+Section: Development
+Sponsor: 1nternist.github.io <https://github.com/dc1nternist/1nternist.github.io>
+Tag: purpose::console, role::developer
+Version: 1.22.3-2

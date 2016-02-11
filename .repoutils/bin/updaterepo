@@ -49,7 +49,7 @@ echo " `sha256sum Packages | cut -d ' ' -f1` `stat --format=%s Packages` Package
 echo " `sha256sum Packages.bz2 | cut -d ' ' -f1` `stat --format=%s Packages.bz2` Packages.bz2" >> Release
 echo " `sha256sum Packages.gz | cut -d ' ' -f1` `stat --format=%s Packages.gz` Packages.gz" >> Release
 #gpg -abs -u dc1nternist -o Release.gpg Release
-gpg --passphrase-file $utils/share/keys/pass --batch -abs -u dc1nternist -o Release.gpg Release
+gpg --passphrase-file /usr/share/keyrings/passwd/github --batch -abs -u dc1nternist -o Release.gpg Release
 }
 
 function pushupdate () {
@@ -63,10 +63,11 @@ wait
 git push origin master
 }
 
-scanpkgs &> "$SCANLOG"
-wait
-signpkgs &> "$SIGNLOG"
-wait
+#scanpkgs &> "$SCANLOG"
+#wait
+#signpkgs &> "$SIGNLOG"
+#wait
+$utils/bin/compile-repo &> $SCANLOG || exit 1
 pushupdate &> "$SYNCLOG"
 wait
 

@@ -1,0 +1,15 @@
+#!/bin/sh
+
+killall $CFBundleName
+
+export $CFBundleName_INFO_PLIST="/Applications/AppName.app/Info.plist"
+export $CFBundleName_BAK_PLIST="/Applications/AppName.app/Info.plist.bak"
+
+cp $CFBundleName_INFO_PLIST $CFBundleName_BAK_PLIST
+
+plutil -key "CFBundleURLTypes" -array $CFBundleName_INFO_PLIST
+plutil -key "CFBundleURLTypes" -arrayadd -type json -value '{"CFBundleURLName":"com.somecompany.somebundle.scheme", "CFBundleURLSchemes":["bundle-urlscheme"]}' $CFBundleName_INFO_PLIST
+
+echo "Modified Info.plist file of $CFBundleName"
+echo " "
+echo "IF $CFBundleName IS UPDATED/REINSTALLED, PLEASE RE-INSTALL $CFBundleName URL SCHEME ENABLER."

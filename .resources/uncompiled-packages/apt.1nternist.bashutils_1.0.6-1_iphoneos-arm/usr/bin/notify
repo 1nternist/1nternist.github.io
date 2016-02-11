@@ -1,0 +1,61 @@
+#!/usr/bin/env node
+function help(){
+    console.log("Usage: notify [options]");
+    console.log("Options:");
+    console.log("  [h]eader - The title for the alert.");
+    console.log("  [m]essage - The message to display.");
+    console.log("  [d]efaultButton - The default/first button. You can pass none and no default button will be shown.");
+    console.log("  [a]lternateButton - The second/alternate button.");
+    console.log("  [o]therButton - The third button.");
+    console.log("  [t]imeout - The timeout for the alert.");
+    console.log("Example:");
+    console.log('  notify -h "Helloworld" -m "Bash Utils is Cool" -d "I Know" -a "Maybe" -o "Not Really" -t 5');
+    console.log("Returns:");
+    console.log('  notify will return the id of the button that was pressed on the alert... or 3 if the alert timed out...');
+    process.exit();
+}
+
+var argv = require('optimist').argv;
+
+//Help
+if( process.argv.length == 2 ){
+    help();
+}
+
+var options = {}
+
+//Get the Title
+if(argv["h"]){
+    options.header = argv["h"];
+}
+//Get the Message
+if(argv["m"]){
+    options.message = argv["m"];
+}
+//Get the first button
+if(argv["d"]){
+    if(argv["d"] != "none"){
+	options.defaultButton = argv["d"];
+    }
+}
+//Get the alternate button
+if(argv["a"]){
+    options.alternateButton = argv["a"];
+}
+//Get the other button
+if(argv["o"]){
+    options.otherButton = argv["o"];
+}
+//Get the timeout
+if(argv["t"]){
+    options.timeout = parseInt(argv["t"]);
+}
+
+var iOS = require('node-iOS');
+
+iOS.createNotification(options, function(a,b){
+    console.log((b.options));
+    process.exit();
+});
+
+

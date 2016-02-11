@@ -1,0 +1,10 @@
+Package: apt.1nternist.ininjasrep-list
+Version: 1.0
+Section: MyRepoSpace.com
+Maintainer: chir0student <chir0student@me.com>
+Architecture: iphoneos-arm
+Description: iNinjas Repo is for ADVANCED hacker only!!
+Sponsor: myRepoSpace.com <http://www.myrepospace.com/>
+Name: iNinjas Repo
+Depiction: http://www.myrepospace.com/
+Author: chir0student

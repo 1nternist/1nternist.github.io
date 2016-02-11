@@ -1,0 +1,8 @@
+#!/bin/sh
+
+chown -R root:wheel /System/Library/Frameworks/Reveal.framework
+chmod -R 755 /System/Library/Frameworks/Reveal.framework
+chown root:wheel /Library/MobileSubstrate/DynamicLibraries/libReveal.dylib
+chmod 755 /Library/MobileSubstrate/DynamicLibraries/libReveal.dylib
+chown root:wheel /Library/MobileSubstrate/DynamicLibraries/libReveal.plist
+chmod 644 /Library/MobileSubstrate/DynamicLibraries/libReveal.plist

@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+var iOS = require("node-iOS");
+
+iOS.vibrate();

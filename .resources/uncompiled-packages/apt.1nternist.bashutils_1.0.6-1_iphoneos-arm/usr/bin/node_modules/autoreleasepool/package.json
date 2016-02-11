@@ -1,0 +1,22 @@
+{
+  "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
+  "name": "autoreleasepool",
+  "description": "A very simple wrapper around the OS X NSAutoreleasePool",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TooTallNate/node-autoreleasepool.git"
+  },
+  "main": "./index.js",
+  "directories": {
+    "lib": "."
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "preinstall": "node-waf clean || true; node-waf configure build"
+  }
+}

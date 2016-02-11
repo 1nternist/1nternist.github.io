@@ -1,0 +1,164 @@
+<html><head>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+<style>
+
+body {
+	margin: 0;
+
+	padding: 0;
+
+	height: 568px;
+
+	width: 320px;
+
+}
+
+
+
+img {
+
+-webkit-transition-property: opacity;
+
+-webkit-transition-duration: 0s;
+
+position: absolute;
+
+width: 320px;
+
+height: auto;
+
+}
+
+
+
+img.fade-out {
+
+opacity: 0;
+
+}
+
+
+
+img.fade-in {
+
+opacity: 1;
+
+}
+
+</style>
+
+</head>
+
+<body style="color: black">
+
+
+<img src="/var/mobile/Library/SpringBoard/Converted-LockBackground.jpg"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+// Displays each <img> once in random order before
+
+// randomizing the list again.
+
+// Just add an <img> tag with your filename to add a pic,
+
+// and change interval to control the cycle speed.
+
+
+
+var interval =1 * 5; // Seconds between change
+
+
+
+var images = document.getElementsByTagName("img");
+
+var imageArray = [];
+
+var imageCount = images.length;
+
+var current = 0;
+
+
+
+var randomize = function(){
+
+return (Math.round(Math.random() * 3 - 1.5));
+
+}
+
+
+
+for(var i = 0; i < imageCount; i++){
+
+images[i].className = 'fade-out';
+
+imageArray[i] = images[i];
+
+}
+
+imageArray.sort(randomize);
+
+
+
+var fade = function(){
+
+
+
+imageArray[current++].className = 'fade-out';
+
+if(current == imageCount){
+
+current = 0;
+
+imageArray.sort(randomize);
+
+}
+
+imageArray[current].className = 'fade-in';
+
+
+
+setTimeout(fade, interval * 1000);
+
+};
+
+
+
+fade();
+
+</script>
+
+
+
+</body></html>
+
+<!-- saved from url=(0022)http://internet.e-mail -->
+
+
+
+<html><head>
+
+
+
+
+
+

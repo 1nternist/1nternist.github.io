@@ -1,0 +1,8 @@
+Architecture: iphoneos-arm
+Author: Chir0student <chir0student@me.com>
+Description: A patchwork of many that formed a final product of iOS 7 Sequelae. For the dock to work you need to install Wallpaper JPEGifier from Cydia, set your wallpaper, then respring. Works on all devices!
+Maintainer: Chir0student <chir0student@me.com>
+Name: iOS 7 Sequelae
+Package: apt.1nternist.ios7sequelae
+Section: Themes - chir0student
+Version: 1.3.1

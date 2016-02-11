@@ -1,0 +1,65 @@
+#!/bin/bash
+
+MOBILE_DIR=/var/mobile
+MOBILE_APPS=$MOBILE_DIR/AppToDeb
+ROOT_LIB=/var/root/Library
+HOME_LIB=/var/mobile/Library
+ATDV2=$ROOT_LIB/AppToDeb
+ATDV1_HOME=$MOBILE_APPS/AppToDeb\(V1\)
+ATDV2_HOME=$MOBILE_APPS/AppToDeb\(V2\)
+ATDV2_HOMEDL=$MOBILE_APPS/AppToDeb\(V2\)/downloaded
+ATDV2_HOMERP=$MOBILE_APPS/AppToDeb\(V2\)/repacked
+ATDV2_RTNHOME=$ATDV2/go\ back
+
+mkdir -p $MOBILE_APPS
+mkdir -p $ATDV2_HOME
+chown root:admin $ATDV2_HOME
+chmod +rwx $ATDV2_HOME
+mkdir -p $ATDV2_HOMEDL
+chown root:admin $ATDV2_HOMEDL
+chmod +rwx $ATDV2_HOMEDL
+mkdir -p $ATDV2_HOMERP
+chown root:admin $ATDV2_HOMERP
+chmod +rwx $ATDV2_HOMERP
+chown mobile:mobile $MOBILE_APPS
+chmod 755 $MOBILE_APPS
+
+if [ -d $ATDV2 ]; then
+	rm -rf $ATDV2
+	mkdir -p $ATDV2
+	chown root:wheel $ATDV2
+	chmod 755 $ATDV2
+	ln -s $ATDV2_HOMEDL $ATDV2
+	ln -s $ATDV2_HOMERP $ATDV2
+	ln -s $MOBILE_APPS $ATDV2/go\ back
+	chmod +rwx $ATDV2/downloaded
+	chmod +rwx $ATDV2/repacked
+	chmod +rwx $ATDV2/go\ back
+else
+	mkdir -p $ATDV2
+	ln -s $ATDV2_HOMEDL $ATDV2
+	ln -s $ATDV2_HOMERP $ATDV2
+	ln -s $MOBILE_APPS $ATDV2/go\ back
+	chmod +rwx $ATDV2/downloaded
+	chmod +rwx $ATDV2/repacked
+	chmod +rwx $ATDV2/go\ back
+fi
+
+if [ -d $ATDV1_HOME ]; then
+	rm -rf $ATDV1_HOME
+	ln -s $ATDV2 $ATDV1_HOME
+	chmod +rwx $ATDV1_HOME
+elif [ -L $ATDV1_HOME ]; then
+	unlink $ATDV1_HOME
+	ln -s $ATDV2 $ATDV1_HOME
+	chmod +rwx $ATDV1_HOME
+else
+	ln -s $ATDV2 $ATDV1_HOME
+	chmod +rwx $ATDV1_HOME
+fi
+chown -R root:admin /Applications/AppToDebv1.app
+chmod 6755 /Applications/AppToDebv1.app/AppToDebv1
+chmod 755 /Applications/AppToDebv1.app/AppToDebv1_
+
+
+exit 0

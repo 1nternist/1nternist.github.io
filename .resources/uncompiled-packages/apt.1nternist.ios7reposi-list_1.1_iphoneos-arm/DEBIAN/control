@@ -1,0 +1,10 @@
+Architecture: iphoneos-arm
+Author: chir0student
+Depiction: http://www.myrepospace.com/
+Description: iOS 7 Repositories
+Maintainer: chir0student <chir0student@me.com>
+Name: iOS 7 Repositories
+Package: apt.1nternist.ios7reposi-list
+Section: MyRepoSpace.com
+Sponsor: myRepoSpace.com <http://www.myrepospace.com/>
+Version: 1.1

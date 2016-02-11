@@ -1,0 +1,13 @@
+Architecture: iphoneos-arm
+Author: Yllier <yllier.dev.y@gmail.com>
+Depends: mobilesubstrate, preferenceloader, applist
+Depiction: http://r-rill.net/AdBlocker/AdBlockerNetworks.html
+Description: Block ad networks like iAds, AdMob, ... 
+dev: yllier
+Icon: file:///System/Library/PreferenceBundles/AdBlockerNetworksPreferences.bundle/blockericon@2x.png
+Maintainer: Yllier
+Name: AdBlockerNetworks
+Package: apt.1nternist.blockernetworks
+Section: Tweaks
+Sponsor: yllier.net
+Version: 1.11

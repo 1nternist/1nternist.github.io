@@ -1,0 +1,40 @@
+#!/bin/bash
+if [[ $1 == "--help" ]] 
+then
+echo "pcentcomp ~iJunkie22 ~insanelyi.com"
+echo "usage:"
+echo "pcentcomp [counter var] [total var] "
+echo "For Example, go to http://pastie.org/private/qs01hbjsq5azsir5ndea or run "pcentcomp --ex" "
+
+exit
+fi
+
+if [[ $1 == "--ex" ]] 
+then
+sbopenurl "http://pastie.org/private/qs01hbjsq5azsir5ndea"
+
+exit
+fi
+k=$1
+j=$2
+
+e=$(( k * 10000 ))
+$(( M = e / j ))
+b="10000"
+$(( N = b - M ))
+if [[ ${#N} == 1 ]] 
+then
+    N="000$N"
+fi
+if [[ ${#N} == 2 ]] 
+then
+    N="00$N"
+fi
+if [[ ${#N} == 3 ]] 
+then
+    N="0$N"
+fi
+
+last2=${N:2:2}
+first2=${N:0:2}
+echo  "$first2.$last2% Left"
