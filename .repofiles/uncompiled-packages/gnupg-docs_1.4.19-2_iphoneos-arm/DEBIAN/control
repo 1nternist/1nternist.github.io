@@ -8,4 +8,4 @@ Package: gnupg-docs
 Priority: optional
 Tag: purpose::console role::hacker
 Section: Security
-Version: 1.4.19-1
+Version: 1.4.19-2

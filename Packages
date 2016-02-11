@@ -1947,15 +1947,15 @@ Author: chir0student
 Depiction: http://www.myrepospace.com/
 
 Package: gnupg-docs
-Version: 1.4.19-1
+Version: 1.4.19-2
 Priority: optional
 Section: Security
 Maintainer: dc1nternist <dc1nternist@icloud.com>
 Depends: gnupg
 Architecture: iphoneos-arm
-Filename: debs/gnupg-docs_1.4.19-1_iphoneos-arm.deb
-Size: 1281470
-SHA256: 6dd8f29fd12cd64b2c353609298723fc75f7483abcf086f70464f3ac733728c6
+Filename: debs/gnupg-docs_1.4.19-2_iphoneos-arm.deb
+Size: 1281482
+SHA256: fe17fbd1fa3cead1a59752c4ddcc2b3b78986012d64403a0472548ffdc33e9f2
 Description: Documentation for GNU Privacy Guard.
 Name: gpg-docs
 Homepage: http://www.gnupg.org/
