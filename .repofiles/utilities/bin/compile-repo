@@ -23,17 +23,17 @@ sub md5sum {
 }
 
 # build packages into debs/ 
-system("chmod -R 0755 .resources/uncompiled-packages/");
+system("chmod -R 0755 .repofiles/uncompiled-packages/");
 
-my $directory = '.resources/uncompiled-packages/';
+my $directory = '.repofiles/uncompiled-packages/';
 opendir (DIR, $directory) or die $!;
 while (my $file = readdir(DIR)) {
-	system("dpkg-deb -b .resources/uncompiled-packages/".$file." debs/".$file.".deb");
+	system("dpkg-deb -b .repofiles/uncompiled-packages/".$file." debs/".$file.".deb");
 }
 closedir(DIR);
 
 # scan the packages and write output to file Packages 
-system(".repoutils/bin/dpkg-scanpackages -m debs /dev/null > Packages");
+system(".repofiles/utilities/bin/dpkg-scanpackages -m debs /dev/null > Packages");
 
 # bzip2 it to a new file 
 system("bzip2 -fks < Packages > Packages.bz2");
@@ -42,7 +42,7 @@ system("bzip2 -fks < Packages > Packages.bz2");
 system("gzip -f < Packages > Packages.gz");
 
 # scan again because we zipped the original file  
-##system("dpkg-scanpackages deb / > Packages");
+##system("dpkg-scanpackages debs / > Packages");
 
 # calculate the hashes and write to Release  
 system("cp Release-Template Release");

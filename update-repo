@@ -1,6 +1,7 @@
 #!/bin/bash
 
 REPO="/var/mobile/Developer/Github/1nternist.github.io"
+UTILS="$REPO/.repofiles/utilities/bin"
 
 
-sh $REPO/.repoutils/bin/updaterepo
+sh $UTILS/updaterepo

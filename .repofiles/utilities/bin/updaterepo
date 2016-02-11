@@ -5,8 +5,7 @@ LOGD=$REPO/log
 SCANLOG=$LOGD/scanlog.log
 SIGNLOG=$LOGD/signlog.log
 SYNCLOG=$LOGD/git-sync.log
-#ws="`cd $REPO && pwd`"
-utils="$REPO/.repoutils"
+utils="$REPO/.repofiles/utilities"
 export PATH="$utils/bin:$PATH"
 
 
