@@ -70,8 +70,8 @@ wait
 pushupdate &> "$SYNCLOG"
 wait
 
-echo "###############################################"
-echo "#  Repository has beenupdated successfully.   #"
-echo "#  Please open Cydia and refresh your sources.#"
-echo "###############################################"
+echo "################################################"
+echo "#  Repository has been updated successfully.   #"
+echo "#  Please open Cydia and refresh your sources. #"
+echo "################################################"
 
