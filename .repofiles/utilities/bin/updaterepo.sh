@@ -25,7 +25,6 @@ echo "Signing Release with gpg..."
 rm -rf Release
 rm -rf Release.gpg
 cp Release-Template Release
-wait
 #echo "Origin: 1nternist Repo" > Release
 #echo "Label: 1nternist.github.io" >> Release
 #echo "Suite: stable" >> Release
