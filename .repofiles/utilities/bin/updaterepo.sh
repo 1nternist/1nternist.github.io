@@ -66,8 +66,6 @@ scanpkgs 2> "$SCANLOG"
 wait
 signpkgs 2> "$SIGNLOG"
 wait
-#$utils/bin/compile-repo 2> $SCANLOG || exit 1
-wait
 pushupdate 2> $SYNCLOG
 wait
 
