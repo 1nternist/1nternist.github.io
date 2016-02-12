@@ -25,6 +25,9 @@ sub md5sum {
 # build packages into debs/ 
 system("chmod -R 0755 .repofiles/uncompiled-packages/");
 
+# remove Packages file
+system("rm -rf Packages*");
+
 my $directory = '.repofiles/uncompiled-packages/';
 opendir (DIR, $directory) or die $!;
 while (my $file = readdir(DIR)) {

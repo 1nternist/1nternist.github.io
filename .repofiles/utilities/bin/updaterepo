@@ -52,22 +52,23 @@ gpg --passphrase-file /usr/share/keyrings/passwd/github --batch -abs -u dc1ntern
 }
 
 function pushupdate () {
-cd $REPO
-git add .
-wait
-git status
-wait
-git commit -m "Repository update"
-wait
-git push origin master
+cd "$REPO"
+git add . &> $SYNCLOG
+sleep 2
+git status &>> $SYNCLOG
+sleep 1
+git commit -m "Repository update" &>> $SYNCLOG
+sleep 2
+git push origin master &>> $SYNCLOG
 }
 
 #scanpkgs &> "$SCANLOG"
 #wait
 #signpkgs &> "$SIGNLOG"
 #wait
-$utils/bin/compile-repo &> $SCANLOG || exit 1
-pushupdate &> "$SYNCLOG"
+$utils/bin/compile-repo 2> $SCANLOG || exit 1
+sleep 2
+pushupdate
 wait
 
 echo "################################################"
