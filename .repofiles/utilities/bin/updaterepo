@@ -8,7 +8,7 @@ SIGNLOG=$LOGD/signlog.log
 SYNCLOG=$LOGD/git-sync.log
 UTILS="$REPO/.repofiles/utilities/bin"
 BUILD="$REPO/.repofiles/uncompiled-packages"
-ARCHIVE="REPO/.repofiles/compiled-packages"
+ARCHIVE="$REPO/.repofiles/compiled-packages"
 DATE=$(date '+%m-%d-%Y %H:%M:%S')
 export PATH="$UTILS:$PATH"
 
@@ -17,9 +17,8 @@ echo "Building packages..."
 for PkgDir in `ls $BUILD`; do
   dpkg-deb -b $BUILD/"${PkgDir%%/}" $REPO/debs/"${PkgDir%%/}".deb &>> $BUILDLOG
 done
-for i in `ls $BUILD`; do
-  mv -f $BUILD/"${i%%/}" $ARCHIVE 2>> $BUILDLOG
-done
+sleep 1
+mv -f $BUILD/* $ARCHIVE
 }
 
 function scanpkgs () {

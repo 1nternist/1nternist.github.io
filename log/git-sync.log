@@ -4,10 +4,46 @@ Changes not staged for commit:
   (use "git add/rm <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
-	modified:   .repofiles/utilities/bin/compile-repo
-	deleted:    .repofiles/utilities/bin/compile-repo-test.pl
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/DEBIAN/control
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/gnupg/gpg-FAQ
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/gnupg/options.skel
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/info/gnupg1.info
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/be/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/ca/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/cs/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/da/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/de/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/el/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/en@boldquot/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/en@quot/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/eo/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/es/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/et/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/fi/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/fr/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/gl/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/hu/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/id/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/it/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/ja/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/locale.alias
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/nb/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/nl/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/pl/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/pt/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/pt_BR/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/ro/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/ru/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/sk/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/sv/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/tr/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/uk/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/zh_CN/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/locale/zh_TW/LC_MESSAGES/gnupg.mo
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/man/man1/gpg-zip.1
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/man/man1/gpg.1
+	deleted:    .repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/man/man1/gpgv.1
 	modified:   .repofiles/utilities/bin/updaterepo
-	deleted:    .repofiles/utilities/bin/updaterepo.old
 	modified:   Packages
 	modified:   Packages.bz2
 	modified:   Packages.gz
@@ -15,8 +51,10 @@ Changes not staged for commit:
 	modified:   Release.gpg
 	modified:   debs/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm.deb
 	modified:   log/git-sync.log
-	deleted:    log/scanlog.log
-	modified:   update-repo
-	deleted:    update-repo-test
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.repofiles/compiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/
 
 no changes added to commit (use "git add" and/or "git commit -a")
