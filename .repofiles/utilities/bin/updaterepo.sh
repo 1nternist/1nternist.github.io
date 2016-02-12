@@ -25,16 +25,6 @@ echo "Signing Release with gpg..."
 rm -rf Release
 rm -rf Release.gpg
 cp Release-Template Release
-#echo "Origin: 1nternist Repo" > Release
-#echo "Label: 1nternist.github.io" >> Release
-#echo "Suite: stable" >> Release
-#echo "Version: 1.0" >> Release
-#echo "Codename: dc1nternist" >> Release
-#echo "Architectures: iphoneos-arm" >> Release
-#echo "Components: main" >> Release
-#echo "Description: 1nternist's Cydia repository on GitHub!" >> Release
-#echo "Support: 1nternist <dc1nternist@icloud.com>" >> Release
-#echo "MD5Sum:" >> Release
 echo " `md5sum Packages | cut -d ' ' -f1` `stat --format=%s Packages` Packages" >> Release
 echo " `md5sum Packages.bz2 | cut -d ' ' -f1` `stat --format=%s Packages.bz2` Packages.bz2" >> Release
 echo " `md5sum Packages.gz | cut -d ' ' -f1` `stat --format=%s Packages.gz` Packages.gz" >> Release
