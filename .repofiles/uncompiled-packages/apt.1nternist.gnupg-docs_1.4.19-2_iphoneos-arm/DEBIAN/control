@@ -4,8 +4,8 @@ Description: Documentation for GNU Privacy Guard.
 Homepage: http://www.gnupg.org/
 Maintainer: dc1nternist <dc1nternist@icloud.com>
 Name: gpg-docs
-Package: gnupg-docs
+Package: apt.1nternist.gnupg-docs
 Priority: optional
-Tag: purpose::console role::hacker
+Tag: purpose::console role::developer
 Section: Security
 Version: 1.4.19-2

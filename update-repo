@@ -4,4 +4,4 @@ REPO="/var/mobile/Developer/Github/1nternist.github.io"
 UTILS="$REPO/.repofiles/utilities/bin"
 
 
-sh $UTILS/updaterepo
+sh $UTILS/updaterepo.sh

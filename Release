@@ -8,6 +8,14 @@ Components: main
 Description: 1nternist's Cydia repository on GitHub!
 Support: 1nternist <dc1nternist@icloud.com>
 MD5Sum:
-53224fd586a587d3c84f7c04a9e381fd 78957 Packages
-df4f3448e7e04a940da523592ef9577e 21033 Packages.gz
-04eb01172cebcfdc90e49fe6505955a3 18500 Packages.bz2
+ 53224fd586a587d3c84f7c04a9e381fd 78957 Packages
+ 3ae17b018089c88480b60d6cd0dd5897 18500 Packages.bz2
+ 7f0f061b5fe9e69c442afc09bfd482f4 21033 Packages.gz
+SHA1:
+ 8f44e737e45ef041391c118efb65ce83a3f3cd4a 78957 Packages
+ c7b3a7ce0925c8a5f5b14f07debedf4db2e3d815 18500 Packages.bz2
+ 5c3cf660eb1aad12edb28d54e74f5165384800b5 21033 Packages.gz
+SHA256:
+ 8db254973ce06fe6219065ab1a942e9427eb616eb0946e63fdb7e57df04d8c79 78957 Packages
+ 69dcc8bafc7bce3567c1afe592af4b6258d77b98505e1c13a9590d5f17ba8ac6 18500 Packages.bz2
+ 635206a578e812d7cb7453f2c3a86fc35ff5276e7337f6ace87dfb8504d3b36d 21033 Packages.gz
