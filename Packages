@@ -641,6 +641,20 @@ Description: GNU Make
 Name: GNU Make
 Author: CoolStar
 
+Package: apt.1nternist.gnupg-docs
+Version: 1.4.19-2
+Priority: optional
+Section: Security
+Maintainer: dc1nternist <dc1nternist@icloud.com>
+Depends: gnupg
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm.deb
+Size: 1281490
+SHA256: 8cc63995537f186133f45b958756b009a50169f3c69d2078fa5bce579f76f556
+Description: Documentation for GNU Privacy Guard.
+Name: gpg-docs
+Homepage: http://www.gnupg.org/
+
 Package: apt.1nternist.groff-base
 Version: 1.22.3-2
 Section: Development
@@ -1945,20 +1959,6 @@ Description: Zeusmos Repo (Installous Alternative)
 Name: Zeusmos Repo
 Author: chir0student
 Depiction: http://www.myrepospace.com/
-
-Package: gnupg-docs
-Version: 1.4.19-2
-Priority: optional
-Section: Security
-Maintainer: dc1nternist <dc1nternist@icloud.com>
-Depends: gnupg
-Architecture: iphoneos-arm
-Filename: debs/gnupg-docs_1.4.19-2_iphoneos-arm.deb
-Size: 1281482
-SHA256: e73da42c1268fe7794e51ff492d4b2f4f99df78ab908126f390d0773c0e6a547
-Description: Documentation for GNU Privacy Guard.
-Name: gpg-docs
-Homepage: http://www.gnupg.org/
 
 Package: perl
 Version: 5.22.0-2
