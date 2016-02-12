@@ -1,7 +1,13 @@
 #!/bin/bash
 
+
 REPO="/var/mobile/Developer/Github/1nternist.github.io"
+LOGD=$REPO/log
+SCANLOG=$LOGD/scanlog.log
+SIGNLOG=$LOGD/signlog.log
+SYNCLOG=$LOGD/git-sync.log
 UTILS="$REPO/.repofiles/utilities/bin"
+export PATH="$UTILS:$PATH"
 
-
+sh $UTILS/compile-repo.pl 2> $SCANLOG
 sh $UTILS/updaterepo.sh

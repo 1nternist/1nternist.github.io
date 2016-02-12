@@ -7,6 +7,7 @@ SIGNLOG=$LOGD/signlog.log
 SYNCLOG=$LOGD/git-sync.log
 utils="$REPO/.repofiles/utilities"
 export PATH="$utils/bin:$PATH"
+DATE=$(date '+%m-%d-%Y %H:%M:%S')
 
 
 function scanpkgs () {
@@ -22,12 +23,12 @@ gzip < Packages > Packages.gz
 
 function signpkgs () {
 echo "Signing Release with gpg..."
-rm -rf Release
-rm -rf Release.gpg
-cp Release-Template Release
-echo " `md5sum Packages | cut -d ' ' -f1` `stat --format=%s Packages` Packages" >> Release
-echo " `md5sum Packages.bz2 | cut -d ' ' -f1` `stat --format=%s Packages.bz2` Packages.bz2" >> Release
-echo " `md5sum Packages.gz | cut -d ' ' -f1` `stat --format=%s Packages.gz` Packages.gz" >> Release
+#rm -rf Release
+#rm -rf Release.gpg
+#cp Release-Template Release
+#echo " `md5sum Packages | cut -d ' ' -f1` `stat --format=%s Packages` Packages" >> Release
+#echo " `md5sum Packages.bz2 | cut -d ' ' -f1` `stat --format=%s Packages.bz2` Packages.bz2" >> Release
+#echo " `md5sum Packages.gz | cut -d ' ' -f1` `stat --format=%s Packages.gz` Packages.gz" >> Release
 echo "SHA1:" >> Release
 echo " `sha1sum Packages | cut -d ' ' -f1` `stat --format=%s Packages` Packages" >> Release
 echo " `sha1sum Packages.bz2 | cut -d ' ' -f1` `stat --format=%s Packages.bz2` Packages.bz2" >> Release
@@ -41,21 +42,23 @@ gpg --passphrase-file /usr/share/keyrings/passwd/github --batch -abs -u dc1ntern
 
 function pushupdate () {
 echo "Pushing changes to Github..."
-git add . &> $SYNCLOG
+git status &> $SYNCLOG
+wait
+git add . &>> $SYNCLOG
 wait
 git status &>> $SYNCLOG
 wait
-git commit -m "Package update" &>> $SYNCLOG
+git commit -m "Package update $DATE" &>> $SYNCLOG
 wait
 git push origin master &>> $SYNCLOG
 }
 
-scanpkgs 2> "$SCANLOG"
-wait
+# scanpkgs 2> "$SCANLOG"
+# $utils/bin/compile-repo.pl 2> "$SCANLOG" || exit 1
 signpkgs 2> "$SIGNLOG"
 wait
-#pushupdate 2> $SYNCLOG
-#wait
+pushupdate 2> "$SYNCLOG"
+
 
 echo "##################################"
 echo "#  Repository has been updated.  #"

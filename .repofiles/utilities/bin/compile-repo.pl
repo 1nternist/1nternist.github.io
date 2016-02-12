@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/usr/local/bin/perl
 
 # Author: Patrick Muff <muff.pa@gmail.com>
 # Purpose: Compiles a Cydia repository
@@ -44,10 +44,12 @@ system("bzip2 -fks < Packages > Packages.bz2");
 # gzip it  
 system("gzip -f < Packages > Packages.gz");
 
-# scan again because we zipped the original file  
-##system("dpkg-scanpackages debs / > Packages");
+# scan again because we zipped the original file
+# system("dpkg-scanpackages debs / > Packages");
 
-# calculate the hashes and write to Release  
+# calculate the hashes and write to Release
+system("rm -rf Release.gpg");
+system("rm -rf Release");
 system("cp Release-Template Release");
 open(RLS, ">>Release");
 
@@ -65,10 +67,10 @@ print RLS $output;
 close(RLS);
 
 # remove Release.gpg  
-system("rm -rf Release.gpg");
+# system("rm -rf Release.gpg");
 
 # generate Release.gpg	
-system("gpg --passphrase-file /usr/share/keyrings/passwd/github --batch -abs -u dc1nternist -o Release.gpg Release");
+# system("gpg --passphrase-file /usr/share/keyrings/passwd/github --batch -abs -u dc1nternist -o Release.gpg Release");
 
 
 

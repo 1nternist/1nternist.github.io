@@ -1,0 +1,7 @@
+/var/mobile/Developer/Github/1nternist.github.io/.repofiles/utilities/bin/compile-repo.pl: line 6: use: command not found
+/var/mobile/Developer/Github/1nternist.github.io/.repofiles/utilities/bin/compile-repo.pl: line 8: sub: command not found
+/var/mobile/Developer/Github/1nternist.github.io/.repofiles/utilities/bin/compile-repo.pl: line 9: my: command not found
+/var/mobile/Developer/Github/1nternist.github.io/.repofiles/utilities/bin/compile-repo.pl: line 10: my: command not found
+/var/mobile/Developer/Github/1nternist.github.io/.repofiles/utilities/bin/compile-repo.pl: eval: line 12: syntax error: unexpected end of file
+/var/mobile/Developer/Github/1nternist.github.io/.repofiles/utilities/bin/compile-repo.pl: line 12: syntax error near unexpected token `FILE,'
+/var/mobile/Developer/Github/1nternist.github.io/.repofiles/utilities/bin/compile-repo.pl: line 12: `	open(FILE, $file) or die "Can't find file $file\n";'
