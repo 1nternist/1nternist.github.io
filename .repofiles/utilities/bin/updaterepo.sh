@@ -54,8 +54,8 @@ scanpkgs 2> "$SCANLOG"
 wait
 signpkgs 2> "$SIGNLOG"
 wait
-pushupdate 2> $SYNCLOG
-wait
+#pushupdate 2> $SYNCLOG
+#wait
 
 echo "##################################"
 echo "#  Repository has been updated.  #"
