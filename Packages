@@ -650,7 +650,7 @@ Depends: gnupg
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm.deb
 Size: 1281490
-SHA256: afc9b7398fa515901c3623e5ac16d918398ffd407b54cbaf4dcd433d5035d171
+SHA256: 957d6278e3cd93978c0bd2db006ca5bc52083020dd2550eb95c895b40774f2ba
 Description: Documentation for GNU Privacy Guard.
 Name: gpg-docs
 Homepage: http://www.gnupg.org/

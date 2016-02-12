@@ -3,10 +3,14 @@
 
 REPO="/var/mobile/Developer/Github/1nternist.github.io"
 LOGD=$REPO/log
+BUILDLOG=$LOGD/buildlog.log
 SCANLOG=$LOGD/scanlog.log
 SIGNLOG=$LOGD/signlog.log
 SYNCLOG=$LOGD/git-sync.log
 UTILS="$REPO/.repofiles/utilities/bin"
+BUILD="$REPO/.repofiles/uncompiled-packages"
+ARCHIVE="REPO/.repofiles/compiled-packages"
+DATE=$(date '+%m-%d-%Y %H:%M:%S')
 export PATH="$UTILS:$PATH"
 
 

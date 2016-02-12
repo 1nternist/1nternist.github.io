@@ -26,7 +26,8 @@ sub md5sum {
 system("chmod -R 0755 .repofiles/uncompiled-packages/");
 
 # remove Packages file
-system("rm -rf Packages*");
+system("rm -rf Packages.bz2");
+system("rm -rf Packages.gz");
 
 my $directory = '.repofiles/uncompiled-packages/';
 opendir (DIR, $directory) or die $!;
