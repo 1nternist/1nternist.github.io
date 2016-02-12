@@ -64,14 +64,15 @@ git push origin master &>> $SYNCLOG
 
 scanpkgs 2> "$SCANLOG"
 wait
-signpkgs &> "$SIGNLOG"
+signpkgs 2> "$SIGNLOG"
 wait
 #$utils/bin/compile-repo 2> $SCANLOG || exit 1
 wait
-pushupdate
+pushupdate 2> $SYNCLOG
 wait
 
 echo "##################################"
 echo "#  Repository has been updated.  #"
-echo "#      Please open Cydia and     #" echo "#      refresh your sources.     #"
+echo "#      Please open Cydia and     #" 
+echo "#      refresh your sources.     #"
 echo "##################################"
