@@ -9,5 +9,5 @@ SYNCLOG=$LOGD/git-sync.log
 UTILS="$REPO/.repofiles/utilities/bin"
 export PATH="$UTILS:$PATH"
 
-$UTILS/compile-repo.pl 2> $SCANLOG
-sh $UTILS/updaterepo.sh
+
+sh $UTILS/updaterepo

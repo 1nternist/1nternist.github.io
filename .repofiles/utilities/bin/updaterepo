@@ -5,16 +5,15 @@ LOGD=$REPO/log
 SCANLOG=$LOGD/scanlog.log
 SIGNLOG=$LOGD/signlog.log
 SYNCLOG=$LOGD/git-sync.log
-utils="$REPO/.repofiles/utilities"
-export PATH="$utils/bin:$PATH"
+UTILS="$REPO/.repofiles/utilities/bin"
 DATE=$(date '+%m-%d-%Y %H:%M:%S')
-
+export PATH="$UTILS:$PATH"
 
 function scanpkgs () {
 echo "Scanning packages..."
 rm -rf "Packages.gz" "Packages.bz2" "Packages"
 rm -rf "$LOGD"/*.log
-scanpkg="$utils/bin/dpkg-scanpackages"
+scanpkg="$UTILS/dpkg-scanpackages"
 $scanpkg -m debs /dev/null > Packages
 sed -i '' "s#Filename: debs//#Filename: debs/#g" Packages
 bzip2 -zkf < Packages > Packages.bz2
@@ -54,7 +53,7 @@ git push origin master &>> $SYNCLOG
 }
 
 # scanpkgs 2> "$SCANLOG"
-# $utils/bin/compile-repo.pl 2> "$SCANLOG" || exit 1
+perl $UTILS/compile-repo 2> "$SCANLOG" || exit 1
 signpkgs 2> "$SIGNLOG"
 wait
 pushupdate 2> "$SYNCLOG"
