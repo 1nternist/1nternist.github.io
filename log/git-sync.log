@@ -4,23 +4,12 @@ Changes not staged for commit:
   (use "git add/rm <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
-	deleted:    .repofiles/compiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/gnupg/gpg-FAQ
-	deleted:    .repofiles/compiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/gnupg/options.skel
 	modified:   .repofiles/utilities/bin/updaterepo
-	modified:   Packages
-	modified:   Packages.bz2
 	modified:   Packages.gz
 	modified:   Release
 	modified:   Release.gpg
-	modified:   debs/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm.deb
+	deleted:    log/buildlog.log
 	modified:   log/git-sync.log
-	deleted:    update-repo
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	cyrepo-update
-	log/buildlog.log
-	log/scanlog.log
+	modified:   log/scanlog.log
 
 no changes added to commit (use "git add" and/or "git commit -a")

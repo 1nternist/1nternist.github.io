@@ -36,7 +36,7 @@ echo "Scanning packages..."
 rm -rf "Packages.gz" "Packages.bz2" "Packages"
 scanpkg="$UTILS/dpkg-scanpackages"
 $scanpkg -m debs /dev/null > Packages
-sed -i '' "s#Filename: debs//#Filename: debs/#g" Packages
+sed -i 'Packages' "s#Filename: debs//#Filename: debs/#g"
 bzip2 -zkf < Packages > Packages.bz2
 gzip -f < Packages > Packages.gz
 }

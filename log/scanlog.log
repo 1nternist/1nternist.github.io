@@ -67,4 +67,4 @@
   apt.1nternist.woowizrepo-list apt.1nternist.zeusmosrep-list perl
 
  141 packages written to file.
-sed: can't read s#Filename: debs//#Filename: debs/#g: No such file or directory
+sed: -e expression #1, char 2: extra characters after command
