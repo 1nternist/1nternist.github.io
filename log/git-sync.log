@@ -4,27 +4,23 @@ Changes not staged for commit:
   (use "git add/rm <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
-	deleted:    .repofiles/compiled-packages/apt.1nternist.bashutils_1.0.6-1_iphoneos-arm/DEBIAN/control
-	deleted:    .repofiles/compiled-packages/apt.1nternist.bashutils_1.0.6-1_iphoneos-arm/usr/bin/getdeviceinfo
-	deleted:    .repofiles/compiled-packages/apt.1nternist.bashutils_1.0.6-1_iphoneos-arm/usr/bin/lock
-	deleted:    .repofiles/compiled-packages/apt.1nternist.bashutils_1.0.6-1_iphoneos-arm/usr/bin/node_modules/autoreleasepool/.gitignore
-	deleted:    .repofiles/compiled-packages/apt.1nternist.bashutils_1.0.6-1_iphoneos-arm/usr/bin/node_modules/autoreleasepool/README.md
-	deleted:    .repofiles/compiled-packages/apt.1nternist.bashutils_1.0.6-1_iphoneos-arm/usr/bin/node_modules/autoreleasepool/binding.cc
-	deleted:    .repofiles/compiled-packages/apt.1nternist.bashutils_1.0.6-1_iphoneos-arm/usr/bin/node_modules/autoreleasepool/build.zip
-	deleted:    .repofiles/compiled-packages/apt.1nternist.bashutils_1.0.6-1_iphoneos-arm/usr/bin/node_modules/autoreleasepool/index.js
-	deleted:    .repofiles/compiled-packages/apt.1nternist.bashutils_1.0.6-1_iphoneos-arm/usr/bin/node_modules/autoreleasepool/package.json
-	deleted:    .repofiles/compiled-packages/apt.1nternist.bashutils_1.0.6-1_iphoneos-arm/usr/bin/node_modules/autoreleasepool/wscript
-	deleted:    .repofiles/compiled-packages/apt.1nternist.bashutils_1.0.6-1_iphoneos-arm/usr/bin/node_modules/node-iOS
-	deleted:    .repofiles/compiled-packages/apt.1nternist.bashutils_1.0.6-1_iphoneos-arm/usr/bin/node_modules/optimist
-	deleted:    .repofiles/compiled-packages/apt.1nternist.bashutils_1.0.6-1_iphoneos-arm/usr/bin/node_modules/wordwrap
-	deleted:    .repofiles/compiled-packages/apt.1nternist.bashutils_1.0.6-1_iphoneos-arm/usr/bin/notify
-	deleted:    .repofiles/compiled-packages/apt.1nternist.bashutils_1.0.6-1_iphoneos-arm/usr/bin/quitTop
-	deleted:    .repofiles/compiled-packages/apt.1nternist.bashutils_1.0.6-1_iphoneos-arm/usr/bin/sms
-	deleted:    .repofiles/compiled-packages/apt.1nternist.bashutils_1.0.6-1_iphoneos-arm/usr/bin/vibrate
-	deleted:    .repofiles/utilities/bin/compile-repo
+	deleted:    .repofiles/compiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/gnupg/gpg-FAQ
+	deleted:    .repofiles/compiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/usr/share/gnupg/options.skel
+	modified:   .repofiles/utilities/bin/updaterepo
+	modified:   Packages
+	modified:   Packages.bz2
 	modified:   Packages.gz
 	modified:   Release
 	modified:   Release.gpg
+	modified:   debs/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm.deb
 	modified:   log/git-sync.log
+	deleted:    update-repo
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	cyrepo-update
+	log/buildlog.log
+	log/scanlog.log
 
 no changes added to commit (use "git add" and/or "git commit -a")

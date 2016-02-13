@@ -1,0 +1,3 @@
+warning, `/var/mobile/Developer/Github/1nternist.github.io/.repofiles/uncompiled-packages/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
+dpkg-deb: ignoring 1 warnings about the control file(s)
+dpkg-deb: building package `apt.1nternist.gnupg-docs' in `/var/mobile/Developer/Github/1nternist.github.io/debs/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm.deb'.

@@ -13,18 +13,27 @@ DATE=$(date '+%m-%d-%Y %H:%M:%S')
 export PATH="$UTILS:$PATH"
 
 function compilepkgs () {
+rm -rf $LOGD/*.log
+sudo chown -R root $BUILD
+sudo chmod 755 $BUILD
+sudo chmod 777 $REPO/debs
 echo "Building packages..."
 for PkgDir in `ls $BUILD`; do
-  dpkg-deb -b $BUILD/"${PkgDir%%/}" $REPO/debs/"${PkgDir%%/}".deb &>> $BUILDLOG
+  sudo dpkg-deb -b $BUILD/"${PkgDir%%/}" $REPO/debs/"${PkgDir%%/}".deb &>> $BUILDLOG
 done
 sleep 1
-mv -f $BUILD/* $ARCHIVE
+sudo mv -f $BUILD/* $ARCHIVE
+wait
+sudo chown -R mobile $ARCHIVE
+sudo chown -R mobile $BUILD
+sudo chown -R mobile debs
+chmod 777 debs
+sudo chown -R mobile $LOGD
 }
 
 function scanpkgs () {
 echo "Scanning packages..."
 rm -rf "Packages.gz" "Packages.bz2" "Packages"
-rm -rf "$LOGD"/*.log
 scanpkg="$UTILS/dpkg-scanpackages"
 $scanpkg -m debs /dev/null > Packages
 sed -i '' "s#Filename: debs//#Filename: debs/#g" Packages

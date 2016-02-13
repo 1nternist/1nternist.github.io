@@ -649,8 +649,8 @@ Maintainer: dc1nternist <dc1nternist@icloud.com>
 Depends: gnupg
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.gnupg-docs_1.4.19-2_iphoneos-arm.deb
-Size: 1281490
-SHA256: 879b638ec351202e0cc83387107ed6721717ce1677a8bed1a30b3bd6e0c29648
+Size: 1276934
+SHA256: 2fe9f0abf873d7f07d6dd5346a9bfeca7aa9e5c54655b90e3f7edc2bbf2e092a
 Description: Documentation for GNU Privacy Guard.
 Name: gpg-docs
 Homepage: http://www.gnupg.org/
