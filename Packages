@@ -12,13 +12,25 @@ Name: 1nspire Ringtones
 Author: Chir0student <chir0student@me.com>
 
 Package: apt.1nternist.alias-unalias
-Version: 1.0-b1
-Section: Scripts
+Version: 1.1
+Section: Scripting
 Maintainer: Chir0student <chir0student@icloud.com>
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.alias-unalias_1.0-b1_iphoneos-arm.deb
-Size: 1012
-MD5sum: 37ec18e4c2a4e113fc5c9848bd5ceb6b
+Size: 1014
+MD5sum: 3aede552c7440e3b074ff2710ed5ea11
+Description: Adds the alias and unalias commands that we've all grown to love from Mac OS X.  Alias Example Syntax: alias test='echo "it works!"' Unalias Example Syntax: unalias test
+Name: Alias | Unalias
+Author: Chir0student <chir0student@icloud.com>
+
+Package: apt.1nternist.alias-unalias
+Version: 1.1
+Section: Scripting
+Maintainer: Chir0student <chir0student@icloud.com>
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.alias-unalias_1.1_iphoneos-arm.deb
+Size: 1014
+MD5sum: fd8ffe7c00e30dc4a75ab92aad44aad2
 Description: Adds the alias and unalias commands that we've all grown to love from Mac OS X.  Alias Example Syntax: alias test='echo "it works!"' Unalias Example Syntax: unalias test
 Name: Alias | Unalias
 Author: Chir0student <chir0student@icloud.com>
@@ -35,6 +47,20 @@ MD5sum: f7c7f32635e313ea82f8ff5404429091
 Description: Ambient Ringtones
 Name: Ambient Ringtones
 Author: Chir0student <chir0student@me.com>
+
+Package: apt.1nternist.ap2ipa
+Version: 1.2-1
+Priority: extra
+Section: Scripting
+Maintainer: Chir0student <chir0student@me.com>
+Depends: coreutils, findutils, grep, sed, com.slugrail.ipainstaller, apt.1nternist.ipainstallerurlscheme-enabler
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.ap2ipa_1.2-1_iphoneos-arm.deb
+Size: 2006
+MD5sum: 6962be992c1ed3e72856b8c422c9fa60
+Description: converts system apps to ipa's to be installed through IPA Installer and then synced to itunes for easy saving.. run 'ap2ipa' from terminal. only apps that can function as mobile will work.. more info in terminal
+Name: ap2ipa
+Author: brc0703
 
 Package: apt.1nternist.ap2ipa
 Version: 1.2
@@ -217,6 +243,19 @@ Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.bashrc_1.0_iphoneos-arm.deb
 Size: 1134
 MD5sum: 46df2747b28e44c63caf4d9e297c0e30
+Description: Adds .bashrc and .bash_aliases to your iDevice for customized alias'ing.
+Name: bashrc
+Author: Chir0student <chir0student@icloud.com>
+
+Package: apt.1nternist.bashrc
+Version: 1.1
+Section: Scripting
+Maintainer: Chir0student <chir0student@icloud.com>
+Depends: bash
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.bashrc_1.1_iphoneos-arm.deb
+Size: 1138
+MD5sum: 88c2e054d7f4fcff631c51f553dc5e90
 Description: Adds .bashrc and .bash_aliases to your iDevice for customized alias'ing.
 Name: bashrc
 Author: Chir0student <chir0student@icloud.com>
