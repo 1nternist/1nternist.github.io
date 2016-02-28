@@ -4,8 +4,6 @@ Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
-	modified:   .repofiles/utilities/bin/dpkg-scanpackages
-	modified:   .repofiles/utilities/bin/updaterepo
 	modified:   Packages
 	modified:   Packages.bz2
 	modified:   Packages.gz
@@ -17,10 +15,7 @@ Changes not staged for commit:
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	.repofiles/compiled-packages/gettext_0.19.7-3_iphoneos-arm/
-	.repofiles/utilities/bin/dpkg-scanpackages256
-	.repofiles/utilities/bin/dpkg-scanpackages_
-	debs/gettext_0.19.7-3_iphoneos-arm.deb
-	log/Packages
+	debs/apt.1nternist.ayeconios7_1.1.2_iphoneos-arm.deb
+	debs/apt.1nternist.ayeris_1.4.2_iphoneos-arm.deb
 
 no changes added to commit (use "git add" and/or "git commit -a")

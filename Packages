@@ -158,6 +158,44 @@ Description: AVTools scripts
 Name: AVTools scripts
 Author: Chir0student <chir0student@icloud.com>
 
+Package: apt.1nternist.ayeconios7
+Version: 1.1.2
+Section: Themes
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), winterboard (>= 0.9.3914) | com.anemonetheming.anemone, org.thebigboss.ayekit
+Conflicts: org.thebigboss.ayeconios7, gsc.ipad, org.thebigboss.ayecon
+Provides: org.thebigboss.ayeconios7
+Replaces: org.thebigboss.ayeconios7
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.ayeconios7_1.1.2_iphoneos-arm.deb
+Size: 16416240
+Installed-Size: 21020
+MD5sum: 1707e355bd578f8c0cab6b4b1fd91b38
+Description: A benchmark theme for iOS. Again. This version of Ayecon is compatible with Anemone and Winterboard.
+Name: ayecon (iOS 7+)
+Author: Surenix <surenix@surenix.me>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ayeconios7Dp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ayeconios7Dp
+
+Package: apt.1nternist.ayeris
+Version: 1.4.2
+Section: Themes
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 7.0), winterboard (>= 0.9.3914) | com.anemonetheming.anemone, org.thebigboss.ayekit, mobilesubstrate
+Conflicts: org.thebigboss.ayeris, gsc.ipad
+Provides: org.thebigboss.ayeris
+Replaces: org.thebigboss.ayeris
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.ayeris_1.4.2_iphoneos-arm.deb
+Size: 19131368
+Installed-Size: 32102
+MD5sum: 14f059928779bf68f615dd65c2995337
+Description: Beauty's in the aye of the beholder. This version of Ayeris is compatible with both Anemone and Winterboard
+Name: ayeris
+Author: Surenix <surenix@surenix.me>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ayerisDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ayerisDp
+
 Package: apt.1nternist.bash-dpkg-scanpackages
 Version: 1.1
 Section: Scripts

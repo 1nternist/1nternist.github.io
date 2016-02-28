@@ -5,19 +5,20 @@
   apt.1nternist.apptodebv1parallel apt.1nternist.arm-tool
   apt.1nternist.armv7binpatch apt.1nternist.armv7s-add
   apt.1nternist.armv7s-patch apt.1nternist.avtoolscripts
-  apt.1nternist.bash-dpkg-scanpackages apt.1nternist.bashrc
-  apt.1nternist.bashutils apt.1nternist.bitesmsicon
-  apt.1nternist.blackmagicwoman apt.1nternist.blockernetworks
-  apt.1nternist.bonjourfix apt.1nternist.bubblepop
-  apt.1nternist.bundleicons apt.1nternist.cacawtookietookie
-  apt.1nternist.cartmanringtones apt.1nternist.chocolatesaltyballs
-  apt.1nternist.clitools apt.1nternist.clutch apt.1nternist.clutch2
-  apt.1nternist.cokepokesr-list apt.1nternist.coolstarsr-list
-  apt.1nternist.crazymonst-list apt.1nternist.cydiaiconios7
-  apt.1nternist.cyrespring apt.1nternist.debhelper
-  apt.1nternist.debxpandr apt.1nternist.disabled apt.1nternist.dpkg-
-  debtool apt.1nternist.dpkg-dev apt.1nternist.dpkg-scanpackages
-  apt.1nternist.emoji83 apt.1nternist.emwwalls apt.1nternist.ffmpeg
+  apt.1nternist.ayeconios7 apt.1nternist.ayeris apt.1nternist.bash-
+  dpkg-scanpackages apt.1nternist.bashrc apt.1nternist.bashutils
+  apt.1nternist.bitesmsicon apt.1nternist.blackmagicwoman
+  apt.1nternist.blockernetworks apt.1nternist.bonjourfix
+  apt.1nternist.bubblepop apt.1nternist.bundleicons
+  apt.1nternist.cacawtookietookie apt.1nternist.cartmanringtones
+  apt.1nternist.chocolatesaltyballs apt.1nternist.clitools
+  apt.1nternist.clutch apt.1nternist.clutch2 apt.1nternist.cokepokesr-
+  list apt.1nternist.coolstarsr-list apt.1nternist.crazymonst-list
+  apt.1nternist.cydiaiconios7 apt.1nternist.cyrespring
+  apt.1nternist.debhelper apt.1nternist.debxpandr
+  apt.1nternist.disabled apt.1nternist.dpkg-debtool apt.1nternist.dpkg-
+  dev apt.1nternist.dpkg-scanpackages apt.1nternist.emoji83
+  apt.1nternist.emwwalls apt.1nternist.ffmpeg
   apt.1nternist.findmyshells apt.1nternist.freeyourap-list
   apt.1nternist.gdb apt.1nternist.git-doc apt.1nternist.github-
   sslcerts apt.1nternist.gnumake apt.1nternist.gnupg-docs
@@ -67,4 +68,4 @@
   apt.1nternist.woowizrepo-list apt.1nternist.zeusmosrep-list gettext
   perl
 
- 142 packages written to file.
+ 144 packages written to file.
