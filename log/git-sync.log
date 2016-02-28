@@ -11,3 +11,21 @@ Changes not staged for commit:
 	modified:   log/git-sync.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   Packages.gz
+	modified:   Release
+	modified:   Release.gpg
+	deleted:    log/buildlog.log
+	modified:   log/git-sync.log
+
+[master 4d4b984] Package update 02-28-2016 16:07:35
+ 5 files changed, 33 insertions(+), 60 deletions(-)
+ rewrite Release.gpg (89%)
+ delete mode 100644 log/buildlog.log
+ rewrite log/git-sync.log (66%)
+To https://github.com/1nternist/1nternist.github.io.git
+   c1217d6..4d4b984  master -> master
