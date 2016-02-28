@@ -1,5 +1,5 @@
-#!/usr/bin/env perl
-push(@INC, '/var/mobile/Developer/Github/1nternist.github.io/.repofiles/utilities/lib/perl5/site_perl/dpkg-gettext.pl');
+#!/usr/local/bin/perl
+push(@INC, '/usr/local/lib/perl5/site_perl/5.22.0/armv7-apple-darwin/dpkg-gettext.pl');
 
 use warnings;
 use strict;
@@ -41,7 +41,7 @@ my @fieldpri= ('Package',
 	       'Filename',
 	       'Size',
 	       'Installed-Size',
-	       'SHA256',
+	       'MD5sum',
 	       'Description',
 	       'Origin',
 	       'Bugs',
@@ -174,10 +174,10 @@ FILE:
 	
 	$tv{'Filename'}= "$pathprefix$fn";
 	
-	open(C,"sha256sum <$fn |") || die "$fn $!";
-	chop($_=<C>); close(C); $? and die sprintf(_g("\`sha256sum < %s' exited with %d"), $fn, $?)."\n";
-	/^([0-9a-f]{64})\s*-?\s*$/ or die sprintf(_g("strange text from \`sha256sum < %s': \`%s'"), $fn, $_)."\n";
-	$tv{'SHA256'}= $1;
+	open(C,"md5sum <$fn |") || die "$fn $!";
+	chop($_=<C>); close(C); $? and die sprintf(_g("\`md5sum < %s' exited with %d"), $fn, $?)."\n";
+	/^([0-9a-f]{32})\s*-?\s*$/ or die sprintf(_g("strange text from \`md5sum < %s': \`%s'"), $fn, $_)."\n";
+	$tv{'MD5sum'}= $1;
 	
 	my @stat= stat($fn) or die sprintf(_g("couldn't stat %s: %s"), $fn, $!)."\n";
 	$stat[7] or die sprintf(_g("%s is empty"), $fn)."\n";

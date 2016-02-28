@@ -64,7 +64,7 @@
   apt.1nternist.tuktukcacaw apt.1nternist.urlscheme-enabler-template
   apt.1nternist.uthbscripts apt.1nternist.wallpapers1
   apt.1nternist.whiteterminal apt.1nternist.winterboardicon
-  apt.1nternist.woowizrepo-list apt.1nternist.zeusmosrep-list perl
+  apt.1nternist.woowizrepo-list apt.1nternist.zeusmosrep-list gettext
+  perl
 
- 141 packages written to file.
-sed: -e expression #1, char 2: extra characters after command
+ 142 packages written to file.
