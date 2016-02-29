@@ -89,7 +89,6 @@ sleep 2
 }
 
 function pushupdate () {
-	clear
 	echo ""
 	git status &> $SYNCLOG
 	wait
