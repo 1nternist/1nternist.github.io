@@ -1,0 +1,10 @@
+Architecture: iphoneos-arm
+Author: Chir0student <chir0student@me.com>
+Conflicts: net.limneos.sbstogglelighttpd
+Depends: lighttpd | apt.1nternist.lighttpd-ios | lighttpd-atv
+Description: Lighttpd-tool is a small script that helps start and stop your lighttpd server.
+Maintainer: Chir0student <chir0student@me.com>
+Name: lighttpd-tool
+Package: apt.1nternist.lighttpd-tool
+Section: Scripting
+Version: 1.2-5

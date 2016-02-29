@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>default</key>
+		<true/>
+		<key>label</key>
+		<string>gps</string>
+		<key>name</key>
+		<string>gps</string>
+		<key>type</key>
+		<string>switch</string>
+	</dict>
+	<dict>
+		<key>default</key>
+		<false/>
+		<key>label</key>
+		<string>UseNeighborhood</string>
+		<key>name</key>
+		<string>UseNeighborhood</string>
+		<key>type</key>
+		<string>switch</string>
+	</dict>
+	<dict>
+		<key>default</key>
+		<false/>
+		<key>label</key>
+		<string>UseCityGPS</string>
+		<key>name</key>
+		<string>UseCityGPS</string>
+		<key>type</key>
+		<string>switch</string>
+	</dict>
+	<dict>
+		<key>default</key>
+		<string>2459833</string>
+		<key>label</key>
+		<string>City Code (Yahoo)</string>
+		<key>name</key>
+		<string>locale</string>
+		<key>type</key>
+		<string>edit</string>
+	</dict>
+	<dict>
+		<key>default</key>
+		<string>15 mins</string>
+		<key>label</key>
+		<string>Refresh interval</string>
+		<key>name</key>
+		<string>updateInterval</string>
+		<key>options</key>
+		<dict>
+			<key>1 hour</key>
+			<string>60</string>
+			<key>1 mins</key>
+			<string>1</string>
+			<key>10 mins</key>
+			<string>10</string>
+			<key>15 mins</key>
+			<string>15</string>
+			<key>20 mins</key>
+			<string>20</string>
+			<key>30 mins</key>
+			<string>30</string>
+			<key>5 mins</key>
+			<string>5</string>
+		</dict>
+		<key>type</key>
+		<string>select</string>
+	</dict>
+	<dict>
+		<key>default</key>
+		<string>English</string>
+		<key>label</key>
+		<string>Language</string>
+		<key>name</key>
+		<string>lang</string>
+		<key>options</key>
+		<dict>
+			<key>English</key>
+			<string>en</string>
+			<key>French</key>
+			<string>fr</string>
+			<key>German</key>
+			<string>de</string>
+			<key>Italian</key>
+			<string>it</string>
+			<key>Spanish</key>
+			<string>sp</string>
+		</dict>
+		<key>type</key>
+		<string>select</string>
+	</dict> 
+	<dict>
+		<key>default</key>
+		<string>Fahrenheit</string>
+		<key>label</key>
+		<string>Temperature Unit</string>
+		<key>name</key>
+		<string>tempUnit</string>
+		<key>options</key>
+		<dict>
+			<key>Celsius</key>
+			<string>c</string>
+			<key>Fahrenheit</key>
+			<string>f</string>
+		</dict>
+		<key>type</key>
+		<string>select</string>
+	</dict>
+</array>
+</plist>

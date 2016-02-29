@@ -1,0 +1,17 @@
+#!/bin/sh
+
+declare -a cydia
+cydia=($CYDIA)
+
+case "$1" in
+  remove)
+    if [[ ${CYDIA+@} ]]; then
+          echo "Killing WhiteTerminal process..."
+      killall WhiteTerminal
+    fi
+  ;;
+esac
+
+echo ">_     Bye!!"
+
+exit 0

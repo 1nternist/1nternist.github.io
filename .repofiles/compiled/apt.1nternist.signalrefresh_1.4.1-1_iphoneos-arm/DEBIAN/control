@@ -1,0 +1,18 @@
+Architecture: iphoneos-arm
+Author: USA Concepts <support@usaconcepts.com>
+Conflicts: com.usaconcepts.signalrefresh
+Depends: firmware (>= 4.0)
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=signalrefreshDp
+Description: Boost your signal in one touch!
+dev: tuscanconcepts
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=signalrefreshDp
+Icon: file:///Applications/SignalRefresh.app/Icon.png
+Installed-Size: 1314
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: Signal Booster
+Package: apt.1nternist.signalrefresh
+Replaces: com.usaconcepts.signalrefresh
+Section: Utilities
+Sponsor: thebigboss.org <http://thebigboss.org>
+Tag: purpose::uikit, role::enduser
+Version: 1.4.1-1

@@ -1,0 +1,19 @@
+Package: apt.1nternist.libtiff
+Priority: 
+Section: Multimedia
+Installed-Size: 1064
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Sponsor: Chir0student <chir0student@me.com>
+Architecture: iphoneos-arm
+Version: 4.0.3-5
+Pre-Depends: dpkg (>= 1.14.25-8)
+Replaces: tiff
+Role: hacker
+Tag: purpose::library, role::hacker
+Description: Tagged Image File Format (TIFF) library.
+  Tagged Image File Format (TIFF) library.
+  A library for handling TIFF files.
+  This package contains the shared TIFF library .
+Name: libtiff
+Author: J. Anrugas <j.anrugas@gmail.com>
+Homepage: http://www.remotesensing.org/libtiff/

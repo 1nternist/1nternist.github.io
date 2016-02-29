@@ -1,0 +1,11 @@
+#!/bin/sh
+
+echo "Setting Permissions."
+chown root:wheel /usr/bin/Clutch
+chmod 755 /usr/bin/Clutch
+chown root:mobile /etc/clutch/overdrive.dylib
+chmod 644 /etc/clutch/overdrive.dylib
+echo "Permissions set."
+echo "To use, execute 'Clutch' in mobileterminal as root"
+
+exit 0

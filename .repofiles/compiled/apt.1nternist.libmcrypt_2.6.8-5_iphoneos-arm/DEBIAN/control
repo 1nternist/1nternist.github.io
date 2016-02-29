@@ -1,0 +1,15 @@
+Package: apt.1nternist.libmcrypt
+Priority: 
+Section: Security
+Installed-Size: 280
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Sponsor: Chir0student <chir0student@me.com>
+Architecture: iphoneos-arm
+Version: 2.6.8-5
+Pre-Depends: dpkg (>= 1.14.25-8)
+Role: hacker
+Tag: purpose::library, role::hacker
+Description: Libmcrypt allows you to use a wide range of encryption function 
+  Libmcrypt allows you to use a wide range of encryption function.
+  This package contains the shared mcrypt library.
+Author: J. Anrugas <j.anrugas@gmail.com>

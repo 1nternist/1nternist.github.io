@@ -1,4 +1,0 @@
-#!/bin/bash
-
-sbalert -t "Hi Darling!" -m "These are a few ringtones I thought you might like. I love you!" -q 10
-

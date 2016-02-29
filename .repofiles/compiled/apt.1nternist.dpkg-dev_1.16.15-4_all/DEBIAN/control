@@ -1,0 +1,14 @@
+Architecture: all
+Depends: libdpkg-perl (= 1.16.15) | apt.1nternist.libdpkg-perl, bzip2, xz-utils | apt.1nternist.xz-utils, patch, make, coreutils, coreutils-bin, apt.1nternist.perl | apt.1nternist.perl510 | apt.1nternist.perl514 | apt.1nternist.perl520 | perl | org.coolstar.perl | apt.1nternist.perlfullinstall
+Description: Debian package development tools This package provides the development tools (including dpkg-source) required to unpack, build and upload Debian source packages. Most Debian source packages will require additional tools to build; for example, most packages need make and the C compiler gcc.
+Installed-Size: 1581
+Maintainer: Chir0student <chir0student@me.com>
+Name: dpkg-dev
+Origin: debian
+Package: apt.1nternist.dpkg-dev
+Pre-Depends: dpkg
+Provides: dpkg-dev
+Section: Utilities
+Source: dpkg
+Sponsor: Chir0student <chir0student@me.com>
+Version: 1.16.15-4

@@ -1,0 +1,8 @@
+Architecture: iphoneos-arm
+Package: apt.1nternist.git-doc
+Name: git-doc
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Description: This package adds the git documentation that is missing from Saurik's git package.
+Section: Development
+Version: 1.1-2
+Tag: purpose::console role::developer

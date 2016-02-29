@@ -1,31 +1,56 @@
 #!/bin/bash
 
 REPO="/var/mobile/Developer/Github/1nternist.github.io"
-LOGD=$REPO/log
-BUILDLOG=$LOGD/buildlog.log
-SCANLOG=$LOGD/scanlog.log
-SIGNLOG=$LOGD/signlog.log
-SYNCLOG=$LOGD/git-sync.log
+LOGD="$REPO/log"
+BLDLOG="$LOGD/buildlog.log"
+BLDERR="$LOGD/builderr.log"
+SCNLOG="$LOGD/scanlog.log"
+SCNERR="$LOGD/scanerr.log"
+SIGNLOG="$LOGD/signlog.log"
+SIGNERR="$LOGD/signerr.log"
+SYNCLOG="$LOGD/git-sync.log"
+SYNCERR="$LOGD/git-sync-err.log"
 UTILS="$REPO/.repofiles/utilities/bin"
-BUILD="$REPO/.repofiles/uncompiled-packages"
-ARCHIVE="$REPO/.repofiles/compiled-packages"
+BLD="$REPO/.repofiles/uncompiled"
+ARCH="$REPO/.repofiles/compiled"
+ARCH_BETA="$REPO/.repofiles/compiled-beta"
+BLD_BETA="$REPO/.repofiles/uncompiled-beta"
+OPT1="Refresh repository."
+OPT2="Push changes to GitHub"
+OPT3="Exit"
 DATE=$(date '+%m-%d-%Y %H:%M:%S')
 export PATH="$UTILS:$PATH"
 
+#################################
+#####	 Extra Functions    #####
+#################################
+
+function mainmenuloop () {
+	mainmenu
+}
+
+function dirsetup () {
+	for dir in $LOGD $UTILS $BLD $ARCH $BLD_BETA $ARCH_BETA; do
+		if [ ! -d "${dir%%/}" ]; then
+			mkdir -p "${dir%%/}"
+		fi
+	done
+}
+
 function compilepkgs () {
 rm -rf $LOGD/*.log
-sudo chown -R root $BUILD
-sudo chmod 755 $BUILD
+sudo chown -R root $BLD
+sudo chmod 755 $BLD
 sudo chmod 777 $REPO/debs
 echo "Building packages..."
-for PkgDir in `ls $BUILD 2> $BUILDLOG`; do
-  sudo dpkg-deb -b $BUILD/"${PkgDir%%/}" $REPO/debs/"${PkgDir%%/}".deb &>> $BUILDLOG
+for PkgDir in `ls $BLD 2> $BLDERR`; do
+  sudo dpkg-deb -b $BLD/"${PkgDir%%/}" $REPO/debs/"${PkgDir%%/}".deb &>> $BLDLOG
 done
 sleep 1
-sudo mv -f $BUILD/* $ARCHIVE 2>> $BUILDLOG
+sudo mv -f $BLD/* $ARCH 2>> $BLDERR
 wait
-sudo chown -R mobile $ARCHIVE
-sudo chown -R mobile $BUILD
+sudo chown -R mobile $ARCH
+sudo chown -R mobile $BLD
 sudo chown -R mobile debs
 chmod 777 debs
 sudo chown -R mobile $LOGD
@@ -61,39 +86,96 @@ gpg --passphrase-file /usr/share/keyrings/passwd/github --batch -abs -u dc1ntern
 }
 
 function pushupdate () {
-echo "Pushing changes to Github..."
+echo "Pushing changes to Github,"
+echo "    please be patient..."
+echo ""
 git status &> $SYNCLOG
 wait
 git add . &>> $SYNCLOG
 wait
 git status &>> $SYNCLOG
 wait
-git commit -m "Package update $DATE" &>> $SYNCLOG
+git commit -m "Repository update $DATE" &>> $SYNCLOG
 wait
 git push origin master &>> $SYNCLOG
+wait
 }
 
-compilepkgs
-wait
-scanpkgs 2> "$SCANLOG"
-wait
-signpkgs 2> "$SIGNLOG"
-wait
-read -p "Push repo updates to GitHub? (y/n) " push2git
-if [ "$push2git" = "y" ]; then
-	pushupdate
-elif [ "$push2git" = "n" ]; then
+function choice1msg () {
+	echo ""
+	echo "##################################"
+	echo "#  Repository has been updated.  #"
+	echo "#      Please open Cydia and     #"
+	echo "#      refresh your sources.     #"
+	echo "##################################"
+	echo ""
+	echo ""
+}
+
+function choice2msg () {
+	echo ""
 	echo "##################################"
 	echo "#  Repository has been updated.  #"
 	echo "#      Updates NOT pushed to     #"
-	echo "# 	    GitHub.	       #"
+	echo "#            GitHub.             #"
 	echo "##################################"
+	echo ""
+	echo ""
+}
+
+function exitscreen () {
+	echo ""
+	echo "##################################"
+	echo "#  Thank you for using cyrepo.   #"
+	echo "#           Good Bye.            #"
+	echo "##################################"
+	echo ""
+	echo ""
 	exit 0
-fi
+}
 
+function mainbadopt () {
+	echo ""
+	echo "That is an invalid option. Please select option [1-3]."
+	echo ""
+	mainmenuloop
+}
 
-echo "##################################"
-echo "#  Repository has been updated.  #"
-echo "#      Please open Cydia and     #" 
-echo "#      refresh your sources.     #"
-echo "##################################"
+function mainmenu () {
+	cd "$REPO"
+	dirsetup
+	echo ""
+	echo ""
+	echo "Main Menu"
+	echo ""
+	echo ""
+	echo "What would you like to do?"
+	echo ""
+	echo -e "\n  1) $OPT1\n  2) $OPT2\n  3) $OPT3\n\n" 
+	read choice
+	if [ "$choice" = "1" ]; then
+		compilepkgs 2> "$BLDERR"
+		wait
+		scanpkgs 2> "$SCNERR"
+		wait
+		signpkgs 2> "$SIGNERR"
+		wait
+		choice1msg
+		mainmenuloop
+	fi
+	if [ "$choice" = "2" ]; then
+		pushupdate 2> "$SYNCERR"
+		wait
+		choice2msg
+		mainmenuloop
+	fi
+	if [ "$choice" = "3" ]; then
+		exitscreen
+	fi
+	if [[ "$choice" != "1" ]] && [[ "$choice" != "2" ]] && [[ "$choice" != "3" ]]; then
+		mainbadopt
+	fi
+}
+
+mainmenu
+

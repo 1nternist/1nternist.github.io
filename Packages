@@ -525,8 +525,8 @@ Maintainer: Chir0student <chir0student@me.com>
 Depends: dpkg, p7zip, xz | xz-utils | apt.1nternist.xz-utils
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.debxpandr_3.0_iphoneos-arm.deb
-Size: 1402
-MD5sum: f6bb3514fcff0c40a533aab6306f73fa
+Size: 1426
+MD5sum: 5d1f7ca4d573e36c76eaf3628a315d3c
 Description: To run, open MobileTerminal and cd into any directory containing deb files and execute "debXpandr". The script will extract all debs, then move the extracted debs into a sub directory for you.
 Name: debXpandr
 Author: Chir0student <chir0student@me.com>
@@ -577,6 +577,20 @@ MD5sum: aec26472f6c08719f91175478e5ea844
 Description: Debian package development tools This package provides the development tools (including dpkg-source) required to unpack, build and upload Debian source packages. Most Debian source packages will require additional tools to build; for example, most packages need make and the C compiler gcc.
 Origin: debian
 Name: dpkg-dev
+
+Package: apt.1nternist.dpkg-scanpackages
+Version: 2.5-5
+Section: Scripting
+Maintainer: Chir0student <chir0student@me.com>
+Depends: apt.1nternist.libdpkg-perl | libdpkg-perl, dpkg, apt.1nternist.libtimedate-perl | libtimedate-perl, apt.1nternist.perl | apt.1nternist.perl510 | apt.1nternist.perl514 | apt.1nternist.perl520 | perl | org.coolstar.perl | apt.1nternist.perlfullinstall
+Conflicts: apt.1nternist.dpkgscanpackages
+Replaces: apt.1nternist.dpkgscanpackages
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.dpkg-scanpackages_2.5-5_iphoneos-arm.deb
+Size: 6978
+MD5sum: 1809367bc2ccb73422f17fed0a27a4f4
+Description: Installs dpkg-scanpackages, dpkg-scansource, dpkg-gettext.pl.
+Name: dpkg-scanpackages
 
 Package: apt.1nternist.dpkg-scanpackages
 Version: 2.6
@@ -706,6 +720,16 @@ Homepage: http://www.gnu.org/software/gdb/
 Depiction: http://cydia.saurik.com/info/gdb/
 
 Package: apt.1nternist.git-doc
+Version: 1.1-1
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.git-doc_1.1-1_iphoneos-arm.deb
+Size: 4354438
+MD5sum: a0ac5c3424c188b8e75b7fe795257620
+Description: This package adds the git documentation that is missing from Saurik's git package.
+Name: git-doc
+
+Package: apt.1nternist.git-doc
 Version: 1.1-2
 Section: Development
 Maintainer: 1nternist <dc1nternist@icloud.com>
@@ -756,6 +780,24 @@ MD5sum: 23e84791a20e9c94c385930f76ee393b
 Description: Documentation for GNU Privacy Guard.
 Name: gpg-docs
 Homepage: http://www.gnupg.org/
+
+Package: apt.1nternist.groff-base
+Version: 1.22.3-1
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 4.0)
+Conflicts: groff-base, groff, org.thebigboss.groff-base
+Provides: groff-base, groff, org.thebigboss.groff-base
+Replaces: groff-base, groff, org.thebigboss.groff-base
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.groff-base_1.22.3-1_iphoneos-arm.deb
+Size: 4452408
+Installed-Size: 20116
+MD5sum: 885c4b56fa0e4054c572664c6eb5cb4d
+Description: typesetting system for formatted output.
+Name: groff
+Author: idotce <idotce@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=groffbaseDp
 
 Package: apt.1nternist.groff-base
 Version: 1.22.3-2
@@ -1270,6 +1312,22 @@ Depiction: http://repo.insanelyi.com/depiction.php?package=irepo
 Icon: file:///Applications/iRepo.app/icon57.png
 
 Package: apt.1nternist.iringtone4
+Version: 4.0.3
+Section: Scripting
+Maintainer: Chir0student <chir0student@me.com>
+Depends: bash, com.fizk.ffmpeg | apt.1nternist.ffmpeg, apt.1nternist.sudonopasswd, coreutils, coreutils-bin, file, firmware (>= 4.2.1), gawk, ncurses, sudo, system-cmds
+Conflicts: apt.1nternist.avtoolscripts, apt.1nternist.iringtone3
+Replaces: apt.1nternist.avtoolscripts, apt.1nternist.iringtone3
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.iringtone4_4.0.3_iphoneos-arm.deb
+Size: 9422
+MD5sum: f0bcce600edf884b70534736428b1c41
+Description: iRingtone is a command line utility that can create custom ringtones from any audio or video file. Just execute 'sudo iRingtone /path/to/[audio or video] file' in MobileTerminal and follow the interactive directions.
+Name: iRingtone 4
+Author: Chir0student <chir0student@me.com>
+Icon: file:///usr/share/chir0student/icons/iRingtone4.png
+
+Package: apt.1nternist.iringtone4
 Version: 4.0.4
 Section: Scripting
 Maintainer: Chir0student <chir0student@me.com>
@@ -1310,6 +1368,46 @@ Description: JuLiO-Skype Repo
 Name: JuLiO-Skype Repo
 Author: chir0student
 Depiction: http://www.myrepospace.com/
+
+Package: apt.1nternist.libdpkg-perl
+Source: dpkg
+Version: 1.16.15-5
+Priority: optional
+Section: Scripting
+Maintainer: Chir0student <chir0student@me.com>
+Depends: dpkg (>= 1.13.8), apt.1nternist.libtimedate-perl, apt.1nternist.perl | apt.1nternist.perl510 | apt.1nternist.perl514 | apt.1nternist.perl520 | perl | org.coolstar.perl | apt.1nternist.perlfullinstall
+Conflicts: com.sull.libdpkgperl, libdpkg-perl
+Provides: libdpkg-perl
+Replaces: dpkg (<< 1.13.8), dpkg-dev (<< 1.15.6), libdpkg-perl
+Architecture: all
+Filename: debs/apt.1nternist.libdpkg-perl_1.16.15-5_all.deb
+Size: 844542
+Installed-Size: 1658
+MD5sum: 23d7db88e70f0589f0f9b9f083dfd700
+Description: dpkg perl modules
+Origin: debian
+Name: libdpkg-perl
+Author: brc0703 (Ported for iOS)
+
+Package: apt.1nternist.libdpkg-perl
+Source: dpkg
+Version: 1.16.15-7
+Priority: optional
+Section: Development
+Maintainer: 1nternist <dacdcdabci@gmail.com>
+Depends: dpkg (>= 1.13.8), apt.1nternist.libtimedate-perl, apt.1nternist.perl | apt.1nternist.perl510 | apt.1nternist.perl514 | apt.1nternist.perl520 | perl | org.coolstar.perl | apt.1nternist.perlfullinstall
+Conflicts: com.sull.libdpkgperl, libdpkg-perl
+Provides: libdpkg-perl
+Replaces: dpkg (<< 1.13.8), dpkg-dev (<< 1.15.6), libdpkg-perl
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.libdpkg-perl_1.16.15-7_iphoneos-arm.deb
+Size: 1712610
+Installed-Size: 1658
+MD5sum: 36a660cf90cc4a5138cf06832706031f
+Description: dpkg perl modules
+Origin: debian
+Name: libdpkg-perl
+Author: brc0703 (Ported for iOS)
 
 Package: apt.1nternist.libdpkg-perl
 Version: 1.16.15-8
@@ -1382,6 +1480,24 @@ Description: Libmcrypt allows you to use a wide range of encryption function
 Author: J. Anrugas <j.anrugas@gmail.com>
 
 Package: apt.1nternist.libpipeline
+Version: 1.4.1-1
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 4.0)
+Conflicts: libpipeline, org.thebigboss.libpipeline
+Provides: libpipeline, org.thebigboss.libpipeline
+Replaces: libpipeline, org.thebigboss.libpipeline
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.libpipeline_1.4.1-1_iphoneos-arm.deb
+Size: 66480
+Installed-Size: 1816
+MD5sum: f9e262efc2c8c926199da7cfdcb11eb9
+Description: manipulate pipelines of subprocesses in a flexible and convenient way.
+Name: Libpipeline
+Author: idotce <idotce@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libpipelineDp
+
+Package: apt.1nternist.libpipeline
 Version: 1.4.1-2
 Section: Development
 Maintainer: BigBoss <bigboss@thebigboss.org>
@@ -1438,6 +1554,24 @@ Description: Tagged Image File Format (TIFF) library.
 Name: libtiff
 Author: J. Anrugas <j.anrugas@gmail.com>
 Homepage: http://www.remotesensing.org/libtiff/
+
+Package: apt.1nternist.libtimedate-perl
+Version: 1.2000-5
+Priority: optional
+Section: Development
+Maintainer: Chir0student <chir0student@me.com>
+Depends: apt.1nternist.perl | apt.1nternist.perl510 | apt.1nternist.perl514 | apt.1nternist.perl520 | perl | org.coolstar.perl | apt.1nternist.perlfullinstall
+Conflicts: timedate, apt.1nternist.libtimedateperl
+Provides: timedate
+Replaces: timedate, apt.1nternist.libtimedateperl
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.libtimedate-perl_1.2000-5_iphoneos-arm.deb
+Size: 37304
+Installed-Size: 248
+MD5sum: de543827e6d0e8748640bf7a5685557b
+Description: collection of modules to manipulate date/time information TimeDate is a collection of Perl modules useful for manipulating date and Time information. Date::Parse can parse absolute date specifications in a Wide variety of input formats and many languages (via Date::Language). This package also includes Date::Format, which can format dates into strings, As well as Time::Zone, which contains miscellaneous time zone functions.
+Name: libtimedate-perl
+Author: brc0703
 
 Package: apt.1nternist.libtimedate-perl
 Version: 1.2000-6
@@ -1565,8 +1699,8 @@ Maintainer: Chir0student <chir0student@me.com>
 Depends: apt.1nternist.perl5
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.makedeb_2.7-1_iphoneos-arm.deb
-Size: 4564
-MD5sum: fb145436dc5779d363257814cc370c7b
+Size: 4476
+MD5sum: 79fbbd50abaa63363205d247cfbc0356
 Description: My makedeb.sh script for refreshing a repository. Builds debs, puts them in repo, then updates the repofiles.
 Name: makedeb
 Author: Chir0student <chir0student@me.com>
@@ -1589,6 +1723,24 @@ Homepage: http://modmyi.com/info/makeicon.php
 Depiction: http://modmyi.com/info/makeicon.d.php
 
 Package: apt.1nternist.man-db
+Version: 2.7.5-2
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 4.0), org.thebigboss.libpipeline | apt.1nternist.libpipeline, org.thebigboss.groff-base | apt.1nternist.groff-base
+Conflicts: man-db, org.thebigboss.man-db
+Provides: man-db, org.thebigboss.man-db
+Replaces: man-db, org.thebigboss.man-db
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.man-db_2.7.5-2_iphoneos-arm.deb
+Size: 734734
+Installed-Size: 3516
+MD5sum: c2cc7b63f76bd74e9100d28958862ba2
+Description: standard Unix documentation system
+Name: man-db
+Author: idotce <idotce@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mandbDp
+
+Package: apt.1nternist.man-db
 Version: 2.7.5-3
 Section: Development
 Maintainer: BigBoss <bigboss@thebigboss.org>
@@ -1605,6 +1757,20 @@ Description: standard Unix documentation system
 Name: man-db
 Author: idotce <idotce@gmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mandbDp
+
+Package: apt.1nternist.mirepo
+Version: 6.0.2
+Section: Scripting
+Maintainer: Chir0student <chir0student@me.com>
+Depends: apt, apt7-key, apt7-ssl, apt7, apt7-lib, lighttpd | lighttpd-atv | touch-lighttpd-php-mysql | apt.1nternist.lighttpd-ios, com.innoying.sbutils, apt.1nternist.libtimedate-perl | libtimedate-perl | apt.1nternist.libtimedateperl, apt.1nternist.libdpkg-perl | libdpkg-perl | apt.1nternist.libdpkgperl, apt.1nternist.dpkg-scanpackages, apt.1nternist.perl | apt.1nternist.perl510 | apt.1nternist.perl514 | apt.1nternist.perl520 | perl | org.coolstar.perl | apt.1nternist.perlfullinstall, apt.1nternist.sudonopasswd, coreutils, coreutils-bin, file, gawk, gnupg, ncurses, sudo, system-cmds
+Conflicts: apt.1nternist.makedeb
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.mirepo_6.0.2_iphoneos-arm.deb
+Size: 302412
+MD5sum: 02ab30d6de17e448275df339c36dbd77
+Description: MiRepo is a functional Cydia repo on iDevice. Just type "MiRepo" in mobileterminal to bring up the menu. MiRepo directory is located at /var/root/Library/MiRepo.
+Name: MiRepo
+Author: Chir0student <chir0student@me.com>
 
 Package: apt.1nternist.mirepo
 Version: 6.1.0-1
@@ -1916,6 +2082,22 @@ Name: RepoCydia.com Repository
 Author: chir0student
 Depiction: http://www.myrepospace.com/
 
+Package: apt.1nternist.repoicons
+Version: 1.004
+Section: RepoIcons_-_chir0student
+Essential: yes
+Maintainer: Chir0student <chir0student@me.com>
+Replaces: com.myrepospace-chir0student.icon
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.repoicons_1.004_iphoneos-arm.deb
+Size: 266538
+MD5sum: f17f2f0483cbfa7a745ef47835974c4e
+Description: Chir0student's Personalized Repo Icons
+Name: Chir0student's Repo Setup
+Author: Chir0student <chir0student@me.com>
+Homepage: http://www.myrepospace.com/profile/chir0student/
+Icon: http://www.myrepospace.com/images/repo_icon/690981.png
+
 Package: apt.1nternist.reposetup
 Version: 1.006
 Section: Repo_Utils_1nternist
@@ -2076,8 +2258,8 @@ Maintainer: Chir0student <chir0student@me.com>
 Pre-Depends: com.innoying.sbutils
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.taigjbbootstrapfix_0.3_iphoneos-arm.deb
-Size: 11656824
-MD5sum: 9368487ad3a5485e87bbc9d37f86e6fc
+Size: 11705520
+MD5sum: ee99b9d017f8d36c86a8f0abf0a47290
 Description: Fixes the unofficial bootstrap from the TaiG jailbreak. Please manually reboot your device.
 Name: TaiG JB Bootstrap Fix
 Author: Chir0student <chir0student@me.com>

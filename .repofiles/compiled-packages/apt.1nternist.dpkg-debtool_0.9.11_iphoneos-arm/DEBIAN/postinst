@@ -1,9 +1,0 @@
-#!/bin/sh
-if [[ $1 == install || update ]]; then
-    chown root:wheel /usr/local/bin/dpkg-debtool.sh
-    chmod 755 /usr/local/bin/dpkg-debtool.sh
-    ln /usr/local/bin/dpkg-debtool.sh /usr/local/bin/dpkg-debtool
-    chmod +x /usr/local/bin/dpkg-debtool
-fi
-
-exit 0

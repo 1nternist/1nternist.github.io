@@ -1,0 +1,8 @@
+Architecture: iphoneos-arm
+Author: Chir0student <chir0student@icloud.com>
+Description: Adds the alias and unalias commands that we've all grown to love from Mac OS X.  Alias Example Syntax: alias test='echo "it works!"' Unalias Example Syntax: unalias test
+Maintainer: Chir0student <chir0student@icloud.com>
+Name: Alias | Unalias
+Package: apt.1nternist.alias-unalias
+Section: Scripting
+Version: 1.1

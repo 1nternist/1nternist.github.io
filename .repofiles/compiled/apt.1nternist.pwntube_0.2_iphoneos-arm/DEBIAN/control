@@ -1,0 +1,11 @@
+Package: apt.1nternist.pwntube
+Name: PwnTube
+Version: 0.2
+Depends: mobilesubstrate, co.cocoanuts.sandcastle, org.h2co3.mfmusiclibrary
+Architecture: iphoneos-arm
+Author: Arpad Goretity (H2CO3) <arpad.goretity@gmail.com>
+Maintainer: Arpad Goretity (H2CO3) <arpad.goretity@gmail.com>
+Section: Tweaks
+Description: Free and opensource clone of YourTube (legal, free alternative). Still in development, so not all functionalities work YET, but I'm planning to make progress on it. Features: downloading YouTube videos in MP4 iPod format (gotcha: for downloading to work, you have to start playing the video once for 1-2 seconds, the app will alert you if you forget this). There's no quality option yet, it'll be implemented soon. Videos will be stored in /var/mobile/Media/PwnTube. Adding downloaded videos to the iPod. TODO: convert video to MP3. iPhone 4 support for iPod library access is experimental; see the details of libgpod or MFMusicLibrary framework. Please donate if you liked my hard work. New in v0.2: added Play video option and visual progress feedback for downloading, fixed some bugs and memory leaks.
+Depiction: http://h2co3.zxq.net/
+

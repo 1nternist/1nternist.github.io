@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+
+<dict>
+	<key>name</key>
+	<string>minion</string>
+	<key>type</key>
+	<string>select</string>
+	<key>label</key>
+	<string>Minion</string>
+	<key>default</key>
+	<string>Carl</string>
+
+		<key>options</key>
+	<dict>
+	<key>Carl</key>
+	<string>minion_carl.png</string>
+	<key>Cupcake</key>
+	<string>minion_cupcake.png</string>
+	<key>Dancer</key>
+	<string>minion_dancer.png</string>
+	<key>Evil</key>
+	<string>minion_evil.png</string>
+	<key>Glaring</key>
+	<string>minion_glaring.png</string>
+	<key>Hanging 1</key>
+	<string>minion_hanging.png</string>
+	<key>Hanging 2</key>
+	<string>minion_hanging2.png</string>
+	<key>Looking Left</key>
+	<string>minion_lookingleft.png</string>
+	<key>Phil</key>
+	<string>minion_phil.png</string>
+	<key>Phil 2</key>
+	<string>minion_phil2.png</string>
+	<key>Nailed to the Wall</key>
+	<string>minion_nailed.png</string>
+	<key>Offering Banana</key>
+	<string>minion_offerbanana.png</string>
+	<key>Tim</key>
+	<string>minion_tim.png</string>
+	<key>Pointing and Laughing</key>
+	<string>minion_pointlaugh.png</string>
+	<key>Running with Banana</key>
+	<string>minion_runningbanana.png</string>
+	<key>Raspberry</key>
+	<string>minion_pblt.png</string>
+	<key>Carmen Miranda</key>
+	<string>minion_carmenmiranda.png</string>
+	<key>Smile</key>
+	<string>minion_smile.png</string>
+	<key>Banana</key>
+	<string>minion_banana.png</string>
+	<key>KungFu</key>
+	<string>minion_karate.png</string>
+	<key>Looking Left</key>
+	<string>minion_lookleft.png</string>
+	<key>Minion Hole</key>
+	<string>minion_hole.png</string>
+	<key>Tongue</key>
+	<string>minion_tongue.png</string>
+	<key>Minion Me</key>
+	<string>minion_me.png</string>
+	<key>with Clipboard</key>
+	<string>minion_clipboard.png</string>
+	<key>Stuart</key>
+	<string>minion_stuart.png</string>
+	<key>Mad</key>
+	<string>minion_mad.png</string>
+	<key>Sign</key>
+	<string>minion_sign.png</string>
+	<key>Kevin</key>
+	<string>minion_kevin.png</string>
+	<key>Tongue</key>
+	<string>minion_tongue.png</string>
+	<key>Pushing</key>
+	<string>minion_pushing.png</string>
+	<key>Looking Down</key>
+	<string>minion_lookingdown.png</string>
+	<key>Looking Right with Smile</key>
+	<string>minion_smileright.png</string>
+	<key>Starfish</key>
+	<string>minion_starfish.png</string>
+	<key>Hula</key>
+	<string>minion_hula.png</string>
+	<key>with Ukele</key>
+	<string>minion_ukele.png</string>
+	<key>Banana Lover</key>
+	<string>minion_bananalover.png</string>
+	<key>in a Towel</key>
+	<string>minion_towel.png</string>
+	<key>Captain America</key>
+	<string>minion_captainamerica.png</string>
+	</dict>
+</dict>
+
+
+
+</array>
+</plist>

@@ -1,9 +1,0 @@
-Architecture: iphoneos-arm
-Author: Chir0student <chir0student@me.com>
-Depends: com.macciti.savannah (<= 1.2)
-Description: This is a fix for the iPad icon sizing/iOverlay mismatch for Savannah (<= 1.2). just install, then you can delete the package and the fix stays.
-Maintainer: Chir0student <chir0student@me.com>
-Name: Savannah iPad Overlay Fix
-Package: apt.1nternist.savannah-ipadoverlayfix
-Section: Themes (Complete)
-Version: 1.2

@@ -1,0 +1,16 @@
+Package: apt.1nternist.ios-webstack-patcher
+Priority: optional
+Section: Administration
+Installed-Size: 24
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Sponsor: Chir0student <chir0student@me.com>
+Architecture: iphoneos-arm
+Version: 0.1-2
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: patch
+Role: developer
+Tag: purpose::console, role::developer
+Description: A small script hack for older ios-lighttpd-php-mysql packages
+  A small script hack for older ios-lighttpd-php-mysql packages.
+  Don't install it if you don't now anything about it!
+Author: J. Anrugas <j.anrugas@gmail.com>

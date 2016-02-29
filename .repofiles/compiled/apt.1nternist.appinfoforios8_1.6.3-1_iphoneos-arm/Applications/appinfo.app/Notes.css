@@ -1,0 +1,9 @@
+html{-webkit-text-size-adjust:none;-webkit-touch-callout:none}
+body *{text-overflow:ellipsis;font-family: helvetica,arial,sans-serif;-webkit-tap-highlight-color:rgba(0,0,0,0.12)}
+body{margin:0;color:#000;background-color:black;-webkit-touch-callout: none;-webkit-user-select: none;}
+img{border:0}
+a{color:black}
+a[rel=action],a[rel=back]{display:none}
+#WebApp{word-wrap: break-word;position:relative;overflow:hidden;width:100%;min-height:100%;background-image: url(notesbg.png);background-position:left top;}
+#Contenu{word-wrap: break-word;padding-left:25px;}
+h1{font-size:16px;padding-left:25px;}

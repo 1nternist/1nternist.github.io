@@ -1,0 +1,11 @@
+Package: apt.1nternist.hln
+Name: hln
+Version: 0.1
+Section: Scripting
+Priority: optional
+Architecture: iphoneos-arm
+Installed-Size: 264
+Maintainer: pancake <pancake@nopcode.org>
+Sponsor: Chir0student <chir0student@me.com>
+Description: Create hardlinks on iOS
+ Tool from https://github.com/selkhateeb/hardlink to create hardlinks

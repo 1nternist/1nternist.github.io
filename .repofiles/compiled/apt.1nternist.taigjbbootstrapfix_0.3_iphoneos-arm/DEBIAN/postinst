@@ -1,0 +1,6 @@
+#!/bin/sh
+
+echo "PLEASE REBOOT YOUR DEVICE!!!"
+sbalert -q 10 -t "Installation Alert" -m "Please manually reboot your device! This package can be uninstalled after rebooting."
+wait
+exit 0

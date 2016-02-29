@@ -1,0 +1,5 @@
+#!/bin/bash
+
+unlink /usr/local/bin/iRingtone
+
+exit 0

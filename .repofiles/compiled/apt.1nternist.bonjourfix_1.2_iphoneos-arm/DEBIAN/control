@@ -1,0 +1,11 @@
+Architecture: iphoneos-arm
+Author: Chir0student
+Description: Bonjour and OpenSSH patch to allow Bonjour server!
+Maintainer: Chir0student <chir0student@me.com>
+Name: Bonjour Fix
+Package: apt.1nternist.bonjourfix
+Pre-Depends: openssh (= 5.8p1-9) | openssh (= 6.0p1-10) | openssh (= 6.1p1-11) | openssh (= 6.6p1-1) | openssh (>= 6.7p1-1)
+Replaces: openssh
+Section: System
+Sponsor: Chir0student <chir0student@me.com>
+Version: 1.2

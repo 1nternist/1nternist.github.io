@@ -1,0 +1,11 @@
+Architecture: iphoneos-arm
+Author: iJunkie22
+Depends: apt.1nternist.bashutils, com.ericasadun.utilities, com.innoying.sbutils, bash, coreutils, coreutils-bin, findutils, apt.1nternist.pcentcomp, apt.1nternist.pcentleft, apt.1nternist.timecalc
+Depiction: http://repo.insanelyi.com/depiction.php?package=ijappurl
+Description: Extracts and exports a list of all installed user app names, their AppStoreURLs,their CFBundleID and their URL schemes. Run ijappurl in terminal. Exported txt file can be found in /tmp/
+Maintainer: insanelyi <noreply@insanelyi.com>
+Name: ijappurl
+Package: apt.1nternist.ijappurl
+Section: iScripts
+Sponsor: insanelyi <http://insanelyi.com>
+Version: 3.0

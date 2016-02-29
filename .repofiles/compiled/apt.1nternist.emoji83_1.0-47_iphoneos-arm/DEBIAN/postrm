@@ -1,0 +1,11 @@
+#!/bin/bash
+mv /System/Library/Fonts/Cache/AppleColorEmoji@2x.backup /System/Library/Fonts/Cache/AppleColorEmoji@2x.ttf
+
+echo "Restoring old emoji preferences..."
+if [ -f "/Library/Emoji83/com.apple.EmojiPreferences.plist" ];then
+        mv /Library/Emoji83/com.apple.EmojiPreferences.plist /private/var/mobile/Library/Preferences/com.apple.EmojiPreferences.plist
+else
+        echo "Could not find the preferences."
+fi
+
+echo "Done."

@@ -1,0 +1,24 @@
+#!/bin/bash
+
+
+work_dir=/usr/share/chir0student/RetinaWallpaper
+wall_dir=$work_dir/5
+target_dir=/Library/Wallpaper/iPad
+
+
+cd $wall_dir
+ls *ipad.jpg | sed 's/jpg/png/g' > wall.list
+
+for wall in *ipad.jpg; do
+    echo
+    echo "Expanding: `echo "${wall%%/}"`"
+    ./convert "${wall%%/}" -resize 100% "${wall%.*}".png
+    chown root:admin "${wall%.*}".png
+    chmod 0664 "${wall%.*}".png
+    echo "Moving:    `echo "${wall%%/}"`"
+    mv -f $wall_dir/"${wall%.*}".png $target_dir
+    echo "Done!"
+    rm -rf "${wall%%/}"
+done
+
+exit 0

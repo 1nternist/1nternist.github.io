@@ -1,8 +1,0 @@
-#!/bin/bash
-
-ln -sf /usr/local/bin/armv7patch.sh /usr/local/bin/armv7patch
-
-chown root:wheel "/usr/local/bin/armv7patch.sh" "/usr/local/bin/armv7patch"
-chmod 755 "/usr/local/bin/armv7patch.sh" "/usr/local/bin/armv7patch"
-
-exit 0

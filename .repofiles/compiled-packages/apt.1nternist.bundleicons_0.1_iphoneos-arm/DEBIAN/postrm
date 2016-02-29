@@ -1,5 +1,0 @@
-#!/bin/bash
-
-unlink /usr/local/bin/bundleicons
-
-exit 0

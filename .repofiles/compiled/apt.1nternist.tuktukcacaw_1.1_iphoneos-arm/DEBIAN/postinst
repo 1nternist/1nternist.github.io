@@ -1,0 +1,4 @@
+#!/bin/sh
+
+chown root:admin /Library/Ringtones/Tuk\ Tuk\ Ca\ Caw.m4r
+chmod 0664 /Library/Ringtones/Tuk\ Tuk\ Ca\ Caw.m4r

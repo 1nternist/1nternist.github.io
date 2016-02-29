@@ -1,4 +1,0 @@
-#!/bin/sh
-
-ln -s /usr/local/bin/lighttpd-tool.sh /usr/local/bin/lighttpd-tool
-ln -s /usr/local/bin/lighttpd-tool.sh /usr/local/bin/WebServer

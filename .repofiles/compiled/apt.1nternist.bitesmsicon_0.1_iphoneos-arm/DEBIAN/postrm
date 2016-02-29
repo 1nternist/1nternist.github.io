@@ -1,0 +1,27 @@
+#!/bin/bash
+
+echo "Restoring original icons..."
+rm /Applications/biteSMS.app/bite-menu.png
+rm /Applications/biteSMS.app/bite-menu@2x.png
+rm /Applications/biteSMS.app/bite-nc.png
+rm /Applications/biteSMS.app/bite-nc@2x.png
+rm /Applications/biteSMS.app/Icon-Small.png
+rm /Applications/biteSMS.app/Icon-Small@2x.png
+rm /Applications/biteSMS.app/icon.png
+rm /Applications/biteSMS.app/icon@2x.png
+rm /Applications/biteSMS.app/Lock-screen-QR.png
+rm /Applications/biteSMS.app/Lock-screen-QR@2x.png
+rm /Applications/biteSMS.app/nc-qc-bite@2x.png
+mv /Applications/biteSMS.app/bite-menu.png.old /Applications/biteSMS.app/bite-menu.png
+mv /Applications/biteSMS.app/bite-menu@2x.png.old /Applications/biteSMS.app/bite-menu@2x.png
+mv /Applications/biteSMS.app/bite-nc.png.old /Applications/biteSMS.app/bite-nc.png
+mv /Applications/biteSMS.app/bite-nc@2x.png.old /Applications/biteSMS.app/bite-nc@2x.png
+mv /Applications/biteSMS.app/Icon-Small.png.old /Applications/biteSMS.app/Icon-Small.png
+mv /Applications/biteSMS.app/Icon-Small@2x.png.old /Applications/biteSMS.app/Icon-Small@2x.png
+mv /Applications/biteSMS.app/icon.png.old /Applications/biteSMS.app/icon.png
+mv /Applications/biteSMS.app/icon@2x.png.old /Applications/biteSMS.app/icon@2x.png
+mv /Applications/biteSMS.app/Lock-screen-QR.png.old /Applications/biteSMS.app/Lock-screen-QR.png
+mv /Applications/biteSMS.app/Lock-screen-QR@2x.png.old /Applications/biteSMS.app/Lock-screen-QR@2x.png
+mv /Applications/biteSMS.app/nc-qc-bite@2x.png.old /Applications/biteSMS.app/nc-qc-bite@2x.png
+
+echo "Thank you for using Chir0student's Repository"

@@ -1,0 +1,19 @@
+#!/bin/sh
+
+echo "`cat /etc/hosts | grep cydia.mirepo.com | sed 's/127.0.0.1 cydia.mirepo.com/#127.0.0.1 cydia.mirepo.com/g'`" </etc/hosts
+
+server_dir="/var/www"
+
+rm -rf "$server_dir"/Release.gpg
+rm -rf "$server_dir"/Packages
+rm -rf "$server_dir"/Packages.bz2
+rm -rf "$server_dir"/Packages.gz
+
+if [ -L /var/www/repo/debs ]; then
+    unlink /var/www/repo/debs
+fi
+if [ -L /var/www/repo/uncompiled-packages ]; then
+    unlink /var/www/repo/uncompiled-packages
+fi
+
+exit 0

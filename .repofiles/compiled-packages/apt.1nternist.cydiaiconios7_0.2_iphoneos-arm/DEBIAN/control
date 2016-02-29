@@ -1,8 +1,0 @@
-Architecture: iphoneos-arm
-Author: Chir0student <chir0student@me.com
-Description: Change the style of Cydia Icon to iOS 7 Style!
-Maintainer: Chir0student <chir0student@me.com>
-Name: iOS 7 Cydia Icon
-Package: apt.1nternist.cydiaiconios7
-Section: Themes
-Version: 0.2

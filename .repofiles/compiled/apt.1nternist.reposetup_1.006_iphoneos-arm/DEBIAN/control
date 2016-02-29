@@ -1,0 +1,14 @@
+Architecture: iphoneos-arm
+Author: 1nternist <dacdcdabci@gmail.com>
+Description: 1nternist repo setup files
+Essential: yes
+Homepage: https://1nternist.github.io
+Icon: file:///Applications/Cydia.app/Sections/1nternist_RepoIcons.png
+Maintainer: 1nternist <dacdcdabci@gmail.com>
+Name: 1nternist's Repo Setup
+Package: apt.1nternist.reposetup
+Conflicts: apt.1nternist.repoicons, com.myrepospace-chir0student.icon, com.myrepospace.chir0student.repoicons
+Replaces: apt.1nternist.repoicons, com.myrepospace-chir0student.icon, com.myrepospace.chir0student.repoicons
+Section: Repo_Utils_1nternist
+Sponsor: 1nternist <dacdcdabci@gmail.com>
+Version: 1.006

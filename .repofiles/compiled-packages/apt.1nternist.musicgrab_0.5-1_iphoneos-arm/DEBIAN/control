@@ -1,8 +1,0 @@
-Architecture: iphoneos-arm
-Author: Chir0student <chir0student@me.com>
-Description: This script will find & copy all downloaded music to /var/mobile/Media/My Music
-Maintainer: Chir0student <chir0student@me.com>
-Name: Music Grab
-Package: apt.1nternist.musicgrab
-Section: Scripting
-Version: 0.5-1

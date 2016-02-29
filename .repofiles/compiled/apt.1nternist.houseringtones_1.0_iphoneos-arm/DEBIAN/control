@@ -1,0 +1,8 @@
+Architecture: iphoneos-arm
+Author: Chir0student <chir0student@icloud.com>
+Description: All 3 House M.D. intro music ringtones
+Maintainer: Chir0student <chir0student@icloud.com>
+Name: House M.D. Ringtones
+Package: apt.1nternist.houseringtones
+Section: Ringtones
+Version: 1.0

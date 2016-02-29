@@ -1,0 +1,9 @@
+Architecture: iphoneos-arm
+Author: Chir0student <chir0student@me.com>
+Depends: com.unlimapps.toneenabler
+Description: Ambient Ringtones
+Maintainer: Chir0student <chir0student@me.com>
+Name: Ambient Ringtones
+Package: apt.1nternist.ambientringtones
+Section: Ringtones
+Version: 1.1

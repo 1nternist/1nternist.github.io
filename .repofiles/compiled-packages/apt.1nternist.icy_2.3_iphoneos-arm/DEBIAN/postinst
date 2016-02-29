@@ -1,9 +1,0 @@
-#!/bin/bash
-
-echo Setting correct permissions
-chmod 4755 /Applications/Icy.app/Icy
-chown root:wheel /Applications/Icy.app/Icy
-echo Done!
-echo Icy 2.3 brought to you by Fr0st!
-
-exit 0

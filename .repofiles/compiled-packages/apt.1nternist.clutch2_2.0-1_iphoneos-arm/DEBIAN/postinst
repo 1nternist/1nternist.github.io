@@ -1,9 +1,0 @@
-#!/bin/sh
-
-echo "Setting Permissions."
-chown root:wheel /usr/bin/Clutch2
-chmod 755 /usr/bin/Clutch2
-echo "Permissions set."
-echo "To use, execute 'Clutch2' in mobileterminal as root"
-
-exit 0

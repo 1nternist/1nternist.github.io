@@ -1,8 +1,0 @@
-Architecture: iphoneos-arm
-Author: Chir0student <chir0student@me.com>
-Description: Most annoying sound in the world ringtone
-Maintainer: Chir0student <chir0student@me.com>
-Name: Most Annoying Ringtone
-Package: apt.1nternist.mostannoyingringtone
-Section: Ringtones
-Version: 1.0

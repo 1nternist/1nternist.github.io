@@ -1,0 +1,11 @@
+Architecture: iphoneos-arm
+Author: Chir0student <chir0student@me.com>
+Depends: apt.1nternist.makeiconios7+
+Description: Generate bundle icons for your apps/themes, using a single input image. Just execute bundleicons /path/to/image.png in MobileTerminal
+Maintainer: Chir0student <chir0student@me.com>
+Name: BundleIcons Script
+Package: apt.1nternist.bundleicons
+Section: Scripting
+Sponsor: Chir0student <chir0student@me.com>
+Tag: purpose::console role::hacker
+Version: 0.1

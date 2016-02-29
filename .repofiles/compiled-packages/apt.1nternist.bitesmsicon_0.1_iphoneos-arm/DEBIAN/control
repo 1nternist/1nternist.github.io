@@ -1,8 +1,0 @@
-Architecture: iphoneos-arm
-Author: Chir0student <chir0student@me.com
-Description: Change the style of biteSMS Icon to iOS 7 Style!
-Maintainer: Chir0student <chir0student@me.com>
-Name: biteSMS Icon
-Package: apt.1nternist.bitesmsicon
-Section: MiThemes
-Version: 0.1

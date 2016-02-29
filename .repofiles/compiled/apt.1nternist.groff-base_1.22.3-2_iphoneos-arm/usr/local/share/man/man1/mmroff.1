@@ -1,0 +1,125 @@
+.TH MMROFF 1 "4 November 2014" "Groff Version 1.22.3"
+.SH NAME
+mmroff \- cross reference preprocessor
+.
+.
+.\" --------------------------------------------------------------------
+.\" Legalese
+.\" --------------------------------------------------------------------
+.
+.de co
+Copyright \[co] 1989-2014 Free Software Foundation, Inc.
+
+Permission is granted to make and distribute verbatim copies of
+this manual provided the copyright notice and this permission notice
+are preserved on all copies.
+
+Permission is granted to copy and distribute modified versions of this
+manual under the conditions for verbatim copying, provided that the
+entire resulting derived work is distributed under the terms of a
+permission notice identical to this one.
+
+Permission is granted to copy and distribute translations of this
+manual into another language, under the above conditions for modified
+versions, except that this permission notice may be included in
+translations approved by the Free Software Foundation instead of in
+the original English.
+..
+.
+.de au
+This document was written by
+.MT jh@axis.se
+Jörgen Hägg, Lund, Sweden
+.ME .
+..
+.
+.\" --------------------------------------------------------------------
+.SH SYNOPSIS
+.\" --------------------------------------------------------------------
+.
+.B mmroff
+[
+.I \-x
+]
+.I groff_arguments
+.
+.
+.\" --------------------------------------------------------------------
+.SH DESCRIPTION
+.\" --------------------------------------------------------------------
+.
+.B mmroff
+is a simple preprocessor for
+.BR groff ,
+it is used for expanding cross references in
+.BR mm ,
+see
+.BR groff_mm (7).
+.
+.B groff
+is executed twice, first with
+.B \-z
+and
+.B \-rRef=1
+to collect all cross references and then to do the real processing
+when the cross reference file is up to date.
+.
+.
+.TP
+.B \-x
+Just create the cross reference file.
+.
+This can be used to refresh the cross reference file, it isn\[aq]t
+always needed to have accurate cross references and by using this
+option
+.B groff
+will only be run once.
+.
+.
+.\" --------------------------------------------------------------------
+.\".SH BUGS
+.\" --------------------------------------------------------------------
+.
+.
+.\" --------------------------------------------------------------------
+.SH FILES
+.\" --------------------------------------------------------------------
+.
+.TP
+.B /usr/local/share/groff/1.22.3/tmac/m.tmac
+.TP
+.B /usr/local/share/groff/1.22.3/tmac/mm/*.cov
+.TP
+.B /usr/local/share/groff/1.22.3/tmac/mm/*.MT
+.TP
+.B /usr/local/share/groff/1.22.3/tmac/mm/locale
+.
+.
+.na
+.\" --------------------------------------------------------------------
+.SH "SEE ALSO"
+.\" --------------------------------------------------------------------
+.
+.BR groff_mm (7),
+.BR groff_mmse (7),
+.BR groff (1),
+.BR troff (1),
+.BR tbl (1),
+.BR pic (1),
+.BR eqn (1)
+.
+.
+.\" --------------------------------------------------------------------
+.SH COPYING
+.\" --------------------------------------------------------------------
+.co
+.\" --------------------------------------------------------------------
+.SH AUTHORS
+.\" --------------------------------------------------------------------
+.
+.
+.
+.\" Local Variables:
+.\" mode: nroff
+.\" coding: latin-1
+.\" End:

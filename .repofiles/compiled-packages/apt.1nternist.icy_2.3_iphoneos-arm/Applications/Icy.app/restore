@@ -1,6 +1,0 @@
-#!/bin/bash
-
-dpkg --set--selections < /var/mobile/Documents/backup.txt
-
-apt-get -u dselect-upgrade
-

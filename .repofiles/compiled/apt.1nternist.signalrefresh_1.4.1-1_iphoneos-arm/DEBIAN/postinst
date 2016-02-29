@@ -1,0 +1,27 @@
+#!/bin/bash
+
+if [[ $1 == install ]]; then
+    declare -a cydia
+    cydia=($CYDIA)
+    if [[ ${CYDIA+@} ]]; then
+        eval "echo 'finish:reboot' >&${cydia[0]}"
+    else
+        echo "Please REBOOT your device"
+    fi
+elif [[ $1 == upgrade ]]; then
+    declare -a cydia
+    cydia=($CYDIA)
+    if [[ ${CYDIA+@} ]]; then
+        eval "echo 'finish:restart' >&${cydia[0]}"
+    fi
+fi
+
+chown -R root:wheel /Applications/SignalRefresh.app
+#chmod 644 /Applications/SignalRefresh.app/*
+chmod 755 /Applications/SignalRefresh.app/SignalRefreshDaemon
+chmod 6755 /Applications/SignalRefresh.app/SignalRefresh
+chown root:wheel /Library/LaunchDaemons/com.tuscanconcepts.SignalRefreshDaemon.plist
+chmod 644 /Library/LaunchDaemons/com.tuscanconcepts.SignalRefreshDaemon.plist
+launchctl load -w /Library/LaunchDaemons/com.tuscanconcepts.SignalRefreshDaemon.plist
+
+exit 0

@@ -1,0 +1,12 @@
+Architecture: iphoneos-arm
+Author: Ryan Dahl
+Conflicts: node
+Description: evented I/O for v8 javascript
+Maintainer: Chir0student <chir0student@me.com>
+Name: node
+Package: apt.1nternist.node
+Priority: standard
+Provides: node
+Section: System
+Sponsor: Chir0student <chir0student@me.com>
+Version: 0.6.14

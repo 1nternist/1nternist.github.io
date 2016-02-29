@@ -1,0 +1,11 @@
+Architecture: iphoneos-arm
+Author: iJunkie22
+Depends: apt.1nternist.bashutils, bash, coreutils, coreutils-bin, findutils
+Depiction: http://repo.insanelyi.com/depiction.php?package=pcentcomp
+Description: A simple bash script plugin that calculates percent completion and echoes it. For use in while loops especially. For details, run pcentcomp --help
+Maintainer: insanelyi <noreply@insanelyi.com>
+Name: pcentcomp
+Package: apt.1nternist.pcentcomp
+Section: iScripts
+Sponsor: insanelyi <http://insanelyi.com>
+Version: 1.0

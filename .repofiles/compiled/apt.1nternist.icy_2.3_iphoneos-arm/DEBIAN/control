@@ -1,0 +1,9 @@
+Package: apt.1nternist.icy
+Name: Icy Installer
+Version: 2.3
+Architecture: iphoneos-arm
+Description: Faster dpkg-based Installer
+Maintainer: fr0stdev
+Author: WeAmDev
+Sponsor: Chir0student <chir0student@me.com>
+Section: Packaging

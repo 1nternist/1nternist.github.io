@@ -1,9 +1,0 @@
-Architecture: iphoneos-arm
-Author: Chir0student <chir0student@icloud.com>
-Depends: com.fizk.ffmpeg
-Description: AVTools scripts
-Maintainer: Chir0student <chir0student@icloud.com>
-Name: AVTools scripts
-Package: apt.1nternist.avtoolscripts
-Section: Scripting
-Version: 1.4.2

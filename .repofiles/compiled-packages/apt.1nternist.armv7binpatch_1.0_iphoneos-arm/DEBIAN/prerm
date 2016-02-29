@@ -1,5 +1,0 @@
-#!/bin/bash
-
-unlink /usr/local/bin/armv7patch
-
-exit 0

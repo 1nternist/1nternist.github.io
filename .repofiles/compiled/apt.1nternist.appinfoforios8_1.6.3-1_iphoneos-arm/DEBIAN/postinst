@@ -1,0 +1,64 @@
+#!/bin/bash
+
+echo Installing an symbolic link in var/mobile
+echo  - 1%
+echo  - 4%
+echo  - 8%
+echo  - 15%
+echo  - 19%
+echo  - 21%
+echo  - 30%
+echo  - 34%
+echo  - 36%
+echo  - 40%
+echo  - 45%
+echo  - 49%
+echo  - 56%
+if [ ! -d /var/mobile/Application  ]; then ln -s /var/mobile/Containers/Bundle/Application /var/mobile > /dev/null 2>&1; fi
+echo  - 60%
+echo  - 66%
+echo  - 68%
+echo  - 69%
+echo  - 70%
+echo  - 80%
+echo  - 85%
+echo  - 90%
+echo  - 91%
+echo  - 95%
+echo  - 99%
+echo  - 99%
+echo  - 99%
+echo  - 100%
+echo  - 100%
+echo  - 100%
+echo finished!
+echo ------------------
+echo renaming linked directory from /Application to /Applications
+echo  - 1%
+echo  - 9%
+echo  - 20%
+echo  - 50%
+echo  - 55%
+mv /var/mobile/Application /var/mobile/Applications
+echo  - 60%
+echo  - 74%
+echo  - 80%
+echo  - 90%
+echo  - 99%
+echo  - 100%
+echo  - 100%
+echo  - 100%
+echo finished!
+
+chown -R root:wheel /Applications/appinfo.app/
+chmod -R 755 /Applications/appinfo.app/
+chmod u+s /Applications/appinfo.app/appinfo
+
+sh /Applications/appinfo.app/RepairPermissions.sh
+
+su mobile - -c /usr/bin/uicache
+
+killall -KILL appinfo
+
+
+exit 0

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+
+<dict>
+	<key>name</key>
+	<string>minion</string>
+	<key>type</key>
+	<string>select</string>
+	<key>label</key>
+	<string>Minion</string>
+	<key>default</key>
+	<string>Line</string>
+
+		<key>options</key>
+	<dict>
+	<key>Line</key>
+	<string>minions_line.png</string>
+	<key>Pulling</key>
+	<string>minions_pulling.png</string>
+	<key>Work Crew</key>
+	<string>minions_workcrew.png</string>
+	<key>Sign</key>
+	<string>minions_sign.png</string>
+	
+	</dict>
+</dict>
+
+
+
+</array>
+</plist>

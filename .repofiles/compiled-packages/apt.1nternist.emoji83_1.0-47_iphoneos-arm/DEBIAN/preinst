@@ -1,3 +1,0 @@
-#!/bin/bash
-
-mv /System/Library/Fonts/Cache/AppleColorEmoji@2x.ttf /System/Library/Fonts/Cache/AppleColorEmoji@2x.backup
