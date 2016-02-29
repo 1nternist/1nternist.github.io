@@ -1,8 +1,0 @@
-Architecture: iphoneos-arm
-Author: Chir0student <chir0student@icloud.com>
-Description: dpkg-scanpackages written in bash and updated to work with the MiRepo scripts
-Maintainer: Chir0student <chir0student@icloud.com>
-Name: bash-dpkg-scanpackages
-Package: apt.1nternist.bash-dpkg-scanpackages
-Section: Scripts
-Version: 1.1

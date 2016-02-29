@@ -1,0 +1,11 @@
+Architecture: iphoneos-arm
+Author: 1nternist <dacdcdabci@gmail.com>
+Conflicts: apt.1nternist.makedeb
+Depends: apt, apt7-key, apt7-ssl, apt7, apt7-lib, lighttpd | lighttpd-atv | touch-lighttpd-php-mysql | apt.1nternist.lighttpd-ios, com.innoying.sbutils, apt.1nternist.libtimedate-perl | libtimedate-perl | apt.1nternist.libtimedateperl, apt.1nternist.libdpkg-perl | libdpkg-perl | apt.1nternist.libdpkgperl, apt.1nternist.dpkg-scanpackages, apt.1nternist.perl | apt.1nternist.perl510 | apt.1nternist.perl514 | apt.1nternist.perl520 | perl | org.coolstar.perl | apt.1nternist.perlfullinstall, apt.1nternist.sudonopasswd, coreutils, coreutils-bin, file, gawk, gnupg, ncurses, sudo, system-cmds
+Description: MiRepo is a functional Cydia repo on iDevice. Just type "MiRepo" in mobileterminal to bring up the menu. MiRepo directory is located at /var/root/Library/MiRepo.
+Maintainer: 1nternist <dacdcdabci@gmail.com>
+Name: MiRepo
+Icon: file:///var/www/repo/CydiaIcon.png
+Package: apt.1nternist.mirepo
+Section: Scripting
+Version: 6.1.0-1

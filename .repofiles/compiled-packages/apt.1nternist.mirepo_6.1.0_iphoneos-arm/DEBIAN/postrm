@@ -1,8 +1,0 @@
-#!/bin/bash
-
-if [[ $1 == remove ]] || [[ $1 == upgrade ]]; then
-    /usr/bin/gpg --batch --yes --delete-secret-keys "0EC2 83F1 3612 B6ED 14E6  EFFB B818 DE5C AF92 CB2F"
-    /usr/bin/gpg --batch --yes --delete-keys AF92CB2F
-fi
-
-exit 0

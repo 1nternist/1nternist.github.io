@@ -1,0 +1,10 @@
+Architecture: iphoneos-arm
+Author: Chir0student <chir0student@me.com>
+Depends: lighttpd
+Description: Lighttpd command line toggles.
+Installed-Size: 216
+Maintainer: Chir0student <chir0student@me.com>
+Name: Lighttpd Toggles
+Package: apt.1nternist.lighttpdtoggles
+Section: Networking
+Version: 1.0-3

@@ -234,6 +234,18 @@ Description: dpkg-scanpackages written in bash and updated to work with the MiRe
 Name: bash-dpkg-scanpackages
 Author: Chir0student <chir0student@icloud.com>
 
+Package: apt.1nternist.bash-dpkg-scanpackages
+Version: 1.2
+Section: Scriping
+Maintainer: Chir0student <chir0student@icloud.com>
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.bash-dpkg-scanpackages_1.2_iphoneos-arm.deb
+Size: 1396
+MD5sum: c1a632f7c20bb20e128412955655ea0f
+Description: dpkg-scanpackages written in bash and updated to work with the MiRepo scripts
+Name: bash-dpkg-scanpackages
+Author: Chir0student <chir0student@icloud.com>
+
 Package: apt.1nternist.bashrc
 Version: 1.0
 Section: Scripts
@@ -273,18 +285,6 @@ Description: A collection of utilities for core iOS functions
 Name: Bash Utils
 Author: Luke Young (innoying)
 Depiction: http://repo.insanelyi.com/depiction.php?package=bashutils
-
-Package: apt.1nternist.bitesmsicon
-Version: 0.1
-Section: MiThemes
-Maintainer: Chir0student <chir0student@me.com>
-Architecture: iphoneos-arm
-Filename: debs/apt.1nternist.bitesmsicon_0.1_iphoneos-arm.deb
-Size: 23586
-MD5sum: 1cc6bfa0c402c464649e8d774213ef8f
-Description: Change the style of biteSMS Icon to iOS 7 Style!
-Name: biteSMS Icon
-Author: Chir0student <chir0student@me.com
 
 Package: apt.1nternist.blackmagicwoman
 Version: 1.0
@@ -439,19 +439,6 @@ Name: Clutch
 Author: ttwj & iT0ny
 Homepage: https://github.com/KJCracks/Clutch-dl
 
-Package: apt.1nternist.cokepokesr-list
-Version: 1.0
-Section: MyRepoSpace.com
-Maintainer: chir0student <chir0student@me.com>
-Architecture: iphoneos-arm
-Filename: debs/apt.1nternist.cokepokesr-list_1.0_iphoneos-arm.deb
-Size: 736
-MD5sum: ce7fa5401bb69e26d6cfdada1f2095e7
-Description: Cokepokes repo
-Name: Cokepokes Repo
-Author: chir0student
-Depiction: http://www.myrepospace.com/
-
 Package: apt.1nternist.coolstarsr-list
 Version: 1.0
 Section: MyRepoSpace.com
@@ -465,16 +452,16 @@ Name: Coolstar's repo
 Author: chir0student
 Depiction: http://www.myrepospace.com/
 
-Package: apt.1nternist.crazymonst-list
-Version: 1.0
+Package: apt.1nternist.coolstarsr-list
+Version: 1.1
 Section: MyRepoSpace.com
 Maintainer: chir0student <chir0student@me.com>
 Architecture: iphoneos-arm
-Filename: debs/apt.1nternist.crazymonst-list_1.0_iphoneos-arm.deb
-Size: 762
-MD5sum: 3e01734d8254098436d76869e9808117
-Description: CrazyMonster Repo (Grooveshark Enhancer)
-Name: CrazyMonster Repo
+Filename: debs/apt.1nternist.coolstarsr-list_1.1_iphoneos-arm.deb
+Size: 746
+MD5sum: 2e168447f9c528098245fb411bca868d
+Description: Coolstar.org Repository
+Name: Coolstar's repo
 Author: chir0student
 Depiction: http://www.myrepospace.com/
 
@@ -486,6 +473,18 @@ Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.cydiaiconios7_0.1_iphoneos-arm.deb
 Size: 143784
 MD5sum: 5b19cd52596d74d8233527e2927f4bac
+Description: Change the style of Cydia Icon to iOS 7 Style!
+Name: iOS 7 Cydia Icon
+Author: Chir0student <chir0student@me.com
+
+Package: apt.1nternist.cydiaiconios7
+Version: 0.2
+Section: Themes
+Maintainer: Chir0student <chir0student@me.com>
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.cydiaiconios7_0.2_iphoneos-arm.deb
+Size: 143790
+MD5sum: 9cb0d18b48684c56c4a7a6f1e59e30b5
 Description: Change the style of Cydia Icon to iOS 7 Style!
 Name: iOS 7 Cydia Icon
 Author: Chir0student <chir0student@me.com
@@ -645,6 +644,19 @@ Description: Have you ever wondered which executables in your $PATH were shell s
 Name: Find My Shells
 Author: Markus McCormac <chir0student@icloud.com>
 
+Package: apt.1nternist.findmyshells
+Version: 1.2
+Section: Scripting
+Maintainer: Markus McCormac <chir0student@icloud.com>
+Depends: mobileterminal-applesdk
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.findmyshells_1.2_iphoneos-arm.deb
+Size: 1078
+MD5sum: f205f135884df6c9747c599163be2a46
+Description: Have you ever wondered which executables in your $PATH were shell scripts? Just run find_shells.sh in terminal as root and find_shells.sh will generate a list of all the shell scripts in your $PATH. Results are saved to /var/mobile/Shells.txt
+Name: Find My Shells
+Author: Markus McCormac <chir0student@icloud.com>
+
 Package: apt.1nternist.freeyourap-list
 Version: 1.0
 Section: MyRepoSpace.com
@@ -653,6 +665,19 @@ Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.freeyourap-list_1.0_iphoneos-arm.deb
 Size: 748
 MD5sum: df312a0b6e322ac54e7d68884f655b45
+Description: FYA repo
+Name: FreeYourApple Repo
+Author: chir0student
+Depiction: http://www.myrepospace.com/
+
+Package: apt.1nternist.freeyourap-list
+Version: 1.1
+Section: Repositories
+Maintainer: chir0student <chir0student@me.com>
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.freeyourap-list_1.1_iphoneos-arm.deb
+Size: 754
+MD5sum: 1614c11135957bb4b2ab213d3dccf42e
 Description: FYA repo
 Name: FreeYourApple Repo
 Author: chir0student
@@ -750,22 +775,6 @@ Name: groff
 Author: idotce <idotce@gmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=groffbaseDp
 
-Package: apt.1nternist.groovesharkenhancer
-Version: 2.7.5
-Priority: optional
-Section: Applications
-Maintainer: Chir0student <chir0student@me.com>
-Depends: firmware (>= 5.0), mobilesubstrate, com.grooveshark.grooveshark (>= 2.7.4)
-Conflicts: com.cokepokes.gsutility, com.xsellize.gsutility
-Replaces: com.cokepokes.gsutility, com.xsellize.gsutility
-Architecture: iphoneos-arm
-Filename: debs/apt.1nternist.groovesharkenhancer_2.7.5_iphoneos-arm.deb
-Size: 617268
-MD5sum: 5c8bdefe6e41a8ea1efc31729d284e85
-Description: Enhance Grooveshark for iOS to support infinite trial renew and music import (with Gremlin installed).
-Name: Grooveshark Enhancer
-Author: CrazyMonster <crzmst@yahoo.it>
-
 Package: apt.1nternist.hardon
 Version: 1.0
 Section: Ringtones
@@ -786,6 +795,19 @@ Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.harrisonap-list_1.0_iphoneos-arm.deb
 Size: 740
 MD5sum: 9d3ba3e5013d827eafa5b386bbf552e0
+Description: Harrisonapps repository
+Name: HarrisonApps Repo
+Author: chir0student
+Depiction: http://www.myrepospace.com/
+
+Package: apt.1nternist.harrisonap-list
+Version: 1.1
+Section: Repositories
+Maintainer: chir0student <chir0student@me.com>
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.harrisonap-list_1.1_iphoneos-arm.deb
+Size: 748
+MD5sum: 29317d779468eb815a6115237b2b9333
 Description: Harrisonapps repository
 Name: HarrisonApps Repo
 Author: chir0student
@@ -830,6 +852,19 @@ Name: HunterBeckham Repo
 Author: chir0student
 Depiction: http://www.myrepospace.com/
 
+Package: apt.1nternist.hunterbeck-list
+Version: 1.1
+Section: Repositories
+Maintainer: chir0student <chir0student@me.com>
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.hunterbeck-list_1.1_iphoneos-arm.deb
+Size: 748
+MD5sum: 1c22f677afa75c2c52ad131c1f30d4e8
+Description: HunterBeckham repo
+Name: HunterBeckham Repo
+Author: chir0student
+Depiction: http://www.myrepospace.com/
+
 Package: apt.1nternist.iapcracker-list
 Version: 1.0
 Section: MyRepoSpace.com
@@ -843,6 +878,19 @@ Name: iAP Cracker Repo
 Author: chir0student
 Depiction: http://www.myrepospace.com/
 
+Package: apt.1nternist.iapcracker-list
+Version: 1.1
+Section: Repositories
+Maintainer: chir0student <chir0student@me.com>
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.iapcracker-list_1.1_iphoneos-arm.deb
+Size: 748
+MD5sum: 8b5e358483a0bd19a215473dd109dd51
+Description: iAP Cracker Repo
+Name: iAP Cracker Repo
+Author: chir0student
+Depiction: http://www.myrepospace.com/
+
 Package: apt.1nternist.icausefxre-list
 Version: 1.0
 Section: MyRepoSpace.com
@@ -851,6 +899,19 @@ Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.icausefxre-list_1.0_iphoneos-arm.deb
 Size: 730
 MD5sum: 0da60e4542ee10fb21d3302e46061d60
+Description: iCauseFX Repo
+Name: iCauseFX Repo
+Author: chir0student
+Depiction: http://www.myrepospace.com/
+
+Package: apt.1nternist.icausefxre-list
+Version: 1.1
+Section: Repositories
+Maintainer: chir0student <chir0student@me.com>
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.icausefxre-list_1.1_iphoneos-arm.deb
+Size: 740
+MD5sum: 7017c4ea18775f6c6948ae12f34ff8f6
 Description: iCauseFX Repo
 Name: iCauseFX Repo
 Author: chir0student
@@ -876,6 +937,19 @@ Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.idwaneorep-list_1.0_iphoneos-arm.deb
 Size: 722
 MD5sum: 61f720a2de003e4fb3cf300552287d00
+Description: iDwaneo Repo
+Name: iDwaneo Repo
+Author: chir0student
+Depiction: http://www.myrepospace.com/
+
+Package: apt.1nternist.idwaneorep-list
+Version: 1.1
+Section: Repositories
+Maintainer: chir0student <chir0student@me.com>
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.idwaneorep-list_1.1_iphoneos-arm.deb
+Size: 730
+MD5sum: 7a201c2762d9ff618b81166b398b3545
 Description: iDwaneo Repo
 Name: iDwaneo Repo
 Author: chir0student
@@ -908,32 +982,6 @@ Name: ijappurl
 Author: iJunkie22
 Depiction: http://repo.insanelyi.com/depiction.php?package=ijappurl
 
-Package: apt.1nternist.ilexinfore-list
-Version: 1.0
-Section: MyRepoSpace.com
-Maintainer: chir0student <chir0student@me.com>
-Architecture: iphoneos-arm
-Filename: debs/apt.1nternist.ilexinfore-list_1.0_iphoneos-arm.deb
-Size: 772
-MD5sum: 0506bc376b5198253d6e587dbdc6d802
-Description: iLEXiNFO's Repo (iLEX R.A.T. | RESTORE)
-Name: iLEXiNFO Repo
-Author: chir0student
-Depiction: http://www.myrepospace.com/
-
-Package: apt.1nternist.ilexrepo-list
-Version: 1.0
-Section: MyRepoSpace.com
-Maintainer: chir0student <chir0student@me.com>
-Architecture: iphoneos-arm
-Filename: debs/apt.1nternist.ilexrepo-list_1.0_iphoneos-arm.deb
-Size: 742
-MD5sum: de655360c5fda4fc5a4d3565fc78b4d8
-Description: iLEX's MyRepoSpace repository
-Name: iLEX Repo
-Author: chir0student
-Depiction: http://www.myrepospace.com/
-
 Package: apt.1nternist.iminionsiwidgetpack
 Version: 1.1
 Section: Widgets
@@ -961,19 +1009,6 @@ MD5sum: b6027f02b9f948ae1eb1a5288ccddc41
 Description: Display Application info using activator.
 Name: InfoTap
 Author: PathKiller29 <appleidname@yahoo.com>
-
-Package: apt.1nternist.ininjasrep-list
-Version: 1.0
-Section: MyRepoSpace.com
-Maintainer: chir0student <chir0student@me.com>
-Architecture: iphoneos-arm
-Filename: debs/apt.1nternist.ininjasrep-list_1.0_iphoneos-arm.deb
-Size: 750
-MD5sum: 6fd4b87163089d37ff39d81966549ab8
-Description: iNinjas Repo is for ADVANCED hacker only!!
-Name: iNinjas Repo
-Author: chir0student
-Depiction: http://www.myrepospace.com/
 
 Package: apt.1nternist.installipa
 Version: 3.3-1
@@ -1019,6 +1054,19 @@ Name: iOS 7 Repositories
 Author: chir0student
 Depiction: http://www.myrepospace.com/
 
+Package: apt.1nternist.ios7reposi-list
+Version: 1.2
+Section: Repositories
+Maintainer: chir0student <chir0student@me.com>
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.ios7reposi-list_1.2_iphoneos-arm.deb
+Size: 820
+MD5sum: ee927b176cecc05310922c3114be3223
+Description: iOS 7 Repositories
+Name: iOS 7 Repositories
+Author: chir0student
+Depiction: http://www.myrepospace.com/
+
 Package: apt.1nternist.ios7sequelae
 Version: 1.3.1
 Section: Themes - chir0student
@@ -1052,6 +1100,18 @@ Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.ios7wallpaperpack_1.0_iphoneos-arm.deb
 Size: 38926670
 MD5sum: 4aa0373637a1ad2cde54b159ad5d73b7
+Description: iOS 7 Wallpaper Pack
+Name: Some new wallpapers for iOS 7. Apply in Settings app.
+Author: Chir0student <chir0student@me.com>
+
+Package: apt.1nternist.ios7wallpaperpack
+Version: 1.1
+Section: Themes
+Maintainer: Chir0student <chir0student@me.com>
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.ios7wallpaperpack_1.1_iphoneos-arm.deb
+Size: 38926896
+MD5sum: ff4cc85e67e5f77973d4840c36161a8a
 Description: iOS 7 Wallpaper Pack
 Name: Some new wallpapers for iOS 7. Apply in Settings app.
 Author: Chir0student <chir0student@me.com>
@@ -1179,6 +1239,19 @@ Name: iPhoneCake Repo
 Author: chir0student
 Depiction: http://www.myrepospace.com/
 
+Package: apt.1nternist.iphonecake-list
+Version: 1.1
+Section: Repositories
+Maintainer: chir0student <chir0student@me.com>
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.iphonecake-list_1.1_iphoneos-arm.deb
+Size: 750
+MD5sum: 158055dc846f226dfbc8f2367a2d9e7a
+Description: iPhoneCake Repo (iPAStore)
+Name: iPhoneCake Repo
+Author: chir0student
+Depiction: http://www.myrepospace.com/
+
 Package: apt.1nternist.irepo
 Version: 1.3.1-1
 Section: iSystem
@@ -1220,6 +1293,19 @@ Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.julioskype-list_1.0_iphoneos-arm.deb
 Size: 742
 MD5sum: 911ac486322c180af72d85f2ae4c9ae8
+Description: JuLiO-Skype Repo
+Name: JuLiO-Skype Repo
+Author: chir0student
+Depiction: http://www.myrepospace.com/
+
+Package: apt.1nternist.julioskype-list
+Version: 1.1
+Section: Repositories
+Maintainer: chir0student <chir0student@me.com>
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.julioskype-list_1.1_iphoneos-arm.deb
+Size: 750
+MD5sum: 599e8f2f48edffd89215b3c44f2a5121
 Description: JuLiO-Skype Repo
 Name: JuLiO-Skype Repo
 Author: chir0student
@@ -1433,6 +1519,20 @@ Description: Lighttpd command line toggles.
 Name: Lighttpd Toggles
 Author: Chir0student <chir0student@me.com>
 
+Package: apt.1nternist.lighttpdtoggles
+Version: 1.0-3
+Section: Networking
+Maintainer: Chir0student <chir0student@me.com>
+Depends: lighttpd
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.lighttpdtoggles_1.0-3_iphoneos-arm.deb
+Size: 2346
+Installed-Size: 216
+MD5sum: ff4d283407766d6c130239e3f7ba3563
+Description: Lighttpd command line toggles.
+Name: Lighttpd Toggles
+Author: Chir0student <chir0student@me.com>
+
 Package: apt.1nternist.localiapstoreios9
 Version: 1.4-5
 Section: Tweaks
@@ -1505,6 +1605,21 @@ Description: standard Unix documentation system
 Name: man-db
 Author: idotce <idotce@gmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mandbDp
+
+Package: apt.1nternist.mirepo
+Version: 6.1.0-1
+Section: Scripting
+Maintainer: 1nternist <dacdcdabci@gmail.com>
+Depends: apt, apt7-key, apt7-ssl, apt7, apt7-lib, lighttpd | lighttpd-atv | touch-lighttpd-php-mysql | apt.1nternist.lighttpd-ios, com.innoying.sbutils, apt.1nternist.libtimedate-perl | libtimedate-perl | apt.1nternist.libtimedateperl, apt.1nternist.libdpkg-perl | libdpkg-perl | apt.1nternist.libdpkgperl, apt.1nternist.dpkg-scanpackages, apt.1nternist.perl | apt.1nternist.perl510 | apt.1nternist.perl514 | apt.1nternist.perl520 | perl | org.coolstar.perl | apt.1nternist.perlfullinstall, apt.1nternist.sudonopasswd, coreutils, coreutils-bin, file, gawk, gnupg, ncurses, sudo, system-cmds
+Conflicts: apt.1nternist.makedeb
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.mirepo_6.1.0-1_iphoneos-arm.deb
+Size: 304520
+MD5sum: a8bf4577fc7e65e792266dba1dff98ac
+Description: MiRepo is a functional Cydia repo on iDevice. Just type "MiRepo" in mobileterminal to bring up the menu. MiRepo directory is located at /var/root/Library/MiRepo.
+Name: MiRepo
+Author: 1nternist <dacdcdabci@gmail.com>
+Icon: file:///var/www/repo/CydiaIcon.png
 
 Package: apt.1nternist.mirepo
 Version: 6.1.0
@@ -1605,19 +1720,6 @@ Description: This script will find & copy all downloaded music to /var/mobile/Me
 Name: Music Grab
 Author: Chir0student <chir0student@me.com>
 
-Package: apt.1nternist.myrepospac-list
-Version: 1.0
-Section: MyRepoSpace.com
-Maintainer: chir0student <chir0student@me.com>
-Architecture: iphoneos-arm
-Filename: debs/apt.1nternist.myrepospac-list_1.0_iphoneos-arm.deb
-Size: 732
-MD5sum: 7881475058b4137adf6f3fc47c4ed520
-Description: Admin Repo
-Name: MyRepoSpace Admin Repo
-Author: chir0student
-Depiction: http://www.myrepospace.com/
-
 Package: apt.1nternist.node
 Version: 0.6.14
 Priority: standard
@@ -1641,6 +1743,19 @@ Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.p0dulorepo-list_1.0_iphoneos-arm.deb
 Size: 716
 MD5sum: e425fb9ee737bd9c0aa1e1fbf8d8cc84
+Description: P0dulo Repo
+Name: P0dulo Repo
+Author: chir0student
+Depiction: http://www.myrepospace.com/
+
+Package: apt.1nternist.p0dulorepo-list
+Version: 1.1
+Section: Repositories
+Maintainer: chir0student <chir0student@me.com>
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.p0dulorepo-list_1.1_iphoneos-arm.deb
+Size: 724
+MD5sum: 745076f0bd74bd5e88e5eb1d6894e17f
 Description: P0dulo Repo
 Name: P0dulo Repo
 Author: chir0student
@@ -1697,6 +1812,19 @@ Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.philippe97-list_1.0_iphoneos-arm.deb
 Size: 722
 MD5sum: fb27c9b45b8d1caa42868d77ff927b73
+Description: Philippe97 Repo
+Name: Philippe97 Repo
+Author: chir0student
+Depiction: http://www.myrepospace.com/
+
+Package: apt.1nternist.philippe97-list
+Version: 1.1
+Section: Repositories
+Maintainer: chir0student <chir0student@me.com>
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.philippe97-list_1.1_iphoneos-arm.deb
+Size: 730
+MD5sum: 0bb480ab9bdc2e17efa313d6415fe614
 Description: Philippe97 Repo
 Name: Philippe97 Repo
 Author: chir0student
@@ -1770,6 +1898,19 @@ Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.repocydiac-list_1.0_iphoneos-arm.deb
 Size: 736
 MD5sum: dab9622e6dade4afe5eb7da2dd5e60a5
+Description: RepoCydia.com Repository
+Name: RepoCydia.com Repository
+Author: chir0student
+Depiction: http://www.myrepospace.com/
+
+Package: apt.1nternist.repocydiac-list
+Version: 1.1
+Section: Repositories
+Maintainer: chir0student <chir0student@me.com>
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.repocydiac-list_1.1_iphoneos-arm.deb
+Size: 740
+MD5sum: ac1e7bdeb55f25329196655b534ae468
 Description: RepoCydia.com Repository
 Name: RepoCydia.com Repository
 Author: chir0student
@@ -1861,6 +2002,19 @@ Name: Smolk's MyRepoSpace Repository
 Author: chir0student
 Depiction: http://www.myrepospace.com/
 
+Package: apt.1nternist.smolksmyre-list
+Version: 1.1
+Section: Repositories
+Maintainer: chir0student <chir0student@me.com>
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.smolksmyre-list_1.1_iphoneos-arm.deb
+Size: 754
+MD5sum: a878e9f99951ce8d2593fa89d60a9929
+Description: Smolk's MyRepoSpace Repository
+Name: Smolk's MyRepoSpace Repository
+Author: chir0student
+Depiction: http://www.myrepospace.com/
+
 Package: apt.1nternist.soundoff
 Version: 1.0
 Section: Ringtones
@@ -1888,6 +2042,19 @@ MD5sum: 244d462fb89cb7aced63aaaab975b982
 Description: CLI Swiss army knife for sound
 Name: Sox
 Author: Chris Bagwell <cbagwell@users.sourceforge.net>
+
+Package: apt.1nternist.sudonopasswd
+Version: 1.2-1
+Section: Scripting
+Maintainer: Chir0student <chir0student@me.com>
+Depends: sudo, diffutils
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.sudonopasswd_1.2-1_iphoneos-arm.deb
+Size: 1286
+MD5sum: 4ed006912fa4764fe7ccd3bf1289df1c
+Description: Execute root commands without a password!
+Name: SudoNoPasswd
+Author: @uGuer
 
 Package: apt.1nternist.sudonopasswd
 Version: 1.2
@@ -2024,6 +2191,19 @@ Name: WooWiz Repo
 Author: chir0student
 Depiction: http://www.myrepospace.com/
 
+Package: apt.1nternist.woowizrepo-list
+Version: 1.1
+Section: Repositories
+Maintainer: chir0student <chir0student@me.com>
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.woowizrepo-list_1.1_iphoneos-arm.deb
+Size: 738
+MD5sum: 56fc2b09341e453dbab12fa65e70d8d7
+Description: WooWiz Repo
+Name: WooWiz Repo
+Author: chir0student
+Depiction: http://www.myrepospace.com/
+
 Package: apt.1nternist.zeusmosrep-list
 Version: 1.0
 Section: MyRepoSpace.com
@@ -2032,6 +2212,19 @@ Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.zeusmosrep-list_1.0_iphoneos-arm.deb
 Size: 744
 MD5sum: 58627cf89a21ffc01306021b0ada2e83
+Description: Zeusmos Repo (Installous Alternative)
+Name: Zeusmos Repo
+Author: chir0student
+Depiction: http://www.myrepospace.com/
+
+Package: apt.1nternist.zeusmosrep-list
+Version: 1.1
+Section: Repositories
+Maintainer: chir0student <chir0student@me.com>
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.zeusmosrep-list_1.1_iphoneos-arm.deb
+Size: 756
+MD5sum: ba08376b1afe05e5751567bb69b2646d
 Description: Zeusmos Repo (Installous Alternative)
 Name: Zeusmos Repo
 Author: chir0student

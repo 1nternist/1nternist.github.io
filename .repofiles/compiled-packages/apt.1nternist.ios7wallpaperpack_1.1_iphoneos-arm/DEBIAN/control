@@ -1,0 +1,8 @@
+Architecture: iphoneos-arm
+Author: Chir0student <chir0student@me.com>
+Description: iOS 7 Wallpaper Pack
+Maintainer: Chir0student <chir0student@me.com>
+Name: Some new wallpapers for iOS 7. Apply in Settings app. 
+Package: apt.1nternist.ios7wallpaperpack
+Section: Themes
+Version: 1.1

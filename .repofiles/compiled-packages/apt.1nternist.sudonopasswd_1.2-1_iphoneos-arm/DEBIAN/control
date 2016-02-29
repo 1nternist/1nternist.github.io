@@ -1,0 +1,9 @@
+Architecture: iphoneos-arm
+Author: @uGuer
+Depends: sudo, diffutils
+Description: Execute root commands without a password!
+Name: SudoNoPasswd
+Package: apt.1nternist.sudonopasswd
+Section: Scripting
+Version: 1.2-1
+Maintainer: Chir0student <chir0student@me.com>

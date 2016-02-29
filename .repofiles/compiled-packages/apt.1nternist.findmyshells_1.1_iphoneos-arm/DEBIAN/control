@@ -1,9 +1,0 @@
-Architecture: iphoneos-arm
-Author: Markus McCormac <chir0student@icloud.com>
-Depends: mobileterminal-applesdk
-Description: Have you ever wondered which executables in your $PATH were shell scripts? Just run find_shells.sh in terminal as root and find_shells.sh will generate a list of all the shell scripts in your $PATH. Results are saved to /var/mobile/Shells.txt
-Maintainer: Markus McCormac <chir0student@icloud.com>
-Name: Find My Shells
-Package: apt.1nternist.findmyshells
-Section: Scripts
-Version: 1.1

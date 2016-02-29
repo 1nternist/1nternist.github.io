@@ -1,0 +1,24 @@
+#!/bin/bash
+
+echo "Restoring original icons..."
+rm /Applications/Cydia.app/icon-72.png
+rm /Applications/Cydia.app/icon-72@2x.png
+rm /Applications/Cydia.app/Icon-Small-50.png
+rm /Applications/Cydia.app/Icon-Small-50@2x.png
+rm /Applications/Cydia.app/Icon-Small.png
+rm /Applications/Cydia.app/Icon-Small@2x.png
+rm /Applications/Cydia.app/icon.png
+rm /Applications/Cydia.app/icon@2x.png
+rm /Applications/Cydia.app/iconClassic.png
+
+mv /Applications/Cydia.app/icon-72.png.old /Applications/Cydia.app/icon-72.png
+mv /Applications/Cydia.app/icon-72@2x.png.old /Applications/Cydia.app/icon-72@2x.png
+mv /Applications/Cydia.app/Icon-Small-50.png.old /Applications/Cydia.app/Icon-Small-50.png
+mv /Applications/Cydia.app/Icon-Small-50@2x.png.old /Applications/Cydia.app/Icon-Small-50@2x.png
+mv /Applications/Cydia.app/Icon-Small.png.old /Applications/Cydia.app/Icon-Small.png
+mv /Applications/Cydia.app/Icon-Small@2x.png.old /Applications/Cydia.app/Icon-Small@2x.png
+mv /Applications/Cydia.app/icon.png.old /Applications/Cydia.app/icon.png
+mv /Applications/Cydia.app/icon@2x.png.old /Applications/Cydia.app/icon@2x.png
+mv /Applications/Cydia.app/iconClassic.png.old /Applications/Cydia.app/iconClassic.png
+
+echo "Thank you for using Chir0student's Repository"

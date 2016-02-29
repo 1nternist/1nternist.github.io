@@ -18,11 +18,11 @@ sudo chown -R root $BUILD
 sudo chmod 755 $BUILD
 sudo chmod 777 $REPO/debs
 echo "Building packages..."
-for PkgDir in `ls $BUILD`; do
+for PkgDir in `ls $BUILD 2> $BUILDLOG`; do
   sudo dpkg-deb -b $BUILD/"${PkgDir%%/}" $REPO/debs/"${PkgDir%%/}".deb &>> $BUILDLOG
 done
 sleep 1
-sudo mv -f $BUILD/* $ARCHIVE
+sudo mv -f $BUILD/* $ARCHIVE 2>> $BUILDLOG
 wait
 sudo chown -R mobile $ARCHIVE
 sudo chown -R mobile $BUILD
@@ -79,7 +79,17 @@ scanpkgs 2> "$SCANLOG"
 wait
 signpkgs 2> "$SIGNLOG"
 wait
-pushupdate
+read -p "Push repo updates to GitHub? (y/n) " push2git
+if [ "$push2git" = "y" ]; then
+	pushupdate
+elif [ "$push2git" = "n" ]; then
+	echo "##################################"
+	echo "#  Repository has been updated.  #"
+	echo "#      Updates NOT pushed to     #"
+	echo "# 	    GitHub.	       #"
+	echo "##################################"
+	exit 0
+fi
 
 
 echo "##################################"
