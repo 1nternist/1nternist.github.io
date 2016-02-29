@@ -44,7 +44,7 @@ sudo chmod 755 $BLD
 sudo chmod 777 $REPO/debs
 clear
 echo ""
-echo "Building packages..."
+echo " ➔ Building packages"
 for PkgDir in `ls $BLD 2> $BLDERR`; do
   sudo dpkg-deb -b $BLD/"${PkgDir%%/}" $REPO/debs/"${PkgDir%%/}".deb &>> $BLDLOG
 done
@@ -59,7 +59,7 @@ sudo chown -R mobile $LOGD
 }
 
 function scanpkgs () {
-echo "Scanning packages..."
+echo " ➔ Scanning packages"
 rm -rf "Packages.gz" "Packages.bz2" "Packages"
 scanpkg="$UTILS/dpkg-scanpackages"
 $scanpkg -m debs /dev/null > Packages
@@ -69,7 +69,7 @@ gzip -f < Packages > Packages.gz
 }
 
 function signpkgs () {
-echo "Signing Release with gpg..."
+echo " ➔ Signing Release with gpg"
 rm -rf Release
 rm -rf Release.gpg
 cp Release-Template Release
@@ -85,16 +85,11 @@ echo " `sha256sum Packages | cut -d ' ' -f1` `stat --format=%s Packages` Package
 echo " `sha256sum Packages.bz2 | cut -d ' ' -f1` `stat --format=%s Packages.bz2` Packages.bz2" >> Release
 echo " `sha256sum Packages.gz | cut -d ' ' -f1` `stat --format=%s Packages.gz` Packages.gz" >> Release
 gpg --passphrase-file /usr/share/keyrings/passwd/github --batch -abs -u dc1nternist -o Release.gpg Release
+sleep 2
 }
 
 function pushupdate () {
 	clear
-	echo ""
-	echo "##################################"
-	echo "##   Pushing changes to Github, ##"
-	echo "##   please be patient...       ##"
-	echo "##################################"
-	echo ""
 	echo ""
 	git status &> $SYNCLOG
 	wait
@@ -111,34 +106,47 @@ function pushupdate () {
 function choice1msg () {
 	clear
 	echo ""
-	echo "##################################"
-	echo "#  Repository has been updated.  #"
-	echo "#      Please open Cydia and     #"
-	echo "#      refresh your sources.     #"
-	echo "##################################"
+	echo " ##################################"
+	echo " ## Repository has been updated. ##"
+	echo " ##   You must push the update   ##"
+	echo " ##    to GitHub and refresh     ##"
+	echo " ##       your Cydia sources     ##"
+	echo " ##################################"
 	echo ""
 	echo ""
+	sleep 3
 }
 
 function choice2msg () {
 	clear
 	echo ""
-	echo "##################################"
-	echo "#  Repository has been updated.  #"
-	echo "#      Updates NOT pushed to     #"
-	echo "#            GitHub.             #"
-	echo "##################################"
+	echo " ##################################"
+	echo " ##   Pushing changes to Github, ##"
+	echo " ##   please be patient...       ##"
+	echo " ##################################"
 	echo ""
 	echo ""
+}
+
+function choice2msg2 () {
+	echo ""
+	echo " ##################################"
+	echo " ##  GitHub repository has been  ##"
+	echo " ##    updated. Please wait a    ##"
+	echo " ##   minute before refreshing   ##"
+	echo " ##            Cydia.            ##"
+	echo " ##################################"
+	echo ""
+	sleep 3
 }
 
 function exitscreen () {
 	clear
 	echo ""
-	echo "##################################"
-	echo "#  Thank you for using cyrepo.   #"
-	echo "#           Good Bye.            #"
-	echo "##################################"
+	echo " ##################################"
+	echo " ## Thank you for using cyrepo.  ##"
+	echo " ##           Good Bye.          ##"
+	echo " ##################################"
 	echo ""
 	echo ""
 	exit 0
@@ -152,14 +160,16 @@ function mainbadopt () {
 }
 
 function mainmenu () {
+	clear
 	cd "$REPO"
 	dirsetup
 	echo ""
+	echo " ##################################"
+	echo " ##         Main Menu            ##"
+	echo " ##################################"
 	echo ""
-	echo "Main Menu"
 	echo ""
-	echo ""
-	echo "What would you like to do?"
+	echo "  What would you like to do?"
 	echo ""
 	echo -e "\n  1) $OPT1\n  2) $OPT2\n  3) $OPT3\n\n" 
 	read choice
@@ -174,9 +184,10 @@ function mainmenu () {
 		mainmenuloop
 	fi
 	if [ "$choice" = "2" ]; then
+		choice2msg
 		pushupdate 2> "$SYNCERR"
 		wait
-		choice2msg
+		choice2msg2
 		mainmenuloop
 	fi
 	if [ "$choice" = "3" ]; then
