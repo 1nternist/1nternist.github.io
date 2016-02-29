@@ -15,7 +15,7 @@ BLD="$REPO/.repofiles/uncompiled"
 ARCH="$REPO/.repofiles/compiled"
 ARCH_BETA="$REPO/.repofiles/compiled-beta"
 BLD_BETA="$REPO/.repofiles/uncompiled-beta"
-OPT1="Refresh repository."
+OPT1="Refresh repository"
 OPT2="Push changes to GitHub"
 OPT3="Exit"
 DATE=$(date '+%m-%d-%Y %H:%M:%S')
@@ -42,6 +42,8 @@ rm -rf $LOGD/*.log
 sudo chown -R root $BLD
 sudo chmod 755 $BLD
 sudo chmod 777 $REPO/debs
+clear
+echo ""
 echo "Building packages..."
 for PkgDir in `ls $BLD 2> $BLDERR`; do
   sudo dpkg-deb -b $BLD/"${PkgDir%%/}" $REPO/debs/"${PkgDir%%/}".deb &>> $BLDLOG
@@ -86,22 +88,28 @@ gpg --passphrase-file /usr/share/keyrings/passwd/github --batch -abs -u dc1ntern
 }
 
 function pushupdate () {
-echo "Pushing changes to Github,"
-echo "    please be patient..."
-echo ""
-git status &> $SYNCLOG
-wait
-git add . &>> $SYNCLOG
-wait
-git status &>> $SYNCLOG
-wait
-git commit -m "Repository update $DATE" &>> $SYNCLOG
-wait
-git push origin master &>> $SYNCLOG
-wait
+	clear
+	echo ""
+	echo "##################################"
+	echo "##   Pushing changes to Github, ##"
+	echo "##   please be patient...       ##"
+	echo "##################################"
+	echo ""
+	echo ""
+	git status &> $SYNCLOG
+	wait
+	git add . &>> $SYNCLOG
+	wait
+	git status &>> $SYNCLOG
+	wait
+	git commit -m "Repository update $DATE" &>> $SYNCLOG
+	wait
+	git push origin master &>> $SYNCLOG
+	wait
 }
 
 function choice1msg () {
+	clear
 	echo ""
 	echo "##################################"
 	echo "#  Repository has been updated.  #"
@@ -113,6 +121,7 @@ function choice1msg () {
 }
 
 function choice2msg () {
+	clear
 	echo ""
 	echo "##################################"
 	echo "#  Repository has been updated.  #"
@@ -124,6 +133,7 @@ function choice2msg () {
 }
 
 function exitscreen () {
+	clear
 	echo ""
 	echo "##################################"
 	echo "#  Thank you for using cyrepo.   #"
