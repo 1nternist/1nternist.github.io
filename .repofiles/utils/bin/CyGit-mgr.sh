@@ -143,7 +143,7 @@ function exitscreen () {
 	clear
 	echo ""
 	echo " ##################################"
-	echo " ## Thank you for using cyrepo.  ##"
+	echo " ## Thank you for using CyGit-mgr. ##"
 	echo " ##	     Good Bye.		 ##"
 	echo " ##################################"
 	echo ""
