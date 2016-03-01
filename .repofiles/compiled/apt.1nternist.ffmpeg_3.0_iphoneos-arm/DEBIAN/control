@@ -1,0 +1,12 @@
+Architecture: iphoneos-arm
+Author: 1nternist <dc1nternist@icloud.com>
+Description: FFMpeg 3.0 compiled for iOS -- Includes x264 encoder.  This is a console app and does not include UI.
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Name: FFmpeg
+Package: apt.1nternist.ffmpeg
+Conflicts: com.fizk.ffmpeg
+Replaces: com.fizk.ffmpeg
+Provides: com.fizk.ffmpeg
+Section: Multimedia
+Sponsor: 1nternist <dc1nternist@icloud.com>
+Version: 3.0

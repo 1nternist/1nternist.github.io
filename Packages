@@ -645,6 +645,21 @@ Description: FFMpeg 2.4.2 compiled for iOS -- Includes x264 encoder.  This is a 
 Name: FFmpeg
 Author: Chir0student <chir0student@me.com>
 
+Package: apt.1nternist.ffmpeg
+Version: 3.0
+Section: Multimedia
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Conflicts: com.fizk.ffmpeg
+Provides: com.fizk.ffmpeg
+Replaces: com.fizk.ffmpeg
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.ffmpeg_3.0_iphoneos-arm.deb
+Size: 61992406
+MD5sum: e802e7b57f78831d9d557e409170ffc2
+Description: FFMpeg 3.0 compiled for iOS -- Includes x264 encoder.  This is a console app and does not include UI.
+Name: FFmpeg
+Author: 1nternist <dc1nternist@icloud.com>
+
 Package: apt.1nternist.findmyshells
 Version: 1.1
 Section: Scripts
