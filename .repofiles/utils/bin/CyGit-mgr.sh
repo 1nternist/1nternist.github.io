@@ -133,7 +133,7 @@ function choice2msg2 () {
 	echo " ##  GitHub repository has been  ##"
 	echo " ##    updated. Please wait a    ##"
 	echo " ##   minute before refreshing   ##"
-	echo " ##	     Cydia.	       ##"
+	echo " ##	     Cydia.		 ##"
 	echo " ##################################"
 	echo ""
 	sleep 3
