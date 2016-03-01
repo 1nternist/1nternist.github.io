@@ -143,8 +143,8 @@ function exitscreen () {
 	clear
 	echo ""
 	echo " ##################################"
-	echo " ## Thank you for using CyGit-mgr. ##"
-	echo " ##	     Good Bye.		 ##"
+	echo " ##     Thank you for using      ##"
+	echo " ##     CyGit-mgr, Good Bye.     ##"
 	echo " ##################################"
 	echo ""
 	echo ""
