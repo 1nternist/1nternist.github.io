@@ -1,0 +1,7 @@
+dpkg-deb: parse error, in file `/var/mobile/Developer/Github/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.ffmpeg_3.0-1_iphoneos-arm/DEBIAN/control' near line 9 package `apt.1nternist.ffmpeg':
+ field name `inputs' must be followed by colon
+warning, `/var/mobile/Developer/Github/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.reposetup_1.005_iphoneos-arm/DEBIAN/control' contains user-defined field `Author'
+warning, `/var/mobile/Developer/Github/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.reposetup_1.005_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
+warning, `/var/mobile/Developer/Github/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.reposetup_1.005_iphoneos-arm/DEBIAN/control' contains user-defined field `Sponsor'
+dpkg-deb: ignoring 3 warnings about the control file(s)
+dpkg-deb: building package `apt.1nternist.reposetup' in `/var/mobile/Developer/Github/1nternist.github.io/debs/apt.1nternist.reposetup_1.005_iphoneos-arm.deb'.

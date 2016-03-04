@@ -2097,21 +2097,20 @@ Name: RepoCydia.com Repository
 Author: chir0student
 Depiction: http://www.myrepospace.com/
 
-Package: apt.1nternist.repoicons
-Version: 1.004
-Section: RepoIcons_-_chir0student
+Package: apt.1nternist.reposetup
+Version: 1.005
+Section: Repositories
 Essential: yes
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Replaces: com.myrepospace-chir0student.icon
 Architecture: iphoneos-arm
-Filename: debs/apt.1nternist.repoicons_1.004_iphoneos-arm.deb
-Size: 266538
-MD5sum: f17f2f0483cbfa7a745ef47835974c4e
-Description: Chir0student's Personalized Repo Icons
-Name: Chir0student's Repo Setup
-Author: Chir0student <chir0student@me.com>
-Homepage: http://www.myrepospace.com/profile/chir0student/
-Icon: http://www.myrepospace.com/images/repo_icon/690981.png
+Filename: debs/apt.1nternist.reposetup_1.005_iphoneos-arm.deb
+Size: 271110
+MD5sum: 345bc6a25f661b2d74c2f1a9b8c33067
+Description: 1nternist's repo setup files.
+Name: 1nternist's Repo Setup Files
+Author: 1nternist <dc1nternist@icloud.com>
+Homepage: https://1nternist.github.io
 
 Package: apt.1nternist.reposetup
 Version: 1.006

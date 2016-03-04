@@ -1,0 +1,12 @@
+Architecture: iphoneos-arm
+Author: 1nternist <dc1nternist@icloud.com>
+Description: 1nternist's repo setup files.
+Homepage: https://1nternist.github.io
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Name: 1nternist's Repo Setup Files
+Package: apt.1nternist.reposetup
+Replaces: com.myrepospace-chir0student.icon
+Essential: yes
+Section: Repositories
+Sponsor: 1nternist.github.io <https://1nternist.github.io>
+Version: 1.005
