@@ -5,8 +5,7 @@ Author: 1nternist <dc1nternist@icloud.com>
 Sponsor: 1nternist.github.io <https://1nternist.github.io>
 Maintainer: 1nternist <dc1nternist@icloud.com>
 dev: 1nternist
-Description: ffmpeg is a part of the ffmpeg project. ffmpeg (binary) can be used to convert a large variety of 
-inputs (files, streams, etc.) into various formats. This is a processing utility. Access functionality from the command-line or api. This release includes the x264 encoder.
+Description: ffmpeg is a part of the ffmpeg project. ffmpeg (binary) can be used to convert a large variety of inputs (files, streams, etc.) into various formats. This is a processing utility. Access functionality from the command-line or api. This release includes the x264 encoder.
 Conflicts: com.fizk.ffmpeg, com.nin9tyfour.ffmpeg
 Replaces: com.fizk.ffmpeg, com.nin9tyfour.ffmpeg
 Provides: com.fizk.ffmpeg, com.nin9tyfour.ffmpeg

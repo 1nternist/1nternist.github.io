@@ -646,6 +646,24 @@ Name: FFmpeg
 Author: Chir0student <chir0student@me.com>
 
 Package: apt.1nternist.ffmpeg
+Version: 3.0-2
+Priority: optional
+Section: Multimedia
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: firmware (>= 5.0), ldid
+Conflicts: com.fizk.ffmpeg, com.nin9tyfour.ffmpeg
+Provides: com.fizk.ffmpeg, com.nin9tyfour.ffmpeg
+Replaces: com.fizk.ffmpeg, com.nin9tyfour.ffmpeg
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.ffmpeg_3.0-2_iphoneos-arm.deb
+Size: 14600266
+Installed-Size: 28498
+MD5sum: 39c37e2b5b680a6d765b85207104ff91
+Description: ffmpeg is a part of the ffmpeg project. ffmpeg (binary) can be used to convert a large variety of inputs (files, streams, etc.) into various formats. This is a processing utility. Access functionality from the command-line or api. This release includes the x264 encoder.
+Name: ffmpeg
+Author: 1nternist <dc1nternist@icloud.com>
+
+Package: apt.1nternist.ffmpeg
 Version: 3.0
 Section: Multimedia
 Maintainer: 1nternist <dc1nternist@icloud.com>
