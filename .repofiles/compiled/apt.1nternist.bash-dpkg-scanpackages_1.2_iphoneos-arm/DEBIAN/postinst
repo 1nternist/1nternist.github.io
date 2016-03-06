@@ -1,0 +1,3 @@
+#!/bin/sh
+
+ln -s /usr/bin/bash-dpkg-scanpackages.sh /usr/bin/dpkg-scanpackages

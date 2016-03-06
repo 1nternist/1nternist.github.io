@@ -1,0 +1,10 @@
+Package: apt.1nternist.iphonecake-list
+Version: 1.1
+Section: Repositories
+Maintainer: chir0student <chir0student@me.com>
+Architecture: iphoneos-arm
+Description: iPhoneCake Repo (iPAStore)
+Sponsor: myRepoSpace.com <http://www.myrepospace.com/>
+Name: iPhoneCake Repo
+Depiction: http://www.myrepospace.com/
+Author: chir0student

@@ -1,0 +1,10 @@
+Architecture: iphoneos-arm
+Author: Rio <rio+ipj@sident.net>
+Depends: firmware (>= 6.0), ldid
+Description: Patch arm binary to work on A6 devices.
+Maintainer: Chir0student <chir0student@me.com>
+Sponsor: Chir0student <chir0student@me.com>
+Name: arm to armv7
+Package: apt.1nternist.armv7s-patch
+Section: Utilities
+Version: 1.1

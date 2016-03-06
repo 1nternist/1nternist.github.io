@@ -1,0 +1,116 @@
+#!/bin/bash
+source_dir=/User/Applications
+APPSTORE_BASE_URL="http://itunes.apple.com/app/id"
+TIMESTAMP=`date +%Y:%m:%d`
+LOG_FILE=$(mktemp /tmp/appurlsXXXX.txt)
+
+APP_URL="$APPSTORE_BASE_URL$APP_ID"
+
+
+file_name_info=Info.plist
+file_name_meta=iTunesMetadata.plist
+STARTUP=$(notify -h "ijappurl" -m "Please turn off autolock because the script may get interrupted and bail :(
+ ~written by iJunkie22~
+~insanelyi.com~" -d "Run the script")
+
+
+
+# 0 is default
+
+if [ "STARTUP" == "0" ];
+
+        then
+
+                continue
+fi
+
+
+echo "Please be patient while the script initializes. This takes about 20 seconds. Estimation of 'time remaining' is still experimental and is only a rough estimate."
+echo "---------------------------------------" >> $LOG_FILE
+echo "$TIMESTAMP" >> $LOG_FILE
+echo "---------------------------------------" >> $LOG_FILE
+
+((k=0))
+info_count=$(find /var/mobile/Applications/*/*.app/ -maxdepth 1 -type f -name Info.plist -print| wc -l)
+echo $info_count Apps to process
+START_TIME=`date +%s`
+while read path; do
+
+((k++))
+  APP_ID=$(plutil -key itemId  /User/Applications/$(dirname $(dirname $path))/iTunesMetadata.plist)
+
+
+APP_URL="$APPSTORE_BASE_URL$APP_ID"
+
+
+if [ "$APP_URL" == "$APPSTORE_BASE_URL" ];
+
+        then
+continue
+else
+APP_BUNDLE_ID=$(plutil -key CFBundleIdentifier /User/Applications/$(dirname $path)/Info.plist)
+FINAL_APP_URL="$APP_URL"
+APP_NAME=$(plutil -key itemName  /User/Applications/$(dirname $(dirname $path))/iTunesMetadata.plist)
+
+
+
+URL_SCHEMES=$(plutil -key CFBundleURLTypes -key CFBundleURLSchemes  /User/Applications/$(dirname $path)/Info.plist)
+
+
+echo "————————————————————" >> $LOG_FILE
+echo " $APP_NAME " >> $LOG_FILE
+echo "—————" >> $LOG_FILE
+echo " $APP_BUNDLE_ID " >> $LOG_FILE
+echo "—————" >> $LOG_FILE
+echo " $FINAL_APP_URL " >> $LOG_FILE
+echo "—————" >> $LOG_FILE
+echo " $URL_SCHEMES " >> $LOG_FILE
+
+echo "finished $APP_NAME "
+PCOMP=$(pcentcomp $k $info_count)
+echo $PCOMP
+PLEFT=$(pcentleft $k $info_count)
+FINISH_TIME=`date +%s`
+
+echo $(timecalc "$PCOMP" "$PLEFT" "$START_TIME" "$FINISH_TIME")
+fi
+done< <(cd $source_dir; find . -maxdepth 3 -type f \( -name $file_name_info \) ) 2> /dev/null
+Main=$(notify -h "Step 2/3" -m "Now that all the info is extracted, I need to read it. Please press continue to proceed" -d "Continue")
+
+# 0 is default
+
+if [ "Main" == "0" ];
+        then
+                continue
+fi
+
+OUTPUT_TEXT=$(while read line;do
+        echo "
+$line"
+     
+done < $LOG_FILE)
+
+NEW_LOG_FILE=$(mktemp /tmp/appurls~FINISHED~XXXX.txt)
+
+
+(while read line;do
+shopt -s extglob
+echo ${line//@(CFBundleTypeRole|"Editor;"|"{"|","|"}"|"URLIconFile"|"None;"|"="|CFBundle)}
+done < $LOG_FILE) >> $NEW_LOG_FILE
+rm -f $LOG_FILE
+ shopt -u extglob
+               
+COPY=$(notify -h "Done!" -m "You can find the exported appurls text file in /tmp/. Now I will read the contents here in case you just want a quick look." -d "Okay")
+
+if [ "COPY" == "0" ];
+
+        then
+continue
+fi
+while read line;do
+        echo "$line"
+     
+done < $NEW_LOG_FILE
+
+exit
+

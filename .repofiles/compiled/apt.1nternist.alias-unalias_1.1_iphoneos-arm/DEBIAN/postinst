@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ln -s /usr/bin/alias.sh /usr/bin/alias
+ln -s /usr/bin/unalias.sh /usr/bin/unalias

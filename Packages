@@ -2465,8 +2465,8 @@ Section: Development
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Architecture: iphoneos-arm
 Filename: debs/perl_5.22.0-2_iphoneos-arm.deb
-Size: 20744612
-MD5sum: 86a405160a6c07be55a625f04988e8ed
+Size: 17792808
+MD5sum: 79188c60fceccf835f83ef9716a6fb10
 Description: Perl ported for iOS, compatible with iOS 9 and arm64.
 Name: Perl
 Author: CoolStar <coolstarorganization@gmail.com>

@@ -1,0 +1,10 @@
+Package: apt.1nternist.hunterbeck-list
+Version: 1.1
+Section: Repositories
+Maintainer: chir0student <chir0student@me.com>
+Architecture: iphoneos-arm
+Description: HunterBeckham repo
+Sponsor: myRepoSpace.com <http://www.myrepospace.com/>
+Name: HunterBeckham Repo
+Depiction: http://www.myrepospace.com/
+Author: chir0student

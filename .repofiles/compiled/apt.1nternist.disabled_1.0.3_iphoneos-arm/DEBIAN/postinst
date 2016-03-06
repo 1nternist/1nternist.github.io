@@ -1,0 +1,4 @@
+#!/bin/bash
+
+chown mobile:mobile /var/mobile/Library/Preferences/com.VedBoon.disabledPreferences.plist
+chmod 600 /var/mobile/Library/Preferences/com.VedBoon.disabledPreferences.plist

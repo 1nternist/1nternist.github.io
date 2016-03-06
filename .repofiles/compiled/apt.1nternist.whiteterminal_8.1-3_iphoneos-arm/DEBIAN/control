@@ -1,0 +1,16 @@
+Architecture: iphoneos-arm
+Author: CodeHex <x00.x7f@gmail.com>
+Conflicts: com.codehex.whiteterminal, com.sull.whiteterminal
+Depends: firmware (>= 7.0), bash, coreutils, ncurses, system-cmds
+Description: Terminal emulator for iOS 7 & 8
+dev: codehex
+Icon: file://Applications/WhiteTerminal.app/Icon60x60.png
+Installed-Size: 2116
+Maintainer: Chir0student <chir0student@me.com>
+Name: WhiteTerminal
+Package: apt.1nternist.whiteterminal
+Replaces: com.codehex.whiteterminal, com.sull.whiteterminal
+Section: Terminal Support
+Sponsor: Chir0student <chir0student@me.com>
+Tag: ios7support::1, ios8support::1, purpose::uikit
+Version: 8.1-3

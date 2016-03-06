@@ -1,0 +1,15 @@
+#!/bin/bash
+
+work_dir=/usr/share/chir0student/RetinaWallpaper
+wall_dir=$work_dir/5
+target_dir=/Library/Wallpaper/iPad
+
+cd $wall_dir
+
+cat wall.list | while read wall; do
+    rm -rf $target_dir/$wall
+done
+
+rm -rf *.list
+
+exit 0

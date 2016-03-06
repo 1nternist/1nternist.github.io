@@ -1,0 +1,15 @@
+Architecture: iphoneos-arm
+Author: Javier (VedBoon) Brito <him_jbg@icloud.com>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 4.0), preferenceloader (>= 2.2.2)
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=disabledDp
+Description: no lock-out period for wrong password
+dev: javierbrito
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=disabledDp
+Icon: file:///Library/PreferenceBundles/disabledPreferences.bundle/disabledPreferences@2x.png
+Installed-Size: 202
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: disabled
+Package: apt.1nternist.disabled
+Section: Tweaks
+Tag: purpose::extension
+Version: 1.0.3

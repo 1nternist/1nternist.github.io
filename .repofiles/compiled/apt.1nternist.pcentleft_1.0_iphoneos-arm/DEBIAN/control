@@ -1,0 +1,11 @@
+Architecture: iphoneos-arm
+Author: iJunkie22
+Depends: apt.1nternist.bashutils, bash, coreutils, coreutils-bin, findutils
+Depiction: http://repo.insanelyi.com/depiction.php?package=pcentleft
+Description: A simple bash script plugin that calculates percent left and echoes it. For use in while loops especially. For details, run pcentleft --help
+Maintainer: insanelyi <noreply@insanelyi.com>
+Name: pcentleft
+Package: apt.1nternist.pcentleft
+Section: iScripts
+Sponsor: insanelyi <http://insanelyi.com>
+Version: 1.0

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+if [ ! -L /private/var/www/cydia ]; then
+    ln -s /private/var/mobile/Documents/repo/debs /private/var/www/cydia
+fi

@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = disabledPreferences;
+	cell = PSLinkCell;
+	detail = disabledPreferencesListController;
+	icon = disabledPreferences.png;
+	isController = 1;
+	label = disabled;
+    };
+}

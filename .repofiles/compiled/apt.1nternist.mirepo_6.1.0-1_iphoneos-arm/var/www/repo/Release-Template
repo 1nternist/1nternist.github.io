@@ -1,0 +1,9 @@
+Origin: MiRepo
+Label: MiRepo
+Suite: stable
+Version: 1.0
+Codename: stable
+Architectures: iphoneos-arm
+Components: main
+Description: MiRepo. Repository for iOS.
+MD5Sum:

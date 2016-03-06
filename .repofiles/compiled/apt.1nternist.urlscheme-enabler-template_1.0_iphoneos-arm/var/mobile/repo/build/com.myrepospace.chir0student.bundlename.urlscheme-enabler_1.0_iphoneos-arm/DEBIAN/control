@@ -1,0 +1,10 @@
+Architecture: iphoneos-arm
+Author: Chir0student <chir0student@me.com>
+Depends: firmware (>= 4.0), mobilesubstrate, com.ericasadun.utilities
+Maintainer: Chir0student <chir0student@me.com>
+Name: URL Scheme Enabler Template
+Package: com.myrepospace.chir0student.urlscheme-enabler-template
+Sponsor: Chir0student <chir0student@me.com>
+Priority: optional
+Section: Tweaks
+Version: 1.0

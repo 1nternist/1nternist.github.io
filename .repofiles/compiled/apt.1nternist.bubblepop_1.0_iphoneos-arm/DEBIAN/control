@@ -1,0 +1,8 @@
+Architecture: iphoneos-arm
+Author: Chir0student <chir0student@me.com>
+Description: Bubble-pop text tone. requires ToneEnabler on iOS 7.
+Maintainer: Chir0student <chir0student@me.com>
+Name: Bubble Pop Text Tone
+Package: apt.1nternist.bubblepop
+Section: Ringtones
+Version: 1.0

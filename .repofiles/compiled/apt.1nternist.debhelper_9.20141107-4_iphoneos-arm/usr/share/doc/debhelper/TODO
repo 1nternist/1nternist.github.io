@@ -1,0 +1,58 @@
+This is the TODO for debhelper. As more and more people use debhelper, this
+list grows - I welcome patches to fix items on it!
+
+Wishlist items:
+
+* All debhelper programs should only accept the options they are documented
+  to accept (rather than accepting all debhelper options). They should
+  be able to print brief usage summaries.
+
+  I think this calls for a restructuring. Make a Debhelper.pm class. Each
+  program subclasses the class. The class provides command line parsing,
+  useful functions, and so on. Skeleton of a debhelper command would then
+  be:
+
+  use base qw{Debhelper};
+
+  sub startup {
+  	# Add initialization stuff here.
+  }
+
+  sub perpackage {
+  	my $package=shift;
+
+  	# Stuff to do for each package here.
+  }
+
+  sub fini {
+  	# And final stuff here, if any.
+  }
+
+  This needs more thought.
+  
+v8:
+
+* escaping in config files (for whitespace)?
+* make dh_install use hard links for efficiency
+* dh_installinit --restart-after-upgrade as default?
+* #487006: dh_installman with 3-letter codes
+
+Deprecated:
+
+* DH_COMPAT 1, 2, 3. Can be removed once all packages are seen to be using
+  a newer version. I won't hold my breath. Now with evil warning messages
+  though.
+* Also, grep the entire archive for all dh_* command lines,
+  and check to see what other switches are not being used, and maybe remove
+  some of them. I'd also like to deprecate/remove debian/compress files, -X is
+  a better idea.
+* dh_suidregister. Once nothing in the archive uses it.
+* dh_installmanpages.
+* dh_testversion. Remove as soon as nothing uses it.
+* dh_movefiles. I won't hold my breath.
+* debconf-mergetemplates support and the debian/template.ll files and the
+  debconf-utils dependency.
+* dh_undocumented
+* dh_installinit --init-script
+* dh_python
+* dh_clean -k (make it warn)

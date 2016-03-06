@@ -1,0 +1,20 @@
+#!/bin/sh
+
+chown root:wheel /usr/local/bin/hosts-reset.sh
+chmod 755 /usr/local/bin/hosts-reset.sh
+chown root:wheel /usr/local/bin/hosts-restore.sh
+chmod 755 /usr/local/bin/hosts-restore.sh
+chown root:wheel /usr/local/bin/hosts-bakrm.sh
+chmod 755 /usr/local/bin/hosts-bakrm.sh
+chown root:wheel /usr/local/bin/uthb.sh
+chmod 755 /usr/local/bin/uthb.sh
+chown root:wheel /usr/local/bin/uthb-rm.sh
+chmod 755 /usr/local/bin/uthb-rm.sh
+chown root:wheel /usr/local/bin/uthblt.sh
+chmod 755 /usr/local/bin/uthblt.sh
+chown root:wheel /usr/local/bin/uthblt-rm.sh
+chmod 755 /usr/local/bin/uthblt-rm.sh
+
+echo "Permissions set!"
+
+exit 0

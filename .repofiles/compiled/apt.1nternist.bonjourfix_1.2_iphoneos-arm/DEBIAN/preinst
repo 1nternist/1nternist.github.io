@@ -1,0 +1,21 @@
+#!/bin/bash
+
+PLIST=/Library/LaunchDaemons/com.openssh.sshd.plist
+PLISTBACKUP=/Library/LaunchDaemons/plistBackup
+OLDPLIST=/Library/LaunchDaemons/plistBackup/com.openssh.sshd-orig.plist
+
+declare -a cydia
+cydia=($CYDIA)
+
+if [[ $1 == install || $1 == upgrade ]]; then
+    if [[ ${CYDIA+@} ]]; then
+        eval "echo 'finish:restart' >&${cydia[0]}"
+    fi  
+fi
+
+if [ -e "$PLIST" ]; then
+    mkdir -p "$PLISTBACKUP"
+    mv -f "$PLIST" "$OLDPLIST"
+fi
+
+exit 0

@@ -1,0 +1,10 @@
+Architecture: iphoneos-arm
+Author: Chir0student <chir0student@me.com>
+Maintainer: Chir0student <chir0student@me.com>
+Description: Installs URL Scheme Enabler template in MiRepo's build directory (/var/mobile/Documents/repo/build).
+Name: URL Scheme Enabler Template
+Package: apt.1nternist.urlscheme-enabler-template
+Sponsor: Chir0student <chir0student@me.com>
+Priority: optional
+Section: Tweaks
+Version: 1.0

@@ -1,0 +1,11 @@
+Architecture: iphoneos-arm
+Author: Chir0student <chir0student@me.com>
+Depends: bash, sed, ldid
+Description: Patch armv6 binaries to work on armv7 devices. Execute armv7patch /path/to/binary in MobileTerminal.
+Maintainer: Chir0student <chir0student@me.com>
+Name: armv7 Binary Patch Script
+Package: apt.1nternist.armv7binpatch
+Section: Scripting
+Sponsor: Chir0student <chir0student@me.com>
+Tag: purpose::console role::hacker
+Version: 1.0

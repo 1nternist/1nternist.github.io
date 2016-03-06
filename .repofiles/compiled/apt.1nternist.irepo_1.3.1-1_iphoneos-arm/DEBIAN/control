@@ -1,0 +1,14 @@
+Package: apt.1nternist.irepo
+Depends: bzip2
+Name: iRepo
+Version: 1.3.1-1
+Architecture: iphoneos-arm
+Description: create & manage your own repo on device
+Depiction: http://repo.insanelyi.com/depiction.php?package=irepo
+Homepage: http://insanelyi.com
+Installed-Size: 2613
+Maintainer: insanelyi <noreply@insanelyi.com>
+Author: Itay 
+Sponsor: insanelyi <http://insanelyi.com>
+Section: iSystem
+Icon: file:///Applications/iRepo.app/icon57.png

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+ln -s /usr/local/bin/ThemeFix.sh /usr/local/bin/themefix
+chown root:wheel /usr/local/bin/ThemeFix.sh
+chown root:wheel /usr/local/bin/themefix
+chmod a+rx /usr/local/bin/ThemeFix.sh
+chmod a+rx /usr/local/bin/themefix

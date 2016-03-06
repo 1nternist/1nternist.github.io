@@ -1,0 +1,31 @@
+.TH PBASENAME 1L "Shell Utilities" \" -*- nroff -*-
+.SH NAME
+pbasename \- strip directory and prefix from filenames
+.SH SYNOPSIS
+.B pbasename
+name [prefix]
+.br
+.B pbasename
+{\-\-help,\-\-version}
+.SH DESCRIPTION
+The
+.B pbasename
+command removes any leading directory components from
+.IR name ;
+If
+.I prefix
+is specified and is identical to the beginning of
+.IR name
+(directory path not included),
+it is removed from
+.I name
+as well.
+.B pbasename
+prints the resulting name on the standard output.
+.SS OPTIONS
+.TP
+.I "\-\-help"
+Print a usage message on standard output and exit successfully.
+.TP
+.I "\-\-version"
+Print version information on standard output then exit successfully.

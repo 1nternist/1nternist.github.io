@@ -1,0 +1,24 @@
+#!/bin/bash
+mkdir /var/sdk
+pushd /var/sdk
+curl http://thebigboss.org/hostedfiles/sdk3.tar.gz -o sdk.tar.gz
+tar xfv sdk.tar.gz
+rm sdk.tar.gz
+popd
+
+pushd /var/sdk/usr/lib
+ln -s libgcc_s.1.dylib libgcc_s.10.5.dylib
+ln -s dylib1.o dylib1.10.5.o
+ln -s crt1.o crt1.10.5.o
+ln -s libstdc++.6.0.9.dylib libstdc++.6.dylib
+ln -s libstdc++.6.0.9.dylib libstdc++.dylib
+ln -s libobjc.A.dylib libobjc.dylib
+ln -s libSystem.B.dylib libSystem.dylib
+popd
+apt-get -y install curl git make ldid less com.ericasadun.utilities nano adv-cmds top rsync
+curl http://thebigboss.org/hostedfiles/fake-libgcc_1.0_iphoneos-arm.deb -o libgcc.deb
+dpkg -i libgcc.deb
+rm libgcc.deb
+apt-get -y install iphone-gcc
+ln -s /usr/bin/arm-apple-darwin9-gcc /usr/bin/arm-apple-darwin-gcc
+

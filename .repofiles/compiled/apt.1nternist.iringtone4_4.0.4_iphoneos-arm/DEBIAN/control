@@ -1,0 +1,12 @@
+Architecture: iphoneos-arm
+Author: Chir0student <chir0student@me.com>
+Conflicts: apt.1nternist.avtoolscripts, apt.1nternist.iringtone3
+Depends: bash, com.fizk.ffmpeg | apt.1nternist.ffmpeg | com.nin9tyfour.ffmpeg, apt.1nternist.sudonopasswd, coreutils, coreutils-bin, file, firmware (>= 4.2.1), gawk, ncurses, sudo, system-cmds
+Description: iRingtone is a command line utility that can create custom ringtones from any audio or video file. Just execute 'sudo iRingtone /path/to/[audio or video] file' in MobileTerminal and follow the interactive directions.
+Icon: file:///usr/share/chir0student/icons/iRingtone4.png
+Maintainer: Chir0student <chir0student@me.com>
+Name: iRingtone 4
+Package: apt.1nternist.iringtone4
+Replaces: apt.1nternist.avtoolscripts, apt.1nternist.iringtone3
+Section: Scripting
+Version: 4.0.4

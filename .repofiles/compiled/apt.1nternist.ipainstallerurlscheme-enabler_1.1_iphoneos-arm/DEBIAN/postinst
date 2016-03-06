@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# This script is executed AFTER the Debian package is INSTALLED
+# For information about this file, see http://www.debian.org/doc/manuals/debian-faq/ch-pkg_basics.en.html#s-maintscripts.
+
+killall IPA_Installer
+
+export IPA_INSTALLER_INFO_PLIST="/Applications/IPA_Installer.app/Info.plist"
+export IPA_INSTALLER_BAK_PLIST="/Applications/IPA_Installer.app/Info.plist.bak"
+
+cp $IPA_INSTALLER_INFO_PLIST $IPA_INSTALLER_BAK_PLIST
+
+plutil -key "CFBundleURLTypes" -array $IPA_INSTALLER_INFO_PLIST
+plutil -key "CFBundleURLTypes" -arrayadd -type json -value '{"CFBundleURLName":"com.slugrail.ipainstaller.scheme", "CFBundleURLSchemes":["ipa-installer"]}' $IPA_INSTALLER_INFO_PLIST
+
+echo "Modified Info.plist file of IPA Installer"
+echo " "
+echo "IF IPA INSTALLER IS UPDATED/REINSTALLED, PLEASE RE-INSTALL IPA INSTALLER URL SCHEME ENABLER."

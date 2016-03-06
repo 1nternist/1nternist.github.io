@@ -1,0 +1,10 @@
+Architecture: iphoneos-arm
+Author: Chir0student <chir0student@me.com>
+Depends: dpkg, p7zip, xz | xz-utils | apt.1nternist.xz-utils
+Description: To run, open MobileTerminal and cd into any directory containing deb files and execute "debXpandr". The script will extract all debs, then move the extracted debs into a sub directory for you.
+Maintainer: Chir0student <chir0student@me.com>
+Name: debXpandr
+Package: apt.1nternist.debxpandr
+Section: Scripting
+Tag: purpose::console role::hacker
+Version: 3.0

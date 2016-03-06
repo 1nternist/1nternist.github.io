@@ -1,0 +1,55 @@
+#!/bin/bash
+
+ARCHIVE="$1"
+LIPO="/usr/bin/lipo"
+TEMP="`mktemp -d -t build-XXXX`"
+ARCH="`lipo -info $ARCHIVE | cut -d ':' -f3 | cut -d ' ' -f2-5 | sed 's/ /\n/g'`"
+
+cp ${ARCHIVE} ${TEMP}
+pushd ${TEMP}
+for line in $ARCH; do
+	if [ $line == "arm" ]; then
+		${LIPO} -thin arm ${ARCHIVE} -output ${ARCHIVE}.arm
+	fi
+	if [ $line == "armv6" ]; then
+		${LIPO} -thin armv6 ${ARCHIVE} -output ${ARCHIVE}.armv6
+	fi
+	if [ $line == "armv7" ]; then
+		${LIPO} -thin armv7 ${ARCHIVE} -output ${ARCHIVE}.armv7
+	fi
+	if [ $line == "armv7s" ]; then
+		${LIPO} -thin armv7s ${ARCHIVE} -output ${ARCHIVE}.armv7s
+	fi
+	if [ $line == "arm64" ]; then
+		${LIPO} -thin arm64 ${ARCHIVE} -output ${ARCHIVE}.arm64
+	fi
+done
+if [ -e ${ARCHIVE}.armv7 ]; then
+	if [ ! -e ${ARCHIVE}.armv7s ]; then
+		cp -p ${ARCHIVE}.armv7 ${ARCHIVE}.armv7s
+		/usr/local/bin/armv72armv7s ${ARCHIVE}.armv7 ${ARCHIVE}.armv7s
+	fi
+fi
+if [ -e ${ARCHIVE}.arm ]; then
+	cp -p ${ARCHIVE}.arm ${ARCHIVE}.arm.new
+	/usr/local/bin/arm2armv7 ${ARCHIVE}.arm ${ARCHIVE}.arm.new
+	test -e ${ARCHIVE}.arm.orig || mv -f ${ARCHIVE}.arm ${ARCHIVE}.arm.orig
+	mv -f ${ARCHIVE}.arm.new ${ARCHIVE}.arm
+	rm -rf ${ARCHIVE}.arm.orig
+fi
+if [ -e ${ARCHIVE}.armv6 ]; then
+	/usr/local/bin/armv6 ${ARCHIVE}.armv6
+	echo "armv6 binary patched!"
+fi
+
+
+${LIPO} -create ${ARCHIVE}.* -output ${ARCHIVE}.new
+popd
+
+mv -f ${TEMP}/${ARCHIVE} ${ARCHIVE}.orig
+mv -f ${TEMP}/${ARCHIVE}.new ${ARCHIVE}
+chown root:wheel ${ARCHIVE}
+chmod 755 ${ARCHIVE}
+/usr/bin/ldid -S ${ARCHIVE}
+rm -rf ${TEMP}
+rm -rf ${ARCHIVE}.orig

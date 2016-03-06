@@ -1,0 +1,19 @@
+#!/bin/bash
+
+PLIST=/Library/LaunchDaemons/com.openssh.sshd.plist
+PLISTBACKUP=/Library/LaunchDaemons/plistBackup
+OLDPLIST=/Library/LaunchDaemons/plistBackup/com.openssh.sshd-orig.plist
+
+if [ -e "$OLDPLIST" ]; then
+    mv -f "$OLDPLIST" "$PLIST"
+fi
+
+echo "Settings Permissions..."
+chown root:wheel /Library/LaunchDaemons/com.openssh.sshd.plist
+chmod 0644 /Library/LaunchDaemons/com.openssh.sshd.plist
+echo "Unloading SSH daemon"
+/bin/launchctl unload -w /Library/LaunchDaemons/com.openssh.sshd.plist
+echo "Loading SSH daemon with bonjour disabled"
+/bin/launchctl load -w /Library/LaunchDaemons/com.openssh.sshd.plist
+
+exit 0

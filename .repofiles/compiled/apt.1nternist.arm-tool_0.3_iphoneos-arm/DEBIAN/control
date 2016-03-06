@@ -1,0 +1,10 @@
+Architecture: iphoneos-arm
+Author: Chir0student <chir0student@me.com>
+Depends: firmware (>= 6.0), bash, sed, ldid
+Description: Patch old arm fat binaries to be compatible with armv7s & arm64 devices. Just execute arm-tool /path/to/binary in MobileTerminal as root.
+Maintainer: Chir0student <chir0student@me.com>
+Name: arm-tool
+Package: apt.1nternist.arm-tool
+Section: Development
+Sponsor: Chir0student <chir0student@me.com>
+Version: 0.3

@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo removing symbolic link...
+echo removing symbolic link..
+echo removing symbolic link.
+echo removing symbolic link..
+echo removing symbolic link...
+echo removing symbolic link..
+echo removing symbolic link.
+echo removing symbolic link..
+echo removing symbolic link...
+echo removing symbolic link..
+echo removing symbolic link.
+cd /var/mobile/
+rm Applications
+echo finished!
+
+exit 0

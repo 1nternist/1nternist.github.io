@@ -1,0 +1,27 @@
+--- a/private/var/lib/dpkg/info/ios-lighttpd-php-mysql.prerm    2013-02-17 16:59:19.000000000 +0100
++++ b/private/var/lib/dpkg/info/ios-lighttpd-php-mysql.prerm    2013-02-17 16:59:19.000000000 +0100
+@@ -1,6 +1,5 @@
+ #!/bin/sh
+
+-if [ $1 != upgrade ]; then
+  launchctl unload -w /Library/LaunchDaemons/com.atv.mysql.switch.plist 2>&1 | true
+  launchctl unload -w /Library/LaunchDaemons/com.atv.lighttpd.switch.plist 2>&1 | true
+
+@@ -13,7 +12,7 @@
+  if [ "$LIGHTTPD" != "" ]; then
+   kill -s TERM $LIGHTTPD
+  fi
+-fi
++if [ $1 != upgrade ]; then
+
+  rm /Library/LaunchDaemons/com.atv.lighttpd.switch.plist
+  rm /Library/LaunchDaemons/com.atv.mysql.switch.plist
+@@ -25,6 +24,6 @@
+  rm -r /var/log/lighttpd
+  rm /var/www/phpinfo.php
+  rm /var/www/index.html
+-
++fi
+ exit 0
+
+
