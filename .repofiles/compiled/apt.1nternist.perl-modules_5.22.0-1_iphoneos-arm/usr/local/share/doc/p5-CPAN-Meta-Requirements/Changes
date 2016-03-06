@@ -1,6 +1,0 @@
-Revision history for CPAN-Meta-Requirements
-
-2.121     2012-04-01 15:05:15 Europe/Paris
-
-    - Split out from CPAN::Meta into own distribution
-

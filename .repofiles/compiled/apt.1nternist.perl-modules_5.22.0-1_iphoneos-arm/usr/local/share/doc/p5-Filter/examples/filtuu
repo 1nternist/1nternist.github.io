@@ -1,5 +1,0 @@
-
-print "use Filter::UUdecode ;\n" ;
-while (<>) {
-    print pack("u", $_) ;
-}

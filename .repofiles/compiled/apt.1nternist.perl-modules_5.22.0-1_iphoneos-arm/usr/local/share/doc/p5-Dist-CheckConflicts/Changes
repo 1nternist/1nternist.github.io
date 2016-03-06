@@ -1,8 +1,0 @@
-Revision history for Dist-CheckConflicts
-
-0.02  2011-01-02
-      - ignore 'also' packages that aren't found, and also check for a
-        corresponding ::Conflicts package
-
-0.01  2010-11-21
-      - Initial release

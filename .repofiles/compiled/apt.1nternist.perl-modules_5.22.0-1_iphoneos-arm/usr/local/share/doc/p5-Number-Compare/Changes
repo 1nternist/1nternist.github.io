@@ -1,7 +1,0 @@
-0.02    12th September, 2011
-        - apply warning-related fix -
-          https://rt.cpan.org/Public/Bug/Display.html?id=58466
-
-0.01	23rd October, 2002
-	- Refactored the code away from File::Find::Rule
-	- Initial release
