@@ -1,8 +1,0 @@
-Architecture: iphoneos-arm
-Author: Chir0student <chir0student@me.com>
-Description: This script ports iOS 7 themes to iOS 8 for stock icons. Just run "themefix" in MobileTerminal as root.
-Maintainer: Chir0student <chir0student@me.com>
-Name: iOS 8 Theme Fix Script
-Package: apt.1nternist.ios8themefixscript
-Section: Scripting
-Version: 1.1

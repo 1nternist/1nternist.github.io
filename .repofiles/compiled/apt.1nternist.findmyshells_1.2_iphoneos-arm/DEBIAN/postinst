@@ -1,5 +1,0 @@
-#!/bin/sh
-
-chown root:wheel /usr/local/bin/find_shells.sh
-chmod 755 /usr/local/bin/find_shells.sh
-ln -s /usr/local/bin/find_shells.sh /usr/local/bin/findshells

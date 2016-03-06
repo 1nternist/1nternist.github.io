@@ -1,8 +1,0 @@
-Architecture: iphoneos-arm
-Author: Chir0student <chir0student@me.com>
-Description: Installs Framework & MobileSubstrate plugin for Reveal.app
-Maintainer: Chir0student <chir0student@me.com>
-Name: Reveal Plugin Installer
-Package: apt.1nternist.revealinstaller
-Section: Development
-Version: 1.1

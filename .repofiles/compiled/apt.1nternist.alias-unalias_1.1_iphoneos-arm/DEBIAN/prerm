@@ -1,4 +1,0 @@
-#!/bin/bash
-
-unlink /usr/bin/alias
-unlink /usr/bin/unalias

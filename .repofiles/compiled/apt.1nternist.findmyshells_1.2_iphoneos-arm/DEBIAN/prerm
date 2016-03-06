@@ -1,3 +1,0 @@
-#!/bin/sh
-
-unlink /usr/local/bin/findshells

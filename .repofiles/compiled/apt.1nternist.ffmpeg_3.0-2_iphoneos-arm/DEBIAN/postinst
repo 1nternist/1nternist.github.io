@@ -1,6 +1,0 @@
-#!/bin/bash
-
-chown root:wheel /usr/bin/ffmpeg
-chmod 755 /usr/bin/ffmpeg
-ldid -S /usr/bin/ffmpeg
-

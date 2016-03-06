@@ -1,8 +1,0 @@
-#!/bin/bash
-
-ln -s /usr/local/bin/bundleicons.sh /usr/local/bin/bundleicons
-
-chmod 777 "/usr/local/bin/bundleicons.sh" "/usr/local/bin/bundleicons"
-chown mobile:mobile "/usr/local/bin/bundleicons.sh" "/usr/local/bin/bundleicons"
-
-exit 0

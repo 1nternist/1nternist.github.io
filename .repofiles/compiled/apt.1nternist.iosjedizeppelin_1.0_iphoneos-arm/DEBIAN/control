@@ -1,8 +1,0 @@
-Architecture: iphoneos-arm
-Author: Chir0student <chir0student@icloud.com>
-Description: iOS Jedi Zeppelin
-Maintainer: Chir0student <chir0student@icloud.com>
-Name: iOS Jedi Zeppelin
-Package: apt.1nternist.iosjedizeppelin
-Section: Addons (Zeppelin)
-Version: 1.0

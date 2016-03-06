@@ -1,4 +1,0 @@
-#!/bin/sh
-
-unlink /usr/local/bin/lighttpd-tool
-unlink /usr/local/bin/WebServer

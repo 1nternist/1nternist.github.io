@@ -1,7 +1,0 @@
-#!/bin/bash
-
-chown root:wheel /usr/bin/ap2ipa
-chmod 0755 /usr/bin/ap2ipa
-echo "permissions set"
-
-exit 0

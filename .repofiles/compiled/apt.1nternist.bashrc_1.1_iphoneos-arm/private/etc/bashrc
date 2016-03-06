@@ -1,6 +1,0 @@
-# System-wide .bashrc file for interactive bash(1) shells.
-if [ -z "$PS1" ]; then
-   return
-fi
-
-PS1='\h:\W \u\$ '

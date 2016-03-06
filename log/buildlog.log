@@ -1,6 +1,0 @@
-warning, `/var/mobile/Developer/Github/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.ffmpeg_3.0-2_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
-warning, `/var/mobile/Developer/Github/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.ffmpeg_3.0-2_iphoneos-arm/DEBIAN/control' contains user-defined field `Author'
-warning, `/var/mobile/Developer/Github/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.ffmpeg_3.0-2_iphoneos-arm/DEBIAN/control' contains user-defined field `Sponsor'
-warning, `/var/mobile/Developer/Github/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.ffmpeg_3.0-2_iphoneos-arm/DEBIAN/control' contains user-defined field `dev'
-dpkg-deb: ignoring 4 warnings about the control file(s)
-dpkg-deb: building package `apt.1nternist.ffmpeg' in `/var/mobile/Developer/Github/1nternist.github.io/debs/apt.1nternist.ffmpeg_3.0-2_iphoneos-arm.deb'.
