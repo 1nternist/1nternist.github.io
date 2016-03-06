@@ -1,10 +1,17 @@
 On branch master
-Your branch is ahead of 'origin/master' by 2 commits.
+Your branch is ahead of 'origin/master' by 3 commits.
   (use "git push" to publish your local commits)
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
+	modified:   Packages
+	modified:   Packages.bz2
+	modified:   Packages.gz
+	modified:   Release
+	modified:   Release.gpg
+	modified:   debs/apt.1nternist.perl-modules_5.22.0-1_iphoneos-arm.deb
+	modified:   debs/perl_5.22.0-3_iphoneos-arm.deb
 	modified:   log/git-sync.log
 
 no changes added to commit (use "git add" and/or "git commit -a")

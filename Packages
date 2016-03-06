@@ -2013,7 +2013,7 @@ Conflicts: perl (< 5.10.0)
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.perl-modules_5.22.0-1_iphoneos-arm.deb
 Size: 25381566
-MD5sum: e42dd2d61a3e17c86640165396641a48
+MD5sum: a443c6352762ce96434fe34e25e698b7
 Description: Larry Wall's Practical Extraction and Report Language This meta-package depends on the modules which are present in the base install of this version of perl, but have been upgraded since its release, or have been packaged separatedly for easier updating. This package is required by perl. Perl is a stable, cross platform programming language. It is used for mission critical projects in the public and private sectors and is widely used to program web applications of all needs.
 Name: Universal Perl Modules
 Author: CoreDev <coredev@coredev.nl>
@@ -2499,7 +2499,7 @@ Replaces: com.sull.perl, apt.1nternist.perl, apt.1nternist.perl510, apt.1nternis
 Architecture: iphoneos-arm
 Filename: debs/perl_5.22.0-3_iphoneos-arm.deb
 Size: 17793298
-MD5sum: ca50254e30b31ed8078f752445fcb2e2
+MD5sum: a9621e4f5f70bf325b5a63831eb1b1d9
 Description: Perl ported for iOS, compatible with iOS 9 and arm64. Larry Wall's Practical Extraction and Report Language. Perl is a stable, cross platform programming language. It is used for mission critical projects in the public and private sectors and is widely used to program web applications of all needs.
 Name: Perl
 Author: CoolStar <coolstarorganization@gmail.com>
