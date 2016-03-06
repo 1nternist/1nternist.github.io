@@ -1,0 +1,72 @@
+Revision history for Perl extension Exporter.
+
+        - doc patches:
+          x TODO new section BUGS
+          x TODO new section AUTHORS
+          x TODO new section COPYRIGHT
+          x TODO history in Changes
+          x TODO rewrite docs (FUNCTIONS, etc.)
+          x TODO new functions "combine_tags" (or "generate_tag")
+          x TODO all indentation 2 spaces
+
+5.65 Tue Aug 30 2011 Todd Rinaldo
+        - No changes. Tests clean. Bumping to production release.
+
+5.64_04 Wed Aug 24 2011 Todd Rinaldo
+        - Re-vamp module to work in Git.
+        - Update Makefile.PL with extra META bits.
+        - Point bugs to perl's RT.
+        - Add a README from Exporter.pm perldoc.
+        - Depend on Carp 1.05 now we're assuming a fix from 1.05
+
+5.64_03 Wed Aug 24 2011 (Cumulative)
+        - Fix RT #74472 Exporter.pm blocks Signal handling
+        - Avoid creating @EXPORT_FAIL in every package using Exporter.
+        - Test exported arrays and hashes without using defined()
+        - Carp 1.05 shipped with 5.8.8. Remove work-around for pre 1.05
+
+5.63    Sat Jul 19 2008
+        - fix doc bugs (pointed by Philippe Bricout at
+          CPAN RT #33546) 
+        - reconciliate Exporter with Carp older than 1.05
+          (thanks to Anno Siegel, perlbug RT #57079)
+
+5.62    Fri Dec  9 2007
+        - no code change
+        - fix typo in section link
+        - mention Exporter::Easy 
+
+5.61    Fri Dec  9 2007
+        - no code change
+        - sync with changes 32596 (fixes by rgs)
+          and 32599 (typo spotted by Matt Kraai)
+
+5.60_01 Thu Dec  6 2007
+        - "use 5.006" in Makefile.PL
+        - no code change
+        - doc patch: new section SEE ALSO (Exporter is not alone)
+        - doc patch: new section Good Practices - mentions 
+          "our" and "use vars", "base" and "parent" 
+          and advocates against exporting variables
+          
+5.60    Sat Mar 10 2007
+        - Bump Exporter's $VERSION (change 30525)
+        - Don't swallow up other warnings in Exporter's test. Remove a needless
+          eval that happened to generate 4 warnings. (change 30531)
+        - Make Exporter::Heavy correctly not warn when exporting a symbol only
+          declared in the export specification. Ensure that the test actually
+          tests this. (change 30529)
+        - added t/use.t and t/pod.t
+
+5.59   Wed Sep 6 2006
+        - Dual life began. (perl-current @ 28789)
+
+5.59    ? Jan 7 2005
+        - Exporter can finally live w/o Carp (change 23768)
+
+5.58    ? Jan 26 2004
+        - Document change 22192 (change 22224)
+
+The 50 most recent changes for lib/Exporter.pm (APC)
+http://public.activestate.com/cgi-bin/perlbrowse?show_filelog=Show+Recent+Changes&filename=lib%2FExporter.pm&rev=&change=
+

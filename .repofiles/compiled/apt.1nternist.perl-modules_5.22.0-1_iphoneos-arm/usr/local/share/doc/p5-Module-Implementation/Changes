@@ -1,0 +1,33 @@
+0.06     2012-02-12
+
+- Require Module::Runtime 0.012 which has a number of useful bug fixes.
+
+
+0.05     2012-02-09
+
+- Make Test::Taint an optional dependency. This module requires XS, and
+  requiring a compiler for Module::Implementation defeats its
+  purpose. Reported by Peter Rabbitson. RT #74817.
+
+
+0.04     2012-02-08
+
+- This module no longer installs an _implementation() subroutine in
+  callers. Instead, you can call
+  Module::Implementation::implementation_for($package) to get the
+  implementation used for a given package.
+
+
+0.03     2012-02-06
+
+- The generated loader sub now returns the name of the package it loaded.
+
+
+0.02     2012-02-06
+
+- Removed Test::Spelling from this module's prereqs.
+
+
+0.01     2012-02-06
+
+- First release upon an unsuspecting world.

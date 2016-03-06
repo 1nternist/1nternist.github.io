@@ -1,0 +1,119 @@
+Tue Dec  5 07:18:09 1995  David Megginson <david@baeda.english.uottawa.ca>
+
+* VERSION 1.03ii
+
+	* elisp/sgmls.el: Added my Gnu Emacs 19 mode for running (n)sgmls
+	with a postprocessor.
+
+	* Output.pm (push_output): For a 'handle' argument, force
+	unqualified filehandles into the caller's package (reported by
+	Rick Wong).
+
+* VERSION 1.03
+
+Sun Dec  3 11:37:08 1995  David Megginson  <david@baeda.english.uottawa.ca>
+
+	* sgmlspl.pl (main::sgml): Stopped using SGMLS_Event::key method
+	(why keep it around?).
+
+	* SGMLS.pm: Added POD documentation to the module; changed the
+	SGMLS_Event class constructor so that it does not take an explicit
+	key argument (the key will be generated automatically if needed),
+	and propagated the change throughout the module.
+
+Sat Dec  2 21:24:05 1995  David Megginson  <david@baeda.english.uottawa.ca>
+
+	* Refs.pm: Added POD documentation to the module.
+
+	* Output.pm: Added POD documentation to the module.
+
+Thu Nov 16 06:52:46 1995  David Megginson  <david@baeda.english.uottawa.ca>
+
+	* Refs.pm: Refs::warn now returns 1 if a warning was printed, or 0
+	if it was not.
+
+Wed Nov 15 13:43:10 1995  David Megginson  <david@baeda.english.uottawa.ca>
+
+	* Refs.pm: Added a new, simple package for managing references and
+	reporting any changes.
+
+	* SGMLS.pm: SGMLS::new now forces its filehandle argument into the
+	caller's package, unless it is already qualified with a package
+	name; reported by Rick Wong.
+
+	* Makefile: Install modules in ${MODULEDIR} instead of ${PERL5DIR}
+	-- that way, all add-ons can be qualified with SGMLS::.
+
+	* Output.pm: Now uses Carp.pm and Exporter.pm to be a
+	better-behavied module.  The symbols "output", "push_output", and
+	"pop_output" will be exported into the caller's package rather
+	than main::, and the caller will have some control over them.
+
+	Changed the package from Output to SGMLS::Output.pm.
+
+	* skel.pl: Use SGMLS::Output instead of Output.
+
+	* sgmlspl.pl: Altered to create the SGMLS object with main::STDIN
+	as the filehandle.  Have Output.pm export its symbols into main::
+	rather than into SGMLS_PL::.
+
+	Use SGMLS::Output instead of Output.
+
+* VERSION 1.02
+
+Thu Aug 24 10:00:52 1995  David Megginson  <david@baeda.english.uottawa.ca>
+
+	* SGMLS.pm: Added SGMLS_Event::parse to retrieve the SGMLS parent
+	class, SGMLS_Event::entity to look up an arbitrary entity, and
+	SGMLS_Event::notation to look up an arbitrary notation.
+
+	* Makefile (HTML_SOURCES): fixed faulty path, reported by Rick
+	Wong (rwong@jessica.stanford.edu).
+
+	* skel.pl: fixed bug in commented out 're' handler, reported by
+	Rick Wong (rwong@jessica.stanford.edu).
+
+	* SGMLS.pm: fixed bug in SGMLS_Attribute::set_value, reported by
+        Rick Wong (rwong@jessica.stanford.edu).
+
+	Loosened up checking of types in main loop, in case new types are
+	added in the future.
+
+	Added support for new output from NSGMLS with -h option: 'T' for
+	external text entities, new entity types 'PI', 'TEXT', and 'ID'.
+
+	Added support (not yet tested) for data entities.
+	
+
+* VERSION 1.01
+
+Sat Aug 12 09:34:40 1995  David Megginson  <david@baeda.english.uottawa.ca>
+
+	* Makefile: changed the order of the operations for make all, so
+	that the necessary files are installed _before_ trying to make the
+	documentation.  Also, introduced the target "dist" to make the
+	most current version of all the documentation.
+
+	* skel.pl: fixed the header comment for 'subdoc' handlers, and
+	added default handlers for 'end_element', 'cdata', 're',
+	'end_subdoc', and 'conforming' (reported by Rick Wong
+	<rwong@jessica.stanford.edu>).
+
+	* SGMLS.pm: fixed bugs in SGMLS_Attribute::set_value, cleaned up
+	the recognition and processing of octal escape sequences in the
+	(N)SGMLS output, and fixed a minor bug with generated-filenames in
+	the external entities (reported by Rick Wong
+	<rwong@jessica.stanford.edu>).
+
+	* sgmls.pl: changed handler patterns to allow dashes and other
+	characters in element, subdoc, and entity names, and fixed error
+	in generic start_subdoc_handler (reported by Rick Wong
+	<rwong@jessica.stanford.edu> and Alan Karben
+	<karben@nrs.dowjones.com>).
+
+	* Makefile: Corrected several typos in the "install_html" target
+	(reported by Rick Wong <rwong@jessica.stanford.edu>).  Changed the
+	perl binary location from /usr/bin/perl to /usr/local/bin/perl (I
+	am working on a slightly different system now).
+
+* VERSION 1.00 (initial release)

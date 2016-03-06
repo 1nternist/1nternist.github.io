@@ -1,0 +1,6 @@
+Changes for 0.02    Sat Dec 13 18:35:01 CET 2008
+=================================================
+* Users of 0.01 need not upgrade
+* Package::Constants is a core module, so the Makefile.PL
+  should reflect this and install into the 'core' 
+  directory, instead of 'site'

@@ -1,0 +1,6 @@
+This is the Time::Local module shipped with the latest Perl
+distribution, but made backwards compatible with Perl 5.00503.
+
+Time::Local provides functions to translates the results of Perl's
+localtime() and gmtime() functions back to seconds since the epoch.
+

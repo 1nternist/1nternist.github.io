@@ -1,9 +1,0 @@
-Architecture: iphoneos-arm
-Author: Chir0student <chir0student@me.com>
-Description: 1nspire ringtones
-Maintainer: Chir0student <chir0student@me.com>
-Name: 1nspire Ringtones
-Package: apt.1nternist.1nspire-ringtones
-Priority: optional
-Section: Ringtones
-Version: 1.0

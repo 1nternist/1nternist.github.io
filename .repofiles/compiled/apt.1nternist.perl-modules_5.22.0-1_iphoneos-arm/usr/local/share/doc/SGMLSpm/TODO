@@ -1,0 +1,6 @@
+SGMLS.pm: things to do
+
+- add support for SDATA, etc. in attribute values (see BUGS).
+- add a switch to skel.pl to allow handlers to be sorted into
+alphabetical order if desired.
+- allow for more customisation in SGMLS.pm data classes.

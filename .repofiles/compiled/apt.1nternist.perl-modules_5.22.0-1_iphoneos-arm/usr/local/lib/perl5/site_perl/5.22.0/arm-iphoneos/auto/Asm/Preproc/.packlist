@@ -1,0 +1,10 @@
+/usr/local/lib/perl5/site_perl/5.10.0/Asm/Preproc.pm
+/usr/local/lib/perl5/site_perl/5.10.0/Asm/Preproc/Lexer.pm
+/usr/local/lib/perl5/site_perl/5.10.0/Asm/Preproc/Line.pm
+/usr/local/lib/perl5/site_perl/5.10.0/Asm/Preproc/Stream.pm
+/usr/local/lib/perl5/site_perl/5.10.0/Asm/Preproc/Token.pm
+/usr/local/man/man3/Asm::Preproc.3
+/usr/local/man/man3/Asm::Preproc::Lexer.3
+/usr/local/man/man3/Asm::Preproc::Line.3
+/usr/local/man/man3/Asm::Preproc::Stream.3
+/usr/local/man/man3/Asm::Preproc::Token.3

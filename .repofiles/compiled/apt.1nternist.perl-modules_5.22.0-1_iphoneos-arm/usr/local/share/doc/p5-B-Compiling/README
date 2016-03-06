@@ -1,0 +1,32 @@
+NAME
+    B::Compiling - Expose PL_compiling to perl
+
+SYNOPSIS
+        use B::Compiling;
+
+        BEGIN {
+            warn "currently compiling ", PL_compiling->file;
+        }
+
+DESCRIPTION
+    This module exposes the perl interpreter's PL_compiling variable to
+    perl.
+
+FUNCTIONS
+  PL_compiling
+    This function returns a "B::COP" object representing PL_compiling. It's
+    exported by default. See B for documentation on how to use the returned
+    "B::COP".
+
+SEE ALSO
+    B
+
+AUTHOR
+    Florian Ragwitz <rafl@debian.org>
+
+COPYRIGHT AND LICENSE
+    Copyright (c) 2008 Florian Ragwitz
+
+    This module is free software. You can distribute it under the same terms
+    as perl itself.
+

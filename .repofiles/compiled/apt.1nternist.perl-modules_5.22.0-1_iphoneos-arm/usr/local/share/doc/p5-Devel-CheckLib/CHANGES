@@ -1,0 +1,18 @@
+0.5     2008-03-12      Break up 'package Devel::CheckLib' in inc/ so
+                          distributions including it don't get marked
+                          as 'unauthorised'
+
+0.4     2008-03-04      Look for headers as well as libraries;
+                        Clean up temp dirs in tests;
+                        use-devel-checklib fixed for Win32
+
+0.3     2007-10-30      tests now skip when they need a compiler and can't
+                          find one;
+                        Borland compiler support;
+                        added bin/use-devel-checklib script;
+                        added EU::MM-stylee LIBS support
+
+0.2     2007-10-18      better portability, more features
+                        Renamed to Devel::CheckLib
+
+0.1     2007-10-14      Initial release

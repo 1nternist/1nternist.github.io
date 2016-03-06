@@ -1,8 +1,0 @@
-Architecture: iphoneos-arm
-Author: Markus McCormac <chir0student@icloud.com>
-Description: Southpark "Chocolate Salty Balls" ringtone/text tone
-Maintainer: Markus McCormac <chir0student@icloud.com>
-Name: Chocolate Salty Balls
-Package: apt.1nternist.chocolatesaltyballs
-Section: Ringtones
-Version: 1.0

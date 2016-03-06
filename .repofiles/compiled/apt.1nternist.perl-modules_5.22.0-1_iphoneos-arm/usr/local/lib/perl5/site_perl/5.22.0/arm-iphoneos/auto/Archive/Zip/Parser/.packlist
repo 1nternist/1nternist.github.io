@@ -1,0 +1,14 @@
+/usr/local/lib/perl5/site_perl/5.10.0/Archive/Zip/Parser.pm
+/usr/local/lib/perl5/site_perl/5.10.0/Archive/Zip/Parser/CentralDirectoryEnd.pm
+/usr/local/lib/perl5/site_perl/5.10.0/Archive/Zip/Parser/Entry.pm
+/usr/local/lib/perl5/site_perl/5.10.0/Archive/Zip/Parser/Entry/CentralDirectory.pm
+/usr/local/lib/perl5/site_perl/5.10.0/Archive/Zip/Parser/Entry/DataDescriptor.pm
+/usr/local/lib/perl5/site_perl/5.10.0/Archive/Zip/Parser/Entry/Header.pm
+/usr/local/lib/perl5/site_perl/5.10.0/Archive/Zip/Parser/Entry/LocalFileHeader.pm
+/usr/local/lib/perl5/site_perl/5.10.0/Archive/Zip/Parser/Exception.pm
+/usr/local/man/man3/Archive::Zip::Parser.3
+/usr/local/man/man3/Archive::Zip::Parser::CentralDirectoryEnd.3
+/usr/local/man/man3/Archive::Zip::Parser::Entry.3
+/usr/local/man/man3/Archive::Zip::Parser::Entry::CentralDirectory.3
+/usr/local/man/man3/Archive::Zip::Parser::Entry::DataDescriptor.3
+/usr/local/man/man3/Archive::Zip::Parser::Entry::LocalFileHeader.3

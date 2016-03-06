@@ -1,0 +1,13 @@
+
+
+This archive contains the distribution ExtUtils-Command,
+version 1.17:
+
+  utilities to replace common UNIX commands in Makefiles etc.
+
+This software is copyright (c) 2011 by Nick Ing-Simmons.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+

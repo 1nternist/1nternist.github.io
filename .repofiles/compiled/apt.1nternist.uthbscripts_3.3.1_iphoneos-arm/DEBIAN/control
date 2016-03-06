@@ -1,12 +1,0 @@
-Architecture: iphoneos-arm
-Author: Thireus <repo@thireus.com>
-Depends: sed, coreutils
-Description: Say goodbye to ads, spies, tracking and untrusted hosts. Block more than 38,000 blacklisted hosts! This is not just a basic adblocker but a powerful FireWall for confidentiality and security purpose.  This tweak's main goal is to block a maximum of third-party hosts used by your applications that have been identified as collecting personal and confidential data (location, contacts, UDID, etc.) for commercial, tracking or advertising purpose.  If the 'uthb.sh' script slows down your device or if you encounter connection issues, please switch to 'uthblt.sh'  This package will add all blacklisted hosts to your /etc/hosts file. It will NOT overwrite any custom hosts file you may have (if you already have custom entries in your hosts file, they will remain untouched)!  If you are unhappy with this hack, you can uninstall this package. It will ONLY remove the installed entries by the tweak and leave untouched any other entries you may have added manually to the hosts file. But make sure to wait untill the end of the uninstallation process. In case your hosts file is broken (should never happen), the installation or uninstallation script will repair it.
-Maintainer: Chir0student <chir0student@me.com>
-Name: Hosts Blocker Scripts
-Package: apt.1nternist.uthbscripts
-Pre-Depends: dpkg (>= 1.14.25-8)
-Priority: optional
-Section: Security
-Sponsor: Chir0student <chir0student@me.com>
-Version: 3.3.1

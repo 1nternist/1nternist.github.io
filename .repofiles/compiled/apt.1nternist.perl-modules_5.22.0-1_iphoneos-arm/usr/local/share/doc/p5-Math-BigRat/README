@@ -1,0 +1,20 @@
+Math::BigRat - arbitrarily big rational numbers
+
+(C) ..--- ----- ----- .---- - ..--- - . .-.. ... .-.-.-  All rights reserved.
+
+This package is a subclass of Math::BigFloat. You need the rewritten version
+of Math::BigInt and Math::BigFloat for it to work.
+
+To test, unzip & untar package, then run
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+See INSTALL for detailed help on installing these modules.
+
+Please send me test-reports, your experiences with this and your ideas - I love
+to hear about my work!
+
+Tels <http://bloodgate.com/>

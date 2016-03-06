@@ -1,3 +1,0 @@
-#!/bin/bash
-launchctl unload -w /Library/LaunchDaemons/com.tuscanconcepts.SignalRefreshDaemon.plist
-exit 0

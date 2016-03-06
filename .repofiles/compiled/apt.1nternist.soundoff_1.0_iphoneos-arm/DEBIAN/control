@@ -1,8 +1,0 @@
-Architecture: iphoneos-arm
-Author: Chir0student <chir0student@icloud.com>
-Description: Full Metal Jacket "Sound Off Like Ya Got A Pair" ringtone/text tone
-Maintainer: Chir0student <chir0student@icloud.com>
-Name: Sound Off Like Ya Got A Pair
-Package: apt.1nternist.soundoff
-Section: Ringtones
-Version: 1.0

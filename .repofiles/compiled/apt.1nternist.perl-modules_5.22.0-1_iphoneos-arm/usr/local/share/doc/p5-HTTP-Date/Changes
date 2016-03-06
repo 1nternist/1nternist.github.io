@@ -1,0 +1,7 @@
+_______________________________________________________________________________
+2011-02-25 HTTP-Date 6.00
+
+Initial release of HTTP-Date as a separate distribution. There are no code
+changes besides incrementing the version number since libwww-perl-5.837.
+
+The HTTP::Date module used to be bundled with the libwww-perl distribution.

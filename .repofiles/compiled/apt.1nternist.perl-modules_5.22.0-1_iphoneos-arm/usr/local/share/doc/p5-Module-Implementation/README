@@ -1,0 +1,14 @@
+
+
+This archive contains the distribution Module-Implementation,
+version 0.06:
+
+  Loads one of several alternate underlying implementations for a module
+
+This software is Copyright (c) 2012 by Dave Rolsky.
+
+This is free software, licensed under:
+
+  The Artistic License 2.0 (GPL Compatible)
+
+

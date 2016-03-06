@@ -1,0 +1,632 @@
+1.17  Sat, Feb 28, 2011
+  - Remove test boilerplate the reorganisation of dual-life modules in the perl
+    code made unnecessary.
+  - Remove Shell::Command - that module is now available in the Shell::Command
+    distribution on CPAN.
+
+1.16  Mon, Jan 5, 2009
+  - Add support for VMS UNIX compatibilty mode:
+      https://rt.cpan.org/Ticket/Display.html?id=42144
+
+1.15  Sun, Oct 12, 2008
+  - cp fails to update timestamp on Win32:
+     http://rt.cpan.org/Ticket/Display.html?id=34718
+    Patch supplied by MSCHWERN
+
+1.14  Wed, Mar 12, 2008
+  - fix bug in Shell::Command, revealed by fix in version 0.78 of 
+    Test::Simple, as described at
+         http://rt.cpan.org/Ticket/Display.html?id=33926
+
+1.13  Fri, Dec 22, 2006
+  - use binmode(FILE) in one of the tests, as raised on
+    http://beta.nntp.perl.org/group/perl.perl5.porters/2006/12/msg119161.html
+
+1.12  Mon, Oct 9, 2006
+  - patch to bring ExtUtils::Command into synch with that of
+    ExtUtils-MakeMaker 6.30_01:
+       http://rt.cpan.org/Ticket/Display.html?id=21982
+
+1.11  Wed, Sep 6, 2006
+  - initial CPAN release since splitting off from ExtUtils::MakeMaker
+
+------------------------------------------------------------------------
+The following are the changes involving ExtUtils::Command
+within the ExtUtils-MakeMaker distribution:
+  http://svn.schwern.org/svn/CPAN/ExtUtils-MakeMaker/trunk
+
+------------------------------------------------------------------------
+r3636 | schwern | 2005-09-27 15:07:33 -0500 (Tue, 27 Sep 2005) | 7 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk
+    M /CPAN/ExtUtils-MakeMaker/trunk/Changes
+    M /CPAN/ExtUtils-MakeMaker/trunk/inc/ExtUtils/Command.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/Command.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/Manifest.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/lib/Test/Builder.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/lib/Test/More.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/lib/Test/Simple.pm
+ 
+  r3648@windhund:  schwern | 2005-09-26 15:07:59 -0700
+      - Updated our internal version of Test::More to catch a few warnings. 
+      - ExtUtils::Command::test_f() test was broken.
+  
+  The exit() override for test_f() was always returning 1 because it was
+  returning a list in scalar context!
+ 
+------------------------------------------------------------------------
+r2444 | schwern | 2005-08-17 01:54:10 -0500 (Wed, 17 Aug 2005) | 3 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk
+    M /CPAN/ExtUtils-MakeMaker/trunk/Changes
+    M /CPAN/ExtUtils-MakeMaker/trunk/inc/ExtUtils/Command.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/inc/ExtUtils/Install.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/inc/ExtUtils/Installed.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/inc/ExtUtils/Manifest.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/inc/ExtUtils/Mkbootstrap.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/inc/ExtUtils/Mksymlists.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/inc/ExtUtils/Packlist.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Any.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_NW5.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Unix.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_VMS.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Win32.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Win95.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MakeMaker/FAQ.pod
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MakeMaker.pm
+ 
+  r2539@windhund:  schwern | 2005-08-16 23:53:55 -0700
+  Version up for release.  6.30_01
+ 
+------------------------------------------------------------------------
+r2419 | schwern | 2005-07-23 02:50:02 -0500 (Sat, 23 Jul 2005) | 24 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk
+    M /CPAN/ExtUtils-MakeMaker/trunk/Changes
+    M /CPAN/ExtUtils-MakeMaker/trunk/MANIFEST
+    M /CPAN/ExtUtils-MakeMaker/trunk/Makefile.PL
+    A /CPAN/ExtUtils-MakeMaker/trunk/inc
+    A /CPAN/ExtUtils-MakeMaker/trunk/inc/ExtUtils
+    A /CPAN/ExtUtils-MakeMaker/trunk/inc/ExtUtils/Command.pm
+    A /CPAN/ExtUtils-MakeMaker/trunk/inc/ExtUtils/Install.pm
+    A /CPAN/ExtUtils-MakeMaker/trunk/inc/ExtUtils/Installed.pm
+    A /CPAN/ExtUtils-MakeMaker/trunk/inc/ExtUtils/MANIFEST.SKIP
+    A /CPAN/ExtUtils-MakeMaker/trunk/inc/ExtUtils/Manifest.pm
+    A /CPAN/ExtUtils-MakeMaker/trunk/inc/ExtUtils/Mkbootstrap.pm
+    A /CPAN/ExtUtils-MakeMaker/trunk/inc/ExtUtils/Mksymlists.pm
+    A /CPAN/ExtUtils-MakeMaker/trunk/inc/ExtUtils/Packlist.pm
+    D /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+    D /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Install.pm
+    D /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Installed.pm
+    D /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MANIFEST.SKIP
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Unix.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MakeMaker.pm
+    D /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Manifest.pm
+    D /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Mkbootstrap.pm
+    D /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Mksymlists.pm
+    D /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Packlist.pm
+ 
+  r2436@windhund:  schwern | 2005-07-23 00:49:46 -0700
+      * ExtUtils::Command, ExtUtils::Install, ExtUtils::Manifest, 
+        ExtUtils::Mkbootstrap, ExtUtils::Mksymlists and ExtUtils::Packlist 
+        are all now considered to be separate distributions.  To avoid a  
+        circular dependency, MakeMaker distributes its own versions but CPAN  
+        should not index them and they will not overwrite a newer, installed  
+        version. 
+  
+  We accomplish this by moving the auxillaries into inc/ and then culling
+  them out of $self->{PM} with an override.  This is not ideal as it requires
+  too much poking at the internals.  The final approach will probably be a
+  three stage with auxillaries in extra_libs/ moved to inc/ before
+  WriteMakefile is run.
+  
+  init_dirscan() has been split into init_MANPODS, init_MAN1PODS, init_MAN3PODS
+  and init_PM for better encapsulation and easier overriding.
+  
+  init_MAN*PODS now share the same POD scanning code.
+  
+  Added an undocumented PMLIBPARENTDIRS flag to tell MakeMaker which
+  directories should be treated as parent directories when determining
+  what modules are below them.
+  
+ 
+------------------------------------------------------------------------
+r2340 | schwern | 2005-03-21 22:36:30 -0600 (Mon, 21 Mar 2005) | 6 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk
+    M /CPAN/ExtUtils-MakeMaker/trunk/Changes
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command/MM.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Install.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_AIX.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Any.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_BeOS.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Cygwin.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_NW5.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_OS2.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_QNX.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Unix.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_VMS.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_VOS.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Win32.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Win95.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MakeMaker/Config.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MakeMaker/FAQ.pod
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MakeMaker.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Manifest.pm
+ 
+  r4259@windhund:  schwern | 2005-03-21 20:36:58 -0800
+  Incrementing the version # of every module which has changed since 6.25
+  for 6.26.
+  
+  This is 6.26.
+ 
+------------------------------------------------------------------------
+r2325 | schwern | 2005-03-13 19:10:40 -0600 (Sun, 13 Mar 2005) | 3 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_VMS.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MakeMaker.pm
+ 
+  r3928@windhund:  schwern | 2005-03-12 10:12:07 -0800
+  Increment versions for release
+ 
+------------------------------------------------------------------------
+r2322 | schwern | 2005-03-12 12:08:22 -0600 (Sat, 12 Mar 2005) | 15 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+ 
+  r3923@windhund:  schwern | 2005-03-09 19:09:06 -0800
+  Doc improvements.
+  
+  Mention Shell::Command
+  
+  Put function examples in the function description rather than on the =item
+  line to make the =items cleaner and easier to read.
+  
+  Remove BUGS section.  This module is so small it doesn't need
+  autoloaded.
+  
+  Remove pointers to other MakeMaker modules, they really have nothing to do
+  with this.
+  
+ 
+------------------------------------------------------------------------
+r2216 | schwern | 2004-12-20 03:17:43 -0600 (Mon, 20 Dec 2004) | 6 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk/Changes
+    M /CPAN/ExtUtils-MakeMaker/trunk/MANIFEST
+    M /CPAN/ExtUtils-MakeMaker/trunk/MANIFEST.SKIP
+    M /CPAN/ExtUtils-MakeMaker/trunk/Makefile.PL
+    M /CPAN/ExtUtils-MakeMaker/trunk/NOTES
+    M /CPAN/ExtUtils-MakeMaker/trunk/PATCHING
+    M /CPAN/ExtUtils-MakeMaker/trunk/README
+    M /CPAN/ExtUtils-MakeMaker/trunk/SIGNATURE
+    M /CPAN/ExtUtils-MakeMaker/trunk/TODO
+    M /CPAN/ExtUtils-MakeMaker/trunk/bin/instmodsh
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command/MM.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Install.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Installed.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Liblist/Kid.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Liblist.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MANIFEST.SKIP
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_AIX.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Any.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_BeOS.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Cygwin.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_DOS.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_MacOS.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_NW5.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_OS2.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_QNX.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_UWIN.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Unix.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_VMS.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_VOS.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Win32.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Win95.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MY.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MakeMaker/Config.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MakeMaker/FAQ.pod
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MakeMaker/Tutorial.pod
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MakeMaker/bytes.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MakeMaker/vmsish.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MakeMaker.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Manifest.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Mkbootstrap.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Mksymlists.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Packlist.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/testlib.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/00compile.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/Command.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/INST.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/INST_PREFIX.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/Install.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/Installed.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/Liblist.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/MM_Any.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/MM_BeOS.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/MM_Cygwin.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/MM_NW5.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/MM_OS2.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/MM_Unix.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/MM_VMS.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/MM_Win32.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/Manifest.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/Mkbootstrap.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/Packlist.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/VERSION_FROM.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/backwards.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/basic.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/bytes.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/config.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/dir_target.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/hints.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/lib/MakeMaker/Test/Setup/BFD.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/lib/MakeMaker/Test/Setup/Problem.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/lib/MakeMaker/Test/Setup/Recurs.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/lib/MakeMaker/Test/Utils.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/lib/Test/Builder.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/lib/Test/More.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/lib/Test/Simple.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/lib/TieIn.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/lib/TieOut.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/oneliner.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/parse_version.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/postamble.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/prefixify.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/prereq_print.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/problems.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/prompt.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/recurs.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/split_command.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/testlib.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/vmsish.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/writemakefile_args.t
+ 
+ Remove the svn:keywords settings held over from CVS.  They weren't set right
+ anyway.
+ 
+ There are two files which need them.  MM_VMS and MakeMaker.pm both have
+ a global $Revision variable.  That needs to be set.
+ 
+------------------------------------------------------------------------
+r1953 | schwern | 2004-04-03 12:38:04 -0600 (Sat, 03 Apr 2004) | 3 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk/Changes
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/Command.t
+ 
+     - Fixed ExtUtils::Command::chmod() so it will work on directories on
+       VMS. [rt 4676]
+ 
+------------------------------------------------------------------------
+r1951 | schwern | 2004-04-02 18:38:07 -0600 (Fri, 02 Apr 2004) | 3 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk/Changes
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+ 
+     - ensure ExtUtils::Command::rm_f deletes all versions of a file on VMS
+       [rt 4687]
+ 
+------------------------------------------------------------------------
+r1864 | schwern | 2003-11-06 04:19:04 -0600 (Thu, 06 Nov 2003) | 2 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk/META.yml
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Any.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MakeMaker.pm
+ 
+ Version up
+ 
+------------------------------------------------------------------------
+r1860 | schwern | 2003-11-06 04:16:43 -0600 (Thu, 06 Nov 2003) | 3 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk/Changes
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+ 
+     - Fixing dos2unix on Cygwin98.  In-place editing doesn't work 100% so we
+       take a more conservative approach.
+ 
+------------------------------------------------------------------------
+r1857 | schwern | 2003-11-06 04:10:09 -0600 (Thu, 06 Nov 2003) | 2 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+ 
+ Accidentally committed 1.22.  Rolling back.
+ 
+------------------------------------------------------------------------
+r1855 | schwern | 2003-11-06 04:05:54 -0600 (Thu, 06 Nov 2003) | 4 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk/Changes
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+ 
+     - Small Command.t test fix for 5.5.3.  No real bug [rt 4290]
+ 
+ mkdir() needs its permission arg in 5.5.3.
+ 
+------------------------------------------------------------------------
+r1802 | schwern | 2003-11-03 16:00:35 -0600 (Mon, 03 Nov 2003) | 2 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/Command.t
+ 
+ Making sure ExtUtils::Command preserves @ARGV.
+ 
+------------------------------------------------------------------------
+r1781 | schwern | 2003-11-02 01:36:45 -0600 (Sun, 02 Nov 2003) | 7 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Install.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Win95.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MakeMaker.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Manifest.pm
+ 
+ Changing email addresses from <F<foo@bar.com>> to C<foo@bar.com> on the
+ recommendation of Sean Burke.
+ 
+ Updating Nick Simmon's email address in ExtUtils::Command.
+ 
+ Changing URLs from F<> to L<> again on the recommendation of Sean.
+ 
+------------------------------------------------------------------------
+r1771 | schwern | 2003-10-30 18:49:06 -0600 (Thu, 30 Oct 2003) | 4 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/Command.t
+ 
+     - Made ExtUtils::Command mv and cp return whether or not they succeeded.
+ 
+ This lets us do:  mv or warn ...
+ 
+------------------------------------------------------------------------
+r1759 | schwern | 2003-10-30 16:55:07 -0600 (Thu, 30 Oct 2003) | 2 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+ 
+ Ok, let's really not mangle binaries this time.
+ 
+------------------------------------------------------------------------
+r1758 | schwern | 2003-10-30 16:35:46 -0600 (Thu, 30 Oct 2003) | 2 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+ 
+ Try not to mangle binaries.
+ 
+------------------------------------------------------------------------
+r1756 | schwern | 2003-10-30 04:06:46 -0600 (Thu, 30 Oct 2003) | 4 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk/Changes
+    M /CPAN/ExtUtils-MakeMaker/trunk/SIGNATURE
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_OS2.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/Command.t
+ 
+     - Added ExtUtils::Command::dos2unix()
+     - Fixed 'make dist' problem on OS/2.  The odd TO_UNIX macro using a
+       zip/unzip trick was making the distribution files read-only.
+ 
+------------------------------------------------------------------------
+r1409 | schwern | 2003-04-06 21:39:52 -0500 (Sun, 06 Apr 2003) | 2 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command/MM.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Install.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Installed.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Liblist/Kid.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Liblist.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Any.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_BeOS.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Cygwin.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_DOS.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_MacOS.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_NW5.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_OS2.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_UWIN.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Unix.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_VMS.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Win32.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Win95.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Manifest.pm
+ 
+ Incrementing $VERSION on everything that's changed since 6.03 just to be safe.
+ 
+------------------------------------------------------------------------
+r1247 | schwern | 2003-03-27 04:15:25 -0600 (Thu, 27 Mar 2003) | 2 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+ 
+ Minor SYNOPSIS nit.
+ 
+------------------------------------------------------------------------
+r1227 | schwern | 2003-03-25 04:26:50 -0600 (Tue, 25 Mar 2003) | 4 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+ 
+ Some cleanup of some silly while loops
+ 
+ eqtime() was truncating the file!
+ 
+------------------------------------------------------------------------
+r1201 | schwern | 2003-03-07 04:24:48 -0600 (Fri, 07 Mar 2003) | 5 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk/Changes
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/Command.t
+ 
+     * ExtUtils::Command::chmod was not interpreting file permissions as
+       octal strings.  Also, docs & tests slightly wrong (thanks Stas Bekman).
+ 
+ Tests could load the installed version of ExtUtils::Command.
+ 
+------------------------------------------------------------------------
+r812 | schwern | 2002-06-15 18:43:05 -0500 (Sat, 15 Jun 2002) | 2 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+ 
+ Whitespace nits.
+ 
+------------------------------------------------------------------------
+r798 | schwern | 2002-05-29 18:06:51 -0500 (Wed, 29 May 2002) | 2 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+ 
+ Clipping some stray whitespace.
+ 
+------------------------------------------------------------------------
+r795 | schwern | 2002-05-25 16:19:03 -0500 (Sat, 25 May 2002) | 2 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Liblist/Kid.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_BeOS.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Cygwin.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_NW5.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_OS2.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Unix.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_VMS.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Win32.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MakeMaker.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Manifest.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Mkbootstrap.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Mksymlists.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/testlib.pm
+ 
+ upping version numbers for release
+ 
+------------------------------------------------------------------------
+r784 | schwern | 2002-05-22 14:55:20 -0500 (Wed, 22 May 2002) | 2 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+ 
+ Forgot the set syntax.
+ 
+------------------------------------------------------------------------
+r783 | schwern | 2002-05-22 13:07:43 -0500 (Wed, 22 May 2002) | 2 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk/Changes
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+ 
+     - Fixed ExtUtils::Command so it groks % shell wildcard on VMS.
+ 
+------------------------------------------------------------------------
+r752 | schwern | 2002-05-05 23:31:12 -0500 (Sun, 05 May 2002) | 2 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk/Changes
+    M /CPAN/ExtUtils-MakeMaker/trunk/Makefile.PL
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command/MM.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Install.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Installed.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Liblist/Kid.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Liblist.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Unix.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_VMS.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MakeMaker.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Manifest.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Mksymlists.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Packlist.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/00setup_dummy.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/INST.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/Installed.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/MM_Cygwin.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/MM_Unix.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/Manifest.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/VERSION_FROM.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/basic.t
+    M /CPAN/ExtUtils-MakeMaker/trunk/t/hints.t
+ 
+ Backporting to 5.005_03
+ 
+------------------------------------------------------------------------
+r751 | schwern | 2002-05-05 16:06:54 -0500 (Sun, 05 May 2002) | 2 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+ 
+ Making it clear that these all work via @ARGV
+ 
+------------------------------------------------------------------------
+r750 | schwern | 2002-05-05 16:02:59 -0500 (Sun, 05 May 2002) | 2 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+ 
+ Technically speaking, expand_wildcards doesn't actually return anything.
+ 
+------------------------------------------------------------------------
+r407 | schwern | 2002-02-13 00:33:58 -0600 (Wed, 13 Feb 2002) | 4 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+ 
+ Version 1.03_01
+ 
+ ExtUtils::Command, its not just for Win32 anymore!
+ 
+------------------------------------------------------------------------
+r360 | schwern | 2002-01-30 18:14:47 -0600 (Wed, 30 Jan 2002) | 2 lines
+ Changed paths:
+    M /CPAN/ExtUtils-MakeMaker/trunk/Makefile.PL
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Install.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Installed.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Liblist.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Mksymlists.pm
+    M /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Packlist.pm
+ 
+ Backporting to 5.6.0 by virtue of lowering the minimum version
+ 
+------------------------------------------------------------------------
+r310 | schwern | 2002-01-16 13:27:18 -0600 (Wed, 16 Jan 2002) | 2 lines
+ Changed paths:
+    A /CPAN/ExtUtils-MakeMaker/trunk/Changes
+    A /CPAN/ExtUtils-MakeMaker/trunk/MANIFEST
+    A /CPAN/ExtUtils-MakeMaker/trunk/Makefile.PL
+    A /CPAN/ExtUtils-MakeMaker/trunk/bin
+    A /CPAN/ExtUtils-MakeMaker/trunk/bin/inst
+    A /CPAN/ExtUtils-MakeMaker/trunk/bin/xsubpp
+    A /CPAN/ExtUtils-MakeMaker/trunk/lib
+    A /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils
+    A /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Command.pm
+    A /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Constant.pm
+    A /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Embed.pm
+    A /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Install.pm
+    A /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Installed.pm
+    A /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Liblist.pm
+    A /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_BeOS.pm
+    A /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Cygwin.pm
+    A /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_NW5.pm
+    A /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_OS2.pm
+    A /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Unix.pm
+    A /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_VMS.pm
+    A /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MM_Win32.pm
+    A /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/MakeMaker.pm
+    A /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Manifest.pm
+    A /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Miniperl.pm
+    A /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Mkbootstrap.pm
+    A /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Mksymlists.pm
+    A /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/Packlist.pm
+    A /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/testlib.pm
+    A /CPAN/ExtUtils-MakeMaker/trunk/lib/ExtUtils/typemap
+    A /CPAN/ExtUtils-MakeMaker/trunk/t
+    A /CPAN/ExtUtils-MakeMaker/trunk/t/Command.t
+    A /CPAN/ExtUtils-MakeMaker/trunk/t/Embed.t
+    A /CPAN/ExtUtils-MakeMaker/trunk/t/ExtUtils.t
+    A /CPAN/ExtUtils-MakeMaker/trunk/t/Installed.t
+    A /CPAN/ExtUtils-MakeMaker/trunk/t/MM_BeOS.t
+    A /CPAN/ExtUtils-MakeMaker/trunk/t/MM_Cygwin.t
+    A /CPAN/ExtUtils-MakeMaker/trunk/t/MM_OS2.t
+    A /CPAN/ExtUtils-MakeMaker/trunk/t/MM_Unix.t
+    A /CPAN/ExtUtils-MakeMaker/trunk/t/MM_VMS.t
+    A /CPAN/ExtUtils-MakeMaker/trunk/t/MM_Win32.t
+    A /CPAN/ExtUtils-MakeMaker/trunk/t/Manifest.t
+    A /CPAN/ExtUtils-MakeMaker/trunk/t/Mkbootstrap.t
+    A /CPAN/ExtUtils-MakeMaker/trunk/t/Packlist.t
+    A /CPAN/ExtUtils-MakeMaker/trunk/t/testlib.t
+ 
+ Initial revision
+ 
+------------------------------------------------------------------------
+

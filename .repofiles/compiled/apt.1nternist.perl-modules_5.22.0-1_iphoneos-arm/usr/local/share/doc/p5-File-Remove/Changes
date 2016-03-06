@@ -1,0 +1,170 @@
+Revision history for Perl extension File-Remove
+
+1.52 Mon 19 Mar 2012 - Adam Kennedy
+	- No functional changes
+	- Updating Module::Install to 1.06
+	- Moved File::Spec dependency to 3.29 to fix problems with
+	  four-digit decimal dependencies in some downstream packaging
+	  systems.
+
+1.51 Thu 27 Oct 2011 - Adam Kennedy
+	- END-time deletion by clear() is now fork-safe, it will only remove
+	  paths created in the same process.
+
+1.50 Mon 11 Jul 2011 - Adam Kennedy
+	- Adding a second skip for the known-bad cygwin file permissions problem
+
+1.49 Wed 14 Mar 2011 - Adam Kennedy
+	- Restoring 02_directoreis to no_plan as it runs different test counts
+	  on different systems.
+
+1.48 Fri 11 Mar 2011 - Adam Kennedy
+	- Promoting dev code to production version
+	- Fixed a major bug in the 1.46 logic that works out what to change the
+	  cwd to when deleting while inside a directory.
+
+1.47_01 Fri 18 Feb 2011 - Adam Kennedy
+	- Add test counts to all test scripts
+	- Added a test for space-safe globs
+
+1.46 Fri 18 Feb 2011 - Adam Kennedy
+	- No changes from 1.45_01
+	- CPAN Testers likes the dev release, moving to production release
+
+1.45_01 Thu 17 Feb 2011 - Adam Kennedy
+	- Updated to Module::Install::DSL 1.00
+	- Skip test on cygwin due to non-root users not being able to deny
+	  themselves write permissions to files.
+	- Added a test to delete directories when the current working
+	  directory is inside the location to delete (ADAMK)
+	- Fixes for trash() with callbacks and on Mac (MIYAGAWA)
+
+1.42 Thu  3 Jul 2008 - Adam Kennedy
+	- Updated to Module::Install 0.76
+	- Updated bundled author tests
+	- Added the test_remove function
+	- Localising $@ during eval calls
+
+1.41 Mon  2 Jun 2008 - Adam Kennedy
+	- No functional changes
+	- Updating location of author tests
+	- Switching to Module::Install again, to generate a better META.yml
+
+1.40 Sat 23 Feb 2008 - Adam Kennedy
+	- Dev release looks good, changing to production release
+
+1.39_01 Wed 20 Feb 2008 - Adam Kennedy
+	- Fixed rt.cpan.org #30251 "removing dirs enclosed by curly braces"
+	- remove now ignores globbing if -e is true BEFORE globbing
+	  (This should fix numerous possible failures where people are trying
+	   delete strangely named files, but globbing is kicking in and
+	   expanding the names incorrectly)
+	- Moving to a production-grade version to indicate module stability
+	- Adding explicit 5.005 dependency
+	  (Primarily for the benefit of automated quality/anaylsis tools)
+
+0.39 Mon 12 Nov 2007  - Adam Kennedy
+	- No functional changes
+	- Updating to Module::Install 0.68
+
+0.38 Mon 15 Oct 2007  - Adam Kennedy
+	- Removed an extremely dangerous and reckless test case that tried
+	  to delete a soft link to root and (when it failed) deleted the
+	  actual root directory.
+
+0.37 Sun  8 Jul 2007  - Adam Kennedy
+	- Restoring support for broken symlinks (Marek Rouchal)
+	- Adding tests for the broken symlink case (Marek Rouchal)
+	- Tidying up the Changes file a bit
+
+0.36 Fri 30 Jun 2007  - Adam Kennedy
+	- Avoid the installation of Mac::Glue.
+	  (It should not be necesary to test voice synthesis to delete a file)
+	- Anyone truly needing "trash" support will need to add a dependency
+	  on Mac::Glue themself. The function may be split out of File::Remove
+	  later down the track.
+	- Constanting the debugger flag for a minor speed and memory improvement
+	- Copy in a known-readonly flag for more accurate testing on Win32
+	- Remove assumption that -w implied deletion rights on Win32
+	- Validate that the file was actually deleted.
+	- Add better mode-handling for files.
+	- Add smarter implementation of "candelete" logic.
+
+0.35 Fri  9 Feb 2007  (Stephen Steneker)
+	- Update makefile to require Mac::Glue version compatible with Intel macs
+	- Change pod heading from "methods" to "subroutines" [RT#13687]
+	- No functional changes from 0.34
+
+0.34 Mon Nov 6 2006   (Jesse Vincent)
+	- Update t/03 to skip the "is this file not writable" test when
+	  it would fail because the tests are being run by root (as sometimes
+	  happens when installing Perl modules). 
+
+0.33 Tue 24 Oct 2006
+	- Previous release tested ok.
+	- Incrementing for production release.
+	- No functional changes
+
+0.32_01 Mon 23 Oct 2006
+	- Use File::Spec to clean/canon paths instead of hand-stripping trailing slash
+	- Apply the File::Path "safe" check manually for the root only, and
+	  use File::Path itself with safe OFF, so that we can handle deleting
+	  deep readonly files (and do it properly on VMS)
+	- Added a test for the deletion of deep readonly files
+	- Removing the use of "our" variables to try and get the Perl version
+	  dependency back to at least 5.005.
+	- Report "deleted" for non-existant files they want to delete
+	- Report the path they pass, but for dir USE a File::Spec->canonpath
+
+0.31 Wed Dec 28 17:40:00 2005
+	- Applied Eric Hanchrow's patch to support filenames with spaces.
+	- Skip recycle tests unless recycle/trash support is available.
+
+0.30 Wed Jul 14 19:12:00 2005
+	- Applied CNANDOR's patch to fix trash() support on OS X 10.4.
+
+0.29 Mon Dec 04 16:35:00 2004
+	- Stabilize undelete support for OS X and Windows.
+
+0.26 Mon Nov 16 07:31:00 2004
+	- Fix the synopsis.
+
+0.25 Mon Nov 15 12:04:00 2004
+	- Renamed undelete() to trash(), to be more clear.
+	- Allow users to provide their own rmdir/unlink to trash().
+	- Re-disabled debugging by default.
+
+0.24 Mon Nov 15 11:32:00 2004
+	- Add undelete support for OS X (via Mac::Glue).
+	- Fix undelete overloading of unlink/rmdir and update tests.
+	- Fix the documentation to be readable with perldoc.
+
+0.23 Mon Nov 15 09:45:00 2004
+	- Add undelete supportand tests (currently only for Win32, via
+	  Win32::FileOp).
+
+0.22 Mon Nov 15 08:17:00 2004
+	- Add the first set of tests.
+
+0.21 Tue Jul 20 10:17:00 2004
+	- Converted the internals to File::Spec.
+	- Maintenance transferred by modules@perl.org to Richard Soderberg.
+	  Please e-mail bug reports to <bug-File-Remove@rt.cpan.org>.
+
+0.20 Tue Apr 15 23:34:25 1998
+	- Now you can pass a scalar reference as the first argument and it
+	  will used as the recursive flag when removing directories.  With
+	  recursive flag set to 0 only the files in the directory are
+	  removed and no attempt is made to recurse into subdirectories.
+	  Nevertheless, if the directory becomes empty it is removed.
+
+0.12 Tue Apr 14 15:50:56 1998
+	- change the umask and set the permission on directories so we can
+	  remove the files
+
+0.11 Mon Apr 13 16:37:30 1998
+	- changed the return values to successes rather than failures since
+	  it makes more sense.
+
+0.10  Fri Apr 10 22:32:13 EDT 1998
+	- original version

@@ -1,0 +1,5 @@
+0.02  Sun, 14 Dec 2008 20:15:51 +0100
+  * Properly specify dependencies in Makefile.PL.
+
+0.01  Fri, 12 Dec 2008 21:12:38 +0100
+  * Initial release.

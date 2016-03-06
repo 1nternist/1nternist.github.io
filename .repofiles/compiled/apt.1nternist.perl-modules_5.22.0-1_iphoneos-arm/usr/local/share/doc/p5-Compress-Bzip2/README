@@ -1,0 +1,88 @@
+
+Compress::Bzip2
+
+Version 2.09
+
+9 Aug 2005
+
+The subdirectory bzlib-src contains almost all of the files from the
+1.0.2 distribution of bzip2.  What's missing is that I only included
+the html flavour of the documentation.  See the README in there for
+more information.
+
+DESCRIPTION
+===========
+
+This module provides a Perl interface to the bzip2 compression algorithms.
+It uses the low level interface to the algorithm, and reimplements all
+high level routines.
+
+What is Bzip2 ?
+===============
+Bzip2 is a portable lossless data compression library written in ANSI C.
+It offers pretty fast compression and fast decompression.
+Bzip2 has very good results, if you want to compress ASCII Documents.
+
+Bzip2 is probably not great for streaming compression.  It fills it's
+internal buffer, which depending of parameters is between 100k and 900k
+in size, before it outputs ANY compressed data.  It works best compressing
+an entire document.
+
+Streaming decompression on the other hand, gives a steady torrent of bytes.
+
+What is Perl-Bzip2 ?
+====================
+Perl-Bzip2 provides Bzip2 bindings for Perl5. I.e. you can access the
+Bzip2 library from your Perl scripts thereby compressing ordinary
+Perl files, streams, whatever.
+
+It's my intent to make this package like the Compress::Zlib package, so
+that code that uses one can fairly easily use the other.  The perlxs stuff
+that's visible to perl has methods that have the same names as their
+Compress::Zlib counterparts, except that the "g" is changed to a "b".
+
+Most code that uses Compress::Zlib should be able to use this package.
+Simply change
+
+   $gz = Compress::Zlib::gzopen( "filename", "w" );
+
+to
+
+   $gz = Compress::Bzip2::gzopen( "filename", "w" );
+
+I made aliases of all the Compress::Zlib functions.  Some of them don't
+return anything useful, like crc32 or adler32, cause bzip2 doesn't
+do that sort of thing.  Take a look at t/070-gzcomp.t and t/071-gzuncomp.t.
+
+Bug fixes and other feedback are welcome.
+
+Copyright
+=========
+bzip2
+Julian Seward, j s e w a r d   a t   a c m . o r g
+
+Compress-Bzip2 is distributed under the terms of the
+GNU General Public License (GPL).  See the file COPYING.
+
+Many Thanks to:
+===============
+
+Author of bzip2:
+Julian Seward, j s e w a r d   a t   a c m . o r g
+Cambridge, UK
+http://sources.redhat.com/bzip2
+
+Author of Compress::Zlib:
+Paul Marquess, p m q s   a t   c p a n . o r g
+http://www.cpan.org
+
+Author of 1.x Compress::Bzip2 (1999)
+Gawdi Azem <azemgi@rupert.informatik.uni-stuttgart.de>
+(last known email, no longer valid)
+
+Sisyphus, helped out with win32 compatibility
+s i s y p h u s 1   a t   o p t u s n e t . c o m . a u
+
+Marco "Kiko" Carnut, author of Compress::Bzip2 1.03
+k i k o   a t   t e m p e s t . c o m . b r
+

@@ -1,9 +1,0 @@
-Architecture: iphoneos-arm
-Author: Chir0student <chir0student@icloud.com>
-Depends: com.alexzielenski.zeppelin
-Description: Steve Stifler "I Found A Dildo" ringtone/text tone.
-Maintainer: Chir0student <chir0student@icloud.com>
-Name: I Found A Dildo
-Package: apt.1nternist.ifoundadildo
-Section: Ringtones
-Version: 1.0

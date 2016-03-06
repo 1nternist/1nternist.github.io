@@ -1,0 +1,98 @@
+Revision history for Config-Any
+
+0.20 Fri 06 Aug 2010
+    - enable -ForceArray option by default for Config::General (caelum)
+
+0.19 Mon 15 Feb 2010
+    - add JSON::DWIW to the top of the JSON loaders list (caelum)
+    - remove need for caching in Perl loader by using do() instead
+      of require() (caelum)
+
+0.18 Mon 16 Nov 2009
+    - ensure XML loader's _coerce() method checks specifically for HASH refs
+    - add YAML::XS to the top of the YAML loaders list
+
+0.17 Thu 05 Feb 2009
+    - ensure require() happens against plugin specified in force_plugins.
+    - add JSON::XS to the top of the JSON loaders list
+
+0.16 Mon 17 Nov 2008
+    - fix up branches test which did not handle the errors thrown by
+      changes from the last release (RT #40948)
+    - fix up error message for "any of" (RT #40972)
+
+0.15 Wed 12 Nov 2008
+    - when use_ext is true, we will check to see if there are no supported
+      modules for a particular file. instead of the file being skipped, an
+      error will be thrown (RT #38927).
+    - also, when use_ext is true, a fatal error will be thrown if there are
+      no loaders available that understand the file extension.
+    - officially support multiple loaders per extension
+    - add a Config::Any::Base for all loaders to inherit from, plus add
+      a new dependency mechanism: requires_any_of() and requires_all_of().
+    - filter out loaders that don't inherit from Config::Any::Base (RT #40830)
+
+0.14 Wed 06 Aug 2008
+    - skip xml failure tests if XML::LibXML < 1.59 is installed, it seems
+      to parse anything you throw at it (Matt S. Trout)
+
+0.13 Tue 05 Aug 2008
+    - show actual parse error when parse fails (Marcus Ramberg)
+    - ensure Config::Tiny parse errors are trapped
+    - added tests for each format to ensure they throw parse errors
+    - added a caveat regarding XML::Simple's strict mode (Peter Corlett)
+    - added a flatten_to_hash option to return a simple key-value hashref
+      instead of the default "arrayref of hashrefs" (Pedro Figueiredo)
+
+0.12 Mon 07 Apr 2008
+    - ensure Perl loader dies on a failed require() (RT #32995)
+
+0.11 Mon 28 Jan 2008
+    - fix subsection parsing for existing keys in INI files (RT #32726)
+    - use from_json() if JSON version 2.x is available
+    - refactor the test suite slightly
+
+0.10 Tue 11 Dec 2007
+    - promote dev release to stable
+
+0.09_02 Tue Nov 13 2007
+    - require version 0.70 of YAML::Syck for multi-document loading
+
+0.09_01 Tue Nov 13 2007
+    - code and pod cleanups
+    - use_ext is now on by default
+    - when use_ext is on, if a loader throws an error, we throw an error
+    - fix case where use_ext is defined and false, but was behaving like
+      use_ext => 1
+    - allow loaders to return multiple documents as an array
+    - each plugin now has an is_supported() method which helps us figure out
+      if the right modules are available
+
+0.08 Thu Aug 23 2007
+    - pass config options to each parser
+    - fix for loading the same perl config twice (RT #28812)
+
+0.07 Mon Feb 26 2007
+    - promote 0.06_01 to non-dev.
+
+0.06_01 Sun Feb 25 19:23:00 2007
+    - fixed bug [rt.cpan.org #25143] make tests fails
+      + t/61_features.t had 1 more test added than was set to skip if the INI
+        parser was not installed. Fixed by s/9/10/ on the skip() line.
+
+0.06 Thu Feb 22 21:05:00 2007
+    - removed reference to Test::Exception, bumped version number
+
+0.05  Wed Feb 21 22:00:00 2007
+    - added support for (requested by Evan Kaufman):
+      + 'force_plugins => [ qw(Config::Any::Foo Config::Any::Blah) ]' parameter
+        to load_(files|stems)
+      + $Config::Any::INI::MAP_SECTION_SPACE_TO_NESTED_KEY - boolean, defaulting
+        to on, controlling whether to map spaces in INI section headings 
+        to nested hashrefs
+
+0.04  Mon Aug  7 15:15:15 2006
+    - Initial CPAN-worthy release with proper test suite
+
+0.01 - 0.03 dev releases
+

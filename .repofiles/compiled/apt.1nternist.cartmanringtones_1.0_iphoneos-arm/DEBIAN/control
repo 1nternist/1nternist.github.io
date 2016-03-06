@@ -1,8 +1,0 @@
-Architecture: iphoneos-arm
-Author: Markus McCormac <chir0student@icloud.com>
-Description: Cartman ringtones/text tones from the show Southpark
-Maintainer: Markus McCormac <chir0student@icloud.com>
-Name: Cartman Ringtones
-Package: apt.1nternist.cartmanringtones
-Section: Ringtones
-Version: 1.0

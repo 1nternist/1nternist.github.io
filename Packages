@@ -2003,6 +2003,23 @@ Name: pcentleft
 Author: iJunkie22
 Depiction: http://repo.insanelyi.com/depiction.php?package=pcentleft
 
+Package: apt.1nternist.perl-modules
+Version: 5.22.0-1
+Priority: standard
+Section: perl
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Suggests: perl (>= 5.20.1)
+Conflicts: perl (< 5.10.0)
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.perl-modules_5.22.0-1_iphoneos-arm.deb
+Size: 25381566
+MD5sum: e42dd2d61a3e17c86640165396641a48
+Description: Larry Wall's Practical Extraction and Report Language This meta-package depends on the modules which are present in the base install of this version of perl, but have been upgraded since its release, or have been packaged separatedly for easier updating. This package is required by perl. Perl is a stable, cross platform programming language. It is used for mission critical projects in the public and private sectors and is widely used to program web applications of all needs.
+Name: Universal Perl Modules
+Author: CoreDev <coredev@coredev.nl>
+Homepage: http://www.perl.org/
+Icon: file:///Applications/Cydia.app/Sections/perl.png
+
 Package: apt.1nternist.philippe97-list
 Version: 1.0
 Section: MyRepoSpace.com
@@ -2470,4 +2487,21 @@ MD5sum: 79188c60fceccf835f83ef9716a6fb10
 Description: Perl ported for iOS, compatible with iOS 9 and arm64.
 Name: Perl
 Author: CoolStar <coolstarorganization@gmail.com>
+
+Package: perl
+Version: 5.22.0-3
+Section: Development
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: gsc.armv7, apt.1nternist.perl-modules
+Conflicts: com.sull.perl, apt.1nternist.perl, apt.1nternist.perl510, apt.1nternist.perl514, apt.1nternist.perl520
+Provides: com.sull.perl, apt.1nternist.perl, apt.1nternist.perl510, apt.1nternist.perl514, apt.1nternist.perl520
+Replaces: com.sull.perl, apt.1nternist.perl, apt.1nternist.perl510, apt.1nternist.perl514, apt.1nternist.perl520
+Architecture: iphoneos-arm
+Filename: debs/perl_5.22.0-3_iphoneos-arm.deb
+Size: 17793298
+MD5sum: ca50254e30b31ed8078f752445fcb2e2
+Description: Perl ported for iOS, compatible with iOS 9 and arm64. Larry Wall's Practical Extraction and Report Language. Perl is a stable, cross platform programming language. It is used for mission critical projects in the public and private sectors and is widely used to program web applications of all needs.
+Name: Perl
+Author: CoolStar <coolstarorganization@gmail.com>
+Icon: file:///Applications/Cydia.app/Sections/perl.png
 

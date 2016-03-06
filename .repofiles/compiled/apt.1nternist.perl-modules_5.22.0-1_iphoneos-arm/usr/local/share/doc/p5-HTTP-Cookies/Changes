@@ -1,0 +1,7 @@
+_______________________________________________________________________________
+2011-02-27 HTTP-Cookies 6.00
+
+Initial release of HTTP-Cookies as a separate distribution. There are no code
+changes besides incrementing the version number since libwww-perl-5.837.
+
+The HTTP::Cookies module used to be bundled with the libwww-perl distribution.

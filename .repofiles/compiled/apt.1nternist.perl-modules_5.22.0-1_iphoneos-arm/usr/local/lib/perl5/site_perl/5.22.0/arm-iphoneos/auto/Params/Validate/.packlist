@@ -1,0 +1,11 @@
+/usr/local/lib/perl5/site_perl/5.10.0/arm-iphoneos/Attribute/Params/Validate.pm
+/usr/local/lib/perl5/site_perl/5.10.0/arm-iphoneos/Params/Validate.pm
+/usr/local/lib/perl5/site_perl/5.10.0/arm-iphoneos/Params/Validate/Constants.pm
+/usr/local/lib/perl5/site_perl/5.10.0/arm-iphoneos/Params/Validate/PP.pm
+/usr/local/lib/perl5/site_perl/5.10.0/arm-iphoneos/Params/Validate/XS.pm
+/usr/local/lib/perl5/site_perl/5.10.0/arm-iphoneos/Params/ValidatePP.pm
+/usr/local/lib/perl5/site_perl/5.10.0/arm-iphoneos/Params/ValidateXS.pm
+/usr/local/lib/perl5/site_perl/5.10.0/arm-iphoneos/auto/Params/Validate/XS/XS.bs
+/usr/local/lib/perl5/site_perl/5.10.0/arm-iphoneos/auto/Params/Validate/XS/XS.dylib
+/usr/local/man/man3/Attribute::Params::Validate.3
+/usr/local/man/man3/Params::Validate.3
