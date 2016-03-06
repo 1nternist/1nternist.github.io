@@ -50,8 +50,8 @@
   apt.1nternist.mobileterminalplus apt.1nternist.mostannoyingringtone
   apt.1nternist.musicgrab apt.1nternist.node apt.1nternist.p0dulorepo-
   list apt.1nternist.pbasename apt.1nternist.pcentcomp
-  apt.1nternist.pcentleft apt.1nternist.perl-modules
-  apt.1nternist.philippe97-list apt.1nternist.phppod
+  apt.1nternist.pcentleft apt.1nternist.perl apt.1nternist.perl-
+  modules apt.1nternist.philippe97-list apt.1nternist.phppod
   apt.1nternist.po4a apt.1nternist.pwntube apt.1nternist.rasticrac
   apt.1nternist.repocydiac-list apt.1nternist.reposetup
   apt.1nternist.revealinstaller apt.1nternist.savannah-ipadoverlayfix
@@ -63,6 +63,5 @@
   apt.1nternist.uthbscripts apt.1nternist.wallpapers1
   apt.1nternist.whiteterminal apt.1nternist.winterboardicon
   apt.1nternist.woowizrepo-list apt.1nternist.zeusmosrep-list gettext
-  perl
 
- 177 packages written to file.
+ 176 packages written to file.

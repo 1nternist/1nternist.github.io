@@ -8,8 +8,8 @@ Sponsor: 1nternist Repo <https://1nternist.github.io>
 Name: Universal Perl Modules
 Package: apt.1nternist.perl-modules
 Priority: standard
-Section: perl
+Section: Development
 Icon: file:///Applications/Cydia.app/Sections/perl.png
 Suggests: perl (>= 5.20.1)
-Tag: purpose::console, role::developer
+Tag: purpose::console, role::developer, compatible::ios7, compatible::ios8, compatible::ios9
 Version: 5.22.0-1

@@ -7,9 +7,9 @@ warning, `/var/mobile/Developer/Github/1nternist.github.io/.repofiles/uncompiled
 warning, `/var/mobile/Developer/Github/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.perl-modules_5.22.0-1_iphoneos-arm/DEBIAN/control' contains user-defined field `Icon'
 dpkg-deb: ignoring 5 warnings about the control file(s)
 dpkg-deb: building package `apt.1nternist.perl-modules' in `/var/mobile/Developer/Github/1nternist.github.io/debs/apt.1nternist.perl-modules_5.22.0-1_iphoneos-arm.deb'.
-warning, `/var/mobile/Developer/Github/1nternist.github.io/.repofiles/uncompiled/perl_5.22.0-3_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
-warning, `/var/mobile/Developer/Github/1nternist.github.io/.repofiles/uncompiled/perl_5.22.0-3_iphoneos-arm/DEBIAN/control' contains user-defined field `Author'
-warning, `/var/mobile/Developer/Github/1nternist.github.io/.repofiles/uncompiled/perl_5.22.0-3_iphoneos-arm/DEBIAN/control' contains user-defined field `Sponsor'
-warning, `/var/mobile/Developer/Github/1nternist.github.io/.repofiles/uncompiled/perl_5.22.0-3_iphoneos-arm/DEBIAN/control' contains user-defined field `Icon'
+warning, `/var/mobile/Developer/Github/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.perl_5.22.0-3_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
+warning, `/var/mobile/Developer/Github/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.perl_5.22.0-3_iphoneos-arm/DEBIAN/control' contains user-defined field `Author'
+warning, `/var/mobile/Developer/Github/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.perl_5.22.0-3_iphoneos-arm/DEBIAN/control' contains user-defined field `Sponsor'
+warning, `/var/mobile/Developer/Github/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.perl_5.22.0-3_iphoneos-arm/DEBIAN/control' contains user-defined field `Icon'
 dpkg-deb: ignoring 4 warnings about the control file(s)
-dpkg-deb: building package `perl' in `/var/mobile/Developer/Github/1nternist.github.io/debs/perl_5.22.0-3_iphoneos-arm.deb'.
+dpkg-deb: building package `apt.1nternist.perl' in `/var/mobile/Developer/Github/1nternist.github.io/debs/apt.1nternist.perl_5.22.0-3_iphoneos-arm.deb'.
