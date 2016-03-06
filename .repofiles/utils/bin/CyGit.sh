@@ -15,9 +15,10 @@ BLD="$REPO/.repofiles/uncompiled"
 ARCH="$REPO/.repofiles/compiled"
 ARCH_BETA="$REPO/.repofiles/compiled-beta"
 BLD_BETA="$REPO/.repofiles/uncompiled-beta"
-OPT1="Refresh repository"
+OPT1="Build packages"
 OPT2="Push changes to GitHub"
-OPT3="Exit"
+OPT3="Full refresh"
+OPT4="Exit"
 DATE=$(date '+%m-%d-%Y %H:%M:%S')
 export PATH="$UTILS:$PATH"
 
@@ -144,7 +145,7 @@ function exitscreen () {
 	echo ""
 	echo " ##################################"
 	echo " ##     Thank you for using      ##"
-	echo " ##     CyGit-mgr, Good Bye.     ##"
+	echo " ##	      CyGit.		 ##"
 	echo " ##################################"
 	echo ""
 	echo ""
@@ -155,6 +156,7 @@ function mainbadopt () {
 	echo ""
 	echo "That is an invalid option. Please select option [1-3]."
 	echo ""
+	sleep 2
 	mainmenuloop
 }
 
@@ -170,7 +172,7 @@ function mainmenu () {
 	echo ""
 	echo "	What would you like to do?"
 	echo ""
-	echo -e "\n  1) $OPT1\n  2) $OPT2\n  3) $OPT3\n\n" 
+	echo -e "\n  1) $OPT1\n  2) $OPT2\n  3) $OPT3\n  4) $OPT4\n\n" 
 	read choice
 	if [ "$choice" = "1" ]; then
 		compilepkgs 2> "$BLDERR"
@@ -189,10 +191,25 @@ function mainmenu () {
 		choice2msg2
 		mainmenuloop
 	fi
-	if [ "$choice" = "3" ]; then
+		if [ "$choice" = "3" ]; then
+		compilepkgs 2> "$BLDERR"
+		wait
+		scanpkgs 2> "$SCNERR"
+		wait
+		signpkgs 2> "$SIGNERR"
+		wait
+		choice1msg
+		sleep 3
+		choice2msg
+		pushupdate 2> "$SYNCERR"
+		wait
+		choice2msg2
+		mainmenuloop
+	fi
+	if [ "$choice" = "4" ]; then
 		exitscreen
 	fi
-	if [[ "$choice" != "1" ]] && [[ "$choice" != "2" ]] && [[ "$choice" != "3" ]]; then
+	if [[ "$choice" != "1" ]] && [[ "$choice" != "2" ]] && [[ "$choice" != "3" ]] && [[ "$choice" != "4" ]]; then
 		mainbadopt
 	fi
 }
