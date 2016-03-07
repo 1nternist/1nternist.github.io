@@ -773,6 +773,18 @@ MD5sum: 94b850b9e094a810c4f51e3f33e0a399
 Description: This package adds the git documentation that is missing from Saurik's git package.
 Name: git-doc
 
+Package: apt.1nternist.git-extras
+Version: 4.1.0-1
+Section: Development
+Maintainer: tj <tj@vision-media.ca>
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.git-extras_4.1.0_iphoneos-arm.deb
+Size: 43520
+MD5sum: bb1dac64607f5586ec5fe994bb799d74
+Description: GIT utilities -- repo summary, repl, changelog population, author commit percentages and more!
+Name: git-extras
+Author: tj <tj@vision-media.ca>
+
 Package: apt.1nternist.github-sslcerts
 Version: 1.0-1
 Section: Development

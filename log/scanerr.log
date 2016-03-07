@@ -18,10 +18,10 @@
   debtool apt.1nternist.dpkg-dev apt.1nternist.dpkg-scanpackages
   apt.1nternist.emoji83 apt.1nternist.emwwalls apt.1nternist.ffmpeg
   apt.1nternist.findmyshells apt.1nternist.freeyourap-list
-  apt.1nternist.gdb apt.1nternist.git-doc apt.1nternist.github-
-  sslcerts apt.1nternist.gnumake apt.1nternist.gnupg-docs
-  apt.1nternist.groff-base apt.1nternist.hardon
-  apt.1nternist.harrisonap-list apt.1nternist.hln
+  apt.1nternist.gdb apt.1nternist.git-doc apt.1nternist.git-extras
+  apt.1nternist.github-sslcerts apt.1nternist.gnumake
+  apt.1nternist.gnupg-docs apt.1nternist.groff-base
+  apt.1nternist.hardon apt.1nternist.harrisonap-list apt.1nternist.hln
   apt.1nternist.houseringtones apt.1nternist.hunterbeck-list
   apt.1nternist.iapcracker-list apt.1nternist.icausefxre-list
   apt.1nternist.icy apt.1nternist.idwaneorep-list
@@ -64,4 +64,4 @@
   apt.1nternist.whiteterminal apt.1nternist.winterboardicon
   apt.1nternist.woowizrepo-list apt.1nternist.zeusmosrep-list gettext
 
- 176 packages written to file.
+ 177 packages written to file.
