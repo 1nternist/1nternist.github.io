@@ -1,0 +1,64 @@
+#!/usr/bin/env bash
+# reset environment variables that could interfere with normal usage
+export GREP_OPTIONS=
+# put all utility functions here
+
+# make a temporary file
+git_extra_mktemp() {
+    mktemp -t "$(basename "$0")".XXX
+}
+
+#
+# check whether current directory is inside a git repository
+#
+
+is_git_repo() {
+  git rev-parse --show-toplevel > /dev/null 2>&1
+  result=$?
+  if test $result != 0; then
+    >&2 echo 'Not a git repo!'
+    exit $result
+  fi
+}
+
+is_git_repo
+
+branch_prefix=feature
+declare -a argv
+while test $# != 0
+do
+    case $1 in
+    -a|--alias )
+        if [[ -n $2 ]]
+        then
+            shift # shift -a|-alias
+            branch_prefix=$1
+        else
+            argv+=($1) # treat tail '-a' as <name>
+        fi
+        ;;
+    * )
+        argv+=($1)
+        ;;
+    esac
+    shift
+done
+
+concatargs(){
+    str=$(IFS='-'; echo "$*")
+    branch="$branch_prefix"/$str
+}
+
+if test "${argv[0]}" = "finish"; then
+  test -z "${argv[1]}" && echo "$branch_prefix" "<name> required." 1>&2 && exit 1
+  branch="$branch_prefix"/"${argv[1]}"
+  git merge --no-ff "$branch" && git delete-branch "$branch"
+else
+  test -z "${argv[0]}" && echo "$branch_prefix" "<name> required." 1>&2 && exit 1
+  if test -n "${argv[1]}"; then
+    concatargs "${argv[@]}"
+  else 
+    branch="$branch_prefix"/"${argv[0]}"
+  fi
+  git checkout -b $branch
+fi

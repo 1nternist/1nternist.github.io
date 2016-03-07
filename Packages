@@ -778,9 +778,21 @@ Version: 4.1.0-1
 Section: Development
 Maintainer: tj <tj@vision-media.ca>
 Architecture: iphoneos-arm
-Filename: debs/apt.1nternist.git-extras_4.1.0_iphoneos-arm.deb
+Filename: debs/apt.1nternist.git-extras_4.1.0-1_iphoneos-arm.deb
 Size: 43520
 MD5sum: bb1dac64607f5586ec5fe994bb799d74
+Description: GIT utilities -- repo summary, repl, changelog population, author commit percentages and more!
+Name: git-extras
+Author: tj <tj@vision-media.ca>
+
+Package: apt.1nternist.git-extras
+Version: 4.1.0-2
+Section: Development
+Maintainer: tj <tj@vision-media.ca>
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.git-extras_4.1.0-2_iphoneos-arm.deb
+Size: 72492
+MD5sum: 464844b5e99854e32d392055c6a9c59c
 Description: GIT utilities -- repo summary, repl, changelog population, author commit percentages and more!
 Name: git-extras
 Author: tj <tj@vision-media.ca>

@@ -1,0 +1,72 @@
+#!/usr/bin/env sh
+# reset environment variables that could interfere with normal usage
+export GREP_OPTIONS=
+# put all utility functions here
+
+# make a temporary file
+git_extra_mktemp() {
+    mktemp -t "$(basename "$0")".XXX
+}
+
+#
+# check whether current directory is inside a git repository
+#
+
+is_git_repo() {
+  git rev-parse --show-toplevel > /dev/null 2>&1
+  result=$?
+  if test $result != 0; then
+    >&2 echo 'Not a git repo!'
+    exit $result
+  fi
+}
+
+is_git_repo
+
+hook() {
+  local hook=.git/hooks/$1.sh
+  # compat without extname
+  if test ! -f $hook; then
+    hook=.git/hooks/$1
+  fi
+
+  if test -f $hook; then
+    echo "... $1"
+    if test -x $hook; then
+      $hook
+    else
+      . $hook
+    fi
+  fi
+}
+
+if test $# -gt 0; then
+  version=$1
+  shift #remove version from arguments list
+  remote=''
+  hook pre-release
+  echo "... releasing $version"
+  # check for flags
+  while test $# != 0
+  do
+    case "$1" in
+    -c) git-changelog -t "$version" ;;
+    -r) remote=$2; shift ;;
+    -m) msg=$2; shift ;;
+    --) shift; break;;
+    *)  usage ;;
+    esac
+    shift
+  done
+  if [ -z "$msg" ]; then
+      msg="Release ${version}"
+  fi
+  git commit -a -m "$msg"
+  git tag $version -a -m "$msg" \
+    && git push $remote \
+    && git push $remote --tags \
+    && hook post-release \
+    && echo "... complete"
+else
+  echo "tag required" 1>&2 && exit 1
+fi

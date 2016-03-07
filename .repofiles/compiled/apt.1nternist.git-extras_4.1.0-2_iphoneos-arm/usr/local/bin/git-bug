@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+# reset environment variables that could interfere with normal usage
+export GREP_OPTIONS=
+# put all utility functions here
+
+# make a temporary file
+git_extra_mktemp() {
+    mktemp -t "$(basename "$0")".XXX
+}
+
+#
+# check whether current directory is inside a git repository
+#
+
+is_git_repo() {
+  git rev-parse --show-toplevel > /dev/null 2>&1
+  result=$?
+  if test $result != 0; then
+    >&2 echo 'Not a git repo!'
+    exit $result
+  fi
+}
+
+is_git_repo
+
+if test "$1" = "finish"; then
+  test -z $2 && echo "bug <name> required." 1>&2 && exit 1
+  branch=bug/$2
+  git merge --no-ff $branch && git delete-branch $branch
+else
+  test -z $1 && echo "bug <name> required." 1>&2 && exit 1
+  if test -n "$2"; then
+    echo "too many arguments; if not finishing a bug, only <name> of new bug is expected" && exit 1
+  fi
+  branch=bug/$1
+  git checkout -b $branch
+fi
