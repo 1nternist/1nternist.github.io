@@ -185,6 +185,25 @@ Name: AVTools scripts
 Author: Chir0student <chir0student@icloud.com>
 
 Package: apt.1nternist.ayeconios7
+Version: 1.1.2-1
+Section: Themes
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), winterboard (>= 0.9.3914) | com.anemonetheming.anemone, org.thebigboss.ayekit
+Conflicts: org.thebigboss.ayeconios7, gsc.ipad, org.thebigboss.ayecon
+Provides: org.thebigboss.ayeconios7
+Replaces: org.thebigboss.ayeconios7
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.ayeconios7_1.1.2-1_iphoneos-arm.deb
+Size: 18409838
+Installed-Size: 21020
+MD5sum: c62ce7bf12d2ff943f2eafdc02a2c111
+Description: A benchmark theme for iOS. Again. This version of Ayecon is compatible with Anemone and Winterboard.
+Name: ayecon (iOS 7+)
+Author: Surenix <surenix@surenix.me>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ayeconios7Dp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ayeconios7Dp
+
+Package: apt.1nternist.ayeconios7
 Version: 1.1.2
 Section: Themes
 Maintainer: BigBoss <bigboss@thebigboss.org>
