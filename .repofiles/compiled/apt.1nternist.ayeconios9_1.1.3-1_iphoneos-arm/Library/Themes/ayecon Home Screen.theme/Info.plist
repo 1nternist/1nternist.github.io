@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<plist version="1.0">
+
+<dict>
+
+
+	<key>DockedIconLabelStyle</key>
+
+	<string>color:#ffffff; margin-top: 0px; font-size: 12px</string>
+
+	
+	<key>UndockedIconLabelStyle</key>
+
+	<string>color:#ffffff; margin-top: 0px; font-size: 12px</string>
+	
+	<key>CalendarIconDateStyle</key>
+
+	<string>padding: 2px 0 0 0; color: #303030; font-size: 33px; 
+	text-shadow: 0px 1px 0px #f0f0f0</string>
+
+	
+	<key>CalendarIconDayStyle</key>
+
+	<string>color:#ffffff; font-size: 8px; padding: 1px 0 0 0; 
+	text-shadow: 0px 1px 0px #000000</string>
+
+
+	<key>BadgeStyle</key>
+	<string>color:#ffffff; font-size: 10px; font-weight: bold; 
+	padding: 0px 0px 0px 0px</string>
+</dict>
+</plist>

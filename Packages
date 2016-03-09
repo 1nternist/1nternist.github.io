@@ -296,6 +296,24 @@ Author: Surenix <surenix@surenix.me>
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ayeconios7Dp
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ayeconios7Dp
 
+Package: apt.1nternist.ayeconios9
+Version: 1.1.3-1
+Section: Themes
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), winterboard (>= 0.9.3914) | com.anemonetheming.anemone, org.thebigboss.ayekit
+Conflicts: apt.1nternist.ayeconios7, org.thebigboss.ayeconios7, gsc.ipad, org.thebigboss.ayecon
+Provides: apt.1nternist.ayeconios7, org.thebigboss.ayeconios7
+Replaces: apt.1nternist.ayeconios7, org.thebigboss.ayeconios7
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm.deb
+Size: 18393184
+Installed-Size: 25159
+MD5sum: deb689dfdb8bffbf57040a33ee48ec43
+Description: A benchmark theme for iOS. Again. This version of Ayecon is compatible with Anemone, Winterboard, and iOS9.
+Name: ayecon (Anemone + iOS9)
+Author: Surenix <surenix@surenix.me>
+Depiction: https://1nternist.github.io/depictions/ayeconios9/ayeconios9.html
+
 Package: apt.1nternist.ayeris
 Version: 1.4.2
 Section: Themes

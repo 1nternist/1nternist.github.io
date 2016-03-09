@@ -5,8 +5,9 @@
   apt.1nternist.apptodebv1parallel apt.1nternist.arm-tool
   apt.1nternist.armv7binpatch apt.1nternist.armv7s-add
   apt.1nternist.armv7s-patch apt.1nternist.avtoolscripts
-  apt.1nternist.ayeconios7 apt.1nternist.ayeris apt.1nternist.bash-
-  dpkg-scanpackages apt.1nternist.bashrc apt.1nternist.bashutils
+  apt.1nternist.ayeconios7 apt.1nternist.ayeconios9
+  apt.1nternist.ayeris apt.1nternist.bash-dpkg-scanpackages
+  apt.1nternist.bashrc apt.1nternist.bashutils
   apt.1nternist.blackmagicwoman apt.1nternist.blockernetworks
   apt.1nternist.bonjourfix apt.1nternist.bubblepop
   apt.1nternist.bundleicons apt.1nternist.cacawtookietookie
@@ -64,4 +65,4 @@
   apt.1nternist.whiteterminal apt.1nternist.winterboardicon
   apt.1nternist.woowizrepo-list apt.1nternist.zeusmosrep-list gettext
 
- 183 packages written to file.
+ 184 packages written to file.
