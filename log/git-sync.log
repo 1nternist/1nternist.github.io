@@ -4,53 +4,767 @@ Changes not staged for commit:
   (use "git add/rm <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
-	modified:   Packages
-	modified:   Packages.bz2
-	modified:   Packages.gz
-	modified:   Release
-	modified:   Release.gpg
-	deleted:    assets/bootstrap.css
-	deleted:    assets/bootstrap.css.map
-	deleted:    assets/bootstrap.min.css
-	deleted:    assets/csstwbs.css
-	deleted:    assets/iosver.js
-	deleted:    assets/reddit.png
-	deleted:    assets/twitter-256-black.png
-	deleted:    assets/twitter-256.png
-	deleted:    assets/twitter.png
-	modified:   log/buildlog.log
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/DEBIAN/control
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Dock.theme/Bundles/com.apple.springboard/AKDock6@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Dock.theme/Bundles/com.apple.springboard/AKDock@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Dock.theme/Bundles/com.apple.springboard/AKDock@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Dock.theme/Bundles/com.apple.springboard/AKDockMask6@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Dock.theme/Bundles/com.apple.springboard/AKDockMask@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Dock.theme/Bundles/com.apple.springboard/AKDockMask@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/.ThemeCenter/Wallpaper.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.TroyWagner.IconThief/Icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.aaronash.BarrelSettings/barrelicon.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.adobe.ideas.ipad/Icon-40.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.adobe.ideas.ipad/Icon-80.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.adobe.ideas.ipad/Icon-Small@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.adobe.kuler.ios/Icon-80.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.adobe.kuler.ios/Icon-Small@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.aircanada.csp.aciclient/ACLogoHome40.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.aircanada.csp.aciclient/ACLogoHome80.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.aircanada.csp.aciclient/ACLogoSmall@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.alexzielenski.zeppelinsettings/Icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.amazon.Amazon/AppIcon20x20@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.amazon.Amazon/AppIcon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.amazon.Amazon/AppIcon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.amazon.Amazon/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.AccountSettingsUIPlugin/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.AdSheetPhone/iAd@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.AppStore/AppIcon20x20@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.AppStore/AppIcon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.AppStore/AppIcon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.AppStore/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.AppStore/AppIcon76x76@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.FacebookSettings/FacebookIcon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.FlickrSettings/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Health/AppIcon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Health/AppIcon29x29@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Health/AppIcon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Health/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Maps/Icon-120.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Maps/Icon-152.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Maps/Icon-40.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Maps/Icon-58.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Maps/Icon-80.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Maps/icon-about@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Maps/icon-spotlight@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Maps/icon-table@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Maps/icon@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.MobileAddressBook/AppIcon29x29@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.MobileAddressBook/AppIcon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.MobileAddressBook/AppIcon40x40@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.MobileAddressBook/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.MobileAddressBook/AppIcon60x60@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.MobileAddressBook/Appicon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.MobileAddressBook/Icon-Notifications@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.MobileAddressBook/Icon-Small@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.MobileAddressBook/Icon-Spotlight@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.MobileAddressBook/Icon@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.MobileSMS/AppIcon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.MobileSMS/AppIcon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.MobileSMS/AppIcon60x60@2x-alt1.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.MobileSMS/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.MobileSMS/AppIcon60x60@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.MobileSMS/Icon-Small@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.MobileSMS/icon.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.MobileSMS/icon20@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.MobileSMS/icon50@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.MobileSMS/icon@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.MobileStore/iTunesStore-120.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.MobileStore/iTunesStore-152.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.MobileStore/iTunesStore-40.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.MobileStore/iTunesStore-58.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.MobileStore/iTunesStore-80.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Music/App Icon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Music/App Icon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Music/App Icon40x40@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Music/App Icon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Music/App Icon60x60@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Music/Icon-120.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Music/Icon-40.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Music/Icon-58.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Music/Icon-80.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.NotesSettings/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Passbook/Icon-Small@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Passbook/Icon-Small@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Passbook/Icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Passbook/Icon@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.PhotoLibrary/PLActivityAssignToContacts@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.PhotoLibrary/PLActivityPhotoStream@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/AppIcon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/AppIcon29x29@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/AppIcon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/AppIcon40x40@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/AppIcon60x60@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/AppStore@2x-legacyiOS7.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/AppStore@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/AppStore@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Bluetooth@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Bluetooth@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/BluetoothSharing@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/BluetoothSharing@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Calendar@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Calendar@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Camera@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Camera@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Carrier@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Carrier@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/CellularData@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/CellularData@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Contacts@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Contacts@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/DND@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Display@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Display@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/FaceTime@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/FaceTime@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/FacebookSettings@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/FacebookSettings@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/FindMyiPhone@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/FindMyiPhone@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/FlickrSettings@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/FlickrSettings@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Health@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Health@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/HomeData@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/HomeData@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Location@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Location@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Mail@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Mail@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Maps@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Maps@2xlegacyiOS7.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Maps@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Messages@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Messages@2xlegacyiOS7.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Messages@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Microphone@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Microphone@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Motion@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Motion@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Music@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Music@2xlegacyiOS7.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Music@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Newsstand-en@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Newsstand@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Newsstand@2xlegacyiOS7.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Newsstand@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Notes@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Notes@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Phone@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Phone@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Photos@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Photos@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Reminders@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Reminders@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Safari@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Safari@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Settings@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Settings@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/TencentWeiboSettings@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/TencentWeiboSettings@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/TouchID@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Twitter@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Twitter@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Victoria.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Victoria@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Video@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Video@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/VideoSettings@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/VimeoSettings@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Wallpaper@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Wallpaper@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Weibo@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/Weibo@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/iBook@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/iBooks@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/iBooks@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/iCloud@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/iCloud@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/iTunes@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/iTunes@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/icon-table@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/icon@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/iconCache@2x.artwork
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/iconCache@3x.artwork
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/mmc@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Preferences/vc@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Remote/AppIcon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.Remote/AppIcon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.SMSPreferences/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.TwitterSettings/TwitterIcon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.TwitterSettings/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.VPNPreferences/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.VoiceMemos/Icon-Small@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.VoiceMemos/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.VoiceMemos/icon@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.WirelessModemSettings/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.calculator/icon-about@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.calculator/icon-spotlight@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.calculator/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.calculator/icon@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.camera/AppIcon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.camera/AppIcon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.camera/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.camera/Camera-NotificationCenter@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.castlesettings/family@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.castlesettings/fmip@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.compass/AppIcon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.compass/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.compass/AppIcon60x60@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.compass/icon-about@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.compass/icon-spotlight@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.compass/icon-table@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.compass/icon@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.compass/icon@3x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.conference.settings.registration/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.facetime/AppIcon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.facetime/AppIcon29x29@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.facetime/AppIcon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.facetime/AppIcon40x40@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.facetime/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.facetime/AppIcon60x60@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.facetime/Icon-FaceTime@2x~iphone-legacy.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.facetime/Icon-FaceTime@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.gamecenter.GameCenterUIService/Icon-Small@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.gamecenter.GameCenterUIService/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.gamecenter/AppIcon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.gamecenter/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.gamecenter/Icon-Small@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.gamecenter/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.iBooks/AppIcon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.iBooks/AppIcon29x29@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.iBooks/AppIcon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.iBooks/AppIcon40x40@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.iBooks/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.iBooks/AppIcon60x60@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.iBooks/icon-settings@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.iBooks/icon-settings@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilecal/icon-about@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilecal/icon-settings@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilecal/icon-spotlight@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilecal/icon@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilegarageband/garageband_58x58.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilegarageband/garageband_80x80.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobileicons.framework/AppIconMask@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobileicons.framework/AppIconMask@3x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobileiphoto/Icon-40.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobileiphoto/Icon-40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobileiphoto/Icon-60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobileiphoto/Icon-Small@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilemail/AppIcon29x29@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilemail/AppIcon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilemail/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilemail/Icon-20@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilemail/Icon-40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilemail/Icon-40@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilemail/Icon-Small@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilemail/Icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilemail/Icon@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobileme.fmf1/AppIcon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobileme.fmf1/AppIcon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobileme.fmf1/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobileme.fmip1/AppIcon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobileme.fmip1/AppIcon40x40.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobileme.fmip1/AppIcon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobileme.fmip1/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilenotes/AppIcon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilenotes/AppIcon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilenotes/AppIcon40x40@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilenotes/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilenotes/AppIcon60x60@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilenotes/Notes120.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilenotes/Notes58.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilenotes/Notes80.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilephone.settings/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilephone/AppIcon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilephone/AppIcon29x29@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilephone/AppIcon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilephone/AppIcon40x40@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilephone/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilephone/AppIcon60x60@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilephone/icon@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilesafari.settings/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilesafari/AppIcon20x20@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilesafari/AppIcon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilesafari/AppIcon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilesafari/AppIcon40x40@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilesafari/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilesafari/AppIcon60x60@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilesafari/icon-spotlight@3x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilesafari/icon-table@3x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobileslideshow.settings/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobileslideshow/Photos-Guides@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobileslideshow/Photos-NotificationCenter@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobileslideshow/Photos-settings@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobileslideshow/Photos@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobileslideshow/Photos@3x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobilestoresettings/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobiletimer/Icon-Small@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobiletimer/icon-spotlight@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.mobiletimer/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.musicsettings/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.nike.settings/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.nike/Icon-Small@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.nike/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.notificationsettings/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/AirplaneMode@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/AppIcon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/AppIcon29x29@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/AppIcon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/AppIcon40x40@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/AppIcon60x60@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/AppStore@2x-legacyiOS7.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/AppStore@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/AppStore@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Bluetooth@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Bluetooth@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/BluetoothSharing@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/BluetoothSharing@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Calendar@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Calendar@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Camera@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Camera@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Carrier@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Carrier@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/CellularData@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/CellularData@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Contacts@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Contacts@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/DND@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/DND@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Display@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Display@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/FaceTime@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/FaceTime@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/FacebookSettings@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/FacebookSettings@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/FindMyiPhone@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/FindMyiPhone@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/FlickrSettings@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/FlickrSettings@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/General@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Health@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Health@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/HomeData@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/HomeData@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Location@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Location@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Mail@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Mail@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Maps@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Maps@2xlegacyiOS7.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Maps@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Messages@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Messages@2xlegacyiOS7.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Messages@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Microphone@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Microphone@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Motion@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Motion@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Music@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Music@2xlegacyiOS7.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Music@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Newsstand-en@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Newsstand@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Newsstand@2xlegacyiOS7.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Newsstand@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Notes@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Notes@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Phone@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Phone@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Photos@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Photos@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Reminders@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Reminders@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Safari@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Safari@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Settings@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Settings@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/TencentWeiboSettings@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/TencentWeiboSettings@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/TouchID@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Twitter@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Twitter@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Victoria.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Victoria@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Video@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Video@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/VideoSettings@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/VimeoSettings@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Wallpaper@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Wallpaper@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Weibo@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Weibo@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/Wi-Fi@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/iBook@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/iBooks@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/iBooks@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/iCloud@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/iCloud@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/iTunes@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/iTunes@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/icon-table@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/icon@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/mmc@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-framework/vc@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/AirplaneMode@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/AirplaneMode@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/AppIcon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/AppIcon29x29@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/AppIcon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/AppIcon40x40@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/AppIcon60x60@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/AppStore@2x-legacyiOS7.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/AppStore@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/AppStore@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/BlueTooth@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/BlueTooth@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/BluetoothSharing@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/BluetoothSharing@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Calendar@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Calendar@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Camera@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Camera@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Carrier@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Carrier@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/CellularData@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/CellularData@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Compass@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Compass@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Contacts@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Contacts@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/ControlCenter@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/ControlCenter@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/DND@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/DND@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Display@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Display@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/FaceTime@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/FaceTime@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/FacebookSettings@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/FacebookSettings@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/FindMyiPhone@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/FindMyiPhone@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/FlickrSettings@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/FlickrSettings@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/GameCenter@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/GameCenter@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/General@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/General@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Health@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Health@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/HomeData@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/HomeData@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Location@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Location@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Mail@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Mail@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Maps@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Maps@2xlegacyiOS7.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Maps@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Messages@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Messages@2xlegacyiOS7.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Messages@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Microphone@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Microphone@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Motion@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Motion@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Music@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Music@2xlegacyiOS7.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Music@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Newsstand-en@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Newsstand-en@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Newsstand@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Newsstand@2xlegacyiOS7.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Newsstand@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Notes@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Notes@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/NotificationCenter@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/NotificationCenter@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Passcode@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Passcode@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/PersonalHotspot@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/PersonalHotspot@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Phone@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Phone@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Photos@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Photos@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Privacy@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Privacy@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Reminders@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Reminders@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Safari@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Safari@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Settings@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Settings@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Sounds@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Sounds@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/TencentWeiboSettings@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/TencentWeiboSettings@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/TouchID@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/TouchID@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Twitter@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Twitter@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Victoria.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Victoria@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Victoria@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Video@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Video@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/VideoSettings@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/VimeoSettings@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/VimeoSettings@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Wallpaper@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Wallpaper@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Weibo@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Weibo@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Wi-Fi@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/Wi-Fi@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/WiFi@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/WiFi@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/iBook@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/iBooks@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/iBooks@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/iCloud@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/iCloud@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/iTunes@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/iTunes@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/icon-table@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/icon@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/mmc@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/vc@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.preferences-ui-framework/vc@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.reminders/RTL-icon@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.reminders/RTL-settingsIcon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.reminders/RTL-spotlightIcon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.reminders/icon@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.reminders/icon@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.reminders/notificationIcon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.settings.airport/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.settings.carrier/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.springboard/Assets.car
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.springboard/Kill-Badge@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.springboard/Kill-Left@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.springboard/Kill-Right@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.springboard/SwitcherIconShadow@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.springboard/SwitcherIconShadow@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.stocks/Icon-Small@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.stocks/icon@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.stocks/icon@3x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.store.Jolly/AppIcon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.store.Jolly/AppIcon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.store.Jolly/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.tips/AppIcon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.tips/AppIcon29x29@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.tips/AppIcon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.tips/AppIcon40x40@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.tips/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.tips/AppIcon60x60@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.uikit.PrintStatus/Icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.videos/AppIcon20x20@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.videos/AppIcon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.videos/AppIcon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.videos/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.videos/AppIcon60x60@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.videos/Videos20@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.videos/Videos29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.videos/Videos40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.videos/Videos60@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.videosettings/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.wallpaper.settings/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.weather-framework/Icon-Small@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.weather/AppIcon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.weather/AppIcon40x40@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.weather/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.weather/AppIcon60x60@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.weather/Icon-Small@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.weather/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.apple.weathernotifications.bundle/Icon-Small@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.appshopper.app/AppShopper.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.appshopper.app/AppShopper@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.appshopper.social/AppShopper.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.atebits.Tweetie2/Icon-production-ios6.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.atebits.Tweetie2/Icon-production@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.atebits.Tweetie2/Icon-production@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.atebits.Tweetie2/ProductionAppIcon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.atebits.Tweetie2/ProductionAppIcon57x57.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.atebits.Tweetie2/ProductionAppIcon57x57@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.atebits.Tweetie2/ProductionAppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.atebits.Tweetie2/ProductionAppIcon60x60@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.atebits.ios.Letterpress/AppIcon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.atebits.ios.Letterpress/AppIcon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.bestbuy.BestBuy/Icon.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.bitesms/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.blackberry.bbm1/Icon-Small@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.burbn.instagram/Icon-60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.codehex.whiteterminal.WhiteTerminal/Icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.designshed.alienblue/Icon.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.facebook.Facebook/Icon-120.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.facebook.Facebook/Icon-40.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.facebook.Facebook/Icon-40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.facebook.Facebook/Icon-Production-120.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.facebook.Facebook/Icon-Production-40.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.facebook.Facebook/Icon-Production-40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.facebook.Facebook/Icon-Production-76@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.facebook.Facebook/Icon-Production-Small@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.facebook.Facebook/Icon-Small@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.flexibits.fantastical.iphone/Icon-60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.flexibits.fantastical2.iphone/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.getdropbox.Dropbox/icon-20@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.getdropbox.Dropbox/icon-29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.getdropbox.Dropbox/icon-40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.getdropbox.Dropbox/icon-60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.getdropbox.Dropbox/icon-60@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.getdropbox.Dropbox/iphone@2x-120.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.getdropbox.Dropbox/settings@2x-58.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.getdropbox.Dropbox/spotlight-40.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.getdropbox.Dropbox/spotlight@2x-80.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.google.Gmail/Icon-ios7-120.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.google.Maps/AppIcon-120.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.google.Maps/AppIcon-60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.google.Maps/AppIcon-Small-40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.google.Maps/AppIcon-Small@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.google.chrome.ios/Icon-120.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.google.chrome.ios/Icon-80.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.google.chrome.ios/Icon-Small@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.googlecode.mobileterminal.Terminal/Icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.kachalobalashoff.iStudent/Icon-40.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.kachalobalashoff.iStudent/Icon-40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.kachalobalashoff.iStudent/Icon-60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.kachalobalashoff.iStudent/Icon-Small@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.kijiji.iphone/Icon.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.mileskabal.appinfo/Icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.mlb.AtBatUniversal/Icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.mlb.AtBatUniversal/Thanks Kyler.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.ookla.speedtest/AppIcon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.ookla.speedtest/AppIcon60x60.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.ookla.speedtest/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.ookla.speedtest/Icon-72.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.ookla.speedtest/Icon-Small@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.ookla.speedtest/Icon-Small_ios7.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.ookla.speedtest/Icon-ios7.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.ookla.speedtest/Icon.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.ookla.speedtest/Icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.orchestra.v2/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.realmacsoftware.clear.universal/AppIcon60x60@2x-alt1.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.realmacsoftware.clear.universal/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.realmacsoftware.clear.universal/Thanks Kyler for alt icon.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.saurik.Cydia/Icon-60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.saurik.Cydia/Icon-60@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.saurik.Cydia/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.saurik.WinterBoard/Icon-Small.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.saurik.WinterBoard/icon.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.saurik.WinterBoard/icon7.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.saurik.WinterBoard/icon7@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.saurik.WinterBoard/icon7@2x~ipad.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.saurik.WinterBoard/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.shazam.Shazam/FreeIcons60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.sina.weibo/icon_os7@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.sina.weiyou/Icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.spreednews.therecord/Icon-40.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.spreednews.therecord/Icon-40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.spreednews.therecord/Icon-60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.spreednews.therecord/Icon-Small@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.tencent.mqq/Icon-120.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.tencent.xin/Icon120@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.vodafone.myvodafoneuk/Icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.vodafone.myvodafoneuk/Thanks Kyler.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/com.xiaonei.xiaonei/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/crash-reporter/icon.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile.alt/AppIcon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile.alt/AppIcon29x29@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile.alt/AppIcon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile.alt/AppIcon40x40@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile.alt/AppIcon57x57.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile.alt/AppIcon57x57@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile.alt/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile.alt/AppIcon60x60@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile.alt/Icon-Small@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile.alt/Icon.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile/AppIcon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile/AppIcon29x29@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile/AppIcon40x40.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile/AppIcon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile/AppIcon40x40@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile/AppIcon57x57.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile/AppIcon57x57@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile/AppIcon57x57@2x1.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile/AppIcon60x60@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile/AppIcon72x72.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile/AppIcon72x72@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile/AppIcon76x76.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile/AppIcon76x76@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile/Icon-72.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile/Icon-Small-50.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile/Icon-Small.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile/Icon-Small@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/eu.heinelt.ifile/Icon.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/io.pangu.loader/AppIcon29x29@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/io.pangu.loader/AppIcon29x29@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/io.pangu.loader/AppIcon40x40@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/io.pangu.loader/AppIcon40x40@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/io.pangu.loader/AppIcon60x60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/io.pangu.loader/AppIcon60x60@3x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/libactivator/Icon-152.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/libactivator/Icon-Small@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/libactivator/Icon@2x-iOS7.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/libactivator/IconGlyph@2x-disabled.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/libactivator/IconGlyph@3x-disabled.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/libactivator/icon-72@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/libactivator/icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/net.whatsapp.WhatsApp/Icon-Settings@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/net.whatsapp.WhatsApp/Icon-Spotlight.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/net.whatsapp.WhatsApp/Icon-Spotlight@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/net.whatsapp.WhatsApp/Icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/org.herf.iflux/Icon@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/pinterest/Icon-60@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/pinterest/Thanks Kyler.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Bundles/ws.hbang.Terminal/icon-ios7@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Info.plist
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Home Screen.theme/Public_ayecon_120x120.psd
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Messages.theme/Bundles/com.apple.chatkit/Assets.car
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Messages.theme/Bundles/com.apple.chatkit/mask-bubble-min-tailless@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Messages.theme/Bundles/com.apple.chatkit/mask-bubble-min@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Messages.theme/Bundles/com.apple.chatkit/mask-bubble-tailless@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Messages.theme/Bundles/com.apple.chatkit/mask-bubble@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Status Bar.theme/Bundles/com.apple.uikit.Artwork/Assets.car
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Status Bar.theme/UIImages/Black_1_Bars@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Status Bar.theme/UIImages/Black_1_WifiBars@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Status Bar.theme/UIImages/Black_2_Bars@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Status Bar.theme/UIImages/Black_2_WifiBars@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Status Bar.theme/UIImages/Black_3_Bars@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Status Bar.theme/UIImages/Black_3_WifiBars@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Status Bar.theme/UIImages/Black_4_Bars@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Status Bar.theme/UIImages/Black_5_Bars@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Status Bar.theme/UIImages/LockScreen_1_Bars@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Status Bar.theme/UIImages/LockScreen_1_WifiBars@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Status Bar.theme/UIImages/LockScreen_2_Bars@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Status Bar.theme/UIImages/LockScreen_2_WifiBars@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Status Bar.theme/UIImages/LockScreen_3_Bars@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Status Bar.theme/UIImages/LockScreen_3_WifiBars@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Status Bar.theme/UIImages/LockScreen_4_Bars@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Themes/ayecon Status Bar.theme/UIImages/LockScreen_5_Bars@2x.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Wallpaper/iPhone/499-ayecon.thumbnail@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Wallpaper/iPhone/499-ayecon@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Wallpaper/iPhone/500-ayecon.thumbnail@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Wallpaper/iPhone/500-ayecon@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Wallpaper/iPhone/501-ayecon.thumbnail@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Wallpaper/iPhone/501-ayecon@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Wallpaper/iPhone/502-ayecon.thumbnail@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Wallpaper/iPhone/502-ayecon@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Wallpaper/iPhone/503-ayecon.thumbnail@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Wallpaper/iPhone/503-ayecon@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Wallpaper/iPhone/504-ayecon.thumbnail@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Wallpaper/iPhone/504-ayecon@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Wallpaper/iPhone/505-ayecon.thumbnail@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Wallpaper/iPhone/505-ayecon@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Wallpaper/iPhone/506-ayecon.thumbnail@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Wallpaper/iPhone/506-ayecon@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Wallpaper/iPhone/507-ayecon.thumbnail@2x~iphone.png
+	deleted:    .repofiles/compiled/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm/Library/Wallpaper/iPhone/507-ayecon@2x~iphone.png
 	modified:   log/git-sync.log
-	modified:   log/scanerr.log
-	deleted:    moreinfo/ayecon/ScreenShots/ayeconios7-1.jpg
-	deleted:    moreinfo/ayecon/ScreenShots/ayeconios7-2.jpg
-	deleted:    moreinfo/ayecon/ScreenShots/ayeconios7-3.jpg
-	deleted:    moreinfo/ayecon/ScreenShots/ayeconios7-4.jpg
-	deleted:    moreinfo/ayecon/ScreenShots/ayeconios7-5.jpg
-	deleted:    moreinfo/ayecon/ScreenShots/ayeconios7-6.jpg
-	deleted:    moreinfo/ayecon/ScreenShots/ayeconios7-7.jpg
-	deleted:    moreinfo/ayecon/ScreenShots/ayeconios7-8.jpg
-	deleted:    moreinfo/ayecon/ScreenShots/ayeconios7SS.html
-	deleted:    moreinfo/ayecon/ScreenShots/iscroll2.js
-	deleted:    moreinfo/ayecon/ScreenShots/logo.png
-	deleted:    moreinfo/ayecon/ScreenShots/moreinfo-new.css
-	deleted:    moreinfo/ayecon/ayeconios7-hand.jpg
-	deleted:    moreinfo/ayecon/ayeconios7-hello.jpg
-	deleted:    moreinfo/ayecon/ayeconios7.html
-	deleted:    moreinfo/ayecon/cydia/ios7-chevron.png
-	deleted:    moreinfo/ayecon/cydia/ios7-chevron@2x.png
-	deleted:    moreinfo/ayecon/cydia/newstyle.css
-	deleted:    moreinfo/ayecon/cydia/org.thebigboss.ayeconios7.png
-	deleted:    moreinfo/ayecon/cydia/resetstyle.css
-	deleted:    moreinfo/ayecon/logo.png
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	.repofiles/compiled/
-	assets/css/csstwbs.css
-	assets/icons/
-	assets/js/
-	debs/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm.deb
-	depictions/
 
 no changes added to commit (use "git add" and/or "git commit -a")
