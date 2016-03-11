@@ -2635,10 +2635,10 @@ Section: Scripting
 Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: berkeleydb, bzip2, libffi, ncurses, openssl, readline, sqlite3
 Architecture: iphoneos-arm
-Filename: debs/python3_3.4.2_iphoneos-arm.deb
-Size: 127975644
+Filename: debs/python3_3.4.2-1_iphoneos-arm.deb
+Size: 53020892
 Installed-Size: 238053
-MD5sum: 86c99ea7a07603b02fc42527d9e1770d
+MD5sum: c5842117dd1926b01c7dbee532d4b647
 Description: Python is an architectural programming language.
 Name: Python 3
 Homepage: http://www.python.org/
