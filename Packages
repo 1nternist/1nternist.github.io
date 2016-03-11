@@ -308,7 +308,7 @@ Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm.deb
 Size: 18393184
 Installed-Size: 25159
-MD5sum: deb689dfdb8bffbf57040a33ee48ec43
+MD5sum: 52cd1b27795947dddf0b6a22f062553d
 Description: A benchmark theme for iOS. Again. This version of Ayecon is compatible with Anemone, Winterboard, and iOS9.
 Name: ayecon (Anemone + iOS9)
 Author: Surenix <surenix@surenix.me>
@@ -2627,4 +2627,19 @@ Description: Internationalization helper for strings. Internationalization helpe
 Name: gettext
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 Homepage: http://www.gnu.org/software/gettext/
+
+Package: python3
+Version: 3.4.2-1
+Priority: optional
+Section: Scripting
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: berkeleydb, bzip2, libffi, ncurses, openssl, readline, sqlite3
+Architecture: iphoneos-arm
+Filename: debs/python3_3.4.2_iphoneos-arm.deb
+Size: 127975644
+Installed-Size: 238053
+MD5sum: 86c99ea7a07603b02fc42527d9e1770d
+Description: Python is an architectural programming language.
+Name: Python 3
+Homepage: http://www.python.org/
 

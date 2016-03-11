@@ -1,6 +1,10 @@
 #!/bin/bash
 
-REPO="/var/mobile/Developer/Github/1nternist.github.io"
+MYDIR="`pwd`"
+DIR=$MYDIR
+CYGIT="$(dirname $DIR)"
+RNAME="$(basename $DIR)"
+REPO="$CYGIT/$RNAME"
 LOGD="$REPO/log"
 BLDLOG="$LOGD/buildlog.log"
 BLDERR="$LOGD/builderr.log"
@@ -15,6 +19,8 @@ BLD="$REPO/.repofiles/uncompiled"
 ARCH="$REPO/.repofiles/compiled"
 ARCH_BETA="$REPO/.repofiles/compiled-beta"
 BLD_BETA="$REPO/.repofiles/uncompiled-beta"
+PKG_ARC="$CYGIT/pkg_archives"
+COMP="$CYGIT/unpackaged"
 OPT1="Build packages"
 OPT2="Push changes to GitHub"
 OPT3="Full refresh"
@@ -50,13 +56,20 @@ for PkgDir in `ls $BLD 2> $BLDERR`; do
   sudo dpkg-deb -b $BLD/"${PkgDir%%/}" $REPO/debs/"${PkgDir%%/}".deb &>> $BLDLOG
 done
 sleep 1
-sudo mv -f $BLD/* $ARCH 2>> $BLDERR
+cd $BLD
+for dir in `ls`; do
+    tar czf "${dir%%/}".tgz "${dir%%/}"
+done
+cd - &>> $BLDLOG
 wait
 sudo chown -R mobile $ARCH
 sudo chown -R mobile $BLD
 sudo chown -R mobile debs
 chmod 777 debs
 sudo chown -R mobile $LOGD
+sudo mv -f $BLD/*.tgz $PKG_ARC 2>> $BLDERR
+wait
+sudo mv -f $BLD/* $COMP
 }
 
 function scanpkgs () {
