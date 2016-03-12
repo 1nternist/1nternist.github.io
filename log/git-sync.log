@@ -8,3 +8,13 @@ Changes not staged for commit:
 	modified:   log/git-sync.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
+On branch master
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   log/git-sync.log
+
+[master 22d4cf6] Repository update 03-12-2016 09:31:50
+ 1 file changed, 1 insertion(+), 1 deletion(-)
