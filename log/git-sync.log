@@ -1,20 +1,18 @@
 On branch master
-Your branch is ahead of 'origin/master' by 5 commits.
+Your branch is ahead of 'origin/master' by 7 commits.
   (use "git push" to publish your local commits)
 Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
+  (use "git add/rm <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
+	modified:   Packages
+	modified:   Packages.bz2
+	modified:   Packages.gz
+	modified:   Release
+	modified:   Release.gpg
+	deleted:    debs/python3_3.4.2-1_iphoneos-arm.deb
+	deleted:    debs/python3_3.4.2-3_iphoneos-arm.deb
 	modified:   log/git-sync.log
+	modified:   log/scanerr.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
-On branch master
-Your branch is ahead of 'origin/master' by 5 commits.
-  (use "git push" to publish your local commits)
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-	modified:   log/git-sync.log
-
-[master 22d4cf6] Repository update 03-12-2016 09:31:50
- 1 file changed, 1 insertion(+), 1 deletion(-)

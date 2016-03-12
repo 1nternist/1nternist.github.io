@@ -2629,36 +2629,6 @@ Author: Andrew Hyatt <ahyattdev@icloud.com>
 Homepage: http://www.gnu.org/software/gettext/
 
 Package: python3
-Version: 3.4.2-1
-Priority: optional
-Section: Scripting
-Maintainer: 1nternist <dc1nternist@icloud.com>
-Depends: berkeleydb, bzip2, libffi, ncurses, openssl, readline, sqlite3
-Architecture: iphoneos-arm
-Filename: debs/python3_3.4.2-1_iphoneos-arm.deb
-Size: 53020892
-Installed-Size: 238053
-MD5sum: c5842117dd1926b01c7dbee532d4b647
-Description: Python is an architectural programming language.
-Name: Python 3
-Homepage: http://www.python.org/
-
-Package: python3
-Version: 3.4.2-3
-Priority: optional
-Section: Scripting
-Maintainer: 1nternist <dc1nternist@icloud.com>
-Depends: berkeleydb, bzip2, libffi, ncurses, openssl, readline, sqlite3
-Architecture: iphoneos-arm
-Filename: debs/python3_3.4.2-3_iphoneos-arm.deb
-Size: 48103382
-Installed-Size: 238053
-MD5sum: 113c147b2e04c95c3eb6fc386e16e29a
-Description: Python is an architectural programming language.
-Name: Python 3
-Homepage: http://www.python.org/
-
-Package: python3
 Version: 3.4.2-4
 Priority: optional
 Section: Scripting
