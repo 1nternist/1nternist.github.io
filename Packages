@@ -2658,3 +2658,18 @@ Description: Python is an architectural programming language.
 Name: Python 3
 Homepage: http://www.python.org/
 
+Package: python3
+Version: 3.4.2-4
+Priority: optional
+Section: Scripting
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: berkeleydb, bzip2, libffi, ncurses, openssl, readline, sqlite3
+Architecture: iphoneos-arm
+Filename: debs/python3_3.4.2-4_iphoneos-arm.deb
+Size: 48102208
+Installed-Size: 238053
+MD5sum: e9a43e3ec6385d808f68e3ae09a89668
+Description: Python is an architectural programming language.
+Name: Python 3
+Homepage: http://www.python.org/
+

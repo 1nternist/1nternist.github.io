@@ -1,5 +1,5 @@
 On branch master
-Your branch is ahead of 'origin/master' by 2 commits.
+Your branch is ahead of 'origin/master' by 3 commits.
   (use "git push" to publish your local commits)
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -16,6 +16,6 @@ Changes not staged for commit:
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	debs/python3_3.4.2-3_iphoneos-arm.deb
+	debs/python3_3.4.2-4_iphoneos-arm.deb
 
 no changes added to commit (use "git add" and/or "git commit -a")
