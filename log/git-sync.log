@@ -1,5 +1,5 @@
 On branch master
-Your branch is ahead of 'origin/master' by 7 commits.
+Your branch is ahead of 'origin/master' by 8 commits.
   (use "git push" to publish your local commits)
 Changes not staged for commit:
   (use "git add/rm <file>..." to update what will be committed)
@@ -10,9 +10,16 @@ Changes not staged for commit:
 	modified:   Packages.gz
 	modified:   Release
 	modified:   Release.gpg
-	deleted:    debs/python3_3.4.2-1_iphoneos-arm.deb
-	deleted:    debs/python3_3.4.2-3_iphoneos-arm.deb
+	deleted:    debs/apt.1nternist.emoji83_1.0-47_iphoneos-arm.deb
+	deleted:    debs/apt.1nternist.ffmpeg_3.0_iphoneos-arm.deb
+	deleted:    debs/apt.1nternist.ios7sequelae_1.3.1_iphoneos-arm.deb
 	modified:   log/git-sync.log
 	modified:   log/scanerr.log
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	debs/apt.1nternist.ffmpeg_3.0-1_iphoneos-arm.deb
+	dev/old/debs.old/apt.1nternist.ios7sequelae_1.3.1_iphoneos-arm.deb
 
 no changes added to commit (use "git add" and/or "git commit -a")

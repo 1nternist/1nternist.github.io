@@ -717,19 +717,6 @@ MD5sum: 9c0fc7c19262fb6cfa24d7a78c04c058
 Description: Installs dpkg-scanpackages, dpkg-scanpackages256, dpkg-scansource, dpkg-gettext.pl.
 Name: dpkg-scanpackages
 
-Package: apt.1nternist.emoji83
-Version: 1.0-47
-Section: System
-Maintainer: Redenfire <redenfire@gmail.com>
-Depends: mobilesubstrate, firmware (>= 6.0)
-Architecture: iphoneos-arm
-Filename: debs/apt.1nternist.emoji83_1.0-47_iphoneos-arm.deb
-Size: 54843136
-MD5sum: 63b9161c3cf1ec18514b20642137a6d9
-Description: iOS 8.3 Emoji for everyone.
-Name: Emoji iOS 8.3+
-Author: BYA Repository
-
 Package: apt.1nternist.emwwalls
 Version: 1.0
 Section: Themes
@@ -757,6 +744,21 @@ Name: FFmpeg
 Author: Chir0student <chir0student@me.com>
 
 Package: apt.1nternist.ffmpeg
+Version: 3.0-1
+Section: Multimedia
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Conflicts: com.fizk.ffmpeg, com.nin9tyfour.ffmpeg
+Provides: com.fizk.ffmpeg, com.nin9tyfour.ffmpeg
+Replaces: com.fizk.ffmpeg, com.nin9tyfour.ffmpeg
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.ffmpeg_3.0-1_iphoneos-arm.deb
+Size: 39225458
+MD5sum: f9d534060c42146cd6efde279a7f0c3b
+Description: FFMpeg 3.0 compiled for iOS -- Includes x264 encoder.  This is a console app and does not include UI.
+Name: FFmpeg 3.0
+Author: 1nternist <dc1nternist@icloud.com>
+
+Package: apt.1nternist.ffmpeg
 Version: 3.0-2
 Priority: optional
 Section: Multimedia
@@ -772,21 +774,6 @@ Installed-Size: 28498
 MD5sum: 39c37e2b5b680a6d765b85207104ff91
 Description: ffmpeg is a part of the ffmpeg project. ffmpeg (binary) can be used to convert a large variety of inputs (files, streams, etc.) into various formats. This is a processing utility. Access functionality from the command-line or api. This release includes the x264 encoder.
 Name: ffmpeg
-Author: 1nternist <dc1nternist@icloud.com>
-
-Package: apt.1nternist.ffmpeg
-Version: 3.0
-Section: Multimedia
-Maintainer: 1nternist <dc1nternist@icloud.com>
-Conflicts: com.fizk.ffmpeg
-Provides: com.fizk.ffmpeg
-Replaces: com.fizk.ffmpeg
-Architecture: iphoneos-arm
-Filename: debs/apt.1nternist.ffmpeg_3.0_iphoneos-arm.deb
-Size: 61992406
-MD5sum: e802e7b57f78831d9d557e409170ffc2
-Description: FFMpeg 3.0 compiled for iOS -- Includes x264 encoder.  This is a console app and does not include UI.
-Name: FFmpeg
 Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.findmyshells
@@ -1276,18 +1263,6 @@ Description: iOS 7 Repositories
 Name: iOS 7 Repositories
 Author: chir0student
 Depiction: http://www.myrepospace.com/
-
-Package: apt.1nternist.ios7sequelae
-Version: 1.3.1
-Section: Themes - chir0student
-Maintainer: Chir0student <chir0student@me.com>
-Architecture: iphoneos-arm
-Filename: debs/apt.1nternist.ios7sequelae_1.3.1_iphoneos-arm.deb
-Size: 91068140
-MD5sum: 1a1994c3e68c35452815618d3f771d3b
-Description: A patchwork of many that formed a final product of iOS 7 Sequelae. For the dock to work you need to install Wallpaper JPEGifier from Cydia, set your wallpaper, then respring. Works on all devices!
-Name: iOS 7 Sequelae
-Author: Chir0student <chir0student@me.com>
 
 Package: apt.1nternist.ios7sequelaewallpaper
 Version: 1.2
