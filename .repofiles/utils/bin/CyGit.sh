@@ -110,7 +110,7 @@ function pushupdate () {
 	wait
 	git status &>> $SYNCLOG
 	wait
-	git commit -m "Repository update $DATE" &>> $SYNCLOG
+	git commit -am "Repository update $DATE" &>> $SYNCLOG
 	wait
 	git push origin master &>> $SYNCLOG
 	wait
