@@ -1,1 +1,16 @@
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.libjpeg_8d-1-6_iphoneos-arm/DEBIAN/control' contains user-defined field `Sponsor'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.libjpeg_8d-1-6_iphoneos-arm/DEBIAN/control' contains user-defined field `Author'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.libjpeg_8d-1-6_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
+dpkg-deb: ignoring 3 warnings about the control file(s)
+dpkg-deb: building package `apt.1nternist.libjpeg' in `/var/mobile/Developer/Github/CyGit/1nternist.github.io/debs/apt.1nternist.libjpeg_8d-1-6_iphoneos-arm.deb'.
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.libmcrypt_2.6.8-6_iphoneos-arm/DEBIAN/control' contains user-defined field `Sponsor'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.libmcrypt_2.6.8-6_iphoneos-arm/DEBIAN/control' contains user-defined field `Author'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.libmcrypt_2.6.8-6_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
+dpkg-deb: ignoring 3 warnings about the control file(s)
+dpkg-deb: building package `apt.1nternist.libmcrypt' in `/var/mobile/Developer/Github/CyGit/1nternist.github.io/debs/apt.1nternist.libmcrypt_2.6.8-6_iphoneos-arm.deb'.
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.libpng_1.2.50-6_iphoneos-arm/DEBIAN/control' contains user-defined field `Sponsor'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.libpng_1.2.50-6_iphoneos-arm/DEBIAN/control' contains user-defined field `Author'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.libpng_1.2.50-6_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
+dpkg-deb: ignoring 3 warnings about the control file(s)
+dpkg-deb: building package `apt.1nternist.libpng' in `/var/mobile/Developer/Github/CyGit/1nternist.github.io/debs/apt.1nternist.libpng_1.2.50-6_iphoneos-arm.deb'.
 /var/mobile/Developer/Github/CyGit/1nternist.github.io

@@ -1221,23 +1221,6 @@ Description: **Compiled on iPhone 6** Install IPA from the command line
 Name: IPA Installer Console
 Author: Merlin <lonelystars@gmail.com>
 
-Package: apt.1nternist.ios-webstack-patcher
-Version: 0.1-2
-Priority: optional
-Section: Administration
-Maintainer: J. Anrugas <j.anrugas@gmail.com>
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: patch
-Architecture: iphoneos-arm
-Filename: debs/apt.1nternist.ios-webstack-patcher_0.1-2_iphoneos-arm.deb
-Size: 1276
-Installed-Size: 24
-MD5sum: 0582b8a6b0facf3967d985a60b886521
-Description: A small script hack for older ios-lighttpd-php-mysql packages
-  A small script hack for older ios-lighttpd-php-mysql packages.
-  Don't install it if you don't now anything about it!
-Author: J. Anrugas <j.anrugas@gmail.com>
-
 Package: apt.1nternist.ios7reposi-list
 Version: 1.1
 Section: MyRepoSpace.com
@@ -1606,6 +1589,24 @@ Description: The Independent JPEG Group's library is a library for handling JPEG
 Author: J. Anrugas <j.anrugas@gmail.com>
 Homepage: http://www.ijg.org
 
+Package: apt.1nternist.libjpeg
+Version: 8d-1-6
+Priority: optional
+Section: Multimedia
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Conflicts: jpeg
+Provides: jpeg
+Replaces: jpeg
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.libjpeg_8d-1-6_iphoneos-arm.deb
+Size: 200582
+Installed-Size: 400
+MD5sum: 233f21074de23910ae509bc351feb3bc
+Description: The Independent JPEG Group's library is a library for handling JPEG files. This package contains the shared JPEG library from the the independent JPEG Group.
+Name: libjpeg
+Author: J. Anrugas <j.anrugas@gmail.com>
+
 Package: apt.1nternist.libmcrypt
 Version: 2.6.8-5
 Priority: 
@@ -1620,6 +1621,21 @@ MD5sum: b88cbc1d7fd8823f4c452e88f0ddadca
 Description: Libmcrypt allows you to use a wide range of encryption function 
   Libmcrypt allows you to use a wide range of encryption function.
   This package contains the shared mcrypt library.
+Author: J. Anrugas <j.anrugas@gmail.com>
+
+Package: apt.1nternist.libmcrypt
+Version: 2.6.8-6
+Priority: optional
+Section: Security
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.libmcrypt_2.6.8-6_iphoneos-arm.deb
+Size: 101486
+Installed-Size: 280
+MD5sum: 05ad6457c89bf0d3df81a6e8d1e2f574
+Description: Libmcrypt allows you to use a wide range of encryption function. Libmcrypt allows you to use a wide range of encryption function. This package contains the shared mcrypt library.
+Name: libmcrypt
 Author: J. Anrugas <j.anrugas@gmail.com>
 
 Package: apt.1nternist.libpipeline
@@ -1675,6 +1691,25 @@ Description: Library for manipulating PNG files
   This package contains the shared PNG library.
   Version 1.2.50 removes a potential security vulnerability so all users 
  are recommended to upgrade immediately.
+Author: J. Anrugas <j.anrugas@gmail.com>
+Homepage: http://www.libpng.org/pub/png/libpng.html
+
+Package: apt.1nternist.libpng
+Version: 1.2.50-6
+Priority: optional
+Section: Multimedia
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Conflicts: png
+Provides: png
+Replaces: png
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.libpng_1.2.50-6_iphoneos-arm.deb
+Size: 207696
+Installed-Size: 460
+MD5sum: 21dfd9b7164c607a1eab88413787f295
+Description: Library for manipulating PNG files. This package contains the shared PNG library. Version 1.2.50 removes a potential security vulnerability so all users are recommended to upgrade immediately.
+Name: libpng
 Author: J. Anrugas <j.anrugas@gmail.com>
 Homepage: http://www.libpng.org/pub/png/libpng.html
 
