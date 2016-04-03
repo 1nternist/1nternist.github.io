@@ -167,7 +167,7 @@ function exitscreen () {
 
 function mainbadopt () {
 	echo ""
-	echo "That is an invalid option. Please select option [1-3]."
+	echo "That is an invalid option. Please select option [1-4]."
 	echo ""
 	sleep 2
 	mainmenuloop

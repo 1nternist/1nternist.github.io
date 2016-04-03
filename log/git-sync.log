@@ -1,15 +1,15 @@
 On branch master
 Your branch is up-to-date with 'origin/master'.
 Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
+  (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
+	modified:   .repofiles/utils/bin/CyGit.sh
 	modified:   Packages
 	modified:   Packages.bz2
 	modified:   Packages.gz
 	modified:   Release
 	modified:   Release.gpg
-	deleted:    debs/apt.1nternist.ios-webstack-patcher_0.1-2_iphoneos-arm.deb
 	modified:   log/buildlog.log
 	modified:   log/git-sync.log
 	modified:   log/scanerr.log
@@ -17,9 +17,7 @@ Changes not staged for commit:
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	debs/apt.1nternist.libjpeg_8d-1-6_iphoneos-arm.deb
-	debs/apt.1nternist.libmcrypt_2.6.8-6_iphoneos-arm.deb
-	debs/apt.1nternist.libpng_1.2.50-6_iphoneos-arm.deb
+	debs/python3_3.4.2-5_iphoneos-arm.deb
 
 no changes added to commit (use "git add" and/or "git commit -a")
 On branch master
@@ -27,15 +25,13 @@ Your branch is up-to-date with 'origin/master'.
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
+	modified:   .repofiles/utils/bin/CyGit.sh
 	modified:   Packages
 	modified:   Packages.bz2
 	modified:   Packages.gz
 	modified:   Release
 	modified:   Release.gpg
-	deleted:    debs/apt.1nternist.ios-webstack-patcher_0.1-2_iphoneos-arm.deb
-	new file:   debs/apt.1nternist.libjpeg_8d-1-6_iphoneos-arm.deb
-	new file:   debs/apt.1nternist.libmcrypt_2.6.8-6_iphoneos-arm.deb
-	new file:   debs/apt.1nternist.libpng_1.2.50-6_iphoneos-arm.deb
+	new file:   debs/python3_3.4.2-5_iphoneos-arm.deb
 	modified:   log/buildlog.log
 	modified:   log/git-sync.log
 	modified:   log/scanerr.log
