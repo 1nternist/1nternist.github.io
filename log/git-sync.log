@@ -1,7 +1,7 @@
 On branch master
 Your branch is up-to-date with 'origin/master'.
 Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
+  (use "git add/rm <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
 	modified:   Packages
@@ -9,13 +9,12 @@ Changes not staged for commit:
 	modified:   Packages.gz
 	modified:   Release
 	modified:   Release.gpg
+	deleted:    debs/python3-lib_3.4.2-1_iphoneos-arm.deb
+	deleted:    debs/python3_3.4.2-4_iphoneos-arm.deb
+	deleted:    debs/python3_3.4.2-5_iphoneos-arm.deb
+	deleted:    debs/python3_3.4.2-6_iphoneos-arm.deb
 	modified:   log/git-sync.log
 	modified:   log/scanerr.log
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	debs/python3-lib_3.4.2-2_iphoneos-arm.deb
 
 no changes added to commit (use "git add" and/or "git commit -a")
 On branch master
@@ -28,7 +27,10 @@ Changes to be committed:
 	modified:   Packages.gz
 	modified:   Release
 	modified:   Release.gpg
-	new file:   debs/python3-lib_3.4.2-2_iphoneos-arm.deb
+	deleted:    debs/python3-lib_3.4.2-1_iphoneos-arm.deb
+	deleted:    debs/python3_3.4.2-4_iphoneos-arm.deb
+	deleted:    debs/python3_3.4.2-5_iphoneos-arm.deb
+	deleted:    debs/python3_3.4.2-6_iphoneos-arm.deb
 	modified:   log/git-sync.log
 	modified:   log/scanerr.log
 

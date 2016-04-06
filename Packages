@@ -2656,51 +2656,6 @@ Description: OpenSSH with Bonjour support
 Name: OpenSSH with Bonjour
 
 Package: python3
-Version: 3.4.2-4
-Priority: optional
-Section: Scripting
-Maintainer: 1nternist <dc1nternist@icloud.com>
-Depends: berkeleydb, bzip2, libffi, ncurses, openssl, readline, sqlite3
-Architecture: iphoneos-arm
-Filename: debs/python3_3.4.2-4_iphoneos-arm.deb
-Size: 48102208
-Installed-Size: 238053
-MD5sum: e9a43e3ec6385d808f68e3ae09a89668
-Description: Python is an architectural programming language.
-Name: Python 3
-Homepage: http://www.python.org/
-
-Package: python3
-Version: 3.4.2-5
-Priority: optional
-Section: Scripting
-Maintainer: 1nternist <dc1nternist@icloud.com>
-Depends: berkeleydb, bzip2, libffi, ncurses, openssl, readline, sqlite3
-Architecture: iphoneos-arm
-Filename: debs/python3_3.4.2-5_iphoneos-arm.deb
-Size: 51490498
-Installed-Size: 238053
-MD5sum: 46aca2c60cd5ea21640ff2603cd68f94
-Description: Python is an architectural programming language.
-Name: Python 3
-Homepage: http://www.python.org/
-
-Package: python3
-Version: 3.4.2-6
-Priority: optional
-Section: Scripting
-Maintainer: 1nternist <dc1nternist@icloud.com>
-Depends: berkeleydb, bzip2, libffi, ncurses, openssl, readline, sqlite3
-Architecture: iphoneos-arm
-Filename: debs/python3_3.4.2-6_iphoneos-arm.deb
-Size: 51365380
-Installed-Size: 238053
-MD5sum: 06577242439d973c346bab80b73d99bd
-Description: Python is an architectural programming language.
-Name: Python 3 (with pip)
-Homepage: http://www.python.org/
-
-Package: python3
 Version: 3.4.2-7
 Priority: optional
 Section: Scripting
@@ -2713,22 +2668,6 @@ Installed-Size: 238053
 MD5sum: 1e7fdb27b8e8c5dbcfd8b75f098f722b
 Description: Python is an architectural programming language.
 Name: Python3 (+ pip)
-Homepage: http://www.python.org/
-
-Package: python3-lib
-Version: 3.4.2-1
-Priority: optional
-Section: Scripting
-Maintainer: 1nternist <dc1nternist@icloud.com>
-Depends: python3 (>= 3.4.2-7), berkeleydb, bzip2, libffi, ncurses, openssl, readline, sqlite3
-Conflicts: python3 (<= 3.4.2-6)
-Architecture: iphoneos-arm
-Filename: debs/python3-lib_3.4.2-1_iphoneos-arm.deb
-Size: 38499902
-Installed-Size: 238053
-MD5sum: 646aa4f1512ea2d6413349f420b68ee0
-Description: Python is an architectural programming language.
-Name: Python 3 (with pip)
 Homepage: http://www.python.org/
 
 Package: python3-lib
