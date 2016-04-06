@@ -15,9 +15,7 @@ Changes not staged for commit:
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	debs/openssh_6.7p1-12-rev-5_iphoneos-arm.deb
-	debs/python3-lib_3.4.2-1_iphoneos-arm.deb
-	debs/python3_3.4.2-7_iphoneos-arm.deb
+	debs/python3-lib_3.4.2-2_iphoneos-arm.deb
 
 no changes added to commit (use "git add" and/or "git commit -a")
 On branch master
@@ -30,9 +28,7 @@ Changes to be committed:
 	modified:   Packages.gz
 	modified:   Release
 	modified:   Release.gpg
-	new file:   debs/openssh_6.7p1-12-rev-5_iphoneos-arm.deb
-	new file:   debs/python3-lib_3.4.2-1_iphoneos-arm.deb
-	new file:   debs/python3_3.4.2-7_iphoneos-arm.deb
+	new file:   debs/python3-lib_3.4.2-2_iphoneos-arm.deb
 	modified:   log/git-sync.log
 	modified:   log/scanerr.log
 
