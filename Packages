@@ -2623,6 +2623,19 @@ Name: Zeusmos Repo
 Author: chir0student
 Depiction: http://www.myrepospace.com/
 
+Package: bzip2
+Version: 1.0.6-1
+Priority: important
+Section: Archiving
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Architecture: iphoneos-arm
+Filename: debs/bzip2_1.0.6-1_iphoneos-arm.deb
+Size: 4440272
+MD5sum: 402c97294f1622b44131ff0ec6e2278c
+Description: compression that's slightly better than gzip
+Name: bzip2
+Homepage: http://www.bzip.org/
+
 Package: gettext
 Version: 0.19.7-3
 Priority: optional
