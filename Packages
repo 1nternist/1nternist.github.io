@@ -2268,6 +2268,36 @@ Description: iOS cracking script. Formerly known as poedcrackmod.
 Name: Rasticrac
 Author: iRasticrac
 
+Package: apt.1nternist.recents
+Version: 1.6-1
+Priority: extra
+Section: Utilities
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: bash (>= 4.0.17-13), coreutils (>= 8.12-12p), grep (>= 2.5.4-3), sed (>= 4.1.5-7), gawk (>= 3.1.6-2p), apt7 (>= 0.7.25.3-6)
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.recents_1.6-1_iphoneos-arm.deb
+Size: 2512
+MD5sum: 522c5b1b9a4e1ec2d527a4ecbd642eb3
+Description: Show recently installed/updated packages
+Name: Recents
+Author: beta382 <beta382@gmail.com>
+
+Package: apt.1nternist.redeb
+Version: 1.1
+Priority: standard
+Section: Packaging
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: gawk, sed, coreutils, grep
+Conflicts: com.sull.redeb, com.brc0703.redeb, com.myrepospace.chir0student.redeb
+Replaces: com.sull.redeb, com.brc0703.redeb, com.myrepospace.chir0student.redeb
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.redeb_1.1_iphoneos-arm.deb
+Size: 1852
+MD5sum: ed7215b476416550c690ea85b362c565
+Description: repackages installed debs. redeb [ search ], without a search will build all, with find any package matching [ search ] and give you option to rebuild selected packages.
+Name: redeb
+Author: brc0703
+
 Package: apt.1nternist.repocydiac-list
 Version: 1.0
 Section: MyRepoSpace.com
@@ -2337,6 +2367,18 @@ MD5sum: 16785df646b21a7f5536a303838a191d
 Description: Installs Framework & MobileSubstrate plugin for Reveal.app
 Name: Reveal Plugin Installer
 Author: Chir0student <chir0student@me.com>
+
+Package: apt.1nternist.rootify
+Version: 0.1.2
+Section: Development
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.rootify_0.1.2_iphoneos-arm.deb
+Size: 2292
+MD5sum: dce0ec3e971fb70348154737a8cfd930
+Description: Run commands from as root. To use: rootify [cmd]
+Name: Rootify
+Author: xarold
 
 Package: apt.1nternist.savannah-ipadoverlayfix
 Version: 1.2

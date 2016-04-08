@@ -53,8 +53,9 @@
   apt.1nternist.pcentleft apt.1nternist.perl apt.1nternist.perl-
   modules apt.1nternist.philippe97-list apt.1nternist.phppod
   apt.1nternist.po4a apt.1nternist.pwntube apt.1nternist.rasticrac
-  apt.1nternist.repocydiac-list apt.1nternist.reposetup
-  apt.1nternist.revealinstaller apt.1nternist.savannah-ipadoverlayfix
+  apt.1nternist.recents apt.1nternist.redeb apt.1nternist.repocydiac-
+  list apt.1nternist.reposetup apt.1nternist.revealinstaller
+  apt.1nternist.rootify apt.1nternist.savannah-ipadoverlayfix
   apt.1nternist.savannahlabelfix apt.1nternist.signalrefresh
   apt.1nternist.smolksmyre-list apt.1nternist.soundoff
   apt.1nternist.sox apt.1nternist.sudonopasswd
@@ -65,4 +66,4 @@
   apt.1nternist.woowizrepo-list apt.1nternist.zeusmosrep-list bzip2
   gettext openssh python3 python3-lib unzip zip
 
- 190 packages written to file.
+ 193 packages written to file.
