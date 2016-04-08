@@ -2699,3 +2699,27 @@ Description: Python is an architectural programming language.
 Name: Python3-lib
 Homepage: http://www.python.org/
 
+Package: unzip
+Version: 6.0-1
+Priority: important
+Section: Archiving
+Maintainer: Dr. Mac (1nternist) <dc1nternist@icloud.com>
+Architecture: iphoneos-arm
+Filename: debs/unzip_6.0-1_iphoneos-arm.deb
+Size: 385932
+Installed-Size: 1152
+MD5sum: 525c56d57f809cef71e0f229ee49266b
+Description: de-compesses files in zip format
+
+Package: zip
+Version: 3.0-1
+Priority: important
+Section: Archiving
+Maintainer: Dr. Mac (1nternist) <dc1nternist@icloud.com>
+Architecture: iphoneos-arm
+Filename: debs/zip_3.0-1_iphoneos-arm.deb
+Size: 424492
+Installed-Size: 1208
+MD5sum: 2a7da3332d65446742723f7a722e8d7f
+Description: standard Windows compression tool
+
