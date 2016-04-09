@@ -2751,6 +2751,19 @@ MD5sum: 3a29f420a050a5c1bd2910ac501612cb
 Description: SSL library and cryptographic tools
 Name: OpenSSL
 
+Package: openssl
+Version: 1.0.2g-2
+Priority: standard
+Section: Security
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Architecture: iphoneos-arm
+Filename: debs/openssl_1.0.2g-2_iphoneos-arm.deb
+Size: 7185602
+MD5sum: fc9343ec7fc54106ba2a964971318110
+Description: SSL library and cryptographic tools
+Name: OpenSSL
+
 Package: python3
 Version: 3.4.2-7
 Priority: optional

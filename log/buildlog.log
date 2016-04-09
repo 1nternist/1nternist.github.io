@@ -1,12 +1,4 @@
-warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.localiapstore9_1.5-2_iphoneos-arm/DEBIAN/control' contains user-defined field `Author'
-warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.localiapstore9_1.5-2_iphoneos-arm/DEBIAN/control' contains user-defined field `Sponsor'
-warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.localiapstore9_1.5-2_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
-dpkg-deb: ignoring 3 warnings about the control file(s)
-dpkg-deb: building package `apt.1nternist.localiapstore9' in `/var/mobile/Developer/Github/CyGit/1nternist.github.io/debs/apt.1nternist.localiapstore9_1.5-2_iphoneos-arm.deb'.
-warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/libsigc++_2.2.10-1_iphoneos-arm/DEBIAN/control' contains user-defined field `Sponsor'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/openssl_1.0.2g-2_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
 dpkg-deb: ignoring 1 warnings about the control file(s)
-dpkg-deb: building package `libsigc++' in `/var/mobile/Developer/Github/CyGit/1nternist.github.io/debs/libsigc++_2.2.10-1_iphoneos-arm.deb'.
-warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/openssl_1.0.2g-1_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
-dpkg-deb: ignoring 1 warnings about the control file(s)
-dpkg-deb: building package `openssl' in `/var/mobile/Developer/Github/CyGit/1nternist.github.io/debs/openssl_1.0.2g-1_iphoneos-arm.deb'.
+dpkg-deb: building package `openssl' in `/var/mobile/Developer/Github/CyGit/1nternist.github.io/debs/openssl_1.0.2g-2_iphoneos-arm.deb'.
 /var/mobile/Developer/Github/CyGit/1nternist.github.io
