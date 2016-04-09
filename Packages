@@ -1845,6 +1845,22 @@ Description: Lighttpd command line toggles.
 Name: Lighttpd Toggles
 Author: Chir0student <chir0student@me.com>
 
+Package: apt.1nternist.localiapstore9
+Version: 1.5-2
+Section: Tweaks
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Conflicts: com.yourepo.diablowsky.localiapstoreios9
+Provides: com.yourepo.diablowsky.localiapstoreios9
+Replaces: com.yourepo.diablowsky.localiapstoreios9
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.localiapstore9_1.5-2_iphoneos-arm.deb
+Size: 71146
+MD5sum: 980938d9cb8df7dfe5476bb300d2bb17
+Description: Pwns In-app purchases on iOS 5.1.1 - 9.0.2. To use: select "buy" for the in-app purchase, then when asked for your password select "cancel".
+Name: LocalIAPStore9
+Author: Diablowsky
+
 Package: apt.1nternist.localiapstoreios9
 Version: 1.4-5
 Section: Tweaks
@@ -2693,6 +2709,18 @@ Name: gettext
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 Homepage: http://www.gnu.org/software/gettext/
 
+Package: libsigc++
+Version: 2.2.10-1
+Priority: optional
+Section: Development
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Architecture: iphoneos-arm
+Filename: debs/libsigc++_2.2.10-1_iphoneos-arm.deb
+Size: 118010
+MD5sum: 8f1d5f334c8a66fcd4b0acc79b859469
+Description: callback framework for C++
+
 Package: openssh
 Version: 6.7p1-12-rev-5
 Priority: important
@@ -2709,6 +2737,19 @@ Size: 2043990
 MD5sum: e94e9e9f90930fd31342d5cc55bea17e
 Description: OpenSSH with Bonjour support
 Name: OpenSSH with Bonjour
+
+Package: openssl
+Version: 1.0.2g-1
+Priority: standard
+Section: Security
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Architecture: iphoneos-arm
+Filename: debs/openssl_1.0.2g-1_iphoneos-arm.deb
+Size: 7191484
+MD5sum: 3a29f420a050a5c1bd2910ac501612cb
+Description: SSL library and cryptographic tools
+Name: OpenSSL
 
 Package: python3
 Version: 3.4.2-7
