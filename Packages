@@ -2807,6 +2807,19 @@ Installed-Size: 1152
 MD5sum: 525c56d57f809cef71e0f229ee49266b
 Description: de-compesses files in zip format
 
+Package: xz-utils
+Version: 5.2.2-1
+Priority: standard
+Section: System
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Architecture: iphoneos-arm
+Filename: debs/xz-utils_5.2.2-2_iphoneos-arm.deb
+Size: 2138356
+MD5sum: 710eae8473715419124afaf1ceec2acb
+Description: XZip Utilities
+Name: xz-utils
+Author: Andrew Hyatt <ahyattdev@icloud.com>
+
 Package: zip
 Version: 3.0-1
 Priority: important
