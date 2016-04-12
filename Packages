@@ -2354,38 +2354,6 @@ Author: chir0student
 Depiction: http://www.myrepospace.com/
 
 Package: apt.1nternist.reposetup
-Version: 1.005
-Section: Repositories
-Essential: yes
-Maintainer: 1nternist <dc1nternist@icloud.com>
-Replaces: com.myrepospace-chir0student.icon
-Architecture: iphoneos-arm
-Filename: debs/apt.1nternist.reposetup_1.005_iphoneos-arm.deb
-Size: 271110
-MD5sum: 345bc6a25f661b2d74c2f1a9b8c33067
-Description: 1nternist's repo setup files.
-Name: 1nternist's Repo Setup Files
-Author: 1nternist <dc1nternist@icloud.com>
-Homepage: https://1nternist.github.io
-
-Package: apt.1nternist.reposetup
-Version: 1.006
-Section: Repo_Utils_1nternist
-Essential: yes
-Maintainer: 1nternist <dacdcdabci@gmail.com>
-Conflicts: apt.1nternist.repoicons, com.myrepospace-chir0student.icon, com.myrepospace.chir0student.repoicons
-Replaces: apt.1nternist.repoicons, com.myrepospace-chir0student.icon, com.myrepospace.chir0student.repoicons
-Architecture: iphoneos-arm
-Filename: debs/apt.1nternist.reposetup_1.006_iphoneos-arm.deb
-Size: 352886
-MD5sum: 2ffa09245901a986e1a1e2af424fdbf5
-Description: 1nternist repo setup files
-Name: 1nternist's Repo Setup
-Author: 1nternist <dacdcdabci@gmail.com>
-Homepage: https://1nternist.github.io
-Icon: file:///Applications/Cydia.app/Sections/1nternist_RepoIcons.png
-
-Package: apt.1nternist.reposetup
 Version: 1.007
 Section: Repository Tools
 Essential: yes
