@@ -306,9 +306,9 @@ Provides: apt.1nternist.ayeconios7, org.thebigboss.ayeconios7
 Replaces: apt.1nternist.ayeconios7, org.thebigboss.ayeconios7
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm.deb
-Size: 18393184
+Size: 12927260
 Installed-Size: 25159
-MD5sum: 52cd1b27795947dddf0b6a22f062553d
+MD5sum: a24b41bcb8e72a867a4d06b1aa914576
 Description: A benchmark theme for iOS. Again. This version of Ayecon is compatible with Anemone, Winterboard, and iOS9.
 Name: ayecon (Anemone + iOS9)
 Author: Surenix <surenix@surenix.me>

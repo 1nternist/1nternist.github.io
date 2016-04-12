@@ -1,5 +1,1 @@
-warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/xz-utils_5.2.2-2_iphoneos-arm/DEBIAN/control' contains user-defined field `Author'
-warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/xz-utils_5.2.2-2_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
-dpkg-deb: ignoring 2 warnings about the control file(s)
-dpkg-deb: building package `xz-utils' in `/var/mobile/Developer/Github/CyGit/1nternist.github.io/debs/xz-utils_5.2.2-2_iphoneos-arm.deb'.
 /var/mobile/Developer/Github/CyGit/1nternist.github.io
