@@ -92,18 +92,18 @@ Author: Miles <miles@mileskabal.com>
 Icon: file:///Applications/appinfo.app/Icon.png
 
 Package: apt.1nternist.apptodebv14ios8
-Version: 1.2.1
+Version: 1.2.1-2
 Priority: standard
 Section: Utilities
 Maintainer: Chir0student <chir0student@me.com>
 Conflicts: apt.1nternist.apptodebv1parallel
 Replaces: apt.1nternist.apptodebv1parallel
 Architecture: iphoneos-arm
-Filename: debs/apt.1nternist.apptodebv14ios8_1.2.1_iphoneos-arm.deb
-Size: 9701612
-MD5sum: 273812d323213f16f18a08e74f0a0037
+Filename: debs/apt.1nternist.apptodebv14ios8_1.2.1-2_iphoneos-arm.deb
+Size: 9709226
+MD5sum: 5fb12f4725382297e66868504f619b0e
 Description: This package allows AppToDeb v1 to exist in parallel with AppToDeb v2 (philippe97 http://apt.philippe97.ca). Build directories for AppToDeb(v1) and AppToDeb(v2) can be accessed at /var/mobile/AppToDeb.
-Name: AppToDeb (v1) for iOS8
+Name: AppToDeb (v1) for iOS8+
 Author: Philippe97 <philippemail1@gmail.com>
 
 Package: apt.1nternist.apptodebv1parallel
@@ -2382,6 +2382,24 @@ MD5sum: 2ffa09245901a986e1a1e2af424fdbf5
 Description: 1nternist repo setup files
 Name: 1nternist's Repo Setup
 Author: 1nternist <dacdcdabci@gmail.com>
+Homepage: https://1nternist.github.io
+Icon: file:///Applications/Cydia.app/Sections/1nternist_RepoIcons.png
+
+Package: apt.1nternist.reposetup
+Version: 1.007
+Section: Repository Tools
+Essential: yes
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Conflicts: apt.1nternist.repoicons, com.myrepospace-chir0student.icon, com.myrepospace.chir0student.repoicons, com.yourepo.1nternist.1nternistsyoureposetup
+Provides: apt.1nternist.repoicons, com.myrepospace-chir0student.icon, com.myrepospace.chir0student.repoicons, com.yourepo.1nternist.1nternistsyoureposetup
+Replaces: apt.1nternist.repoicons, com.myrepospace-chir0student.icon, com.myrepospace.chir0student.repoicons, com.yourepo.1nternist.1nternistsyoureposetup
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.reposetup_1.007_iphoneos-arm.deb
+Size: 1693930
+MD5sum: 397add1b27626d3045934222a5e044d7
+Description: 1nternist repo setup files
+Name: 1nternist's Repo Setup
+Author: 1nternist <dc1nternist@icloud.com>
 Homepage: https://1nternist.github.io
 Icon: file:///Applications/Cydia.app/Sections/1nternist_RepoIcons.png
 
