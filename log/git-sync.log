@@ -35,3 +35,13 @@ Changes to be committed:
 	modified:   log/git-sync.log
 	modified:   log/scanerr.log
 
+[master ab95f8d] Repository update 04-12-2016 12:28:50
+ 9 files changed, 68 insertions(+), 47 deletions(-)
+ rewrite Packages.bz2 (100%)
+ rewrite Packages.gz (99%)
+ rewrite Release (68%)
+ rewrite Release.gpg (87%)
+ rename debs/{apt.1nternist.apptodebv14ios8_1.2.1_iphoneos-arm.deb => apt.1nternist.apptodebv14ios8_1.2.1-2_iphoneos-arm.deb} (55%)
+ create mode 100644 debs/apt.1nternist.reposetup_1.007_iphoneos-arm.deb
+To https://github.com/1nternist/1nternist.github.io
+   dd76a43..ab95f8d  master -> master
