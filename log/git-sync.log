@@ -9,9 +9,13 @@ Changes not staged for commit:
 	modified:   Packages.gz
 	modified:   Release
 	modified:   Release.gpg
-	modified:   debs/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm.deb
-	modified:   log/buildlog.log
 	modified:   log/git-sync.log
+	modified:   log/scanerr.log
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	debs/apt.1nternist.debxpandr_2.5-1_iphoneos-arm.deb
 
 no changes added to commit (use "git add" and/or "git commit -a")
 On branch master
@@ -24,7 +28,7 @@ Changes to be committed:
 	modified:   Packages.gz
 	modified:   Release
 	modified:   Release.gpg
-	modified:   debs/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm.deb
-	modified:   log/buildlog.log
+	new file:   debs/apt.1nternist.debxpandr_2.5-1_iphoneos-arm.deb
 	modified:   log/git-sync.log
+	modified:   log/scanerr.log
 

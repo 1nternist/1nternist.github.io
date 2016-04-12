@@ -630,6 +630,19 @@ Author: Joey Hess <joeyh@debian.org>
 Homepage: http://kitenet.net/~joey/code/debhelper/
 
 Package: apt.1nternist.debxpandr
+Version: 2.5-1
+Section: Scripting
+Maintainer: 1nternist <drmacdcdabci@gmail.com>
+Depends: dpkg
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.debxpandr_2.5-1_iphoneos-arm.deb
+Size: 1252
+MD5sum: 6a734d8a410f2d3f983dcca49a58860d
+Description: To run, open MobileTerminal and cd into any directory containing deb files and execute "debXpandr". The script will extract all debs, then move the extracted debs into a sub directory for you.
+Name: debXpandr
+Author: 1nternist <drmacdcdabci@gmail.com>
+
+Package: apt.1nternist.debxpandr
 Version: 3.0
 Section: Scripting
 Maintainer: Chir0student <chir0student@me.com>
