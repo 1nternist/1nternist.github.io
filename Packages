@@ -2708,6 +2708,20 @@ Name: gettext
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 Homepage: http://www.gnu.org/software/gettext/
 
+Package: git
+Version: 2.8.2-1
+Priority: optional
+Section: Data Storage
+Maintainer: Avery Magnotti <averymagnotti@outlook.com>
+Architecture: iphoneos-arm
+Filename: debs/git_2.8.2-1_iphoneos-arm.deb
+Size: 12793264
+MD5sum: bcacd7dc459cae298ff438e40b8fa88d
+Description: fast content-addressable filesystem
+Name: Git
+Author: Avery Magnotti <averymagnotti@outlook.com>
+Homepage: https://git-scm.com/
+
 Package: libsigc++
 Version: 2.2.10-1
 Priority: optional
@@ -2793,6 +2807,18 @@ MD5sum: d1ac3afbd457f3a3466a693d33337b74
 Description: Python is an architectural programming language.
 Name: Python3-lib
 Homepage: http://www.python.org/
+
+Package: rpl
+Version: 1.4.0-3
+Priority: standard
+Section: Utilities
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Filename: debs/rpl_1.4.0-3_iphoneos-arm.deb
+Size: 13612
+Installed-Size: 48
+MD5sum: 6d0cd417aa0db29935c36dbd3bea0e1c
+Description: replace strings within files
 
 Package: unzip
 Version: 6.0-1

@@ -64,7 +64,7 @@
   apt.1nternist.uthbscripts apt.1nternist.wallpapers1
   apt.1nternist.whiteterminal apt.1nternist.winterboardicon
   apt.1nternist.woowizrepo-list apt.1nternist.zeusmosrep-list bzip2
-  gettext libsigc++ openssh openssl python3 python3-lib unzip xz-utils
-  zip
+  gettext git libsigc++ openssh openssl python3 python3-lib rpl unzip
+  xz-utils zip
 
- 198 packages written to file.
+ 200 packages written to file.
