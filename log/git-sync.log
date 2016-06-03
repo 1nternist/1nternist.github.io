@@ -8,6 +8,7 @@ Changes not staged for commit:
 	modified:   Packages.gz
 	modified:   Release
 	modified:   Release.gpg
+	modified:   log/builderr.log
 	modified:   log/git-sync.log
 	modified:   log/signerr.log
 
@@ -21,6 +22,7 @@ Changes to be committed:
 	modified:   Packages.gz
 	modified:   Release
 	modified:   Release.gpg
+	modified:   log/builderr.log
 	modified:   log/git-sync.log
 	modified:   log/signerr.log
 
