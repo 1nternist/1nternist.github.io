@@ -1,18 +1,9 @@
-stat: illegal option -- -
-usage: stat [-FlLnqrsx] [-f format] [-t timefmt] [file ...]
-stat: illegal option -- -
-usage: stat [-FlLnqrsx] [-f format] [-t timefmt] [file ...]
-stat: illegal option -- -
-usage: stat [-FlLnqrsx] [-f format] [-t timefmt] [file ...]
-stat: illegal option -- -
-usage: stat [-FlLnqrsx] [-f format] [-t timefmt] [file ...]
-stat: illegal option -- -
-usage: stat [-FlLnqrsx] [-f format] [-t timefmt] [file ...]
-stat: illegal option -- -
-usage: stat [-FlLnqrsx] [-f format] [-t timefmt] [file ...]
-stat: illegal option -- -
-usage: stat [-FlLnqrsx] [-f format] [-t timefmt] [file ...]
-stat: illegal option -- -
-usage: stat [-FlLnqrsx] [-f format] [-t timefmt] [file ...]
-stat: illegal option -- -
-usage: stat [-FlLnqrsx] [-f format] [-t timefmt] [file ...]
+stat: %s: bad format
+stat: %s: bad format
+stat: %s: bad format
+stat: %s: bad format
+stat: %s: bad format
+stat: %s: bad format
+stat: %s: bad format
+stat: %s: bad format
+stat: %s: bad format
