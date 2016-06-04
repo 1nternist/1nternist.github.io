@@ -2327,6 +2327,19 @@ Description: repackages installed debs. redeb [ search ], without a search will 
 Name: redeb
 Author: brc0703
 
+Package: apt.1nternist.removepasscode
+Version: 1.0.0-1
+Section: System
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.removepasscode_1.0.0-1_iphoneos-arm.deb
+Size: 3296
+Installed-Size: 64
+MD5sum: 21c6fa44472ad484f7bd9bfad2cc677e
+Description: Remove iOS passcodes over SSH. Compatible with iOS 5.0 - iOS 8.1.2. DOES NOT WORK IN SAFESTRAT ENVIRONMENT YET.
+Name: RemovePasscode
+Author: Coolstar
+
 Package: apt.1nternist.repocydiac-list
 Version: 1.0
 Section: MyRepoSpace.com
