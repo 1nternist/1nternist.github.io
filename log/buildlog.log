@@ -1,5 +1,56 @@
-warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.removepasscode_1.0.0-1_iphoneos-arm/DEBIAN/control' contains user-defined field `Author'
-warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.removepasscode_1.0.0-1_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
-dpkg-deb: ignoring 2 warnings about the control file(s)
-dpkg-deb: building package `apt.1nternist.removepasscode' in `/var/mobile/Developer/Github/CyGit/1nternist.github.io/debs/apt.1nternist.removepasscode_1.0.0-1_iphoneos-arm.deb'.
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.cydiaimpactor_0.9.17+53.g3daccc9_iphoneos-arm/DEBIAN/control' contains user-defined field `Author'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.cydiaimpactor_0.9.17+53.g3daccc9_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.cydiaimpactor_0.9.17+53.g3daccc9_iphoneos-arm/DEBIAN/control' contains user-defined field `Sponsor'
+dpkg-deb: ignoring 3 warnings about the control file(s)
+dpkg-deb: building package `apt.1nternist.cydiaimpactor' in `/var/mobile/Developer/Github/CyGit/1nternist.github.io/debs/apt.1nternist.cydiaimpactor_0.9.17+53.g3daccc9_iphoneos-arm.deb'.
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.prompt2k_1.0_iphoneos-arm/DEBIAN/control' contains user-defined field `Author'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.prompt2k_1.0_iphoneos-arm/DEBIAN/control' contains user-defined field `Icon'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.prompt2k_1.0_iphoneos-arm/DEBIAN/control' contains user-defined field `Sponsor'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.prompt2k_1.0_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
+dpkg-deb: ignoring 4 warnings about the control file(s)
+dpkg-deb: building package `apt.1nternist.prompt2k' in `/var/mobile/Developer/Github/CyGit/1nternist.github.io/debs/apt.1nternist.prompt2k_1.0_iphoneos-arm.deb'.
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.recentinstalled_1.1_iphoneos-arm/DEBIAN/control' contains user-defined field `Author'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.recentinstalled_1.1_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.recentinstalled_1.1_iphoneos-arm/DEBIAN/control' contains user-defined field `Sponsor'
+dpkg-deb: ignoring 3 warnings about the control file(s)
+dpkg-deb: building package `apt.1nternist.recentinstalled' in `/var/mobile/Developer/Github/CyGit/1nternist.github.io/debs/apt.1nternist.recentinstalled_1.1_iphoneos-arm.deb'.
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.rendarya9_1.0_iphoneos-arm/DEBIAN/control' contains user-defined field `Author'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.rendarya9_1.0_iphoneos-arm/DEBIAN/control' contains user-defined field `Icon'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.rendarya9_1.0_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.rendarya9_1.0_iphoneos-arm/DEBIAN/control' contains user-defined field `Sponsor'
+dpkg-deb: ignoring 4 warnings about the control file(s)
+dpkg-deb: building package `apt.1nternist.rendarya9' in `/var/mobile/Developer/Github/CyGit/1nternist.github.io/debs/apt.1nternist.rendarya9_1.0_iphoneos-arm.deb'.
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.repoleak_1.55_iphoneos-arm/DEBIAN/control' contains user-defined field `Author'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.repoleak_1.55_iphoneos-arm/DEBIAN/control' contains user-defined field `Icon'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.repoleak_1.55_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.repoleak_1.55_iphoneos-arm/DEBIAN/control' contains user-defined field `Sponsor'
+dpkg-deb: ignoring 4 warnings about the control file(s)
+dpkg-deb: building package `apt.1nternist.repoleak' in `/var/mobile/Developer/Github/CyGit/1nternist.github.io/debs/apt.1nternist.repoleak_1.55_iphoneos-arm.deb'.
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.tcpoptimizer_1.2_iphoneos-arm/DEBIAN/control' contains user-defined field `Author'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.tcpoptimizer_1.2_iphoneos-arm/DEBIAN/control' contains user-defined field `Sponsor'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.tcpoptimizer_1.2_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
+dpkg-deb: ignoring 3 warnings about the control file(s)
+dpkg-deb: building package `apt.1nternist.tcpoptimizer' in `/var/mobile/Developer/Github/CyGit/1nternist.github.io/debs/apt.1nternist.tcpoptimizer_1.2_iphoneos-arm.deb'.
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.vex_1.1-1_iphoneos-arm/DEBIAN/control' contains user-defined field `Author'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.vex_1.1-1_iphoneos-arm/DEBIAN/control' contains user-defined field `Icon'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.vex_1.1-1_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.vex_1.1-1_iphoneos-arm/DEBIAN/control' contains user-defined field `Sponsor'
+dpkg-deb: ignoring 4 warnings about the control file(s)
+dpkg-deb: building package `apt.1nternist.vex' in `/var/mobile/Developer/Github/CyGit/1nternist.github.io/debs/apt.1nternist.vex_1.1-1_iphoneos-arm.deb'.
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.watchdogpro_1.0.2_iphoneos-arm/DEBIAN/control' contains user-defined field `Author'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.watchdogpro_1.0.2_iphoneos-arm/DEBIAN/control' contains user-defined field `Icon'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.watchdogpro_1.0.2_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.watchdogpro_1.0.2_iphoneos-arm/DEBIAN/control' contains user-defined field `Sponsor'
+dpkg-deb: ignoring 4 warnings about the control file(s)
+dpkg-deb: building package `apt.1nternist.watchdogpro' in `/var/mobile/Developer/Github/CyGit/1nternist.github.io/debs/apt.1nternist.watchdogpro_1.0.2_iphoneos-arm.deb'.
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.whatsourcepackage_1.0_iphoneos-arm/DEBIAN/control' contains user-defined field `Author'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.whatsourcepackage_1.0_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.whatsourcepackage_1.0_iphoneos-arm/DEBIAN/control' contains user-defined field `Sponsor'
+dpkg-deb: ignoring 3 warnings about the control file(s)
+dpkg-deb: building package `apt.1nternist.whatsourcepackage' in `/var/mobile/Developer/Github/CyGit/1nternist.github.io/debs/apt.1nternist.whatsourcepackage_1.0_iphoneos-arm.deb'.
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.xconforios9_41_iphoneos-arm/DEBIAN/control' contains user-defined field `Author'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.xconforios9_41_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.xconforios9_41_iphoneos-arm/DEBIAN/control' contains user-defined field `Sponsor'
+dpkg-deb: ignoring 3 warnings about the control file(s)
+dpkg-deb: building package `apt.1nternist.xconforios9' in `/var/mobile/Developer/Github/CyGit/1nternist.github.io/debs/apt.1nternist.xconforios9_41_iphoneos-arm.deb'.
 /var/mobile/Developer/Github/CyGit/1nternist.github.io
