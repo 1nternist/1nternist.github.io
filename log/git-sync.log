@@ -16,16 +16,7 @@ Changes not staged for commit:
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	debs/apt.1nternist.cydiaimpactor_0.9.17+53.g3daccc9_iphoneos-arm.deb
-	debs/apt.1nternist.prompt2k_1.0_iphoneos-arm.deb
-	debs/apt.1nternist.recentinstalled_1.1_iphoneos-arm.deb
-	debs/apt.1nternist.rendarya9_1.0_iphoneos-arm.deb
-	debs/apt.1nternist.repoleak_1.55_iphoneos-arm.deb
-	debs/apt.1nternist.tcpoptimizer_1.2_iphoneos-arm.deb
-	debs/apt.1nternist.vex_1.1-1_iphoneos-arm.deb
-	debs/apt.1nternist.watchdogpro_1.0.2_iphoneos-arm.deb
-	debs/apt.1nternist.whatsourcepackage_1.0_iphoneos-arm.deb
-	debs/apt.1nternist.xconforios9_41_iphoneos-arm.deb
+	debs/apt.1nternist.artee8ios9_1.3_iphoneos-arm.deb
 
 no changes added to commit (use "git add" and/or "git commit -a")
 On branch master
@@ -38,16 +29,7 @@ Changes to be committed:
 	modified:   Packages.gz
 	modified:   Release
 	modified:   Release.gpg
-	new file:   debs/apt.1nternist.cydiaimpactor_0.9.17+53.g3daccc9_iphoneos-arm.deb
-	new file:   debs/apt.1nternist.prompt2k_1.0_iphoneos-arm.deb
-	new file:   debs/apt.1nternist.recentinstalled_1.1_iphoneos-arm.deb
-	new file:   debs/apt.1nternist.rendarya9_1.0_iphoneos-arm.deb
-	new file:   debs/apt.1nternist.repoleak_1.55_iphoneos-arm.deb
-	new file:   debs/apt.1nternist.tcpoptimizer_1.2_iphoneos-arm.deb
-	new file:   debs/apt.1nternist.vex_1.1-1_iphoneos-arm.deb
-	new file:   debs/apt.1nternist.watchdogpro_1.0.2_iphoneos-arm.deb
-	new file:   debs/apt.1nternist.whatsourcepackage_1.0_iphoneos-arm.deb
-	new file:   debs/apt.1nternist.xconforios9_41_iphoneos-arm.deb
+	new file:   debs/apt.1nternist.artee8ios9_1.3_iphoneos-arm.deb
 	modified:   log/buildlog.log
 	modified:   log/git-sync.log
 	modified:   log/scanerr.log
