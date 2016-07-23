@@ -190,25 +190,6 @@ Author: Apiyzzz <apiyzzz@gmail.com>
 Homepage: http://modmyi.com/info/artee8ios8amp7.php
 Depiction: http://modmyi.com/info/artee8ios8amp7.d.php
 
-Package: apt.1nternist.artee8ios9
-Version: 1.3
-Priority: extra
-Section: Themes (SpringBoard)
-Maintainer: poetic_folly <poetic_folly@modmyi.com>
-Depends: winterboard | com.anemonetheming.anemone
-Conflicts: com.modmyi.artee8ios8amp7
-Provides: com.modmyi.artee8ios8amp7
-Replaces: com.modmyi.artee8ios8amp7
-Architecture: iphoneos-arm
-Filename: debs/apt.1nternist.artee8ios9_1.3_iphoneos-arm.deb
-Size: 21657528
-MD5sum: 97fb177b52c1ba0a489f0c7e90c1132a
-Description: Designed to fulfill your artistic desires.
-Name: Artee8 (ios9)
-Author: Apiyzzz <apiyzzz@gmail.com>
-Homepage: http://modmyi.com/info/artee8ios8amp7.php
-Depiction: http://modmyi.com/info/artee8ios8amp7.d.php
-
 Package: apt.1nternist.avtoolscripts
 Version: 1.4.2
 Section: Scripting

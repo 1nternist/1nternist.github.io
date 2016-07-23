@@ -1,7 +1,1 @@
-warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.artee8ios9_1.3-1_iphoneos-arm/DEBIAN/control' contains user-defined field `Author'
-warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.artee8ios9_1.3-1_iphoneos-arm/DEBIAN/control' contains user-defined field `Depiction'
-warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.artee8ios9_1.3-1_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
-warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.artee8ios9_1.3-1_iphoneos-arm/DEBIAN/control' contains user-defined field `Sponsor'
-dpkg-deb: ignoring 4 warnings about the control file(s)
-dpkg-deb: building package `apt.1nternist.artee8ios9' in `/var/mobile/Developer/Github/CyGit/1nternist.github.io/debs/apt.1nternist.artee8ios9_1.3-1_iphoneos-arm.deb'.
 /var/mobile/Developer/Github/CyGit/1nternist.github.io
