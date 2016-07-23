@@ -172,6 +172,25 @@ Name: arm to armv7
 Author: Rio <rio+ipj@sident.net>
 
 Package: apt.1nternist.artee8ios9
+Version: 1.3-1
+Priority: extra
+Section: Themes (SpringBoard)
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Depends: winterboard | com.anemonetheming.anemone
+Conflicts: com.modmyi.artee8ios8amp7
+Provides: com.modmyi.artee8ios8amp7
+Replaces: com.modmyi.artee8ios8amp7
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.artee8ios9_1.3-1_iphoneos-arm.deb
+Size: 21790044
+MD5sum: f064d5cf41622dab7cde483772b4b568
+Description: Designed to fulfill your artistic desires.
+Name: Artee8 (ios9)
+Author: Apiyzzz <apiyzzz@gmail.com>
+Homepage: http://modmyi.com/info/artee8ios8amp7.php
+Depiction: http://modmyi.com/info/artee8ios8amp7.d.php
+
+Package: apt.1nternist.artee8ios9
 Version: 1.3
 Priority: extra
 Section: Themes (SpringBoard)
