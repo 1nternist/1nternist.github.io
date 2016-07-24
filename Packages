@@ -190,6 +190,21 @@ Author: Apiyzzz <apiyzzz@gmail.com>
 Homepage: http://modmyi.com/info/artee8ios8amp7.php
 Depiction: http://modmyi.com/info/artee8ios8amp7.d.php
 
+Package: apt.1nternist.aupiforios9
+Version: 1.8-1
+Section: Themes (SpringBoard)
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: winterboard | com.anemonetheming.anemone
+Conflicts: com.macciti.aupiforios8
+Replaces: com.macciti.aupiforios8
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.aupiforios9_1.8-1_iphoneos-arm.deb
+Size: 45868238
+MD5sum: 915306151d7bde2fcf80e0b749a598b0
+Description: Aupi ported for iOS 9.
+Name: aupi for iOS 9
+Author: Aviorrok <aviorrok@gmail.com>
+
 Package: apt.1nternist.avtoolscripts
 Version: 1.4.2
 Section: Scripting
@@ -1513,6 +1528,36 @@ Description: iRingtone is a command line utility that can create custom ringtone
 Name: iRingtone 4
 Author: Chir0student <chir0student@me.com>
 Icon: file:///usr/share/chir0student/icons/iRingtone4.png
+
+Package: apt.1nternist.isevenuosiconomatic
+Version: 1.0
+Section: Themes (Addons)
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Depends: com.idd.iconomatic | com.anemonetheming.anemone
+Conflicts: com.modmyi.isevenuosiconomatic
+Replaces: com.modmyi.isevenuosiconomatic
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.isevenuosiconomatic_1.0_iphoneos-arm.deb
+Size: 332044
+MD5sum: efd64858c9ce19f4f7607e915557af3c
+Description: Enrich your iSevenuos experience with style
+Name: iSevenuos IconOmatic
+Author: iPhoneiHelper (Paarth) <paarthdesai@me.com>
+
+Package: apt.1nternist.isevenuosios9
+Version: 1.1
+Section: Themes (Complete)
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Depends: winterboard | com.anemonetheming.anemone
+Conflicts: com.modmyi.isevenuosios8
+Replaces: com.modmyi.isevenuosios8
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.isevenuosios9_1.1_iphoneos-arm.deb
+Size: 8871424
+MD5sum: 4646736b5984ccb278736f6988c1198f
+Description: Every pixel follows simplicity
+Name: iSevenuos iOS 8+
+Author: iPhoneiHelper (Paarth) <paarthdesai@me.com>
 
 Package: apt.1nternist.julioskype-list
 Version: 1.0
