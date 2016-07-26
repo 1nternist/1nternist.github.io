@@ -659,6 +659,20 @@ Description: Force Cydia Respring.
 Name: CyRespring
 Author: Chir0student <chir0student@me.com>
 
+Package: apt.1nternist.deb-backup
+Version: 1.1-1
+Section: Scripting
+Maintainer: 1nternist <dacdcdabci@gmail.com>
+Depends: firmware (>= 5.0)
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.deb-backup_1.1-1_iphoneos-arm.deb
+Size: 2912
+MD5sum: abaa831df759b4811a2b0e1a6c6d5737
+Description: Backup installed Debian packages. Just type "deb-backup" in terminal. You will find your debs at /var/mobile/Media/DebBackup/MyDebs
+Name: DebBackup
+Author: Dennis & iLEX
+Icon: file:///Applications/Cydia.app/Sections/Scripting.png
+
 Package: apt.1nternist.debhelper
 Version: 9.20141107-4
 Priority: optional

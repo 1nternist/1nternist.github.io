@@ -1,15 +1,7 @@
-warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.aupiforios9_1.8-1_iphoneos-arm/DEBIAN/control' contains user-defined field `Author'
-warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.aupiforios9_1.8-1_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
-dpkg-deb: ignoring 2 warnings about the control file(s)
-dpkg-deb: building package `apt.1nternist.aupiforios9' in `/var/mobile/Developer/Github/CyGit/1nternist.github.io/debs/apt.1nternist.aupiforios9_1.8-1_iphoneos-arm.deb'.
-warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.isevenuosiconomatic_1.0_iphoneos-arm/DEBIAN/control' contains user-defined field `Author'
-warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.isevenuosiconomatic_1.0_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
-warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.isevenuosiconomatic_1.0_iphoneos-arm/DEBIAN/control' contains user-defined field `Sponsor'
-dpkg-deb: ignoring 3 warnings about the control file(s)
-dpkg-deb: building package `apt.1nternist.isevenuosiconomatic' in `/var/mobile/Developer/Github/CyGit/1nternist.github.io/debs/apt.1nternist.isevenuosiconomatic_1.0_iphoneos-arm.deb'.
-warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.isevenuosios9_1.1_iphoneos-arm/DEBIAN/control' contains user-defined field `Author'
-warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.isevenuosios9_1.1_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
-warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.isevenuosios9_1.1_iphoneos-arm/DEBIAN/control' contains user-defined field `Sponsor'
-dpkg-deb: ignoring 3 warnings about the control file(s)
-dpkg-deb: building package `apt.1nternist.isevenuosios9' in `/var/mobile/Developer/Github/CyGit/1nternist.github.io/debs/apt.1nternist.isevenuosios9_1.1_iphoneos-arm.deb'.
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.deb-backup_1.1-1_iphoneos-arm/DEBIAN/control' contains user-defined field `Author'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.deb-backup_1.1-1_iphoneos-arm/DEBIAN/control' contains user-defined field `Icon'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.deb-backup_1.1-1_iphoneos-arm/DEBIAN/control' contains user-defined field `Name'
+warning, `/var/mobile/Developer/Github/CyGit/1nternist.github.io/.repofiles/uncompiled/apt.1nternist.deb-backup_1.1-1_iphoneos-arm/DEBIAN/control' contains user-defined field `Sponsor'
+dpkg-deb: ignoring 4 warnings about the control file(s)
+dpkg-deb: building package `apt.1nternist.deb-backup' in `/var/mobile/Developer/Github/CyGit/1nternist.github.io/debs/apt.1nternist.deb-backup_1.1-1_iphoneos-arm.deb'.
 /var/mobile/Developer/Github/CyGit/1nternist.github.io
