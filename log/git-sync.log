@@ -9,6 +9,7 @@ Changes not staged for commit:
 	modified:   Packages.gz
 	modified:   Release
 	modified:   Release.gpg
+	modified:   log/builderr.log
 	modified:   log/buildlog.log
 	modified:   log/git-sync.log
 	modified:   log/scanerr.log
@@ -16,7 +17,10 @@ Changes not staged for commit:
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	debs/apt.1nternist.deb-backup_1.1-1_iphoneos-arm.deb
+	debs/apt.1nternist.libdpkg-perl_1.16.15-9_iphoneos-arm.deb
+	debs/apt.1nternist.libtimedate-perl_1.2000-7_iphoneos-arm.deb
+	debs/apt.1nternist.perl-modules_5.24.0-1_iphoneos-arm.deb
+	debs/apt.1nternist.perl_5.24.0-1_iphoneos-arm.deb
 
 no changes added to commit (use "git add" and/or "git commit -a")
 On branch master
@@ -29,7 +33,11 @@ Changes to be committed:
 	modified:   Packages.gz
 	modified:   Release
 	modified:   Release.gpg
-	new file:   debs/apt.1nternist.deb-backup_1.1-1_iphoneos-arm.deb
+	new file:   debs/apt.1nternist.libdpkg-perl_1.16.15-9_iphoneos-arm.deb
+	new file:   debs/apt.1nternist.libtimedate-perl_1.2000-7_iphoneos-arm.deb
+	new file:   debs/apt.1nternist.perl-modules_5.24.0-1_iphoneos-arm.deb
+	new file:   debs/apt.1nternist.perl_5.24.0-1_iphoneos-arm.deb
+	modified:   log/builderr.log
 	modified:   log/buildlog.log
 	modified:   log/git-sync.log
 	modified:   log/scanerr.log
