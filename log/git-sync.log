@@ -1,44 +1,28 @@
 On branch master
-Your branch and 'origin/master' have diverged,
-and have 1 and 5 different commits each, respectively.
-  (use "git pull" to merge the remote branch into yours)
-You have unmerged paths.
-  (fix conflicts and run "git commit")
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
 
-Changes to be committed:
-
-	new file:   debs/apt.1nternist.perl_5.22.0-4_iphoneos-arm.deb
-	new file:   dev/miphone5s_lockdown.mobileconfig
-
-Unmerged paths:
-  (use "git add <file>..." to mark resolution)
-
-	both modified:   Packages
-	both modified:   Packages.bz2
-	both modified:   Packages.gz
-	both modified:   Release
-	both modified:   Release.gpg
-	both modified:   log/builderr.log
-	both modified:   log/buildlog.log
-	both modified:   log/git-sync.log
-	both modified:   log/scanerr.log
-
-On branch master
-Your branch and 'origin/master' have diverged,
-and have 1 and 5 different commits each, respectively.
-  (use "git pull" to merge the remote branch into yours)
-All conflicts fixed but you are still merging.
-  (use "git commit" to conclude merge)
-
-Changes to be committed:
-
+	modified:   Packages
+	modified:   Packages.bz2
 	modified:   Packages.gz
 	modified:   Release
 	modified:   Release.gpg
-	new file:   debs/apt.1nternist.perl_5.22.0-4_iphoneos-arm.deb
-	new file:   dev/miphone5s_lockdown.mobileconfig
-	modified:   log/builderr.log
-	modified:   log/buildlog.log
+	modified:   log/git-sync.log
+	modified:   log/scanerr.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   Packages
+	modified:   Packages.bz2
+	modified:   Packages.gz
+	modified:   Release
+	modified:   Release.gpg
 	modified:   log/git-sync.log
 	modified:   log/scanerr.log
 
