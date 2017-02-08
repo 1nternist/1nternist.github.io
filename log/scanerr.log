@@ -1,1 +1,1 @@
-./CyGit: line 75: 13357 Killed: 9               $scanpkg -m debs /dev/null > Packages
+./CyGit: line 75:  3850 Killed: 9               $scanpkg -m debs /dev/null > Packages
