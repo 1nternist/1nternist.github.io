@@ -2353,6 +2353,23 @@ Name: Perl
 Author: Larry Wall
 Icon: file:///Applications/Cydia.app/Sections/perl.png
 
+Package: apt.1nternist.perl
+Version: 5.24.0-2
+Section: Development
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: gsc.armv7, apt.1nternist.perl-modules, ldid
+Conflicts: perl, com.sull.perl, apt.1nternist.perl510, apt.1nternist.perl514, apt.1nternist.perl520, org.coolstar.perl
+Provides: perl, com.sull.perl, apt.1nternist.perl510, apt.1nternist.perl514, apt.1nternist.perl520, org.coolstar.perl
+Replaces: perl, com.sull.perl, apt.1nternist.perl510, apt.1nternist.perl514, apt.1nternist.perl520, org.coolstar.perl
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.perl_5.24.0-2_iphoneos-arm.deb
+Size: 9390898
+MD5sum: 3b4d0cc5004e42a3d3f0bc4689285dc7
+Description: Perl ported for iOS, compatible with iOS 10 and arm64. Larry Wall's Practical Extraction and Report Language. Perl is a stable, cross platform programming language. It is used for mission critical projects in the public and private sectors and is widely used to program web applications of all needs.
+Name: Perl
+Author: Larry Wall
+Icon: file:///Applications/Cydia.app/Sections/perl.png
+
 Package: apt.1nternist.perl-modules
 Version: 5.22.0-1
 Priority: standard
