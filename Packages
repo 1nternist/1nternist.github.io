@@ -2474,6 +2474,22 @@ Name: Prompt2 root
 Author: iki <adm@iopenroot.com>
 Icon: file:///var/mobile/Library/Application Support/com.panic.Prompt2/icon.png
 
+Package: apt.1nternist.prompt2k
+Version: 1.1-1
+Section: Terminal_Support
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: com.innoying.sbutils, openssh | com.ichitaso.dropbearssh | org.coolstar.scp-sftp-dropbear | com.julioverne.sftpenabler | com.julioverne.dropbearswith
+Conflicts: autossh
+Replaces: autossh
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.prompt2k_1.1-1_iphoneos-arm.deb
+Size: 10106766
+MD5sum: 181c63c24e8193acd6b82d6cf462b843
+Description: Prompt2 root version
+Name: Prompt2 root
+Author: iki <adm@iopenroot.com>
+Icon: file:///var/mobile/Library/Application Support/com.panic.Prompt2/icon.png
+
 Package: apt.1nternist.pwntube
 Version: 0.2
 Section: Tweaks
