@@ -1,22 +1,44 @@
 On branch master
 Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   .repofiles/uncompiled/apt.1nternist.jlutil64_0.1_iphoneos-arm/DEBIAN/control
+	new file:   .repofiles/uncompiled/apt.1nternist.jlutil64_0.1_iphoneos-arm/usr/local/bin/jlutil
+	modified:   Packages
+	modified:   Packages.bz2
+	modified:   Packages.gz
+	modified:   Release
+	modified:   Release.gpg
+	new file:   debs/apt.1nternist.jlutil64_0.1_iphoneos-arm.deb
+	new file:   debs/apt.1nternist.jtool64_0.1b-6_iphoneos-arm.deb
+	modified:   log/builderr.log
+	modified:   log/buildlog.log
+	modified:   log/git-sync.log
+	modified:   log/scanerr.log
+
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
-	modified:   Packages.gz
-	modified:   Release
-	modified:   Release.gpg
 	modified:   log/git-sync.log
 
-no changes added to commit (use "git add" and/or "git commit -a")
 On branch master
 Your branch is up-to-date with 'origin/master'.
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
+	new file:   .repofiles/uncompiled/apt.1nternist.jlutil64_0.1_iphoneos-arm/DEBIAN/control
+	new file:   .repofiles/uncompiled/apt.1nternist.jlutil64_0.1_iphoneos-arm/usr/local/bin/jlutil
+	modified:   Packages
+	modified:   Packages.bz2
 	modified:   Packages.gz
 	modified:   Release
 	modified:   Release.gpg
+	new file:   debs/apt.1nternist.jlutil64_0.1_iphoneos-arm.deb
+	new file:   debs/apt.1nternist.jtool64_0.1b-6_iphoneos-arm.deb
+	modified:   log/builderr.log
+	modified:   log/buildlog.log
 	modified:   log/git-sync.log
+	modified:   log/scanerr.log
 

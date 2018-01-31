@@ -1573,6 +1573,30 @@ Description: Every pixel follows simplicity
 Name: iSevenuos iOS 8+
 Author: iPhoneiHelper (Paarth) <paarthdesai@me.com>
 
+Package: apt.1nternist.jlutil64
+Version: 0.1
+Section: Development
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.jlutil64_0.1_iphoneos-arm.deb
+Size: 13356
+MD5sum: 455e0d7a30e74984842485d911457089
+Description: jlutil is a lightweight replacement for plutil that is friendlier than PlistBuddy that has a simplistic format which is POSIX compliant and has a color option.
+Name: jlutil (arm64)
+Author: 1nternist <dc1nternist@icloud.com>
+
+Package: apt.1nternist.jtool64
+Version: 0.1b-6
+Section: Development
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.jtool64_0.1b-6_iphoneos-arm.deb
+Size: 216632
+MD5sum: 9419f10721b9b513a7c86dd5f4a7432f
+Description: The jtool command is meant to meet and exceed the functionality to XCode's otool(1), picking up along the way additional Mach-O commands such as atos(1), dyldinfo(1), nm(1), segedit(1), pagestuff(1), strings(1), codesign(1), and even the informal ldid. jtool also provides novel features, such in-binary search functionality, symbol injection and a disassembler functionality with (limited but constantly improving) emulation capabilities. It also provides color output.
+Name: jtool (arm64)
+Author: 1nternist <dc1nternist@icloud.com>
+
 Package: apt.1nternist.julioskype-list
 Version: 1.0
 Section: MyRepoSpace.com
