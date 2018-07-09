@@ -6,6 +6,7 @@ CYGIT="$(dirname $DIR)"
 RNAME="$(basename $DIR)"
 REPO="$CYGIT/$RNAME"
 LOGD="$REPO/log"
+LASTLOG="$LOGD/lastrun"
 BLDLOG="$LOGD/buildlog.log"
 BLDERR="$LOGD/builderr.log"
 SCNLOG="$LOGD/scanlog.log"
@@ -14,11 +15,14 @@ SIGNLOG="$LOGD/signlog.log"
 SIGNERR="$LOGD/signerr.log"
 SYNCLOG="$LOGD/git-sync.log"
 SYNCERR="$LOGD/git-sync-err.log"
+ARCHLOG="$LOGD/archivelog.log"
+ARCHERR="$LOGD/archiveerr.log"
 UTILS="$REPO/.repofiles/utils/bin"
-BLD="$REPO/.repofiles/uncompiled"
-ARCH="$REPO/.repofiles/compiled"
-ARCH_BETA="$REPO/.repofiles/compiled-beta"
-BLD_BETA="$REPO/.repofiles/uncompiled-beta"
+BUILD="$REPO/.repofiles/uncompiled"
+DONE="$REPO/.repofiles/compiled"
+DEBS="$REPO/debs"
+DONE_BETA="$REPO/.repofiles/compiled-beta"
+BUILD_BETA="$REPO/.repofiles/uncompiled-beta"
 PKG_ARC="$CYGIT/pkg_archives"
 COMP="$CYGIT/unpackaged"
 OPT1="Build packages"
@@ -37,39 +41,94 @@ function mainmenuloop () {
 }
 
 function dirsetup () {
-	for dir in $LOGD $UTILS $BLD $ARCH $BLD_BETA $ARCH_BETA; do
+	for dir in $LOGD $LASTLOG $UTILS $BUILD $DONE $BUILD_BETA $DONE_BETA; do
 		if [ ! -d "${dir%%/}" ]; then
 			mkdir -p "${dir%%/}"
 		fi
 	done
 }
 
+function cleanlog () {
+	rm -rf $LOGD/lastrun/*.log
+	wait
+	mv -f $LOGD/*.log $LOGD/lastrun
+}
+
+function permissions () {
+chown mobile $BUILD
+chmod 755 $BUILD
+chown mobile $DONE
+chmod 755 $DONE
+chown mobile $COMP 
+chmod 755 $COMP
+chown mobile $DEBS
+chmod 777 $DEBS
+chown -R mobile $PKG_ARC
+chmod 755 $PKG_ARC
+chown -R mobile $LOGD
+chmod 755 $LOGD
+}
+
 function compilepkgs () {
-rm -rf $LOGD/*.log
-sudo chown -R root $BLD
-sudo chmod 755 $BLD
-sudo chmod 777 $REPO/debs
+#sudo chown -R root $BUILD
+#sudo chmod 755 $BUILD
+#sudo chmod 777 $REPO/debs
+chown -R root $BUILD
+chmod 777 $BUILD
+chown root $DONE
+chmod 777 $DONE
+chown root $COMP
+chmod 777 $COMP
+chown -R root:wheel $DEBS
+chmod 777 $DEBS
+chown root $PKG_ARC
+chmod 777 $PKG_ARC
+chown root $LOGD
+chmod 777 $LOGD
 clear
+sleep 1
 echo ""
-echo " ➔ Building packages"
-for PkgDir in `ls $BLD 2> $BLDERR`; do
-  sudo dpkg-deb -b $BLD/"${PkgDir%%/}" $REPO/debs/"${PkgDir%%/}".deb &>> $BLDLOG
+echo "Moving previous build directories to archive folder"
+for ArchDir in `ls $DONE 2>> $ARCHLOG`; do
+	if [[ -d $DONE/"${ArchDir%%/}" ]] && [[ ! -d $COMP/"${ArchDir%%/}" ]]; then
+		mv -f $DONE/"${ArchDir%%/}" $COMP/"${ArchDir%%/}"
+	else
+		rm -rf $COMP/"${ArchDir%%/}"
+		wait
+		mv -f $DONE/"${ArchDir%%/}" $COMP/"${ArchDir%%/}"
+	fi
+	wait
+	echo "Moved: ${ArchDir%%/} ➔ OK!"
+done
+sleep 2
+clear
+sleep 1
+echo ""
+echo "Building Packages into debs Directory."
+for PkgDir in `ls $BUILD 2>> $BUILDLOG`; do
+  dpkg-deb -b -Zxz $BUILD/"${PkgDir%%/}" $DEBS/"${PkgDir%%/}".deb &>> $BUILDLOG
 done
 sleep 1
-cd $BLD
-for dir in `ls`; do
-    tar czf "${dir%%/}".tgz "${dir%%/}"
+cd $BUILD
+for DebDir in `ls`; do
+	if [ -f $PKG_ARC/"${DebDir%%/}".txz ]; then
+		rm -rf $PKG_ARC/"${DebDir%%/}".txz
+		wait
+		tar Jvcf $PKG_ARC/"${DebDir%%/}".txz "${DebDir%%/}" &>> $ARCHLOG
+	else
+		tar Jvcf $PKG_ARC/"${DebDir%%/}".txz "${DebDir%%/}" &>> $ARCHLOG
+	fi
+	wait
+	if [[ -d $BUILD/"${DebDir%%/}" ]] && [[ ! -f $BUILD/"${DebDir%%/}".txz ]] && [[ -f $PKG_ARC/"${DebDir%%/}".txz ]]; then
+		mv -f $BUILD/"${DebDir%%/}" $DONE/"${DebDir%%/}"
+	elif [[ -d $BUILD/"${DebDir%%/}" ]] && [[ -f $BUILD/"${DebDir%%/}".txz ]] && [[ ! -f $PKG_ARC/"${DebDir%%/}".txz ]]; then
+		mv -f $BUILD/"${DebDir%%/}".txz $PKG_ARC
+		mv -f $BUILD/"${DebDir%%/}" $DONE/"${DebDir%%/}"
+	fi
 done
-cd - &>> $BLDLOG
 wait
-sudo chown -R mobile $ARCH
-sudo chown -R mobile $BLD
-sudo chown -R mobile debs
-chmod 777 debs
-sudo chown -R mobile $LOGD
-sudo mv -f $BLD/*.tgz $PKG_ARC 2>> $BLDERR
-wait
-sudo mv -f $BLD/* $COMP
+cd $REPO
+echo "Package Build Complete."
 }
 
 function scanpkgs () {
@@ -77,7 +136,6 @@ echo " ➔ Scanning packages"
 rm -rf "Packages.gz" "Packages.bz2" "Packages"
 scanpkg="$UTILS/dpkg-scanpackages"
 $scanpkg -m debs /dev/null > Packages
-#sed -i 'Packages' "s#Filename: debs//#Filename: debs/#g"
 bzip2 -zkf < Packages > Packages.bz2
 gzip -f < Packages > Packages.gz
 }
@@ -176,6 +234,7 @@ function mainbadopt () {
 function mainmenu () {
 	clear
 	cd "$REPO"
+	cleanlog
 	dirsetup
 	echo ""
 	echo " ##################################"
@@ -188,12 +247,13 @@ function mainmenu () {
 	echo -e "\n  1) $OPT1\n  2) $OPT2\n  3) $OPT3\n  4) $OPT4\n\n" 
 	read choice
 	if [ "$choice" = "1" ]; then
-		compilepkgs 2> "$BLDERR"
+		compilepkgs 2> "$BUILDERR"
 		wait
 		scanpkgs 2> "$SCNERR"
 		wait
 		signpkgs 2> "$SIGNERR"
 		wait
+		permissions
 		choice1msg
 		mainmenuloop
 	fi
@@ -205,12 +265,13 @@ function mainmenu () {
 		mainmenuloop
 	fi
 		if [ "$choice" = "3" ]; then
-		compilepkgs 2> "$BLDERR"
+		compilepkgs 2> "$BUILDERR"
 		wait
 		scanpkgs 2> "$SCNERR"
 		wait
 		signpkgs 2> "$SIGNERR"
 		wait
+		permissions
 		choice1msg
 		sleep 3
 		choice2msg

@@ -1,0 +1,8 @@
+Perl lib version (5.14.4) doesn't match executable '/var/mobile/Developer/GitHub/CyGit/1nternist.github.io/.repofiles/utils/bin/dpkg-scanpackages' version (v5.26.1) at /usr/lib/perl5/site_perl/5.26.1/aarch64-iphoneos/Config.pm line 60.
+Compilation failed in require at /usr/lib/perl5/site_perl/5.26.1/aarch64-iphoneos/DynaLoader.pm line 22.
+BEGIN failed--compilation aborted at /usr/lib/perl5/site_perl/5.26.1/aarch64-iphoneos/DynaLoader.pm line 22.
+Compilation failed in require at /usr/lib/perl5/site_perl/5.26.1/XSLoader.pm line 96.
+Compilation failed in require at /usr/lib/perl5/site_perl/5.26.1/aarch64-iphoneos/IO/Handle.pm line 266.
+BEGIN failed--compilation aborted at /usr/lib/perl5/site_perl/5.26.1/aarch64-iphoneos/IO/Handle.pm line 266.
+Compilation failed in require at /var/mobile/Developer/GitHub/CyGit/1nternist.github.io/.repofiles/utils/bin/dpkg-scanpackages line 7.
+BEGIN failed--compilation aborted at /var/mobile/Developer/GitHub/CyGit/1nternist.github.io/.repofiles/utils/bin/dpkg-scanpackages line 7.

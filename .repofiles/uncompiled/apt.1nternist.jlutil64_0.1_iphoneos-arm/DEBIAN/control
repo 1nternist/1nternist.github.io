@@ -1,8 +1,0 @@
-Architecture: iphoneos-arm
-Author: 1nternist <dc1nternist@icloud.com>
-Description: jlutil is a lightweight replacement for plutil that is friendlier than PlistBuddy that has a simplistic format which is POSIX compliant and has a color option.
-Maintainer: 1nternist <dc1nternist@icloud.com>
-Name: jlutil (arm64)
-Package: apt.1nternist.jlutil64
-Section: Development
-Version: 0.1
