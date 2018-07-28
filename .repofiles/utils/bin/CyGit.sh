@@ -69,6 +69,22 @@ chown -R mobile $LOGD
 chmod 755 $LOGD
 }
 
+function mvarch () {
+	cd $DONE
+	echo ""
+	echo "Moving previous build directories to archive folder"
+	for ArchDir in `ls &>>$ARCHLOG`; do
+	if [[ -d "${ArchDir%%/}" ]] && [[ ! -d $COMP/"${ArchDir%%/}" ]]; then
+		mv -f $DONE/"${ArchDir%%/}" $COMP
+	elif [[ -d "${ArchDir%%/}" ]] && [[ -d $COMP/"${ArchDir%%/}" ]]; then
+		rm -rf $COMP/"${ArchDir%%/}"
+		mv -f $DONE/"${ArchDir%%/}" $COMP
+	fi
+	echo "Moved: ${ArchDir%%/} ➔ OK!"
+	done
+	cd $REPO
+}
+
 function compilepkgs () {
 #sudo chown -R root $BUILD
 #sudo chmod 755 $BUILD
@@ -86,49 +102,35 @@ chmod 777 $PKG_ARC
 chown root $LOGD
 chmod 777 $LOGD
 clear
-sleep 1
-echo ""
-echo "Moving previous build directories to archive folder"
-for ArchDir in `ls $DONE 2>> $ARCHLOG`; do
-	if [[ -d $DONE/"${ArchDir%%/}" ]] && [[ ! -d $COMP/"${ArchDir%%/}" ]]; then
-		mv -f $DONE/"${ArchDir%%/}" $COMP/"${ArchDir%%/}"
-	else
-		rm -rf $COMP/"${ArchDir%%/}"
-		wait
-		mv -f $DONE/"${ArchDir%%/}" $COMP/"${ArchDir%%/}"
-	fi
-	wait
-	echo "Moved: ${ArchDir%%/} ➔ OK!"
-done
-sleep 2
-clear
-sleep 1
+cd $BUILD
 echo ""
 echo "Building Packages into debs Directory."
-for PkgDir in `ls $BUILD 2>> $BUILDLOG`; do
-  dpkg-deb -b -Zxz $BUILD/"${PkgDir%%/}" $DEBS/"${PkgDir%%/}".deb &>> $BUILDLOG
+for PkgDir in `ls &>>$BUILDLOG`; do
+  dpkg-deb -b -Zxz "${PkgDir%%/}" $DEBS/"${PkgDir%%/}".deb &>>$BUILDLOG
 done
 sleep 1
-cd $BUILD
-for DebDir in `ls`; do
+for DebDir in `ls &>>$ARCHLOG`; do
 	if [ -f $PKG_ARC/"${DebDir%%/}".txz ]; then
 		rm -rf $PKG_ARC/"${DebDir%%/}".txz
 		wait
-		tar Jvcf $PKG_ARC/"${DebDir%%/}".txz "${DebDir%%/}" &>> $ARCHLOG
+		tar Jcf $PKG_ARC/"${DebDir%%/}".txz "${DebDir%%/}" &>>$ARCHLOG
 	else
-		tar Jvcf $PKG_ARC/"${DebDir%%/}".txz "${DebDir%%/}" &>> $ARCHLOG
+		tar Jcf $PKG_ARC/"${DebDir%%/}".txz "${DebDir%%/}" &>>$ARCHLOG
 	fi
 	wait
-	if [[ -d $BUILD/"${DebDir%%/}" ]] && [[ ! -f $BUILD/"${DebDir%%/}".txz ]] && [[ -f $PKG_ARC/"${DebDir%%/}".txz ]]; then
-		mv -f $BUILD/"${DebDir%%/}" $DONE/"${DebDir%%/}"
-	elif [[ -d $BUILD/"${DebDir%%/}" ]] && [[ -f $BUILD/"${DebDir%%/}".txz ]] && [[ ! -f $PKG_ARC/"${DebDir%%/}".txz ]]; then
-		mv -f $BUILD/"${DebDir%%/}".txz $PKG_ARC
-		mv -f $BUILD/"${DebDir%%/}" $DONE/"${DebDir%%/}"
+	if [[ -d "${DebDir%%/}" ]] && [[ ! -f "${DebDir%%/}".txz ]] && [[ -f $PKG_ARC/"${DebDir%%/}".txz ]]; then
+		mv -f $BUILD/"${DebDir%%/}" $DONE/"${DebDir%%/}" &>>$ARCHLOG
+	elif [[ -d "${DebDir%%/}" ]] && [[ -f "${DebDir%%/}".txz ]] && [[ ! -f $PKG_ARC/"${DebDir%%/}".txz ]]; then
+		mv -f $BUILD/"${DebDir%%/}".txz $PKG_ARC &>>$ARCHLOG
+		mv -f $BUILD/"${DebDir%%/}" $DONE &>>$ARCHLOG
 	fi
 done
 wait
 cd $REPO
+clear
+echo ""
 echo "Package Build Complete."
+sleep 2
 }
 
 function scanpkgs () {
@@ -145,32 +147,38 @@ echo " ➔ Signing Release with gpg"
 rm -rf Release
 rm -rf Release.gpg
 cp Release-Template Release
-echo " `md5sum Packages | cut -d ' ' -f1` `stat --format=%s Packages` Packages" >> Release
-echo " `md5sum Packages.bz2 | cut -d ' ' -f1` `stat --format=%s Packages.bz2` Packages.bz2" >> Release
-echo " `md5sum Packages.gz | cut -d ' ' -f1` `stat --format=%s Packages.gz` Packages.gz" >> Release
-echo "SHA1:" >> Release
-echo " `sha1sum Packages | cut -d ' ' -f1` `stat --format=%s Packages` Packages" >> Release
-echo " `sha1sum Packages.bz2 | cut -d ' ' -f1` `stat --format=%s Packages.bz2` Packages.bz2" >> Release
-echo " `sha1sum Packages.gz | cut -d ' ' -f1` `stat --format=%s Packages.gz` Packages.gz" >> Release
-echo "SHA256:" >> Release
-echo " `sha256sum Packages | cut -d ' ' -f1` `stat --format=%s Packages` Packages" >> Release
-echo " `sha256sum Packages.bz2 | cut -d ' ' -f1` `stat --format=%s Packages.bz2` Packages.bz2" >> Release
-echo " `sha256sum Packages.gz | cut -d ' ' -f1` `stat --format=%s Packages.gz` Packages.gz" >> Release
+echo "MD5Sum:" >>Release
+echo " `md5sum Packages | cut -d ' ' -f1` `stat --format=%s Packages` Packages" >>Release
+echo " `md5sum Packages.bz2 | cut -d ' ' -f1` `stat --format=%s Packages.bz2` Packages.bz2" >>Release
+echo " `md5sum Packages.gz | cut -d ' ' -f1` `stat --format=%s Packages.gz` Packages.gz" >>Release
+echo "SHA1:" >>Release
+echo " `sha1sum Packages | cut -d ' ' -f1` `stat --format=%s Packages` Packages" >>Release
+echo " `sha1sum Packages.bz2 | cut -d ' ' -f1` `stat --format=%s Packages.bz2` Packages.bz2" >>Release
+echo " `sha1sum Packages.gz | cut -d ' ' -f1` `stat --format=%s Packages.gz` Packages.gz" >>Release
+echo "SHA256:" >>Release
+echo " `sha256sum Packages | cut -d ' ' -f1` `stat --format=%s Packages` Packages" >>Release
+echo " `sha256sum Packages.bz2 | cut -d ' ' -f1` `stat --format=%s Packages.bz2` Packages.bz2" >>Release
+echo " `sha256sum Packages.gz | cut -d ' ' -f1` `stat --format=%s Packages.gz` Packages.gz" >>Release
+echo "SHA512:" >>Release
+echo " `sha512sum Packages | cut -d ' ' -f1` `stat --format=%s Packages` Packages" >>Release
+echo " `sha512sum Packages.bz2 | cut -d ' ' -f1` `stat --format=%s Packages.bz2` Packages.bz2" >>Release
+echo " `sha512sum Packages.gz | cut -d ' ' -f1` `stat --format=%s Packages.gz` Packages.gz" >>Release
 gpg --passphrase-file /usr/share/keyrings/passwd/github --batch -abs -u dc1nternist -o Release.gpg Release
+echo " ➔ Release File Signed Successfully."
 sleep 2
 }
 
 function pushupdate () {
 	echo ""
-	git status &> $SYNCLOG
+	git status &>$SYNCLOG
 	wait
-	git add . &>> $SYNCLOG
+	git add . &>>$SYNCLOG
 	wait
-	git status &>> $SYNCLOG
+	git status &>>$SYNCLOG
 	wait
-	git commit -am "Repository update $DATE" &>> $SYNCLOG
+	git commit -am "Repository update $DATE" &>>$SYNCLOG
 	wait
-	git push origin master &>> $SYNCLOG
+	git push origin master &>>$SYNCLOG
 	wait
 }
 
@@ -247,6 +255,8 @@ function mainmenu () {
 	echo -e "\n  1) $OPT1\n  2) $OPT2\n  3) $OPT3\n  4) $OPT4\n\n" 
 	read choice
 	if [ "$choice" = "1" ]; then
+		mvarch 2>"$ARCHERR"
+		wait
 		compilepkgs 2> "$BUILDERR"
 		wait
 		scanpkgs 2> "$SCNERR"
@@ -254,17 +264,23 @@ function mainmenu () {
 		signpkgs 2> "$SIGNERR"
 		wait
 		permissions
+		wait
 		choice1msg
+		wait
 		mainmenuloop
 	fi
 	if [ "$choice" = "2" ]; then
 		choice2msg
+		wait
 		pushupdate 2> "$SYNCERR"
 		wait
 		choice2msg2
+		wait
 		mainmenuloop
 	fi
 		if [ "$choice" = "3" ]; then
+		mvarch 2>$ARCHERR
+		wait
 		compilepkgs 2> "$BUILDERR"
 		wait
 		scanpkgs 2> "$SCNERR"
@@ -289,4 +305,3 @@ function mainmenu () {
 }
 
 mainmenu
-
