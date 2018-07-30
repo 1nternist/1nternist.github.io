@@ -163,7 +163,7 @@ echo "SHA512:" >>Release
 echo " `sha512sum Packages | cut -d ' ' -f1` `stat --format=%s Packages` Packages" >>Release
 echo " `sha512sum Packages.bz2 | cut -d ' ' -f1` `stat --format=%s Packages.bz2` Packages.bz2" >>Release
 echo " `sha512sum Packages.gz | cut -d ' ' -f1` `stat --format=%s Packages.gz` Packages.gz" >>Release
-gpg --passphrase-file /usr/share/keyrings/passwd/github --batch -abs -u dc1nternist -o Release.gpg Release
+gpg --passphrase-file /usr/share/keyrings/passwd/gpg --batch -abs -u dc1nternist -o Release.gpg Release
 echo " ➔ Release File Signed Successfully."
 sleep 2
 }
