@@ -2,19 +2,20 @@ On branch master
 Your branch is up to date with 'origin/master'.
 
 Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
+  (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
-	deleted:    .repofiles/utils/share/keyrings/1nternist.pubkey.gpg
+	modified:   Packages
+	modified:   Packages.bz2
 	modified:   Packages.gz
 	modified:   Release
 	modified:   log/git-sync.log
+	modified:   log/lastrun/scanerr.log
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	.repofiles/utils/share/keyrings/1nternist.pubkey.old.gpg
-	.repofiles/utils/share/keyrings/1nternist.pubkey.pub
+	debs/apt.1nternist.prompt2k_2.6.7-1_iphoneos-arm.deb
 
 no changes added to commit (use "git add" and/or "git commit -a")
 On branch master
@@ -23,9 +24,11 @@ Your branch is up to date with 'origin/master'.
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
-	renamed:    .repofiles/utils/share/keyrings/1nternist.pubkey.gpg -> .repofiles/utils/share/keyrings/1nternist.pubkey.old.gpg
-	new file:   .repofiles/utils/share/keyrings/1nternist.pubkey.pub
+	modified:   Packages
+	modified:   Packages.bz2
 	modified:   Packages.gz
 	modified:   Release
+	new file:   debs/apt.1nternist.prompt2k_2.6.7-1_iphoneos-arm.deb
 	modified:   log/git-sync.log
+	modified:   log/lastrun/scanerr.log
 

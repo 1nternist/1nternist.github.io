@@ -921,6 +921,20 @@ Name: po4a
 Author: Chir0student <chir0student@me.com>
 
 Package: apt.1nternist.prompt2k
+Version: 2.6.7-1
+Section: Terminal_Support
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: com.innoying.sbutils, openssh | com.ichitaso.dropbearssh | org.coolstar.scp-sftp-dropbear | com.julioverne.sftpenabler | com.julioverne.dropbearswith, autossh
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.prompt2k_2.6.7-1_iphoneos-arm.deb
+Size: 6722312
+MD5sum: 549f5cf72f2946faad8d14e221271102
+Description: Prompt2 root version
+Name: Prompt2 root
+Author: iki <adm@iopenroot.com>
+Icon: file:///var/mobile/Library/Application Support/com.panic.Prompt2/icon.png
+
+Package: apt.1nternist.prompt2k
 Version: 1.1-1
 Section: Terminal_Support
 Maintainer: 1nternist <dc1nternist@icloud.com>
