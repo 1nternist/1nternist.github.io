@@ -1,0 +1,2 @@
+gpg: WARNING: unsafe permissions on homedir '/var/root/.gnupg'
+gpg: can't open '/usr/share/keyrings/passwd/gpg': No such file or directory
