@@ -2,15 +2,19 @@ On branch master
 Your branch is up to date with 'origin/master'.
 
 Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
+  (use "git add/rm <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
-	modified:   Packages
-	modified:   Packages.bz2
+	deleted:    .repofiles/utils/share/keyrings/1nternist.pubkey.gpg
 	modified:   Packages.gz
 	modified:   Release
 	modified:   log/git-sync.log
-	modified:   log/lastrun/scanerr.log
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.repofiles/utils/share/keyrings/1nternist.pubkey.old.gpg
+	.repofiles/utils/share/keyrings/1nternist.pubkey.pub
 
 no changes added to commit (use "git add" and/or "git commit -a")
 On branch master
@@ -19,10 +23,9 @@ Your branch is up to date with 'origin/master'.
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
-	modified:   Packages
-	modified:   Packages.bz2
+	renamed:    .repofiles/utils/share/keyrings/1nternist.pubkey.gpg -> .repofiles/utils/share/keyrings/1nternist.pubkey.old.gpg
+	new file:   .repofiles/utils/share/keyrings/1nternist.pubkey.pub
 	modified:   Packages.gz
 	modified:   Release
 	modified:   log/git-sync.log
-	modified:   log/lastrun/scanerr.log
 
