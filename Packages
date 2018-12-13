@@ -2,50 +2,50 @@ Package: apt.1nternist.1nspire-ringtones
 Version: 1.0
 Priority: optional
 Section: Ringtones
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.1nspire-ringtones_1.0_iphoneos-arm.deb
-Size: 2604750
-MD5sum: eeddef4fd45058dd306069d007ddce79
+Size: 2604798
+MD5sum: 70c14d75ae9d5d09abcec47a47e737df
 Description: 1nspire ringtones
 Name: 1nspire Ringtones
-Author: Chir0student <chir0student@me.com>
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.alias-unalias
 Version: 1.1
 Section: Scripting
-Maintainer: Chir0student <chir0student@icloud.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.alias-unalias_1.1_iphoneos-arm.deb
-Size: 1114
-MD5sum: bf48756e8e48ec5dc81d57c01fccfe38
+Size: 1146
+MD5sum: a3cce456cffaa21f7040c02493b1552a
 Description: Adds the alias and unalias commands that we've all grown to love from Mac OS X.  Alias Example Syntax: alias test='echo "it works!"' Unalias Example Syntax: unalias test
 Name: Alias | Unalias
-Author: Chir0student <chir0student@icloud.com>
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.ambientringtones
 Version: 1.1
 Section: Ringtones
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: com.unlimapps.toneenabler
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.ambientringtones_1.1_iphoneos-arm.deb
-Size: 21467172
-MD5sum: 665be76bde15da8f4a0598f8c2dcc400
+Size: 21466510
+MD5sum: b38f7a53fd9464bc05248ba688721d0c
 Description: Ambient Ringtones
 Name: Ambient Ringtones
-Author: Chir0student <chir0student@me.com>
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.ap2ipa
 Version: 1.2
 Priority: extra
 Section: Scripts
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: coreutils, findutils, grep, sed, com.slugrail.ipainstaller, apt.1nternist.ipainstallerurlscheme-enabler
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.ap2ipa_1.2_iphoneos-arm.deb
-Size: 2000
-MD5sum: e6a837768910660fb1b1c28595c28b08
+Size: 2098
+MD5sum: 4bda393a7f6b025753c935b79b6c7e45
 Description: converts system apps to ipa's to be installed through IPA Installer and then synced to itunes for easy saving.. run 'ap2ipa' from terminal. only apps that can function as mobile will work.. more info in terminal
 Name: ap2ipa
 Author: brc0703
@@ -60,9 +60,9 @@ Provides: apt.1nternist.ayeconios7, org.thebigboss.ayeconios7
 Replaces: apt.1nternist.ayeconios7, org.thebigboss.ayeconios7
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm.deb
-Size: 12927260
+Size: 12938272
 Installed-Size: 25159
-MD5sum: a24b41bcb8e72a867a4d06b1aa914576
+MD5sum: 22a3583abef0ad69a2be34e7c12607ff
 Description: A benchmark theme for iOS. Again. This version of Ayecon is compatible with Anemone, Winterboard, and iOS9.
 Name: ayecon (Anemone + iOS9)
 Author: Surenix <surenix@surenix.me>
@@ -71,16 +71,16 @@ Depiction: https://1nternist.github.io/depictions/ayeconios9/ayeconios9.html
 Package: apt.1nternist.ayeris
 Version: 1.4.2
 Section: Themes
-Maintainer: BigBoss <bigboss@thebigboss.org>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: firmware (>= 7.0), winterboard (>= 0.9.3914) | com.anemonetheming.anemone, org.thebigboss.ayekit, mobilesubstrate
 Conflicts: org.thebigboss.ayeris, gsc.ipad
 Provides: org.thebigboss.ayeris
 Replaces: org.thebigboss.ayeris
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.ayeris_1.4.2_iphoneos-arm.deb
-Size: 19131368
+Size: 14782420
 Installed-Size: 32102
-MD5sum: 14f059928779bf68f615dd65c2995337
+MD5sum: c16f42ef2b3e76e7b0da29521ee12045
 Description: Beauty's in the aye of the beholder. This version of Ayeris is compatible with both Anemone and Winterboard
 Name: ayeris
 Author: Surenix <surenix@surenix.me>
@@ -90,37 +90,37 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ayerisDp
 Package: apt.1nternist.bash-dpkg-scanpackages
 Version: 1.2
 Section: Scriping
-Maintainer: Chir0student <chir0student@icloud.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.bash-dpkg-scanpackages_1.2_iphoneos-arm.deb
-Size: 1396
-MD5sum: c1a632f7c20bb20e128412955655ea0f
+Size: 1486
+MD5sum: 7ebd1847e2d01f77c31e0157e785a9eb
 Description: dpkg-scanpackages written in bash and updated to work with the MiRepo scripts
 Name: bash-dpkg-scanpackages
-Author: Chir0student <chir0student@icloud.com>
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.bashrc
 Version: 1.1
 Section: Scripting
-Maintainer: Chir0student <chir0student@icloud.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: bash
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.bashrc_1.1_iphoneos-arm.deb
-Size: 1138
-MD5sum: 88c2e054d7f4fcff631c51f553dc5e90
+Size: 1216
+MD5sum: 53c474e06487c105d898b656d3e28117
 Description: Adds .bashrc and .bash_aliases to your iDevice for customized alias'ing.
 Name: bashrc
-Author: Chir0student <chir0student@icloud.com>
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.bashutils
 Version: 1.0.6-1
 Section: iScripts
-Maintainer: insanelyi <noreply@insanelyi.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: apt.1nternist.node
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.bashutils_1.0.6-1_iphoneos-arm.deb
-Size: 1195364
-MD5sum: ff8ec64a3e2fd668e3985a987ed03c78
+Size: 1033294
+MD5sum: 04986b4b1934176a33705f8e8e11490f
 Description: A collection of utilities for core iOS functions
 Name: Bash Utils
 Author: Luke Young (innoying)
@@ -129,25 +129,25 @@ Depiction: http://repo.insanelyi.com/depiction.php?package=bashutils
 Package: apt.1nternist.blackmagicwoman
 Version: 1.0
 Section: Ringtones
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.blackmagicwoman_1.0_iphoneos-arm.deb
-Size: 1230584
-MD5sum: 2af4c40205c693b801c3d6a53213023c
+Size: 1230622
+MD5sum: a66434a737a96672b631da1839442557
 Description: Black Magic Woman ringtone by Santana
 Name: Black Magic Woman Ringtone
-Author: Chir0student <chir0student@me.com>
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.bonjourfix
 Version: 1.2
 Section: System
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Pre-Depends: openssh (= 5.8p1-9) | openssh (= 6.0p1-10) | openssh (= 6.1p1-11) | openssh (= 6.6p1-1) | openssh (>= 6.7p1-1)
 Replaces: openssh
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.bonjourfix_1.2_iphoneos-arm.deb
-Size: 1590
-MD5sum: 8de0305b682d8baafd78f98375953251
+Size: 1702
+MD5sum: 0a5e46ce83867fa4959474b12538205e
 Description: Bonjour and OpenSSH patch to allow Bonjour server!
 Name: Bonjour Fix
 Author: Chir0student
@@ -155,26 +155,26 @@ Author: Chir0student
 Package: apt.1nternist.bubblepop
 Version: 1.0
 Section: Ringtones
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.bubblepop_1.0_iphoneos-arm.deb
-Size: 4244
-MD5sum: fa0ddea5d9c8eb2ff79267665d0907fc
+Size: 4284
+MD5sum: ed7d131f4478f3d5a16aafc9695efa1f
 Description: Bubble-pop text tone. requires ToneEnabler on iOS 7.
 Name: Bubble Pop Text Tone
-Author: Chir0student <chir0student@me.com>
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.cacawtookietookie
 Version: 1.0
 Section: Ringtones
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.cacawtookietookie_1.0_iphoneos-arm.deb
-Size: 84946
-MD5sum: 057dd5e59f8d3aea33ae07a1dfc798a9
+Size: 84988
+MD5sum: ff716ec6301cbda9df65777d69e8f7c6
 Description: Cacaw cacaw tookie tookie ring tone from the movie Evolution
 Name: Cacaw Tookie Tookie Ringtone
-Author: Chir0student <chir0student@me.com>
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.cacerts
 Version: 0.0.1-2
@@ -187,9 +187,9 @@ Provides: org.thebigboss.cacerts, com.tyilo.certs
 Replaces: org.thebigboss.cacerts, com.tyilo.certs
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.cacerts_0.0.1-2_iphoneos-arm.deb
-Size: 116894
+Size: 116892
 Installed-Size: 251
-MD5sum: 328a9b951de60f41a7d194869fa7a2c2
+MD5sum: 0a36850b75f8a95611793e3ffa6c3f84
 Description: CA certs for curl, wget, and git, updated 06-19-2018.
 Name: CA Certs
 Author: uroboro <uroboro.845@gmail.com>
@@ -197,11 +197,11 @@ Author: uroboro <uroboro.845@gmail.com>
 Package: apt.1nternist.cartmanringtones
 Version: 1.0
 Section: Ringtones
-Maintainer: Markus McCormac <chir0student@icloud.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.cartmanringtones_1.0_iphoneos-arm.deb
-Size: 218518
-MD5sum: 457f65fb33e092f619fe4b381d50247e
+Size: 218572
+MD5sum: 6bbc1e265fd006d6b12279eb5806de1d
 Description: Cartman ringtones/text tones from the show Southpark
 Name: Cartman Ringtones
 Author: Markus McCormac <chir0student@icloud.com>
@@ -209,11 +209,11 @@ Author: Markus McCormac <chir0student@icloud.com>
 Package: apt.1nternist.chocolatesaltyballs
 Version: 1.0
 Section: Ringtones
-Maintainer: Markus McCormac <chir0student@icloud.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.chocolatesaltyballs_1.0_iphoneos-arm.deb
-Size: 160376
-MD5sum: ba1bd927859687e6f1fdc9c4970253be
+Size: 160430
+MD5sum: 1bf6d033e8f033c36d6ba3d37968b019
 Description: Southpark "Chocolate Salty Balls" ringtone/text tone
 Name: Chocolate Salty Balls
 Author: Markus McCormac <chir0student@icloud.com>
@@ -221,25 +221,25 @@ Author: Markus McCormac <chir0student@icloud.com>
 Package: apt.1nternist.cotomoviespremium
 Version: 1.0.2-2
 Section: Tweaks
-Maintainer: dc1nternist <dc1nternist@icloud.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: mobilesubstrate, preferenceloader, com.dta.bobbymoviebox
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.cotomoviespremium_1.0.2-2_iphoneos-arm.deb
-Size: 48418
+Size: 48424
 Installed-Size: 528
-MD5sum: 46ef36a7b2a41addabb6d46d69027d73
+MD5sum: 6eea1e4cb2f48b75becc567042603dbd
 Name: CotoMovies Premium
 Author: i0stweak3r
 
 Package: apt.1nternist.deb-backup
 Version: 1.1-1
 Section: Scripting
-Maintainer: 1nternist <dacdcdabci@gmail.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: firmware (>= 5.0)
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.deb-backup_1.1-1_iphoneos-arm.deb
-Size: 2912
-MD5sum: abaa831df759b4811a2b0e1a6c6d5737
+Size: 2944
+MD5sum: 02a238d57df98a1db20a717808946bdf
 Description: Backup installed Debian packages. Just type "deb-backup" in terminal. You will find your debs at /var/mobile/Media/DebBackup/MyDebs
 Name: DebBackup
 Author: Dennis & iLEX
@@ -249,14 +249,14 @@ Package: apt.1nternist.debhelper
 Version: 9.20141107-4
 Priority: optional
 Section: Packaging
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: apt.1nternist.perl | apt.1nternist.perl510 | apt.1nternist.perl514 | apt.1nternist.perl520 | perl | org.coolstar.perl | apt.1nternist.perlfullinstall, file (>= 3.23), apt.1nternist.dpkg-dev
 Suggests: dh-make
 Conflicts: dpkg-cross (<< 1.18), python-central (<< 0.5.6), python-support (<< 0.5.3)
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.debhelper_9.20141107-4_iphoneos-arm.deb
-Size: 607236
-MD5sum: cd704e4bb1bd9ea055c52daa3890cd56
+Size: 422918
+MD5sum: ca4a53ae38001e0e77807217ed35bda2
 Description: **compiled on iPhone 6** debhelper is a collection of helper programs for debian/rules A collection of programs that can be used in a debian/rules file to automate common tasks related to building debian packages. Programs are included to install various files into your package, compress files, fix file permissions, integrate your package with the debian menu system, debconf, doc-base, etc. Most debian packages use debhelper as part of their build process.
 Name: debhelper
 Author: Joey Hess <joeyh@debian.org>
@@ -275,49 +275,62 @@ Description: To run, open MobileTerminal and cd into any directory containing de
 Name: debXpandr
 Author: dc1nternist <dc1nternist@icloud.com>
 
+Package: apt.1nternist.debxpandr
+Version: 3.2-3
+Section: Scripting_1Repo
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: dpkg, p7zip, lzma | xz | xz-utils | apt.1nternist.xz-utils
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.debxpandr_3.2-3_iphoneos-arm.deb
+Size: 1804
+MD5sum: 1813e504e6aa3b9e5de0d1469b5facf9
+Description: To run, open MobileTerminal and cd into any directory containing deb files and execute "dX" or "debXpandr". The script will extract all debs, then move the extracted debs into a sub directory for you.
+Name: debXpandr
+Author: dc1nternist <dc1nternist@icloud.com>
+
 Package: apt.1nternist.dpkg-debtool
 Version: 0.9.11
 Section: Scripting
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: firmware (>= 2.0), coreutils, openssh, gawk
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.dpkg-debtool_0.9.11_iphoneos-arm.deb
-Size: 2200
-MD5sum: 22aa7e8d02a3c6c1b46e61a278f0f9c6
+Size: 2252
+MD5sum: ac3859f691c55993e04205632e0fa9c8
 Description: Debian packaging tool
 Name: dpkg-debtool
 Author: Hiraku <demo@iphone4.tw>
 
 Package: apt.1nternist.dpkg-dev
-Source: dpkg
 Version: 1.16.15-4
 Section: Utilities
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Pre-Depends: dpkg
 Depends: libdpkg-perl (= 1.16.15) | apt.1nternist.libdpkg-perl, bzip2, xz-utils | apt.1nternist.xz-utils, patch, make, coreutils, coreutils-bin, apt.1nternist.perl | apt.1nternist.perl510 | apt.1nternist.perl514 | apt.1nternist.perl520 | perl | org.coolstar.perl | apt.1nternist.perlfullinstall
 Provides: dpkg-dev
-Architecture: all
+Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.dpkg-dev_1.16.15-4_all.deb
-Size: 1350818
+Size: 1343932
 Installed-Size: 1581
-MD5sum: aec26472f6c08719f91175478e5ea844
+MD5sum: aef3e342c4e904893018dc02cb4c124a
 Description: Debian package development tools This package provides the development tools (including dpkg-source) required to unpack, build and upload Debian source packages. Most Debian source packages will require additional tools to build; for example, most packages need make and the C compiler gcc.
-Origin: debian
 Name: dpkg-dev
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.dpkg-scanpackages
 Version: 2.6
 Section: Scripting
-Maintainer: 1nternist <dacdcdabci@gmail.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: apt.1nternist.libdpkg-perl | libdpkg-perl, dpkg, apt.1nternist.libtimedate-perl | libtimedate-perl, apt.1nternist.perl | apt.1nternist.perl510 | apt.1nternist.perl514 | apt.1nternist.perl520 | perl | org.coolstar.perl | apt.1nternist.perlfullinstall
 Conflicts: apt.1nternist.dpkgscanpackages
 Replaces: apt.1nternist.dpkgscanpackages
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.dpkg-scanpackages_2.6_iphoneos-arm.deb
-Size: 7690
-MD5sum: 9c0fc7c19262fb6cfa24d7a78c04c058
+Size: 7314
+MD5sum: 04c466678441f41b7a4be2d138922362
 Description: Installs dpkg-scanpackages, dpkg-scanpackages256, dpkg-scansource, dpkg-gettext.pl.
 Name: dpkg-scanpackages
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.ffmpeg
 Version: 3.0-2
@@ -330,11 +343,29 @@ Provides: com.fizk.ffmpeg, com.nin9tyfour.ffmpeg
 Replaces: com.fizk.ffmpeg, com.nin9tyfour.ffmpeg
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.ffmpeg_3.0-2_iphoneos-arm.deb
-Size: 11240272
+Size: 11261472
 Installed-Size: 28498
-MD5sum: 223ca9239b737adba57c94e6fb237c82
+MD5sum: 8b7738b3f2721fc2026bfc3319a37340
 Description: ffmpeg is a part of the ffmpeg project. ffmpeg (binary) can be used to convert a large variety of inputs (files, streams, etc.) into various formats. This is a processing utility. Access functionality from the command-line or api. This release includes the x264 encoder.
 Name: ffmpeg
+Author: 1nternist <dc1nternist@icloud.com>
+
+Package: apt.1nternist.ffmpeg64
+Version: 3.0-2
+Priority: optional
+Section: Multimedia_1Repo
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: firmware (>= 7.0), cy+cpu.arm64
+Conflicts: com.fizk.ffmpeg, com.nin9tyfour.ffmpeg, apt.1nternist.ffmpeg
+Provides: com.fizk.ffmpeg, com.nin9tyfour.ffmpeg , apt.1nternist.ffmpeg
+Replaces: com.fizk.ffmpeg, com.nin9tyfour.ffmpeg , apt.1nternist.ffmpeg
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.ffmpeg64_3.0-2_iphoneos-arm.deb
+Size: 5328734
+Installed-Size: 15238
+MD5sum: f1f0117f84e5e12c3ca8c355a2827de3
+Description: ffmpeg is a part of the ffmpeg project. ffmpeg (binary) can be used to convert a large variety of inputs (files, streams, etc.) into various formats. This is a processing utility. Access functionality from the command-line or api. This release includes the x264 encoder. This package installs ffmpeg version 3.0.
+Name: ffmpeg iOS 11+ (arm64)
 Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.ffmpeg64
@@ -361,19 +392,20 @@ Section: Development
 Maintainer: 1nternist <dc1nternist@icloud.com>
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.git-doc_1.1-2_iphoneos-arm.deb
-Size: 4354312
-MD5sum: 94b850b9e094a810c4f51e3f33e0a399
+Size: 2610648
+MD5sum: 02c315b3152ac72200e7ff355d0c3c9f
 Description: This package adds the git documentation that is missing from Saurik's git package.
 Name: git-doc
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.git-extras
 Version: 4.1.0-2
 Section: Development
-Maintainer: tj <tj@vision-media.ca>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.git-extras_4.1.0-2_iphoneos-arm.deb
-Size: 72492
-MD5sum: 464844b5e99854e32d392055c6a9c59c
+Size: 52484
+MD5sum: 6fec5c29894146938635b5d446ec4766
 Description: GIT utilities -- repo summary, repl, changelog population, author commit percentages and more!
 Name: git-extras
 Author: tj <tj@vision-media.ca>
@@ -384,8 +416,8 @@ Section: Development
 Maintainer: 1nternist <dc1nternist@icloud.com>
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.github-sslcerts_1.0-1_iphoneos-arm.deb
-Size: 2202
-MD5sum: 08057de1ff1176c0ad07f8eb3dabfab2
+Size: 2316
+MD5sum: b094c5cf2452cca1ab885cc82f68621e
 Description: This package adds the http protocol ssl certs for https://github.com
 Name: GitHub SSL-certs
 Author: 1nternist <dc1nternist@icloud.com>
@@ -393,16 +425,16 @@ Author: 1nternist <dc1nternist@icloud.com>
 Package: apt.1nternist.groff-base
 Version: 1.22.3-2
 Section: Development
-Maintainer: BigBoss <bigboss@thebigboss.org>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: firmware (>= 4.0)
 Conflicts: groff-base, groff, org.thebigboss.groff-base
 Provides: groff-base, groff, org.thebigboss.groff-base
 Replaces: groff-base, groff, org.thebigboss.groff-base
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.groff-base_1.22.3-2_iphoneos-arm.deb
-Size: 4472232
+Size: 2425074
 Installed-Size: 20116
-MD5sum: 2ab381deecb458046baae15b4a6e12b7
+MD5sum: 11a09ea4793715403402305c6873c454
 Description: typesetting system for formatted output.
 Name: groff
 Author: idotce <idotce@gmail.com>
@@ -411,63 +443,63 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=groffbaseD
 Package: apt.1nternist.hardon
 Version: 1.0
 Section: Ringtones
-Maintainer: Chir0student <chir0student@icloud.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.hardon_1.0_iphoneos-arm.deb
-Size: 81262
-MD5sum: 12e1d7b825d1290d03aeef1a970a8b07
+Size: 81308
+MD5sum: ec8822fb81e5fa149ce1d9fa52d206e3
 Description: Full Metal Jacket "Got A Hardon!!" ringtone/text tone.
 Name: I Think Ya Got A Hardon!
-Author: Chir0student <chir0student@icloud.com>
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.hln
 Version: 0.1
 Priority: optional
 Section: Scripting
-Maintainer: pancake <pancake@nopcode.org>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.hln_0.1_iphoneos-arm.deb
-Size: 3100
+Size: 2420
 Installed-Size: 264
-MD5sum: 77ba81fef8dab2124773261de74c0f20
+MD5sum: ca8e96455938cb38340eae9d800f080e
 Description: Create hardlinks on iOS
- Tool from https://github.com/selkhateeb/hardlink to create hardlinks
 Name: hln
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.houseringtones
 Version: 1.0
 Section: Ringtones
-Maintainer: Chir0student <chir0student@icloud.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.houseringtones_1.0_iphoneos-arm.deb
-Size: 7427516
-MD5sum: 92b8a2fdcfcfe3f1c047c5fb24dc4edf
+Size: 7427548
+MD5sum: 75a3bfa231bbb00728e5fc83d6377da8
 Description: All 3 House M.D. intro music ringtones
 Name: House M.D. Ringtones
-Author: Chir0student <chir0student@icloud.com>
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.ifoundadildo
 Version: 1.0
 Section: Ringtones
-Maintainer: Chir0student <chir0student@icloud.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: com.alexzielenski.zeppelin
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.ifoundadildo_1.0_iphoneos-arm.deb
-Size: 80008
-MD5sum: a225384697cf13535ee3710231c1ab3d
+Size: 80052
+MD5sum: 4bed810e2d0b6bed20d4035db321f3d0
 Description: Steve Stifler "I Found A Dildo" ringtone/text tone.
 Name: I Found A Dildo
-Author: Chir0student <chir0student@icloud.com>
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.ijappurl
 Version: 3.0
 Section: iScripts
-Maintainer: insanelyi <noreply@insanelyi.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: apt.1nternist.bashutils, com.ericasadun.utilities, com.innoying.sbutils, bash, coreutils, coreutils-bin, findutils, apt.1nternist.pcentcomp, apt.1nternist.pcentleft, apt.1nternist.timecalc
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.ijappurl_3.0_iphoneos-arm.deb
-Size: 2128
-MD5sum: 21c0e9467046d79d977dd5eb26dd0771
+Size: 2210
+MD5sum: e1346a7c18d5718d157ed2b8c2775f79
 Description: Extracts and exports a list of all installed user app names, their AppStoreURLs,their CFBundleID and their URL schemes. Run ijappurl in terminal. Exported txt file can be found in /tmp/
 Name: ijappurl
 Author: iJunkie22
@@ -476,25 +508,25 @@ Depiction: http://repo.insanelyi.com/depiction.php?package=ijappurl
 Package: apt.1nternist.iosjedizeppelin
 Version: 1.0
 Section: Addons (Zeppelin)
-Maintainer: Chir0student <chir0student@icloud.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.iosjedizeppelin_1.0_iphoneos-arm.deb
-Size: 16368
-MD5sum: 744b3c822d14860dff602b505ba450c3
+Size: 16068
+MD5sum: 1d92c8905c358d8a0fd54ecaaa50e823
 Description: iOS Jedi Zeppelin
 Name: iOS Jedi Zeppelin
-Author: Chir0student <chir0student@icloud.com>
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.ipainstallerurlscheme-enabler
 Version: 1.1
 Priority: optional
 Section: Tweaks
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: firmware (>= 4.0), mobilesubstrate, com.ericasadun.utilities
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.ipainstallerurlscheme-enabler_1.1_iphoneos-arm.deb
-Size: 24726
-MD5sum: 00d9cc01fc626e949f54a9d13140521a
+Size: 12970
+MD5sum: e50839e952ff7ef6a0455df0f2260c91
 Description: Installs a template for adding URL schemes to apps.
 Name: IPA Installer URL Scheme Enabler
 Author: Crzmst
@@ -502,17 +534,17 @@ Author: Crzmst
 Package: apt.1nternist.iringtone4
 Version: 4.0.4
 Section: Scripting
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: bash, com.fizk.ffmpeg | apt.1nternist.ffmpeg | com.nin9tyfour.ffmpeg, apt.1nternist.sudonopasswd, coreutils, coreutils-bin, file, firmware (>= 4.2.1), gawk, ncurses, sudo, system-cmds
 Conflicts: apt.1nternist.avtoolscripts, apt.1nternist.iringtone3
 Replaces: apt.1nternist.avtoolscripts, apt.1nternist.iringtone3
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.iringtone4_4.0.4_iphoneos-arm.deb
-Size: 10590
-MD5sum: 1b48b48aebc73428c3f83dc32931de65
+Size: 9518
+MD5sum: 7416c6664c3b59f1601b87a3f220a62b
 Description: iRingtone is a command line utility that can create custom ringtones from any audio or video file. Just execute 'sudo iRingtone /path/to/[audio or video] file' in MobileTerminal and follow the interactive directions.
 Name: iRingtone 4
-Author: Chir0student <chir0student@me.com>
+Author: 1nternist <dc1nternist@icloud.com>
 Icon: file:///usr/share/chir0student/icons/iRingtone4.png
 
 Package: apt.1nternist.jlutil64
@@ -521,8 +553,8 @@ Section: Development
 Maintainer: 1nternist <dc1nternist@icloud.com>
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.jlutil64_0.1_iphoneos-arm.deb
-Size: 11158
-MD5sum: c84bd41b1a3b168a677487d377dd0317
+Size: 11206
+MD5sum: 7af4f45b46489ffac1345eb4e86e8cd3
 Description: jlutil is a lightweight replacement for plutil that is friendlier than PlistBuddy that has a simplistic format which is POSIX compliant and has a color option.
 Name: jlutil (arm64)
 Author: 1nternist <dc1nternist@icloud.com>
@@ -558,8 +590,8 @@ Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: cy+cpu.arm64
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.jtool64_1.0-3_iphoneos-arm.deb
-Size: 147652
-MD5sum: 767aa894497392579a4ea945ae240ea8
+Size: 147632
+MD5sum: be866bad7bc261d9b2f51b54e5706167
 Description: The jtool command is meant to meet and exceed the functionality to XCode's otool(1), picking up along the way additional Mach-O commands such as atos(1), dyldinfo(1), nm(1), segedit(1), pagestuff(1), strings(1), codesign(1), and even the informal ldid. jtool also provides novel features, such in-binary search functionality, symbol injection and a disassembler functionality with (limited but constantly improving) emulation capabilities. It also provides color output.
 Name: jtool (arm64)
 Author: 1nternist <dc1nternist@icloud.com>
@@ -574,9 +606,9 @@ Provides: libdpkg-perl, libdpkgperl, com.sull.libdpkgperl
 Replaces: libdpkg-perl, libdpkgperl, com.sull.libdpkgperl
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.libdpkg-perl_1.16.15-10_iphoneos-arm.deb
-Size: 841258
+Size: 841286
 Installed-Size: 4872
-MD5sum: c15025f87f09144bbaebdd45de3cb81b
+MD5sum: 7daec9543e769f21f6ab31c9d6b5463e
 Description: Perl modules for dpkg (required for MiRepo & CyGit functionality).
 Name: libdpkg-perl
 Author: brc0703
@@ -585,34 +617,33 @@ Package: apt.1nternist.libfreetype
 Version: 2.4.11-5
 Priority: optional
 Section: Multimedia
-Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Replaces: freetype2-atv
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.libfreetype_2.4.11-5_iphoneos-arm.deb
-Size: 331508
+Size: 253962
 Installed-Size: 652
-MD5sum: 2452046b96383bd414e64d24f8a153fb
+MD5sum: 98328a2e29f7b935f6a81321cc30423c
 Description: FreeType is a freely available software library to render fonts.
-  FreeType is a freely available software library to render fonts.
-  This package contains the shared library files.
 Name: libfreetype
+Author: 1nternist <dc1nternist@icloud.com>
 Homepage: http://goo.gl/LXfUB
 
 Package: apt.1nternist.libjpeg
 Version: 8d-1-6
 Priority: optional
 Section: Multimedia
-Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Conflicts: jpeg
 Provides: jpeg
 Replaces: jpeg
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.libjpeg_8d-1-6_iphoneos-arm.deb
-Size: 200582
+Size: 165124
 Installed-Size: 400
-MD5sum: 233f21074de23910ae509bc351feb3bc
+MD5sum: 5a414820cebe54f528cc74d82577e0e3
 Description: The Independent JPEG Group's library is a library for handling JPEG files. This package contains the shared JPEG library from the the independent JPEG Group.
 Name: libjpeg
 Author: J. Anrugas <j.anrugas@gmail.com>
@@ -621,13 +652,13 @@ Package: apt.1nternist.libmcrypt
 Version: 2.6.8-6
 Priority: optional
 Section: Security
-Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.libmcrypt_2.6.8-6_iphoneos-arm.deb
-Size: 101486
+Size: 70660
 Installed-Size: 280
-MD5sum: 05ad6457c89bf0d3df81a6e8d1e2f574
+MD5sum: 02beb54aca11a776c5a2f5b0f927016d
 Description: Libmcrypt allows you to use a wide range of encryption function. Libmcrypt allows you to use a wide range of encryption function. This package contains the shared mcrypt library.
 Name: libmcrypt
 Author: J. Anrugas <j.anrugas@gmail.com>
@@ -635,16 +666,16 @@ Author: J. Anrugas <j.anrugas@gmail.com>
 Package: apt.1nternist.libpipeline
 Version: 1.4.1-2
 Section: Development
-Maintainer: BigBoss <bigboss@thebigboss.org>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: firmware (>= 4.0)
 Conflicts: libpipeline, org.thebigboss.libpipeline
 Provides: libpipeline, org.thebigboss.libpipeline
 Replaces: libpipeline, org.thebigboss.libpipeline
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.libpipeline_1.4.1-2_iphoneos-arm.deb
-Size: 67530
+Size: 50442
 Installed-Size: 1816
-MD5sum: c7c76152334531d5a16f431fc9582ba1
+MD5sum: ffb89d0f29bb74c1e9de2e5ac7e7fda1
 Description: manipulate pipelines of subprocesses in a flexible and convenient way.
 Name: Libpipeline
 Author: idotce <idotce@gmail.com>
@@ -654,16 +685,16 @@ Package: apt.1nternist.libpng
 Version: 1.2.50-6
 Priority: optional
 Section: Multimedia
-Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Conflicts: png
 Provides: png
 Replaces: png
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.libpng_1.2.50-6_iphoneos-arm.deb
-Size: 207696
+Size: 80472
 Installed-Size: 460
-MD5sum: 21dfd9b7164c607a1eab88413787f295
+MD5sum: 87b526e2104a98b27836d9a4b2ff1187
 Description: Library for manipulating PNG files. This package contains the shared PNG library. Version 1.2.50 removes a potential security vulnerability so all users are recommended to upgrade immediately.
 Name: libpng
 Author: J. Anrugas <j.anrugas@gmail.com>
@@ -673,18 +704,15 @@ Package: apt.1nternist.libtiff
 Version: 4.0.3-5
 Priority: 
 Section: Multimedia
-Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Replaces: tiff
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.libtiff_4.0.3-5_iphoneos-arm.deb
-Size: 391808
+Size: 313482
 Installed-Size: 1064
-MD5sum: 1c03ad0034bc1530748f2b68f358fabf
+MD5sum: 635a42a99978992f65aca94deca3a2f9
 Description: Tagged Image File Format (TIFF) library.
-  Tagged Image File Format (TIFF) library.
-  A library for handling TIFF files.
-  This package contains the shared TIFF library .
 Name: libtiff
 Author: J. Anrugas <j.anrugas@gmail.com>
 Homepage: http://www.remotesensing.org/libtiff/
@@ -692,14 +720,14 @@ Homepage: http://www.remotesensing.org/libtiff/
 Package: apt.1nternist.libtool
 Version: 2.4.2-2
 Section: Development
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Conflicts: com.deltaman.libtool, libtool
 Provides: com.deltaman.libtool, libtool
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.libtool_2.4.2-2_iphoneos-arm.deb
-Size: 604710
+Size: 361676
 Installed-Size: 2311
-MD5sum: cbb42c1644303a815f1cd0e1055e64de
+MD5sum: d090c66556c7bc9ed3a269ea3ebf0beb
 Description: GNU build system for portable libraries
 Name: Libtool
 Author: DeltaMan <deltaman75@outlook.com>
@@ -708,49 +736,48 @@ Package: apt.1nternist.libxml2
 Version: 2.7.8
 Priority: standard
 Section: Development
-Maintainer: pancake <pancake@nopcode.org>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Conflicts: libxml2-lib, libxml2
 Provides: libxml2-lib, libxml2
 Replaces: libxml2-lib, libxml2
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.libxml2_2.7.8_iphoneos-arm.deb
-Size: 1414526
+Size: 1025696
 Installed-Size: 2943
-MD5sum: 99949ee3f31dced4da41cab4cc8531e9
+MD5sum: 2e0d2fdca403eb96a7d6890359d03adb
 Description: very popular XML parser from Gnome (Patched for iOS 8 & arm64)
- To upgrade, first remove old cydia packages:
-  apt-get remove libxml2 libxml2-lib
 Name: libxml2
+Author: 1nternist <dc1nternist@icloud.com>
 Homepage: http://xmlsoft.org/
 
 Package: apt.1nternist.lighttpd-tool
 Version: 1.2-5
 Section: Scripting
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: lighttpd | apt.1nternist.lighttpd-ios | lighttpd-atv
 Conflicts: net.limneos.sbstogglelighttpd
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.lighttpd-tool_1.2-5_iphoneos-arm.deb
-Size: 2924
-MD5sum: 39f96d1d7763deb73d8556c6bad63a63
+Size: 2936
+MD5sum: c15397d742bbcdfdc77dd61844753a62
 Description: Lighttpd-tool is a small script that helps start and stop your lighttpd server.
 Name: lighttpd-tool
-Author: Chir0student <chir0student@me.com>
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.lighttpdtoggles
 Version: 1.0-3
 Section: Networking
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: lighttpd
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.lighttpdtoggles_1.0-3_iphoneos-arm.deb
-Size: 2346
+Size: 2378
 Installed-Size: 216
-MD5sum: ff4d283407766d6c130239e3f7ba3563
+MD5sum: 62919291d6b6aac194c6f148483d8f5d
 Description: Lighttpd command line toggles.
 Name: Lighttpd Toggles
-Author: Chir0student <chir0student@me.com>
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.localiapstore9
 Version: 1.5-2
@@ -762,8 +789,8 @@ Provides: com.yourepo.diablowsky.localiapstoreios9
 Replaces: com.yourepo.diablowsky.localiapstoreios9
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.localiapstore9_1.5-2_iphoneos-arm.deb
-Size: 71146
-MD5sum: 980938d9cb8df7dfe5476bb300d2bb17
+Size: 42450
+MD5sum: 1cd723d182e48ff5a25d05dcfdc4856a
 Description: Pwns In-app purchases on iOS 5.1.1 - 9.0.2. To use: select "buy" for the in-app purchase, then when asked for your password select "cancel".
 Name: LocalIAPStore9
 Author: Diablowsky
@@ -771,11 +798,12 @@ Author: Diablowsky
 Package: apt.1nternist.localiapstoreios9
 Version: 1.4-5
 Section: Tweaks
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.localiapstoreios9_1.4-5_iphoneos-arm.deb
-Size: 70722
-MD5sum: 96a38e5aaa2e8a6768d72f1f0045c95a
+Size: 42254
+MD5sum: 5c2f3ba8b18e6ab2718014a66fc51bc6
 Description: Pwns in-app purchases on iOS 7, 8, and 9. Compatible with arm64. Enable in settings. PRESS "reject" in popup!
 Name: LocalIAPStore iOS9
 Author: Pangu
@@ -783,26 +811,26 @@ Author: Pangu
 Package: apt.1nternist.makedeb
 Version: 2.7-1
 Section: Scripting
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: apt.1nternist.perl5
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.makedeb_2.7-1_iphoneos-arm.deb
-Size: 4476
-MD5sum: 79fbbd50abaa63363205d247cfbc0356
+Size: 4566
+MD5sum: 4fc2405e7722cab712d301dfea34e1e9
 Description: My makedeb.sh script for refreshing a repository. Builds debs, puts them in repo, then updates the repofiles.
 Name: makedeb
-Author: Chir0student <chir0student@me.com>
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.mirepo
 Version: 6.1.0-1
 Section: Scripting
-Maintainer: 1nternist <dacdcdabci@gmail.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: apt, apt7-key, apt7-ssl, apt7, apt7-lib, lighttpd | lighttpd-atv | touch-lighttpd-php-mysql | apt.1nternist.lighttpd-ios, com.innoying.sbutils, apt.1nternist.libtimedate-perl | libtimedate-perl | apt.1nternist.libtimedateperl, apt.1nternist.libdpkg-perl | libdpkg-perl | apt.1nternist.libdpkgperl, apt.1nternist.dpkg-scanpackages, apt.1nternist.perl | apt.1nternist.perl510 | apt.1nternist.perl514 | apt.1nternist.perl520 | perl | org.coolstar.perl | apt.1nternist.perlfullinstall, apt.1nternist.sudonopasswd, coreutils, coreutils-bin, file, gawk, gnupg, ncurses, sudo, system-cmds
 Conflicts: apt.1nternist.makedeb
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.mirepo_6.1.0-1_iphoneos-arm.deb
-Size: 304520
-MD5sum: a8bf4577fc7e65e792266dba1dff98ac
+Size: 303516
+MD5sum: 3e58d4574dcc6784348dc9fdc5db2658
 Description: MiRepo is a functional Cydia repo on iDevice. Just type "MiRepo" in mobileterminal to bring up the menu. MiRepo directory is located at /var/root/Library/MiRepo.
 Name: MiRepo
 Author: 1nternist <dacdcdabci@gmail.com>
@@ -811,26 +839,26 @@ Icon: file:///var/www/repo/CydiaIcon.png
 Package: apt.1nternist.mostannoyingringtone
 Version: 1.0
 Section: Ringtones
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.mostannoyingringtone_1.0_iphoneos-arm.deb
-Size: 139302
-MD5sum: ef09545496b9f8d335a0a1e680484c04
+Size: 139340
+MD5sum: ac79a11ab8ee57835d1e9acf1c9ec043
 Description: Most annoying sound in the world ringtone
 Name: Most Annoying Ringtone
-Author: Chir0student <chir0student@me.com>
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.node
 Version: 0.6.14
 Priority: standard
 Section: System
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Conflicts: node
 Provides: node
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.node_0.6.14_iphoneos-arm.deb
-Size: 4502954
-MD5sum: efc31b138bb4a2b2b79763d555eeedd9
+Size: 3248026
+MD5sum: 45d6d26ddee2d0d321ca1119a2571713
 Description: evented I/O for v8 javascript
 Name: node
 Author: Ryan Dahl
@@ -842,9 +870,9 @@ Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: firmware (>= 3.0), apt.1nternist.utilities, file, preferenceloader
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.pasteboard_0.0.4_iphoneos-arm.deb
-Size: 10276
+Size: 10282
 Installed-Size: 144
-MD5sum: cd4a85da65bfd4b84656168be621ea8f
+MD5sum: b877dcc5de02aa1747207fe15231737d
 Description: Provides advanced pbcopy & pbpaste. Supports strings, urls, images and colors. How can you copy or paste a color I don't know.
 Name: Pasteboard CLI
 Author: uroboro <uroboro845@gmail.com>
@@ -853,26 +881,24 @@ Package: apt.1nternist.pbasename
 Version: 1.0-4
 Priority: optional
 Section: Terminal Support
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.pbasename_1.0-4_iphoneos-arm.deb
-Size: 4948
-MD5sum: d0e5a016a0fe16722c1a418c1ccb586e
+Size: 4430
+MD5sum: 5c998d3c8c8ca7461335137c0048f50f
 Description: Strips paths and given prefixes from names
- pbasename is like basename but strips prefixes instead of suffixes.
- http://www.ibiblio.org/pub/Linux/utils/file/pbasename-1.0.tar.gz
 Name: pbasename
 Author: <veijalai@cc.lut.fi>
 
 Package: apt.1nternist.pcentcomp
 Version: 1.0
 Section: iScripts
-Maintainer: insanelyi <noreply@insanelyi.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: apt.1nternist.bashutils, bash, coreutils, coreutils-bin, findutils
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.pcentcomp_1.0_iphoneos-arm.deb
-Size: 1110
-MD5sum: 5d24b3823ba8b07cff86f61a6a7c7d3a
+Size: 1198
+MD5sum: 7ddf0b68a1bb7f7a43700322c94e24e4
 Description: A simple bash script plugin that calculates percent completion and echoes it. For use in while loops especially. For details, run pcentcomp --help
 Name: pcentcomp
 Author: iJunkie22
@@ -881,12 +907,12 @@ Depiction: http://repo.insanelyi.com/depiction.php?package=pcentcomp
 Package: apt.1nternist.pcentleft
 Version: 1.0
 Section: iScripts
-Maintainer: insanelyi <noreply@insanelyi.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: apt.1nternist.bashutils, bash, coreutils, coreutils-bin, findutils
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.pcentleft_1.0_iphoneos-arm.deb
-Size: 1114
-MD5sum: ae2a3643d34679061279e39e4404a1ba
+Size: 1204
+MD5sum: a28a9ded1ca10f4927ac7518fcdd6a12
 Description: A simple bash script plugin that calculates percent left and echoes it. For use in while loops especially. For details, run pcentleft --help
 Name: pcentleft
 Author: iJunkie22
@@ -899,9 +925,9 @@ Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: firmware (>=2.0), apt.1nternist.utilities
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.plutil_0.0.2_iphoneos-arm.deb
-Size: 46412
+Size: 46394
 Installed-Size: 252
-MD5sum: b969236e19ffe12417c0dedab1035338
+MD5sum: 511bb2c30668971b967491778f5fbd15
 Description: plutil as from erica sadun
 Name: plutil
 Author: Samuel Bingner
@@ -910,15 +936,15 @@ Package: apt.1nternist.po4a
 Version: 0.45
 Priority: optional
 Section: Development
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: perl | apt.1nternist.perl
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.po4a_0.45_iphoneos-arm.deb
-Size: 1485048
-MD5sum: 96cf13e8478e57493b283580a5b031cd
+Size: 1319278
+MD5sum: 5f0543730d6acbe1654a05919177a581
 Description: The po4a (PO for anything) project goal is to ease translations (and more interestingly, the maintenance of translations) using gettext on areas where they were not expected like documentation.
 Name: po4a
-Author: Chir0student <chir0student@me.com>
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.prompt2root
 Version: 2.6.7-2
@@ -929,8 +955,8 @@ Conflicts: apt.1nternist.prompt2k
 Replaces: apt.1nternist.prompt2k
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.prompt2root_2.6.7-2_iphoneos-arm.deb
-Size: 6722282
-MD5sum: 5726e33615e15074a8bafd8b1a9a3150
+Size: 6721394
+MD5sum: 75a31c90414dd38558c55665043bf7a4
 Description: Prompt 2 v2.6.7 with root access
 Name: Prompt 2 (root)
 Author: iki <adm@iopenroot.com>
@@ -943,8 +969,8 @@ Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: coreutils
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.recentinstalled_1.1_iphoneos-arm.deb
-Size: 1094
-MD5sum: 3ff114e81dd3ef9ecf24c9c19fa4b731
+Size: 1162
+MD5sum: bd6bd9862f9b0d88941d356547492724
 Description: View your history of package installations.
 Name: recentinstalled
 Author: iJunkie22
@@ -957,8 +983,8 @@ Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: bash (>= 4.0.17-13), coreutils (>= 8.12-12p), grep (>= 2.5.4-3), sed (>= 4.1.5-7), gawk (>= 3.1.6-2p), apt7 (>= 0.7.25.3-6)
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.recents_1.6-1_iphoneos-arm.deb
-Size: 2512
-MD5sum: 522c5b1b9a4e1ec2d527a4ecbd642eb3
+Size: 2578
+MD5sum: 375b134f00fe8eac78817b6d9e8926f5
 Description: Show recently installed/updated packages
 Name: Recents
 Author: beta382 <beta382@gmail.com>
@@ -973,8 +999,8 @@ Conflicts: com.sull.redeb, com.brc0703.redeb, com.myrepospace.chir0student.redeb
 Replaces: com.sull.redeb, com.brc0703.redeb, com.myrepospace.chir0student.redeb
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.redeb_1.1_iphoneos-arm.deb
-Size: 1852
-MD5sum: ed7215b476416550c690ea85b362c565
+Size: 1918
+MD5sum: db1044e4c2a232002aa4738894caf36a
 Description: repackages installed debs. redeb [ search ], without a search will build all, with find any package matching [ search ] and give you option to rebuild selected packages.
 Name: redeb
 Author: brc0703
@@ -997,14 +1023,29 @@ Author: 1nternist <dc1nternist@icloud.com>
 Homepage: https://1nternist.github.io
 Icon: file:///Applications/Cydia.app/Sections/1nternist_RepoIcons.png
 
+Package: apt.1nternist.reposetup
+Version: 1.008
+Section: Repository_Tools_1Repo
+Essential: yes
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.reposetup_1.008_iphoneos-arm.deb
+Size: 1949922
+MD5sum: d3bb9a9edd4be6a10f05c575cf1ded8b
+Description: 1nternist repo setup files
+Name: 1nternist's Repo Setup
+Author: 1nternist <dc1nternist@icloud.com>
+Homepage: https://1nternist.github.io
+Icon: file:///Applications/Cydia.app/Sources/1nternist.github.io.png
+
 Package: apt.1nternist.rootify
 Version: 0.1.2
 Section: Development
 Maintainer: 1nternist <dc1nternist@icloud.com>
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.rootify_0.1.2_iphoneos-arm.deb
-Size: 2292
-MD5sum: dce0ec3e971fb70348154737a8cfd930
+Size: 2170
+MD5sum: f077dcbd427f257a53cc7ff03a340ab7
 Description: Run commands from as root. To use: rootify [cmd]
 Name: Rootify
 Author: xarold
@@ -1012,15 +1053,15 @@ Author: xarold
 Package: apt.1nternist.signalrefresh
 Version: 1.4.1-1
 Section: Utilities
-Maintainer: BigBoss <bigboss@thebigboss.org>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: firmware (>= 4.0)
 Conflicts: com.usaconcepts.signalrefresh
 Replaces: com.usaconcepts.signalrefresh
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.signalrefresh_1.4.1-1_iphoneos-arm.deb
-Size: 2083402
+Size: 1307278
 Installed-Size: 1314
-MD5sum: 5ef3f3c5fe2514658561ffab1e29a863
+MD5sum: a0384b3417f02ea9718507e1f5ac6c82
 Description: Boost your signal in one touch!
 Name: Signal Booster
 Author: USA Concepts <support@usaconcepts.com>
@@ -1031,27 +1072,27 @@ Icon: file:///Applications/SignalRefresh.app/Icon.png
 Package: apt.1nternist.soundoff
 Version: 1.0
 Section: Ringtones
-Maintainer: Chir0student <chir0student@icloud.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.soundoff_1.0_iphoneos-arm.deb
-Size: 52352
-MD5sum: 3e9438f3dedee7fc8209f57ef0ae42e2
+Size: 52390
+MD5sum: 91edc5adee3510796c7c6dd39b5104ee
 Description: Full Metal Jacket "Sound Off Like Ya Got A Pair" ringtone/text tone
 Name: Sound Off Like Ya Got A Pair
-Author: Chir0student <chir0student@icloud.com>
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.sox
 Version: 14.4.0-2
 Section: Multimedia
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: apt.1nternist.libtool
 Conflicts: sox
 Provides: sox
 Replaces: sox
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.sox_14.4.0-2_iphoneos-arm.deb
-Size: 2891582
-MD5sum: 244d462fb89cb7aced63aaaab975b982
+Size: 867586
+MD5sum: f65602aeb8fdb589680693c98743ed5f
 Description: CLI Swiss army knife for sound
 Name: Sox
 Author: Chris Bagwell <cbagwell@users.sourceforge.net>
@@ -1059,12 +1100,12 @@ Author: Chris Bagwell <cbagwell@users.sourceforge.net>
 Package: apt.1nternist.sudonopasswd
 Version: 1.2-1
 Section: Scripting
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: sudo, diffutils
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.sudonopasswd_1.2-1_iphoneos-arm.deb
-Size: 1286
-MD5sum: 4ed006912fa4764fe7ccd3bf1289df1c
+Size: 1388
+MD5sum: 1f107202c675d3183bf2c4f441fac39a
 Description: Execute root commands without a password!
 Name: SudoNoPasswd
 Author: @uGuer
@@ -1077,8 +1118,8 @@ Pre-Depends: firmware (>= 3.1.2)
 Depends: coreutils-bin, system-cmds
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.tcpoptimizer_1.2_iphoneos-arm.deb
-Size: 1738
-MD5sum: 5ca6ffe22f25c65f412cabe42074bcdc
+Size: 1816
+MD5sum: 950051eff3d494ebaeb128919cca6e83
 Description: TCP stack optimizer This package changes some TCP parameters on boot that result in faster network throughput. It will improve speeds for others as well.  My main goal was  reducing YouTube stutters and delays. ************************************* Uninstall and Reboot to restore  the original settings. ************************************* Only improves WiFi speeds, DON'T USE on wired Apple TVs ************************************* V1.2 : Keep MTU blackhole detection
 Name: TCP Optimizer
 Author: Arek <adm@iopenroot.com>
@@ -1086,12 +1127,12 @@ Author: Arek <adm@iopenroot.com>
 Package: apt.1nternist.timecalc
 Version: 1.0
 Section: iScripts
-Maintainer: insanelyi <noreply@insanelyi.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: apt.1nternist.bashutils, bash, coreutils, coreutils-bin, findutils, apt.1nternist.pcentcomp, apt.1nternist.pcentleft
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.timecalc_1.0_iphoneos-arm.deb
-Size: 1028
-MD5sum: 94cf5242ccb212aec93ef24cd62a3cc2
+Size: 1108
+MD5sum: 692999b860190c4f596fa422b6ac9b89
 Description: A simple bash script plugin that calculates time remaining based on a timestamp before the start of a loop, percent completion at a second timestamp, and the percent left at that timestamp, and echoes it.
 Name: timecalc
 Author: iJunkie22
@@ -1100,39 +1141,39 @@ Depiction: http://repo.insanelyi.com/depiction.php?package=timecalc
 Package: apt.1nternist.tuktukcacaw
 Version: 1.1
 Section: Ringtones
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.tuktukcacaw_1.1_iphoneos-arm.deb
-Size: 150966
-MD5sum: 1d9fddaf0128e89478c542e0d238bb7b
+Size: 151034
+MD5sum: fafa0b2e283f112b60f729809de475cf
 Description: Tuk Tuk Tuk Tuk Ca Caw text tone from the movie Evolution.
 Name: Tuk Tuk Ca Caw Ringtone
-Author: Chir0student <chir0student@me.com>
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.urlscheme-enabler-template
 Version: 1.0
 Priority: optional
 Section: Tweaks
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.urlscheme-enabler-template_1.0_iphoneos-arm.deb
-Size: 25664
-MD5sum: a1927fa120e6baba3259a94f7cb91203
+Size: 13584
+MD5sum: b4a44289bd6297dcc513825e4c426711
 Description: Installs URL Scheme Enabler template in MiRepo's build directory (/var/mobile/Documents/repo/build).
 Name: URL Scheme Enabler Template
-Author: Chir0student <chir0student@me.com>
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.uthbscripts
 Version: 3.3.1
 Priority: optional
 Section: Security
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: sed, coreutils
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.uthbscripts_3.3.1_iphoneos-arm.deb
-Size: 422004
-MD5sum: fffc37e0e6227c7e658ccf1893da982a
+Size: 273892
+MD5sum: 3f961cf962784652c07b7753443b5183
 Description: Say goodbye to ads, spies, tracking and untrusted hosts. Block more than 38,000 blacklisted hosts! This is not just a basic adblocker but a powerful FireWall for confidentiality and security purpose.  This tweak's main goal is to block a maximum of third-party hosts used by your applications that have been identified as collecting personal and confidential data (location, contacts, UDID, etc.) for commercial, tracking or advertising purpose.  If the 'uthb.sh' script slows down your device or if you encounter connection issues, please switch to 'uthblt.sh'  This package will add all blacklisted hosts to your /etc/hosts file. It will NOT overwrite any custom hosts file you may have (if you already have custom entries in your hosts file, they will remain untouched)!  If you are unhappy with this hack, you can uninstall this package. It will ONLY remove the installed entries by the tweak and leave untouched any other entries you may have added manually to the hosts file. But make sure to wait untill the end of the uninstallation process. In case your hosts file is broken (should never happen), the installation or uninstallation script will repair it.
 Name: Hosts Blocker Scripts
 Author: Thireus <repo@thireus.com>
@@ -1147,9 +1188,9 @@ Provides: com.ericasadun.utilities
 Replaces: com.ericasadun.utilities
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.utilities_0.0.1_iphoneos-arm.deb
-Size: 790
+Size: 800
 Installed-Size: 0
-MD5sum: 17220b6fddde6491147715e08421ba14
+MD5sum: 0b911fb2a21880e4169e9c7a6729d965
 Description: A collection of command-line utilities for various purposes.
 Name: Utilities
 Author: Samuel Bingner
@@ -1162,8 +1203,8 @@ Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 
 Conflicts: org.thebigboss.watchdoglite, com.theronen.watchdog
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.watchdogpro_1.0.2_iphoneos-arm.deb
-Size: 119450
-MD5sum: 5138e939824392f188bf4d15068554bb
+Size: 59604
+MD5sum: fba7b4d3c9f7d775952bd6870a1dcbc9
 Description: full featured app backgrounding management
 Name: Watchdog Pro
 Author: Allan Kerr
@@ -1176,8 +1217,8 @@ Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: coreutils, findutils
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.whatsourcepackage_1.0_iphoneos-arm.deb
-Size: 1288
-MD5sum: 6c822dbb889fba41f4ed6fada1e94e97
+Size: 1374
+MD5sum: 01c2f3449835fc97226bdafadc393898
 Description: Identify the source package of a given file or directory.
 Name: whatsourcepackage
 Author: iJunkie22
@@ -1185,15 +1226,15 @@ Author: iJunkie22
 Package: apt.1nternist.whiteterminal
 Version: 8.1-3
 Section: Terminal Support
-Maintainer: Chir0student <chir0student@me.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: firmware (>= 7.0), bash, coreutils, ncurses, system-cmds
 Conflicts: com.codehex.whiteterminal, com.sull.whiteterminal
 Replaces: com.codehex.whiteterminal, com.sull.whiteterminal
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.whiteterminal_8.1-3_iphoneos-arm.deb
-Size: 1179530
+Size: 898830
 Installed-Size: 2116
-MD5sum: 4f1da2e71d0fd14c072557d4cf4f1406
+MD5sum: 923b59bd0a274eed8369555b2ea8d697
 Description: Terminal emulator for iOS 7 & 8
 Name: WhiteTerminal
 Author: CodeHex <x00.x7f@gmail.com>
@@ -1207,8 +1248,8 @@ Depends: mobilesubstrate (>= 0.9.6101), killall
 Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.xconforios9_41_iphoneos-arm.deb
-Size: 86286
-MD5sum: 504712d6ac0ec6f44731dc7f981369f9
+Size: 40248
+MD5sum: 38d1086476720c60d75e48be119142c0
 Description: Xcon New v41- Works in iOS 9.0.2
 Name: xCon (iOS 9)
 Author: Lunatik & JailbreakVideo
@@ -1259,12 +1300,12 @@ Package: gettext
 Version: 0.19.7-3
 Priority: optional
 Section: System
-Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: ncurses
 Architecture: iphoneos-arm
 Filename: debs/gettext_0.19.7-3_iphoneos-arm.deb
-Size: 9357984
-MD5sum: f65ba7e0b31cf90b34f5fb2ad2ce03ed
+Size: 3126184
+MD5sum: 49557209f4e3c0a7bdef03ed14c819e0
 Description: Internationalization helper for strings. Internationalization helper for strings. Compiled as fat binaries for armv7, armv7s, and arm64 devices.
 Name: gettext
 Author: Andrew Hyatt <ahyattdev@icloud.com>
@@ -1307,9 +1348,9 @@ Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: perl (>= 5.26.1)
 Architecture: iphoneos-arm
 Filename: debs/libcompress-raw-lzma-perl_2.074-2_iphoneos-arm.deb
-Size: 57066
+Size: 57122
 Installed-Size: 624
-MD5sum: 53765427f57e277d608580c2d9d1c58e
+MD5sum: 5fb24c85ed04df1f93d01e60b783e0ca
 Description: low-level interface to lzma compression library Compress::Raw::Lzma provides a low-level Perl interface for reading and writing of lzma and xz files/buffers. Although the primary purpose for the existence of Compress::Raw::Lzma is for use by the IO::Compress::Lzma, IO::Uncompress::UnLzma, IO::Compress::Xz and IO::Uncompress::UnXz modules (packaged as libio-compress-lzma-perl), it can be used on its own for simple compression/uncompression tasks.
 Name: libcompress-raw-lzma-perl
 Author: Sam Bingner
@@ -1323,9 +1364,9 @@ Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: dpkg (>= 1.13.8), perl (>= 5.26.1)
 Architecture: iphoneos-arm
 Filename: debs/libdpkg-perl_1.16.15-11_iphoneos-arm.deb
-Size: 841454
+Size: 841340
 Installed-Size: 4872
-MD5sum: 42bcfc6568b01e7f4f3fa988595586fd
+MD5sum: 6d1c233aea7da33ee8edbb9068716d7c
 Description: Perl modules for dpkg (required for MiRepo & CyGit functionality).
 Name: libdpkg-perl
 Author: brc0703
@@ -1352,6 +1393,23 @@ Author: Sam Bingner
 Homepage: https://metacpan.org/release/IO-Compress-Lzma
 Icon: file:///Applications/Cydia.app/Sections/Perl.png
 
+Package: libio-compress-lzma-perl
+Version: 2.074-2
+Priority: optional
+Section: Perl
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: perl (>= 5.26.0) | libio-compress-perl (>= 2.069)
+Architecture: iphoneos-arm
+Filename: debs/libio-compress-lzma-perl_2.074-2_iphoneos-arm.deb
+Size: 19254
+Installed-Size: 248
+MD5sum: 6ad8941cbb0e4daa0ee86e6c943cbd3a
+Description: modules for reading and writing lzma/xz files/buffers. This package includes the following modules:
+Name: libio-compress-lzma-perl
+Author: Sam Bingner
+Homepage: https://metacpan.org/release/IO-Compress-Lzma
+Icon: file:///Applications/Cydia.app/Sections/Perl.png
+
 Package: libsigc++
 Version: 2.2.10-1
 Priority: optional
@@ -1360,9 +1418,10 @@ Maintainer: 1nternist <dc1nternist@icloud.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Architecture: iphoneos-arm
 Filename: debs/libsigc++_2.2.10-1_iphoneos-arm.deb
-Size: 118010
-MD5sum: 8f1d5f334c8a66fcd4b0acc79b859469
+Size: 73286
+MD5sum: fa9d0ce2ded43f5e14f4c032864ad81f
 Description: callback framework for C++
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: libtimedate-perl
 Version: 1.2000-9
@@ -1375,8 +1434,8 @@ Provides: timedate
 Replaces: timedate
 Architecture: iphoneos-arm
 Filename: debs/libtimedate-perl_1.2000-9_iphoneos-arm.deb
-Size: 37252
-MD5sum: 9cc8cc9a43dfc72b7e6b96fa55f1d693
+Size: 37286
+MD5sum: 135d403a2d3c3262a14777b335768bf5
 Description: collection of modules to manipulate date/time information TimeDate is a collection of Perl modules useful for manipulating date and Time information. Date::Parse can parse absolute date specifications in a Wide variety of input formats and many languages (via Date::Language). This package also includes Date::Format, which can format dates into strings, As well as Time::Zone, which contains miscellaneous time zone functions.
 Name: libtimedate-perl
 Author: brc0703
@@ -1394,10 +1453,11 @@ Provides: io.github.ahyattdev.openssh
 Replaces: io.github.ahyattdev.openssh
 Architecture: iphoneos-arm
 Filename: debs/openssh_6.7p1-12-rev-5_iphoneos-arm.deb
-Size: 2043990
-MD5sum: e94e9e9f90930fd31342d5cc55bea17e
+Size: 586972
+MD5sum: 58bce21afb27ee62503fb0f6df5f5be9
 Description: OpenSSH with Bonjour support
 Name: OpenSSH with Bonjour
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: perl
 Version: 5.26.1-6
@@ -1487,13 +1547,14 @@ Package: rpl
 Version: 1.4.0-3
 Priority: standard
 Section: Utilities
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Maintainer: 1nternist <dc1nternist@icloud.com>
 Architecture: iphoneos-arm
 Filename: debs/rpl_1.4.0-3_iphoneos-arm.deb
-Size: 13612
+Size: 11544
 Installed-Size: 48
-MD5sum: 6d0cd417aa0db29935c36dbd3bea0e1c
+MD5sum: abc52faf88ad268df601cf6fd7a9e2e3
 Description: replace strings within files
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: rsync
 Version: 3.1.3-2
