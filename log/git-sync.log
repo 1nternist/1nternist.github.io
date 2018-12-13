@@ -9,102 +9,13 @@ Changes not staged for commit:
 	modified:   Packages.bz2
 	modified:   Packages.gz
 	modified:   Release
-	modified:   debs/apt.1nternist.1nspire-ringtones_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.alias-unalias_1.1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.ambientringtones_1.1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.ap2ipa_1.2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.ayeris_1.4.2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.bash-dpkg-scanpackages_1.2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.bashrc_1.1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.bashutils_1.0.6-1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.blackmagicwoman_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.bonjourfix_1.2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.bubblepop_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.cacawtookietookie_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.cacerts_0.0.1-2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.cartmanringtones_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.chocolatesaltyballs_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.cotomoviespremium_1.0.2-2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.deb-backup_1.1-1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.debhelper_9.20141107-4_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.dpkg-debtool_0.9.11_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.dpkg-dev_1.16.15-4_all.deb
-	modified:   debs/apt.1nternist.dpkg-scanpackages_2.6_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.ffmpeg_3.0-2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.git-doc_1.1-2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.git-extras_4.1.0-2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.github-sslcerts_1.0-1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.groff-base_1.22.3-2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.hardon_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.hln_0.1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.houseringtones_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.ifoundadildo_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.ijappurl_3.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.iosjedizeppelin_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.ipainstallerurlscheme-enabler_1.1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.iringtone4_4.0.4_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.jlutil64_0.1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.jtool64_1.0-3_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.libdpkg-perl_1.16.15-10_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.libfreetype_2.4.11-5_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.libjpeg_8d-1-6_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.libmcrypt_2.6.8-6_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.libpipeline_1.4.1-2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.libpng_1.2.50-6_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.libtiff_4.0.3-5_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.libtool_2.4.2-2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.libxml2_2.7.8_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.lighttpd-tool_1.2-5_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.lighttpdtoggles_1.0-3_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.localiapstore9_1.5-2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.localiapstoreios9_1.4-5_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.makedeb_2.7-1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.mirepo_6.1.0-1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.mostannoyingringtone_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.node_0.6.14_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.pasteboard_0.0.4_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.pbasename_1.0-4_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.pcentcomp_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.pcentleft_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.plutil_0.0.2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.po4a_0.45_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.prompt2root_2.6.7-2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.recentinstalled_1.1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.recents_1.6-1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.redeb_1.1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.rootify_0.1.2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.signalrefresh_1.4.1-1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.soundoff_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.sox_14.4.0-2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.sudonopasswd_1.2-1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.tcpoptimizer_1.2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.timecalc_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.tuktukcacaw_1.1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.urlscheme-enabler-template_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.uthbscripts_3.3.1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.utilities_0.0.1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.watchdogpro_1.0.2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.whatsourcepackage_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.whiteterminal_8.1-3_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.xconforios9_41_iphoneos-arm.deb
-	modified:   debs/gettext_0.19.7-3_iphoneos-arm.deb
-	modified:   debs/libcompress-raw-lzma-perl_2.074-2_iphoneos-arm.deb
-	modified:   debs/libdpkg-perl_1.16.15-11_iphoneos-arm.deb
-	modified:   debs/libsigc++_2.2.10-1_iphoneos-arm.deb
-	modified:   debs/libtimedate-perl_1.2000-9_iphoneos-arm.deb
-	modified:   debs/openssh_6.7p1-12-rev-5_iphoneos-arm.deb
-	modified:   debs/rpl_1.4.0-3_iphoneos-arm.deb
 	modified:   log/git-sync.log
 	modified:   log/lastrun/scanerr.log
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	debs/apt.1nternist.debxpandr_3.2-3_iphoneos-arm.deb
-	debs/apt.1nternist.ffmpeg64_3.0-2_iphoneos-arm.deb
-	debs/apt.1nternist.reposetup_1.008_iphoneos-arm.deb
-	debs/libio-compress-lzma-perl_2.074-2_iphoneos-arm.deb
+	debs/apt.1nternist.debxpandr_3.2-4_iphoneos-arm.deb
 
 no changes added to commit (use "git add" and/or "git commit -a")
 On branch master
@@ -117,96 +28,7 @@ Changes to be committed:
 	modified:   Packages.bz2
 	modified:   Packages.gz
 	modified:   Release
-	modified:   debs/apt.1nternist.1nspire-ringtones_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.alias-unalias_1.1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.ambientringtones_1.1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.ap2ipa_1.2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.ayeconios9_1.1.3-1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.ayeris_1.4.2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.bash-dpkg-scanpackages_1.2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.bashrc_1.1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.bashutils_1.0.6-1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.blackmagicwoman_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.bonjourfix_1.2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.bubblepop_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.cacawtookietookie_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.cacerts_0.0.1-2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.cartmanringtones_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.chocolatesaltyballs_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.cotomoviespremium_1.0.2-2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.deb-backup_1.1-1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.debhelper_9.20141107-4_iphoneos-arm.deb
-	new file:   debs/apt.1nternist.debxpandr_3.2-3_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.dpkg-debtool_0.9.11_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.dpkg-dev_1.16.15-4_all.deb
-	modified:   debs/apt.1nternist.dpkg-scanpackages_2.6_iphoneos-arm.deb
-	new file:   debs/apt.1nternist.ffmpeg64_3.0-2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.ffmpeg_3.0-2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.git-doc_1.1-2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.git-extras_4.1.0-2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.github-sslcerts_1.0-1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.groff-base_1.22.3-2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.hardon_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.hln_0.1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.houseringtones_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.ifoundadildo_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.ijappurl_3.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.iosjedizeppelin_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.ipainstallerurlscheme-enabler_1.1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.iringtone4_4.0.4_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.jlutil64_0.1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.jtool64_1.0-3_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.libdpkg-perl_1.16.15-10_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.libfreetype_2.4.11-5_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.libjpeg_8d-1-6_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.libmcrypt_2.6.8-6_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.libpipeline_1.4.1-2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.libpng_1.2.50-6_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.libtiff_4.0.3-5_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.libtool_2.4.2-2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.libxml2_2.7.8_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.lighttpd-tool_1.2-5_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.lighttpdtoggles_1.0-3_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.localiapstore9_1.5-2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.localiapstoreios9_1.4-5_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.makedeb_2.7-1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.mirepo_6.1.0-1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.mostannoyingringtone_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.node_0.6.14_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.pasteboard_0.0.4_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.pbasename_1.0-4_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.pcentcomp_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.pcentleft_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.plutil_0.0.2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.po4a_0.45_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.prompt2root_2.6.7-2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.recentinstalled_1.1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.recents_1.6-1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.redeb_1.1_iphoneos-arm.deb
-	new file:   debs/apt.1nternist.reposetup_1.008_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.rootify_0.1.2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.signalrefresh_1.4.1-1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.soundoff_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.sox_14.4.0-2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.sudonopasswd_1.2-1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.tcpoptimizer_1.2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.timecalc_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.tuktukcacaw_1.1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.urlscheme-enabler-template_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.uthbscripts_3.3.1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.utilities_0.0.1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.watchdogpro_1.0.2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.whatsourcepackage_1.0_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.whiteterminal_8.1-3_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.xconforios9_41_iphoneos-arm.deb
-	modified:   debs/gettext_0.19.7-3_iphoneos-arm.deb
-	modified:   debs/libcompress-raw-lzma-perl_2.074-2_iphoneos-arm.deb
-	modified:   debs/libdpkg-perl_1.16.15-11_iphoneos-arm.deb
-	new file:   debs/libio-compress-lzma-perl_2.074-2_iphoneos-arm.deb
-	modified:   debs/libsigc++_2.2.10-1_iphoneos-arm.deb
-	modified:   debs/libtimedate-perl_1.2000-9_iphoneos-arm.deb
-	modified:   debs/openssh_6.7p1-12-rev-5_iphoneos-arm.deb
-	modified:   debs/rpl_1.4.0-3_iphoneos-arm.deb
+	new file:   debs/apt.1nternist.debxpandr_3.2-4_iphoneos-arm.deb
 	modified:   log/git-sync.log
 	modified:   log/lastrun/scanerr.log
 

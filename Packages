@@ -288,6 +288,19 @@ Description: To run, open MobileTerminal and cd into any directory containing de
 Name: debXpandr
 Author: dc1nternist <dc1nternist@icloud.com>
 
+Package: apt.1nternist.debxpandr
+Version: 3.2-4
+Section: 1Repo_Scripting
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: dpkg, p7zip, lzma | xz | xz-utils | apt.1nternist.xz-utils
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.debxpandr_3.2-4_iphoneos-arm.deb
+Size: 1804
+MD5sum: 8359b3383d70eb168b35857994a1baa4
+Description: To run, open MobileTerminal and cd into any directory containing deb files and execute "dX" or "debXpandr". The script will extract all debs, then move the extracted debs into a sub directory for you.
+Name: debXpandr
+Author: dc1nternist <dc1nternist@icloud.com>
+
 Package: apt.1nternist.dpkg-debtool
 Version: 0.9.11
 Section: Scripting
