@@ -1,2 +1,6 @@
-gpg: WARNING: unsafe permissions on homedir '/var/root/.gnupg'
-gpg: can't open '/usr/share/keyrings/passwd/gpg': No such file or directory
+gpg: starting migration from earlier GnuPG versions
+gpg: porting secret keys from '/var/root/.gnupg/secring.gpg' to gpg-agent
+gpg: key 17D6A3974120B9D9: secret key imported
+gpg: migration succeeded
+gpg: signing failed: No pinentry
+gpg: signing failed: No pinentry
