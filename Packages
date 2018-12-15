@@ -1309,6 +1309,25 @@ Name: Libpipeline
 Author: idotce <idotce@gmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libpipelineDp
 
+Package: apt.1nternist.libpipeline64
+Version: 1.5.0-1
+Priority: optional
+Section: 1Repo_Development
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64
+Conflicts: libpipeline, org.thebigboss.libpipeline
+Provides: libpipeline, org.thebigboss.libpipeline
+Replaces: libpipeline, org.thebigboss.libpipeline
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.libpipeline64_1.5.0-1_iphoneos-arm.deb
+Size: 27870
+Installed-Size: 136
+MD5sum: 34df66b9244066598ada1c1a9a3258df
+Description: Library for manipulating pipelines of subprocesses
+Name: Libpipeline (arm64)
+Homepage: http://savannah.nongnu.org/projects/libpipeline
+
 Package: apt.1nternist.libpng
 Version: 1.2.50-7
 Priority: optional
@@ -1588,6 +1607,23 @@ MD5sum: 4fc2405e7722cab712d301dfea34e1e9
 Description: My makedeb.sh script for refreshing a repository. Builds debs, puts them in repo, then updates the repofiles.
 Name: makedeb
 Author: 1nternist <dc1nternist@icloud.com>
+
+Package: apt.1nternist.man-db64
+Version: 2.7.5-1
+Section: 1Repo_Development
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: firmware (>= 7.0), apt.1nternist.libpipeline64, org.thebigboss.groff-base | apt.1nternist.groff-base, cy+cpu.arm64
+Conflicts: org.thebigboss.man-db, man-db
+Provides: org.thebigboss.man-db, man-db
+Replaces: org.thebigboss.man-db, man-db
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.man-db64_2.7.5-1_iphoneos-arm.deb
+Size: 273686
+Installed-Size: 1580
+MD5sum: 15c415de6062b744c4f78eb8dbd6d9fa
+Description: standard Unix documentation system
+Name: man-db (iOS 11+)
+Author: idotce <idotce@gmail.com>
 
 Package: apt.1nternist.mirepo
 Version: 6.1.0-1

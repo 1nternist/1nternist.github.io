@@ -105,7 +105,7 @@ clear
 cd $BUILD
 echo ""
 echo "Building Packages into debs Directory."
-for PkgDir in `ls &>>$BUILDLOG`; do
+for PkgDir in `ls &>>$BLDLOG`; do
   dpkg-deb -b -Zxz "${PkgDir%%/}" $DEBS/"${PkgDir%%/}".deb &>>$BUILDLOG
 done
 sleep 1
@@ -163,7 +163,7 @@ echo "SHA512:" >>Release
 echo " `sha512sum Packages | cut -d ' ' -f1` `stat --format=%s Packages` Packages" >>Release
 echo " `sha512sum Packages.bz2 | cut -d ' ' -f1` `stat --format=%s Packages.bz2` Packages.bz2" >>Release
 echo " `sha512sum Packages.gz | cut -d ' ' -f1` `stat --format=%s Packages.gz` Packages.gz" >>Release
-gpg --passphrase-file /usr/share/keyrings/passwd/gpg --batch -abs --yes --personal-digest-preferences SHA256 --digest-algo SHA256 --s2k-digest-algo SHA256 -u dc1nternist -o Release.gpg Release
+gpg --passphrase-file /usr/share/keyrings/passwd/gpg --batch -abs --yes --pinentry-mode loopback --personal-digest-preferences SHA256 --digest-algo SHA256 --s2k-digest-algo SHA256 -u dc1nternist -o Release.gpg Release
 echo " ➔ Release File Signed Successfully."
 sleep 2
 }
@@ -257,7 +257,7 @@ function mainmenu () {
 	if [ "$choice" = "1" ]; then
 		mvarch 2>"$ARCHERR"
 		wait
-		compilepkgs 2> "$BUILDERR"
+		compilepkgs 2> "$BLDERR"
 		wait
 		scanpkgs 2> "$SCNERR"
 		wait
@@ -281,7 +281,7 @@ function mainmenu () {
 		if [ "$choice" = "3" ]; then
 		mvarch 2>$ARCHERR
 		wait
-		compilepkgs 2> "$BUILDERR"
+		compilepkgs 2> "$BLDERR"
 		wait
 		scanpkgs 2> "$SCNERR"
 		wait
