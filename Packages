@@ -1,4 +1,18 @@
 Package: apt.1nternist.1nspire-ringtones
+Version: 1.0-2
+Priority: optional
+Section: 1Repo_Ringtones
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: com.unlimapps.toneenabler
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.1nspire-ringtones_1.0-2_iphoneos-arm.deb
+Size: 2604836
+MD5sum: bf46a7530ca930a3ce0155a2b9fafb55
+Description: 1nspire ringtones
+Name: 1nspire Ringtones
+Author: 1nternist <dc1nternist@icloud.com>
+
+Package: apt.1nternist.1nspire-ringtones
 Version: 1.0-1
 Priority: optional
 Section: 1Repo_Ringtones
@@ -68,8 +82,8 @@ Maintainer: 1nternist <dc1nternist@icloud.com>
 Depends: com.unlimapps.toneenabler
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.ambientringtones_1.1-1_iphoneos-arm.deb
-Size: 21466516
-MD5sum: 19e2eb9aaf025f4d6df692ca76d0edaa
+Size: 21467004
+MD5sum: 8104f142ba1ec1147d7004b78c51d988
 Description: Ambient Ringtones
 Name: Ambient Ringtones
 Author: 1nternist <dc1nternist@icloud.com>
@@ -267,6 +281,19 @@ Name: Black Magic Woman Ringtone
 Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.blackmagicwoman
+Version: 1.0-2
+Section: 1Repo_Ringtones
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: com.unlimapps.toneenabler
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.blackmagicwoman_1.0-2_iphoneos-arm.deb
+Size: 1230656
+MD5sum: 1f1419f7ca8f80008ccf5f84207797f6
+Description: Black Magic Woman ringtone by Santana
+Name: Black Magic Woman Ringtone
+Author: 1nternist <dc1nternist@icloud.com>
+
+Package: apt.1nternist.blackmagicwoman
 Version: 1.0-1
 Section: 1Repo_Ringtones
 Maintainer: 1nternist <dc1nternist@icloud.com>
@@ -307,6 +334,19 @@ Name: Bonjour Fix
 Author: Chir0student
 
 Package: apt.1nternist.bubblepop
+Version: 1.0-2
+Section: 1Repo_Ringtones
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: com.unlimapps.toneenabler
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.bubblepop_1.0-2_iphoneos-arm.deb
+Size: 4290
+MD5sum: f16167ad07c6c8522e3ca2693c2a5676
+Description: Bubble-pop text tone.
+Name: Bubble Pop Text Tone
+Author: 1nternist <dc1nternist@icloud.com>
+
+Package: apt.1nternist.bubblepop
 Version: 1.0
 Section: Ringtones
 Maintainer: 1nternist <dc1nternist@icloud.com>
@@ -328,6 +368,19 @@ Size: 4288
 MD5sum: a22ca84123b9c69d1aa419c38df18682
 Description: Bubble-pop text tone. requires ToneEnabler on iOS 7.
 Name: Bubble Pop Text Tone
+Author: 1nternist <dc1nternist@icloud.com>
+
+Package: apt.1nternist.cacawtookietookie
+Version: 1.0-2
+Section: 1Repo_Ringtones
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: com.unlimapps.toneenabler
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.cacawtookietookie_1.0-2_iphoneos-arm.deb
+Size: 85016
+MD5sum: f735498a2060897ff9bd9bc25b4950e3
+Description: Cacaw cacaw tookie tookie ring tone from the movie Evolution.
+Name: Cacaw Tookie Tookie Ringtone
 Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.cacawtookietookie
@@ -391,6 +444,19 @@ Name: CA Certs
 Author: uroboro <uroboro.845@gmail.com>
 
 Package: apt.1nternist.cartmanringtones
+Version: 1.0-2
+Section: 1Repo_Ringtones
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: com.unlimapps.toneenabler
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.cartmanringtones_1.0-2_iphoneos-arm.deb
+Size: 218606
+MD5sum: 1c218b21c2c695e6d7ec2a14fd96e904
+Description: Cartman ringtones/text tones from the show Southpark.
+Name: Cartman Ringtones
+Author: Markus McCormac <chir0student@icloud.com>
+
+Package: apt.1nternist.cartmanringtones
 Version: 1.0-1
 Section: 1Repo_Ringtones
 Maintainer: 1nternist <dc1nternist@icloud.com>
@@ -437,6 +503,19 @@ MD5sum: 1bf6d033e8f033c36d6ba3d37968b019
 Description: Southpark "Chocolate Salty Balls" ringtone/text tone
 Name: Chocolate Salty Balls
 Author: Markus McCormac <chir0student@icloud.com>
+
+Package: apt.1nternist.chocolatesaltyballs
+Version: 1.0-2
+Section: 1Repo_Ringtones
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: com.unlimapps.toneenabler
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.chocolatesaltyballs_1.0-2_iphoneos-arm.deb
+Size: 160448
+MD5sum: e893ec9d254365c1bae8eb4b3346a79c
+Description: Southpark "Chocolate Salty Balls" ringtone/text tone.
+Name: Chocolate Salty Balls
+Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.cotomoviespremium
 Version: 1.0.2-3
@@ -852,6 +931,19 @@ Author: idotce <idotce@gmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=groffbaseDp
 
 Package: apt.1nternist.hardon
+Version: 1.0-2
+Section: 1Repo_Ringtones
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: com.unlimapps.toneenabler
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.hardon_1.0-2_iphoneos-arm.deb
+Size: 81342
+MD5sum: 084c2862b84c1af5073a3c02ad6106b4
+Description: Full Metal Jacket "Got A Hardon!!" ringtone/text tone.
+Name: I Think Ya Got A Hardon!
+Author: 1nternist <dc1nternist@icloud.com>
+
+Package: apt.1nternist.hardon
 Version: 1.0-1
 Section: 1Repo_Ringtones
 Maintainer: 1nternist <dc1nternist@icloud.com>
@@ -904,6 +996,19 @@ Name: hln
 Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.houseringtones
+Version: 1.0-2
+Section: 1Repo_Ringtones
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: com.unlimapps.toneenabler
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.houseringtones_1.0-2_iphoneos-arm.deb
+Size: 7427584
+MD5sum: c3f17edfde3f4771b6fe298227d55df3
+Description: All 3 House M.D. intro music ringtones.
+Name: House M.D. Ringtones
+Author: 1nternist <dc1nternist@icloud.com>
+
+Package: apt.1nternist.houseringtones
 Version: 1.0-1
 Section: 1Repo_Ringtones
 Maintainer: 1nternist <dc1nternist@icloud.com>
@@ -949,6 +1054,19 @@ Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.ifoundadildo_1.0_iphoneos-arm.deb
 Size: 80052
 MD5sum: 4bed810e2d0b6bed20d4035db321f3d0
+Description: Steve Stifler "I Found A Dildo" ringtone/text tone.
+Name: I Found A Dildo
+Author: 1nternist <dc1nternist@icloud.com>
+
+Package: apt.1nternist.ifoundadildo
+Version: 1.0-2
+Section: 1Repo_Ringtones
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: com.unlimapps.toneenabler
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.ifoundadildo_1.0-2_iphoneos-arm.deb
+Size: 80052
+MD5sum: cfed38c1c60315a720f7af28b120179a
 Description: Steve Stifler "I Found A Dildo" ringtone/text tone.
 Name: I Found A Dildo
 Author: 1nternist <dc1nternist@icloud.com>
@@ -1679,6 +1797,19 @@ Description: Most annoying sound in the world ringtone
 Name: Most Annoying Ringtone
 Author: 1nternist <dc1nternist@icloud.com>
 
+Package: apt.1nternist.mostannoyingringtone
+Version: 1.0-2
+Section: 1Repo_Ringtones
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: com.unlimapps.toneenabler
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.mostannoyingringtone_1.0-2_iphoneos-arm.deb
+Size: 139368
+MD5sum: 0599f64b4a512186ed8107643331853d
+Description: Most annoying sound in the world ringtone.
+Name: Most Annoying Ringtone
+Author: 1nternist <dc1nternist@icloud.com>
+
 Package: apt.1nternist.node
 Version: 0.6.14
 Priority: standard
@@ -2116,6 +2247,19 @@ Name: Sound Off Like Ya Got A Pair
 Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.soundoff
+Version: 1.0-2
+Section: 1Repo_Ringtones
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: com.unlimapps.toneenabler
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.soundoff_1.0-2_iphoneos-arm.deb
+Size: 52426
+MD5sum: 07a0887f37dce2bb59d92ae52c8c082a
+Description: Full Metal Jacket "Sound Off Like Ya Got A Pair" ringtone/text tone.
+Name: Sound Off Like Ya Got A Pair
+Author: 1nternist <dc1nternist@icloud.com>
+
+Package: apt.1nternist.soundoff
 Version: 1.0-1
 Section: 1Repo_Ringtones
 Maintainer: 1nternist <dc1nternist@icloud.com>
@@ -2249,6 +2393,19 @@ Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.tuktukcacaw_1.1_iphoneos-arm.deb
 Size: 151034
 MD5sum: fafa0b2e283f112b60f729809de475cf
+Description: Tuk Tuk Tuk Tuk Ca Caw text tone from the movie Evolution.
+Name: Tuk Tuk Ca Caw Ringtone
+Author: 1nternist <dc1nternist@icloud.com>
+
+Package: apt.1nternist.tuktukcacaw
+Version: 1.1-2
+Section: 1Repo_Ringtones
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: com.unlimapps.toneenabler
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.tuktukcacaw_1.1-2_iphoneos-arm.deb
+Size: 150988
+MD5sum: 17b4b92927ae94755a50b9057b1b3ab0
 Description: Tuk Tuk Tuk Tuk Ca Caw text tone from the movie Evolution.
 Name: Tuk Tuk Ca Caw Ringtone
 Author: 1nternist <dc1nternist@icloud.com>
