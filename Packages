@@ -116,6 +116,24 @@ Description: converts system apps to ipa's to be installed through IPA Installer
 Name: ap2ipa
 Author: brc0703
 
+Package: apt.1nternist.aptitude
+Version: 0.8.10-2
+Priority: optional
+Section: Packaging
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: apt.1nternist.boost | boost, apt.1nternist.cwidget | cwidget, apt.1nternist.gettext | gettext, libapt, apt.1nternist.librpmatch | librpmatch, apt.1nternist.libsigc++ | libsigc++, apt.1nternist.libxapian | libxapian, ncurses
+Conflicts: aptitude
+Provides: aptitude
+Replaces: aptitude
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.aptitude_0.8.10-2_iphoneos-arm.deb
+Size: 1062168
+Installed-Size: 9224
+MD5sum: e2c6a975f07ed306c363b16560924b40
+Description: advanced command-line APT frontend
+Name: Aptitude
+
 Package: apt.1nternist.ayeconios9
 Version: 1.1.3-2
 Section: 1Repo_Themes
@@ -333,6 +351,24 @@ Description: Bonjour and OpenSSH patch to allow Bonjour server!
 Name: Bonjour Fix
 Author: Chir0student
 
+Package: apt.1nternist.boost
+Version: 1.68.0-1
+Priority: optional
+Section: Development
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Conflicts: boost
+Provides: boost
+Replaces: boost
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.boost_1.68.0-1_iphoneos-arm.deb
+Size: 9490874
+Installed-Size: 322872
+MD5sum: 98f2fe3418b492f59273918100e49a41
+Description: soon-to-be-standardized C++ class library
+Name: Boost
+Homepage: http://www.boost.org/
+
 Package: apt.1nternist.bubblepop
 Version: 1.0-2
 Section: 1Repo_Ringtones
@@ -542,6 +578,23 @@ Installed-Size: 528
 MD5sum: 6eea1e4cb2f48b75becc567042603dbd
 Name: CotoMovies Premium
 Author: i0stweak3r
+
+Package: apt.1nternist.cwidget
+Version: 0.5.17-1
+Priority: optional
+Section: Development
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: apt.1nternist.libsigc++ | libsigc++, ncurses
+Conflicts: cwidget
+Provides: cwidget
+Replaces: cwidget
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.cwidget_0.5.17-1_iphoneos-arm.deb
+Size: 232266
+Installed-Size: 2272
+MD5sum: d98120be0c662d9e4c369ca5494fdaec
+Description: C++ library for ncurses (terminal) UIs
 
 Package: apt.1nternist.deb-backup
 Version: 1.1-1
@@ -821,6 +874,24 @@ MD5sum: 84889a57bad51d21bf864ae914d2076c
 Description: ffmpeg is a part of the ffmpeg project. ffmpeg (binary) can be used to convert a large variety of inputs (files, streams, etc.) into various formats. This is a processing utility. Access functionality from the command-line or api. This release includes the x264 encoder. This package installs ffmpeg version 3.0.
 Name: ffmpeg (arm64)
 Author: 1nternist <dc1nternist@icloud.com>
+
+Package: apt.1nternist.gettext
+Version: 0.19.8-1
+Priority: optional
+Section: System
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses
+Conflicts: gettext
+Provides: gettext
+Replaces: gettext
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.gettext_0.19.8-1_iphoneos-arm.deb
+Size: 742598
+Installed-Size: 7592
+MD5sum: a0a0163cd8633a60893708d73b50d222
+Description: internationalization helper for strings
+Homepage: http://www.gnu.org/software/gettext/
 
 Package: apt.1nternist.git-doc
 Version: 1.1-3
@@ -1484,6 +1555,38 @@ Name: libpng
 Author: J. Anrugas <j.anrugas@gmail.com>
 Homepage: http://www.libpng.org/pub/png/libpng.html
 
+Package: apt.1nternist.librpmatch
+Version: 1.0-1
+Priority: optional
+Section: Development
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Conflicts: librpmatch
+Provides: librpmatch
+Replaces: librpmatch
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.librpmatch_1.0-1_iphoneos-arm.deb
+Size: 2848
+Installed-Size: 168
+MD5sum: 2a9bcf139f3f1ab94dd9538929f2cf44
+Description: Xapian is an Open Source Search Engine Library
+
+Package: apt.1nternist.libsigc++
+Version: 2.10.0-1
+Priority: optional
+Section: Development
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Conflicts: libsigc++
+Provides: libsigc++
+Replaces: libsigc++
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.libsigc++_2.10.0-1_iphoneos-arm.deb
+Size: 95626
+Installed-Size: 3216
+MD5sum: c2837b442fce4da94c42186c790f9009
+Description: callback framework for C++
+
 Package: apt.1nternist.libtiff
 Version: 4.0.3-5
 Priority: 
@@ -1547,6 +1650,22 @@ MD5sum: d090c66556c7bc9ed3a269ea3ebf0beb
 Description: GNU build system for portable libraries
 Name: Libtool
 Author: DeltaMan <deltaman75@outlook.com>
+
+Package: apt.1nternist.libxapian
+Version: 1.4.7-1
+Priority: optional
+Section: Development
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Conflicts: libxapian
+Provides: libxapian
+Replaces: libxapian
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.libxapian_1.4.7-1_iphoneos-arm.deb
+Size: 702430
+Installed-Size: 7504
+MD5sum: 3ea9a760fd97375b32568a7602f7f369
+Description: Xapian is an Open Source Search Engine Library
 
 Package: apt.1nternist.libxml2
 Version: 2.7.8

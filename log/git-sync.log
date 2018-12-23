@@ -10,25 +10,19 @@ Changes not staged for commit:
 	modified:   Packages.gz
 	modified:   Release
 	modified:   Release.gpg
-	modified:   debs/apt.1nternist.ambientringtones_1.1-1_iphoneos-arm.deb
 	modified:   log/git-sync.log
 	modified:   log/lastrun/scanerr.log
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	debs/apt.1nternist.1nspire-ringtones_1.0-2_iphoneos-arm.deb
-	debs/apt.1nternist.blackmagicwoman_1.0-2_iphoneos-arm.deb
-	debs/apt.1nternist.bubblepop_1.0-2_iphoneos-arm.deb
-	debs/apt.1nternist.cacawtookietookie_1.0-2_iphoneos-arm.deb
-	debs/apt.1nternist.cartmanringtones_1.0-2_iphoneos-arm.deb
-	debs/apt.1nternist.chocolatesaltyballs_1.0-2_iphoneos-arm.deb
-	debs/apt.1nternist.hardon_1.0-2_iphoneos-arm.deb
-	debs/apt.1nternist.houseringtones_1.0-2_iphoneos-arm.deb
-	debs/apt.1nternist.ifoundadildo_1.0-2_iphoneos-arm.deb
-	debs/apt.1nternist.mostannoyingringtone_1.0-2_iphoneos-arm.deb
-	debs/apt.1nternist.soundoff_1.0-2_iphoneos-arm.deb
-	debs/apt.1nternist.tuktukcacaw_1.1-2_iphoneos-arm.deb
+	debs/apt.1nternist.aptitude_0.8.10-2_iphoneos-arm.deb
+	debs/apt.1nternist.boost_1.68.0-1_iphoneos-arm.deb
+	debs/apt.1nternist.cwidget_0.5.17-1_iphoneos-arm.deb
+	debs/apt.1nternist.gettext_0.19.8-1_iphoneos-arm.deb
+	debs/apt.1nternist.librpmatch_1.0-1_iphoneos-arm.deb
+	debs/apt.1nternist.libsigc++_2.10.0-1_iphoneos-arm.deb
+	debs/apt.1nternist.libxapian_1.4.7-1_iphoneos-arm.deb
 
 no changes added to commit (use "git add" and/or "git commit -a")
 On branch master
@@ -42,19 +36,13 @@ Changes to be committed:
 	modified:   Packages.gz
 	modified:   Release
 	modified:   Release.gpg
-	new file:   debs/apt.1nternist.1nspire-ringtones_1.0-2_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.ambientringtones_1.1-1_iphoneos-arm.deb
-	new file:   debs/apt.1nternist.blackmagicwoman_1.0-2_iphoneos-arm.deb
-	new file:   debs/apt.1nternist.bubblepop_1.0-2_iphoneos-arm.deb
-	new file:   debs/apt.1nternist.cacawtookietookie_1.0-2_iphoneos-arm.deb
-	new file:   debs/apt.1nternist.cartmanringtones_1.0-2_iphoneos-arm.deb
-	new file:   debs/apt.1nternist.chocolatesaltyballs_1.0-2_iphoneos-arm.deb
-	new file:   debs/apt.1nternist.hardon_1.0-2_iphoneos-arm.deb
-	new file:   debs/apt.1nternist.houseringtones_1.0-2_iphoneos-arm.deb
-	new file:   debs/apt.1nternist.ifoundadildo_1.0-2_iphoneos-arm.deb
-	new file:   debs/apt.1nternist.mostannoyingringtone_1.0-2_iphoneos-arm.deb
-	new file:   debs/apt.1nternist.soundoff_1.0-2_iphoneos-arm.deb
-	new file:   debs/apt.1nternist.tuktukcacaw_1.1-2_iphoneos-arm.deb
+	new file:   debs/apt.1nternist.aptitude_0.8.10-2_iphoneos-arm.deb
+	new file:   debs/apt.1nternist.boost_1.68.0-1_iphoneos-arm.deb
+	new file:   debs/apt.1nternist.cwidget_0.5.17-1_iphoneos-arm.deb
+	new file:   debs/apt.1nternist.gettext_0.19.8-1_iphoneos-arm.deb
+	new file:   debs/apt.1nternist.librpmatch_1.0-1_iphoneos-arm.deb
+	new file:   debs/apt.1nternist.libsigc++_2.10.0-1_iphoneos-arm.deb
+	new file:   debs/apt.1nternist.libxapian_1.4.7-1_iphoneos-arm.deb
 	modified:   log/git-sync.log
 	modified:   log/lastrun/scanerr.log
 
