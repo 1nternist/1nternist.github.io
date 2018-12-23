@@ -591,10 +591,11 @@ Provides: cwidget
 Replaces: cwidget
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.cwidget_0.5.17-1_iphoneos-arm.deb
-Size: 232266
+Size: 232274
 Installed-Size: 2272
-MD5sum: d98120be0c662d9e4c369ca5494fdaec
+MD5sum: 357ed08111900d9c9f0cb6bd6f72aa2e
 Description: C++ library for ncurses (terminal) UIs
+Name: cwidget
 
 Package: apt.1nternist.deb-backup
 Version: 1.1-1
@@ -887,10 +888,11 @@ Provides: gettext
 Replaces: gettext
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.gettext_0.19.8-1_iphoneos-arm.deb
-Size: 742598
+Size: 742606
 Installed-Size: 7592
-MD5sum: a0a0163cd8633a60893708d73b50d222
+MD5sum: 6b31969fc67f18627d9d98461047f51c
 Description: internationalization helper for strings
+Name: gettext
 Homepage: http://www.gnu.org/software/gettext/
 
 Package: apt.1nternist.git-doc
@@ -1566,10 +1568,11 @@ Provides: librpmatch
 Replaces: librpmatch
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.librpmatch_1.0-1_iphoneos-arm.deb
-Size: 2848
+Size: 2854
 Installed-Size: 168
-MD5sum: 2a9bcf139f3f1ab94dd9538929f2cf44
+MD5sum: b86f04d1b72018543ff7f8ee967e67df
 Description: Xapian is an Open Source Search Engine Library
+Name: librpmatch
 
 Package: apt.1nternist.libsigc++
 Version: 2.10.0-1
@@ -1582,10 +1585,11 @@ Provides: libsigc++
 Replaces: libsigc++
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.libsigc++_2.10.0-1_iphoneos-arm.deb
-Size: 95626
+Size: 95634
 Installed-Size: 3216
-MD5sum: c2837b442fce4da94c42186c790f9009
+MD5sum: eb04b02219248b9e8c661fed2f65536c
 Description: callback framework for C++
+Name: libsigc++
 
 Package: apt.1nternist.libtiff
 Version: 4.0.3-5
@@ -1662,10 +1666,11 @@ Provides: libxapian
 Replaces: libxapian
 Architecture: iphoneos-arm
 Filename: debs/apt.1nternist.libxapian_1.4.7-1_iphoneos-arm.deb
-Size: 702430
+Size: 702436
 Installed-Size: 7504
-MD5sum: 3ea9a760fd97375b32568a7602f7f369
+MD5sum: 3159eca7a977e3a0b9e81bbb78cd308e
 Description: Xapian is an Open Source Search Engine Library
+Name: libxapian
 
 Package: apt.1nternist.libxml2
 Version: 2.7.8
