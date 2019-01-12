@@ -2,7 +2,7 @@ On branch master
 Your branch is up to date with 'origin/master'.
 
 Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
+  (use "git add/rm <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
 	modified:   Packages
@@ -10,12 +10,23 @@ Changes not staged for commit:
 	modified:   Packages.gz
 	modified:   Release
 	modified:   Release.gpg
-	modified:   debs/apt.1nternist.cwidget_0.5.17-1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.gettext_0.19.8-1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.librpmatch_1.0-1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.libsigc++_2.10.0-1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.libxapian_1.4.7-1_iphoneos-arm.deb
+	deleted:    debs/bash_4.4.18-3_iphoneos-arm.deb
+	deleted:    debs/bzip2_1.0.6-1_iphoneos-arm.deb
+	deleted:    debs/rsync_3.1.3-2_iphoneos-arm.deb
+	deleted:    debs/unzip_6.0-1_iphoneos-arm.deb
+	deleted:    debs/xz-utils_5.2.2-2_iphoneos-arm.deb
+	deleted:    debs/zip_3.0-1_iphoneos-arm.deb
 	modified:   log/git-sync.log
+	modified:   log/lastrun/scanerr.log
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	debs/file_5.34-1_iphoneos-arm.deb
+	debs/gawk_4.2.1-1_iphoneos-arm.deb
+	debs/ncurses5-libs_5.9-1_iphoneos-arm.deb
+	debs/ncurses_6.1-1_iphoneos-arm.deb
+	debs/sudo_1.8.23-2_iphoneos-arm.deb
 
 no changes added to commit (use "git add" and/or "git commit -a")
 On branch master
@@ -29,10 +40,17 @@ Changes to be committed:
 	modified:   Packages.gz
 	modified:   Release
 	modified:   Release.gpg
-	modified:   debs/apt.1nternist.cwidget_0.5.17-1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.gettext_0.19.8-1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.librpmatch_1.0-1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.libsigc++_2.10.0-1_iphoneos-arm.deb
-	modified:   debs/apt.1nternist.libxapian_1.4.7-1_iphoneos-arm.deb
+	deleted:    debs/bash_4.4.18-3_iphoneos-arm.deb
+	deleted:    debs/bzip2_1.0.6-1_iphoneos-arm.deb
+	new file:   debs/file_5.34-1_iphoneos-arm.deb
+	new file:   debs/gawk_4.2.1-1_iphoneos-arm.deb
+	new file:   debs/ncurses5-libs_5.9-1_iphoneos-arm.deb
+	new file:   debs/ncurses_6.1-1_iphoneos-arm.deb
+	deleted:    debs/rsync_3.1.3-2_iphoneos-arm.deb
+	new file:   debs/sudo_1.8.23-2_iphoneos-arm.deb
+	deleted:    debs/unzip_6.0-1_iphoneos-arm.deb
+	deleted:    debs/xz-utils_5.2.2-2_iphoneos-arm.deb
+	deleted:    debs/zip_3.0-1_iphoneos-arm.deb
 	modified:   log/git-sync.log
+	modified:   log/lastrun/scanerr.log
 

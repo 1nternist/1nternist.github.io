@@ -2754,34 +2754,18 @@ Description: Xcon New v41- Works in iOS 9.0.2
 Name: xCon (iOS 9)
 Author: Lunatik & JailbreakVideo
 
-Package: bash
-Version: 4.4.18-3
-Priority: required
-Section: Terminal_Support
-Maintainer: 1nternist <dc1nternist@icloud.com>
-Depends: grep, ncurses, sed
-Architecture: iphoneos-arm
-Filename: debs/bash_4.4.18-3_iphoneos-arm.deb
-Size: 859390
-Installed-Size: 6612
-MD5sum: 2aeff0cfd6491a115f432773a2caf947
-Description: the best shell ever written by Brian Fox
-Name: Bourne-Again SHell
-Author: Samuel Bingner
-Homepage: http://www.gnu.org/software/bash/
-
-Package: bzip2
-Version: 1.0.6-1
+Package: file
+Version: 5.34-1
 Priority: important
-Section: Archiving
-Maintainer: 1nternist <dc1nternist@icloud.com>
+Section: Utilities
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
 Architecture: iphoneos-arm
-Filename: debs/bzip2_1.0.6-1_iphoneos-arm.deb
-Size: 4440272
-MD5sum: 402c97294f1622b44131ff0ec6e2278c
-Description: compression that's slightly better than gzip
-Name: bzip2
-Homepage: http://www.bzip.org/
+Filename: debs/file_5.34-1_iphoneos-arm.deb
+Size: 257360
+Installed-Size: 10888
+MD5sum: 674d414c0baee712f834cf838ba146da
+Description: guesses the type of a file from contents
 
 Package: file
 Version: 4.23-4+arm64
@@ -2795,6 +2779,21 @@ Size: 250922
 Installed-Size: 1804
 MD5sum: 9436c41d459872ab4823b6a125938fd9
 Description: guesses the type of a file from contents
+
+Package: gawk
+Version: 4.2.1-1
+Priority: important
+Section: Utilities
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Architecture: iphoneos-arm
+Filename: debs/gawk_4.2.1-1_iphoneos-arm.deb
+Size: 255388
+Installed-Size: 2952
+MD5sum: 12759052538b65c2d84b035a605c4187
+Description: GNU's heavy-weight implementation of awk
+Name: Gawk
+Homepage: http://www.gnu.org/software/gawk/
 
 Package: gettext
 Version: 0.19.7-4
@@ -3036,6 +3035,35 @@ Name: libtimedate-perl
 Author: brc0703
 Icon: file:///Applications/Cydia.app/Sections/Perl.png
 
+Package: ncurses
+Version: 6.1-1
+Priority: required
+Section: System
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses5-libs
+Architecture: iphoneos-arm
+Filename: debs/ncurses_6.1-1_iphoneos-arm.deb
+Size: 337854
+Installed-Size: 7064
+MD5sum: aff0061558395fdd3108dcaa0f454e6e
+Description: feature-complete terminal library
+Name: New Curses
+
+Package: ncurses5-libs
+Version: 5.9-1
+Priority: required
+Section: System
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Architecture: iphoneos-arm
+Filename: debs/ncurses5-libs_5.9-1_iphoneos-arm.deb
+Size: 174740
+Installed-Size: 2288
+MD5sum: 42d7fe41d6350eeec74843a1cfcdd013
+Description: feature-complete terminal library
+Name: New Curses
+
 Package: openssh
 Version: 6.7p1-12-rev-5
 Priority: important
@@ -3182,56 +3210,17 @@ MD5sum: dc8583ee8cc679e317f44978cd25abac
 Description: replace strings within files
 Author: 1nternist <dc1nternist@icloud.com>
 
-Package: rsync
-Version: 3.1.3-2
-Priority: important
-Section: Networking
-Maintainer: 1nternist <dc1nternist@icloud.com>
+Package: sudo
+Version: 1.8.23-2
+Priority: standard
+Section: Administration
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Architecture: iphoneos-arm
-Filename: debs/rsync_3.1.3-2_iphoneos-arm.deb
-Size: 429230
-Installed-Size: 1516
-MD5sum: 7ceb6ca1c2c48bb3929445790233e417
-Description: synchronize files between computers
-Name: Rsync
-Author: Samuel Bingner
-Homepage: http://www.samba.org/rsync/
-
-Package: unzip
-Version: 6.0-1
-Priority: important
-Section: Archiving
-Maintainer: Dr. Mac (1nternist) <dc1nternist@icloud.com>
-Architecture: iphoneos-arm
-Filename: debs/unzip_6.0-1_iphoneos-arm.deb
-Size: 385932
-Installed-Size: 1152
-MD5sum: 525c56d57f809cef71e0f229ee49266b
-Description: de-compesses files in zip format
-
-Package: xz-utils
-Version: 5.2.2-2
-Priority: standard
-Section: System
-Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
-Architecture: iphoneos-arm
-Filename: debs/xz-utils_5.2.2-2_iphoneos-arm.deb
-Size: 2138358
-MD5sum: 490dace2925c8ae17005b3cea2635c26
-Description: XZip Utilities
-Name: xz-utils
-Author: Andrew Hyatt <ahyattdev@icloud.com>
-
-Package: zip
-Version: 3.0-1
-Priority: important
-Section: Archiving
-Maintainer: Dr. Mac (1nternist) <dc1nternist@icloud.com>
-Architecture: iphoneos-arm
-Filename: debs/zip_3.0-1_iphoneos-arm.deb
-Size: 424492
-Installed-Size: 1208
-MD5sum: 2a7da3332d65446742723f7a722e8d7f
-Description: standard Windows compression tool
+Filename: debs/sudo_1.8.23-2_iphoneos-arm.deb
+Size: 261024
+Installed-Size: 2664
+MD5sum: 5960dc77349b9f4630d51eafc4da5a51
+Description: temporarily assume root priviledges
+Name: Sudo
 

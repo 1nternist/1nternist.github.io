@@ -40,9 +40,8 @@
   apt.1nternist.urlscheme-enabler-template apt.1nternist.uthbscripts
   apt.1nternist.utilities apt.1nternist.watchdogpro
   apt.1nternist.whatsourcepackage apt.1nternist.whiteterminal
-  apt.1nternist.xconforios9 bash bzip2 file gettext git libcompress-
-  raw-lzma-perl libdpkg-perl libio-compress-lzma-perl libsigc++
-  libtimedate-perl openssh perl python3 python3-lib rpl rsync unzip xz-
-  utils zip
+  apt.1nternist.xconforios9 file gawk gettext git libcompress-raw-lzma-
+  perl libdpkg-perl libio-compress-lzma-perl libsigc++ libtimedate-
+  perl ncurses ncurses5-libs openssh perl python3 python3-lib rpl sudo
 
- 221 packages written to file.
+ 220 packages written to file.
