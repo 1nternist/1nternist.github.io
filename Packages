@@ -1257,6 +1257,22 @@ Author: 1nternist <dc1nternist@icloud.com>
 Icon: file:///usr/share/chir0student/icons/iRingtone4.png
 
 Package: apt.1nternist.iringtone5
+Version: 5.0-b3
+Section: 1Repo_Ringtones
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: bash, apt.1nternist.ffmpeg | apt.1nternist.ffmpeg64, apt.1nternist.sudonopasswd, coreutils, coreutils-bin, file, gawk, ncurses, sudo, system-cmds, com.unlimapps.toneenabler, firmware (>= 7.0)
+Conflicts: apt.1nternist.avtoolscripts, apt.1nternist.iringtone3, apt.1nternist.iringtone4
+Replaces: apt.1nternist.avtoolscripts, apt.1nternist.iringtone3, apt.1nternist.iringtone4
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.iringtone5_5.0-b3_iphoneos-arm.deb
+Size: 9810
+MD5sum: c82455b68dafda27f3c646612f64620a
+Description: iRingtone is a command line utility that can create custom ringtones from any audio or video file. Just execute 'sudo iRingtone /path/to/[audio or video] file' in your favorite terminal app and follow the interactive directions.
+Name: iRingtone 5 (beta)
+Author: 1nternist <dc1nternist@icloud.com>
+Icon: file:///usr/local/share/1Repo/icons/iRingtone5.png
+
+Package: apt.1nternist.iringtone5
 Version: 5.0-b2
 Section: 1Repo_Ringtones
 Maintainer: 1nternist <dc1nternist@icloud.com>

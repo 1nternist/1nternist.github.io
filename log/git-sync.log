@@ -16,7 +16,7 @@ Changes not staged for commit:
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	debs/apt.1nternist.iringtone5_5.0-b2_iphoneos-arm.deb
+	debs/apt.1nternist.iringtone5_5.0-b3_iphoneos-arm.deb
 
 no changes added to commit (use "git add" and/or "git commit -a")
 On branch master
@@ -30,7 +30,7 @@ Changes to be committed:
 	modified:   Packages.gz
 	modified:   Release
 	modified:   Release.gpg
-	new file:   debs/apt.1nternist.iringtone5_5.0-b2_iphoneos-arm.deb
+	new file:   debs/apt.1nternist.iringtone5_5.0-b3_iphoneos-arm.deb
 	modified:   log/git-sync.log
 	modified:   log/lastrun/scanerr.log
 
