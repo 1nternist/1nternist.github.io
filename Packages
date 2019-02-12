@@ -2163,6 +2163,22 @@ Name: po4a
 Author: 1nternist <dc1nternist@icloud.com>
 
 Package: apt.1nternist.prompt2root
+Version: 2.6.9-1
+Section: 1Repo_iOS_11
+Maintainer: 1nternist <dc1nternist@icloud.com>
+Depends: com.innoying.sbutils, openssh, autossh
+Conflicts: apt.1nternist.prompt2k
+Replaces: apt.1nternist.prompt2k
+Architecture: iphoneos-arm
+Filename: debs/apt.1nternist.prompt2root_2.6.9-1_iphoneos-arm.deb
+Size: 6787588
+MD5sum: 521a9f52eb86071b2f43f0e388d97c7a
+Description: Prompt 2 v2.6.9 with root access. connect to localhost at port 2222.
+Name: Prompt 2 (root)
+Author: 1nternist <dc1nternist@icloud.com>
+Icon: file:///var/mobile/Library/Application Support/com.panic.Prompt2/icon.png
+
+Package: apt.1nternist.prompt2root
 Version: 2.6.7-2
 Section: iOS 11
 Maintainer: 1nternist <dc1nternist@icloud.com>
